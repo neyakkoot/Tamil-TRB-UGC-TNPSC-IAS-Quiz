@@ -1,5 +1,6 @@
 <script type="text/javascript">
-(async function(){
+// 🔴 தீர்வு: பக்கம் முழுமையாக லோட் ஆன பிறகு ஸ்கிரிப்டை இயக்கவும்
+document.addEventListener('DOMContentLoaded', (async function(){
 
   // 🔹 கிடைக்கும் வினாடி–வினா JSON கோப்புகளின் பட்டியல்
   const quizList = {
@@ -29,7 +30,15 @@
 
   // Quiz பகுதியின் மேலே dropdown சேர்க்க
   const quizContainer = document.getElementById('tv-quiz');
-  qWrap.insertBefore(dropdown, quizContainer);
+  
+  // 🔴 பிழை ஏற்பட்ட இடம் இதுதான். qWrap (null) ஆக இருந்தது.
+  // இப்போது DOMContentLoaded க்குப் பிறகு இது சரியாக வேலை செய்யும்.
+  if (qWrap && quizContainer) {
+    qWrap.insertBefore(dropdown, quizContainer);
+  } else {
+    console.error("முக்கிய HTML கூறுகள் (tv-quiz-wrap அல்லது tv-quiz) காணப்படவில்லை.");
+    return; // முக்கியமான கூறுகள் இல்லை என்றால் ஸ்கிரிப்டை நிறுத்தவும்
+  }
 
   // 🔹 DOM கூறுகளின் சுட்டிகள் (References)
   const progressEl = document.getElementById('tv-progress');
@@ -53,12 +62,10 @@
     resultsEl.style.display = 'none';
 
     try {
-      // cache: "no-cache" - எப்போதுமே புதிய கோப்பை சர்வரில் இருந்து எடுக்கும்
       const res = await fetch(file, { cache: "no-cache" });
       if (!res.ok) throw new Error(`HTTP பிழை: ${res.status} (கோப்பு கிடைக்கவில்லை)`);
       
       const data = await res.json();
-      // JSON ஒரு ஆப்ஜெக்டாக ({"questions": [...]}) அல்லது நேரடியாக Array ஆக ([...]) இருக்கலாம்
       quizData = data.questions || data; 
       
       if (!quizData || quizData.length === 0) {
@@ -70,7 +77,6 @@
       console.log(`✅ வினாடி-வினா "${file}" ஏற்றப்பட்டது. (${quizData.length} வினாக்கள்)`);
     
     } catch (e) {
-      // **மேம்பாடு:** பிழைச் செய்தியை நேரடியாகத் திரையில் காண்பித்தல்
       progressEl.innerHTML = `⚠️ வினாக்களை ஏற்ற முடியவில்லை.<br><small style="color:#dc3545;font-weight:normal;">பிழை: ${e.message}</small>`;
       console.error("வினாடி-வினா ஏற்றுவதில் பிழை (Quiz Load Error):", e);
     }
@@ -91,7 +97,6 @@
       btn.type = 'button';
       btn.className = 'option-btn';
       btn.style.cssText = "padding:12px;border-radius:8px;border:1px solid #ddd;background:#f9f9f9;text-align:left;cursor:pointer;font-size:1rem;";
-      // (அ), (ஆ) போன்ற குறியீடுகளைப் பயன்படுத்துதல்
       btn.innerHTML = `<strong style='margin-right:8px;'>${labels[i] || (i+1)+'.'}</strong> ${opt}`;
       btn.onclick = () => selectAnswer(i, btn);
       optsEl.appendChild(btn);
@@ -103,7 +108,7 @@
     const q = quizData[idx];
     const correct = q.answer;
     const buttons = optsEl.querySelectorAll('button');
-    buttons.forEach(b => b.disabled = true); // மற்ற பதில்களை முடக்குதல்
+    buttons.forEach(b => b.disabled = true); 
 
     if (choice === correct) {
       score++;
@@ -112,14 +117,12 @@
     } else {
       btn.style.background = "#fdecea";
       btn.style.borderColor = "#dc3545";
-      // சரியான விடையை பச்சை நிறத்தில் காட்டுதல்
       if (buttons[correct]) {
         buttons[correct].style.background = "#e6f7e9";
         buttons[correct].style.borderColor = "#28a745";
       }
     }
 
-    // விளக்கத்தைக் காண்பித்தல்
     feedbackEl.style.display = 'block';
     feedbackEl.innerHTML = (choice === correct
       ? '<span style="color:green;font-weight:700;">✅ சரியான விடை!</span>'
@@ -135,7 +138,7 @@
     idx++;
     if (idx < quizData.length) {
       renderQuestion();
-      qWrap.scrollIntoView({behavior:'smooth'}); // மொபைலில் கேள்விக்கு ஸ்க்ரோல் செய்யவும்
+      qWrap.scrollIntoView({behavior:'smooth'});
     } else {
       showResults();
     }
@@ -157,7 +160,6 @@
       <button id="tv-retry" style="padding:10px 14px;border-radius:8px;background:#28a745;color:#fff;border:none;font-weight:700;cursor:pointer;">மீண்டும் முயற்சிக்க</button>
     `;
     
-    // 'மீண்டும் முயற்சிக்க' பொத்தானின் செயல்பாடு
     document.getElementById('tv-retry').onclick = () => {
       idx = 0; score = 0;
       qEl.style.display = ''; optsEl.style.display = ''; progressEl.style.display = '';
@@ -174,5 +176,5 @@
     }
   });
 
-})();
+})); // 🔴 ஸ்கிரிப்டின் முடிவை மூடவும்
 </script>
