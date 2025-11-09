@@ -1,6 +1,7 @@
 <script type="text/javascript">
 // 🔴 தீர்வு: பக்கம் முழுமையாக லோட் ஆன பிறகு ஸ்கிரிப்டை இயக்கவும்
-document.addEventListener('DOMContentLoaded', (async function(){
+// (async) என்ற தேவையற்ற வார்த்தை இங்கிருந்து நீக்கப்பட்டுள்ளது.
+document.addEventListener('DOMContentLoaded', function(){
 
   // 🔹 கிடைக்கும் வினாடி–வினா JSON கோப்புகளின் பட்டியல்
   const quizList = {
@@ -30,7 +31,7 @@ document.addEventListener('DOMContentLoaded', (async function(){
 
   // Quiz பகுதியின் மேலே dropdown சேர்க்க
   const quizContainer = document.getElementById('tv-quiz');
-  
+  
   // 🔴 பிழை ஏற்பட்ட இடம் இதுதான். qWrap (null) ஆக இருந்தது.
   // இப்போது DOMContentLoaded க்குப் பிறகு இது சரியாக வேலை செய்யும்.
   if (qWrap && quizContainer) {
@@ -64,18 +65,18 @@ document.addEventListener('DOMContentLoaded', (async function(){
     try {
       const res = await fetch(file, { cache: "no-cache" });
       if (!res.ok) throw new Error(`HTTP பிழை: ${res.status} (கோப்பு கிடைக்கவில்லை)`);
-      
+      
       const data = await res.json();
-      quizData = data.questions || data; 
-      
+      quizData = data.questions || data; 
+      
       if (!quizData || quizData.length === 0) {
         throw new Error("வினாத் தரவு காலியாக உள்ளது அல்லது தவறான வடிவத்தில் உள்ளது.");
       }
-      
+      
       idx = 0; score = 0;
       renderQuestion();
       console.log(`✅ வினாடி-வினா "${file}" ஏற்றப்பட்டது. (${quizData.length} வினாக்கள்)`);
-    
+    
     } catch (e) {
       progressEl.innerHTML = `⚠️ வினாக்களை ஏற்ற முடியவில்லை.<br><small style="color:#dc3545;font-weight:normal;">பிழை: ${e.message}</small>`;
       console.error("வினாடி-வினா ஏற்றுவதில் பிழை (Quiz Load Error):", e);
@@ -108,7 +109,7 @@ document.addEventListener('DOMContentLoaded', (async function(){
     const q = quizData[idx];
     const correct = q.answer;
     const buttons = optsEl.querySelectorAll('button');
-    buttons.forEach(b => b.disabled = true); 
+    buttons.forEach(b => b.disabled = true); 
 
     if (choice === correct) {
       score++;
@@ -139,7 +140,7 @@ document.addEventListener('DOMContentLoaded', (async function(){
     if (idx < quizData.length) {
       renderQuestion();
       qWrap.scrollIntoView({behavior:'smooth'});
-    } else {
+  _ } else {
       showResults();
     }
   });
@@ -159,7 +160,7 @@ document.addEventListener('DOMContentLoaded', (async function(){
       <div style="margin-bottom:12px;">சதவீதம்: <strong>${((score/quizData.length)*100).toFixed(1)}%</strong></div>
       <button id="tv-retry" style="padding:10px 14px;border-radius:8px;background:#28a745;color:#fff;border:none;font-weight:700;cursor:pointer;">மீண்டும் முயற்சிக்க</button>
     `;
-    
+    
     document.getElementById('tv-retry').onclick = () => {
       idx = 0; score = 0;
       qEl.style.display = ''; optsEl.style.display = ''; progressEl.style.display = '';
@@ -176,5 +177,5 @@ document.addEventListener('DOMContentLoaded', (async function(){
     }
   });
 
-})); // 🔴 ஸ்கிரிப்டின் முடிவை மூடவும்
+}); // 🔴 ஸ்கிரிப்டின் முடிவை மூடவும்
 </script>
