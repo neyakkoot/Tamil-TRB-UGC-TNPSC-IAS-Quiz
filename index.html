@@ -1,61 +1,68 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="ta">
 <head>
-<meta charset="utf-8" />
-<meta name="viewport" content="width=device-width,initial-scale=1" />
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
 <title>தமிழ்ப் போட்டித் தேர்வு வினாடி–வினாத் தொகுப்பு</title>
 <link rel="stylesheet" href="assets/style.css">
 <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+Tamil&display=swap" rel="stylesheet">
 </head>
 <body>
   <header class="site-header">
-    <div class="header-left">
-      <img src="images/திருவள்ளுவர்.jpg" alt="திருவள்ளுவர்" class="header-logo">
-    </div>
-    <div class="header-center">
-      <h1>தமிழ்ப் போட்டித் தேர்வு வினாடி–வினாத் தொகுப்பு</h1>
-      <p class="subtitle">தேர்ந்தெடுத்து முயற்சி செய்து உங்கள் அறிவைச் சோதிக்கலாம் 📘</p>
-    </div>
-    <div class="header-right">
-      <img src="images/தொல்காப்பியர்.jpg" alt="தொல்காப்பியர்" class="header-logo">
+    <div class="header-inner">
+      <div class="logo-left"><img src="images/திருவள்ளுவர்.jpg" alt="திருவள்ளுவர்"></div>
+      <div class="title">
+        <h1>தமிழ்ப் போட்டித் தேர்வு வினாடி–வினாத் தொகுப்பு</h1>
+        <p class="subtitle">தேர்ந்தெடுத்து முயற்சி செய்து உங்கள் அறிவைச் சோதிக்கலாம் 📘</p>
+      </div>
+      <div class="logo-right"><img src="images/தொல்காப்பியர்.jpg" alt="தொல்காப்பியர்"></div>
     </div>
   </header>
 
   <main class="container">
-    <!-- quiz selector + central two-column layout -->
-    <section id="tv-quiz-wrap" class="quiz-wrap">
-      <div class="quiz-top">
-        <select id="quizSelect" aria-label="Choose quiz">
+    <section class="quiz-area">
+      <div class="select-wrap">
+        <select id="quizSelect" aria-label="Select quiz">
           <option value="" disabled selected>🧠 வினாடி–வினா தொகுப்பைத் தேர்ந்தெடுக்கவும்</option>
         </select>
-        <div id="tv-progress" class="progress-bar" aria-live="polite"></div>
       </div>
 
-      <div class="quiz-body">
-        <!-- left: question + options -->
-        <div class="quiz-main">
-          <div id="tv-question" class="question-area">இங்கே கேள்வி தோன்றும்</div>
-          <div id="tv-options" class="options-area" role="list"></div>
-        </div>
+      <div id="tv-panel" class="panel">
+        <div id="tv-progress" class="progress">வினா 0 / 0</div>
+        <div id="tv-question" class="question">இங்கே கேள்வி தோன்றும்</div>
 
-        <!-- right: explanation and navigation -->
-        <aside class="quiz-side" aria-label="விடை மற்றும் வழிசெலுத்தல்கள்">
-          <div id="tv-feedback" class="feedback-box" style="display:none;"></div>
-          <div class="nav-buttons">
-            <button id="tv-prev" class="btn secondary" disabled>⟵ முந்தைய வினா</button>
-            <button id="tv-next" class="btn primary" style="display:none;">அடுத்த வினா ⟶</button>
+        <div id="tv-options" class="options"></div>
+
+        <div id="tv-footer" class="footer-small">
+          <div id="tv-feedback" class="feedback" style="display:none;"></div>
+          <div class="nav-row">
+            <button id="tv-prev" class="btn secondary" style="display:none;">◀ முந்தைய</button>
+            <button id="tv-next" class="btn primary" style="display:none;">அடுத்த வினா ▶</button>
           </div>
-          <div id="tv-hint" class="hint-box" style="display:none;"></div>
-          <div id="tv-results" style="display:none;" class="results-box"></div>
-        </aside>
+        </div>
       </div>
     </section>
+
+    <aside class="right-panel">
+      <div class="explain-box">
+        <h3>விடைக் குறிப்பு</h3>
+        <div id="explanation">விடைக்குறிப்பும் விளக்கமும் இங்காட்சியிடப்படும்.</div>
+      </div>
+
+      <div class="controls-box">
+        <button id="show-results" class="btn">முடிவுகளைப் பார்</button>
+        <button id="retry-quiz" class="btn secondary">மீண்டும் முயற்சி</button>
+      </div>
+    </aside>
   </main>
 
   <footer class="site-footer">
-    <small>நெயக்கூட் — நுண்மையான தமிழறிவும் செய்யறிவும் இணையும் தளம்.</small>
+    <div class="footer-inner">
+      <div>📚 மொத்த வினாடி–வினா தொகுப்புகள்: <span id="total-quizzes">0</span></div>
+      <div>இறுதி புதுப்பிப்பு: <span id="last-updated">—</span></div>
+    </div>
   </footer>
 
-  <script src="js/quiz-loader.js"></script>
+<script src="js/quiz-loader.js"></script>
 </body>
 </html>
