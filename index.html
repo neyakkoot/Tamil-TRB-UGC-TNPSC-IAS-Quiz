@@ -1,181 +1,31 @@
-<script type="text/javascript">
-// 🔴 தீர்வு: பக்கம் முழுமையாக லோட் ஆன பிறகு ஸ்கிரிப்டை இயக்கவும்
-// (async) என்ற தேவையற்ற வார்த்தை இங்கிருந்து நீக்கப்பட்டுள்ளது.
-document.addEventListener('DOMContentLoaded', function(){
+<!DOCTYPE html>
+<html lang="ta">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>தமிழ்ப் போட்டித் தேர்வு வினாடி–வினாத் தொகுப்பு</title>
+<link rel="stylesheet" href="assets/style.css">
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+Tamil&display=swap" rel="stylesheet">
+</head>
+<body>
+  <div class="header">
+    <h1>தமிழ்ப் போட்டித் தேர்வு வினாடி–வினாத் தொகுப்பு</h1>
+    <p>தேர்ந்தெடுத்து முயற்சி செய்து உங்கள் அறிவைச் சோதிக்கலாம் 📘</p>
+  </div>
 
-  // 🔹 கிடைக்கும் வினாடி–வினா JSON கோப்புகளின் பட்டியல்
-  const quizList = {
-    "UGC_NET_TAMIL_II_2008.json": "UGC NET Tamil – 2008",
-    "Language_Origin_Quiz.json": "மொழி தோற்றம் வினாடி-வினா (1–20)"
-  };
+  <div id="tv-quiz-wrap">
+    <select id="quizSelect">
+      <option value="" disabled selected>🧠 வினாடி–வினா தொகுப்பைத் தேர்ந்தெடுக்கவும்</option>
+    </select>
 
-  // 🔹 Dropdown உருவாக்குதல்
-  const qWrap = document.getElementById('tv-quiz-wrap');
-  const dropdown = document.createElement('select');
-  dropdown.id = 'quizSelect';
-  dropdown.style.cssText = "display:block;width:100%;margin-bottom:15px;padding:10px;border-radius:8px;border:1px solid #ccc;font-size:1rem;font-weight:600;";
+    <div id="tv-progress"></div>
+    <div id="tv-question"></div>
+    <div id="tv-options"></div>
+    <div id="tv-feedback"></div>
+    <button id="tv-next" style="display:none;">அடுத்த வினா</button>
+    <div id="tv-results" style="display:none;"></div>
+  </div>
 
-  const defaultOpt = document.createElement('option');
-  defaultOpt.value = '';
-  defaultOpt.textContent = '🧠 தேர்வு செய்யும் வினாடி-வினா தொகுப்பு';
-  defaultOpt.disabled = true;
-  defaultOpt.selected = true;
-  dropdown.appendChild(defaultOpt);
-
-  for (const [file, title] of Object.entries(quizList)) {
-    const opt = document.createElement('option');
-    opt.value = file;
-    opt.textContent = title;
-    dropdown.appendChild(opt);
-  }
-
-  // Quiz பகுதியின் மேலே dropdown சேர்க்க
-  const quizContainer = document.getElementById('tv-quiz');
-  
-  // 🔴 பிழை ஏற்பட்ட இடம் இதுதான். qWrap (null) ஆக இருந்தது.
-  // இப்போது DOMContentLoaded க்குப் பிறகு இது சரியாக வேலை செய்யும்.
-  if (qWrap && quizContainer) {
-    qWrap.insertBefore(dropdown, quizContainer);
-  } else {
-    console.error("முக்கிய HTML கூறுகள் (tv-quiz-wrap அல்லது tv-quiz) காணப்படவில்லை.");
-    return; // முக்கியமான கூறுகள் இல்லை என்றால் ஸ்கிரிப்டை நிறுத்தவும்
-  }
-
-  // 🔹 DOM கூறுகளின் சுட்டிகள் (References)
-  const progressEl = document.getElementById('tv-progress');
-  const qEl = document.getElementById('tv-question');
-  const optsEl = document.getElementById('tv-options');
-  const feedbackEl = document.getElementById('tv-feedback');
-  const nextBtn = document.getElementById('tv-next');
-  const resultsEl = document.getElementById('tv-results');
-
-  const labels = ['(அ)','(ஆ)','(இ)','(ஈ)', '(உ)']; // 5 பதில்கள் வரை ஆதரிக்கும்
-  let quizData = [];
-  let idx = 0, score = 0;
-
-  // 🔹 வினாக்களை JSON-இல் இருந்து ஏற்றும் function
-  async function loadQuiz(file) {
-    progressEl.textContent = 'வினாக்களை ஏற்றுகிறது...';
-    qEl.textContent = '';
-    optsEl.innerHTML = '';
-    feedbackEl.style.display = 'none';
-    nextBtn.style.display = 'none';
-    resultsEl.style.display = 'none';
-
-    try {
-      const res = await fetch(file, { cache: "no-cache" });
-      if (!res.ok) throw new Error(`HTTP பிழை: ${res.status} (கோப்பு கிடைக்கவில்லை)`);
-      
-      const data = await res.json();
-      quizData = data.questions || data; 
-      
-      if (!quizData || quizData.length === 0) {
-        throw new Error("வினாத் தரவு காலியாக உள்ளது அல்லது தவறான வடிவத்தில் உள்ளது.");
-      }
-      
-      idx = 0; score = 0;
-      renderQuestion();
-      console.log(`✅ வினாடி-வினா "${file}" ஏற்றப்பட்டது. (${quizData.length} வினாக்கள்)`);
-    
-    } catch (e) {
-      progressEl.innerHTML = `⚠️ வினாக்களை ஏற்ற முடியவில்லை.<br><small style="color:#dc3545;font-weight:normal;">பிழை: ${e.message}</small>`;
-      console.error("வினாடி-வினா ஏற்றுவதில் பிழை (Quiz Load Error):", e);
-    }
-  }
-
-  // 🔹 வினா காண்பிக்கும் function
-  function renderQuestion() {
-    const q = quizData[idx];
-    progressEl.textContent = `வினா ${idx+1} / ${quizData.length}`;
-    qEl.textContent = q.question;
-    optsEl.innerHTML = '';
-    feedbackEl.style.display = 'none';
-    nextBtn.style.display = 'none';
-    resultsEl.style.display = 'none';
-
-    q.options.forEach((opt, i) => {
-      const btn = document.createElement('button');
-      btn.type = 'button';
-      btn.className = 'option-btn';
-      btn.style.cssText = "padding:12px;border-radius:8px;border:1px solid #ddd;background:#f9f9f9;text-align:left;cursor:pointer;font-size:1rem;";
-      btn.innerHTML = `<strong style='margin-right:8px;'>${labels[i] || (i+1)+'.'}</strong> ${opt}`;
-      btn.onclick = () => selectAnswer(i, btn);
-      optsEl.appendChild(btn);
-    });
-  }
-
-  // 🔹 பதில் தேர்வு
-  function selectAnswer(choice, btn) {
-    const q = quizData[idx];
-    const correct = q.answer;
-    const buttons = optsEl.querySelectorAll('button');
-    buttons.forEach(b => b.disabled = true); 
-
-    if (choice === correct) {
-      score++;
-      btn.style.background = "#e6f7e9";
-      btn.style.borderColor = "#28a745";
-    } else {
-      btn.style.background = "#fdecea";
-      btn.style.borderColor = "#dc3545";
-      if (buttons[correct]) {
-        buttons[correct].style.background = "#e6f7e9";
-        buttons[correct].style.borderColor = "#28a745";
-      }
-    }
-
-    feedbackEl.style.display = 'block';
-    feedbackEl.innerHTML = (choice === correct
-      ? '<span style="color:green;font-weight:700;">✅ சரியான விடை!</span>'
-      : '<span style="color:red;font-weight:700;">❌ தவறான விடை.</span>')
-      + `<div style="margin-top:10px;font-size:0.95rem;color:#333;">${q.explanation}</div>`;
-
-    nextBtn.style.display = 'block';
-    nextBtn.textContent = (idx < quizData.length - 1) ? 'அடுத்த வினா' : 'முடிவுகளைக் காண்';
-  }
-
-  // 🔹 அடுத்த வினா பொத்தான்
-  nextBtn.addEventListener('click', function(){
-    idx++;
-    if (idx < quizData.length) {
-      renderQuestion();
-      qWrap.scrollIntoView({behavior:'smooth'});
-  _ } else {
-      showResults();
-    }
-  });
-
-  // 🔹 முடிவுகளைக் காண்பித்தல்
-  function showResults() {
-    qEl.style.display = 'none';
-    optsEl.style.display = 'none';
-    progressEl.style.display = 'none';
-    feedbackEl.style.display = 'none';
-    nextBtn.style.display = 'none';
-
-    resultsEl.style.display = 'block';
-    resultsEl.innerHTML = `
-      <h3 style="color:#0a58ca;margin-bottom:6px;">வினாடி-வினா முடிந்தது!</h3>
-      <div style="font-size:1.1rem;font-weight:700;margin-bottom:8px;">மதிப்பெண்: ${score} / ${quizData.length}</div>
-      <div style="margin-bottom:12px;">சதவீதம்: <strong>${((score/quizData.length)*100).toFixed(1)}%</strong></div>
-      <button id="tv-retry" style="padding:10px 14px;border-radius:8px;background:#28a745;color:#fff;border:none;font-weight:700;cursor:pointer;">மீண்டும் முயற்சிக்க</button>
-    `;
-    
-    document.getElementById('tv-retry').onclick = () => {
-      idx = 0; score = 0;
-      qEl.style.display = ''; optsEl.style.display = ''; progressEl.style.display = '';
-      renderQuestion();
-      qWrap.scrollIntoView({behavior:'smooth'});
-    };
-  }
-
-  // 🔹 Dropdown மாற்றம் — புதிய quiz ஏற்றுதல்
-  dropdown.addEventListener('change', e => {
-    const file = e.target.value;
-    if (file) {
-      loadQuiz(file);
-    }
-  });
-
-}); // 🔴 ஸ்கிரிப்டின் முடிவை மூடவும்
-</script>
+  <script src="js/quiz-loader.js"></script>
+</body>
+</html>
