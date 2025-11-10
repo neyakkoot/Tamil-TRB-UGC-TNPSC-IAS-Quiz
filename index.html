@@ -1,68 +1,87 @@
 <!doctype html>
 <html lang="ta">
 <head>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width,initial-scale=1">
-<title>தமிழ்ப் போட்டித் தேர்வு வினாடி–வினாத் தொகுப்பு</title>
-<link rel="stylesheet" href="assets/style.css">
-<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+Tamil&display=swap" rel="stylesheet">
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>தமிழ்ப் போட்டித் தேர்வு வினாடி–வினாத் தொகுப்பு</title>
+
+  <link rel="stylesheet" href="assets/style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+Tamil:wght@400;700;900&display=swap" rel="stylesheet">
 </head>
 <body>
   <header class="site-header">
     <div class="header-inner">
-      <div class="logo-left"><img src="images/திருவள்ளுவர்.jpg" alt="திருவள்ளுவர்"></div>
-      <div class="title">
-        <h1>தமிழ்ப் போட்டித் தேர்வு வினாடி–வினாத் தொகுப்பு</h1>
-        <p class="subtitle">தேர்ந்தெடுத்து முயற்சி செய்து உங்கள் அறிவைச் சோதிக்கலாம் 📘</p>
+      <div class="header-left">
+        <img src="images/திருவள்ளுவர்.jpg" alt="திருவள்ளுவர்" class="hero-icon">
       </div>
-      <div class="logo-right"><img src="images/தொல்காப்பியர்.jpg" alt="தொல்காப்பியர்"></div>
+
+      <div class="header-center">
+        <h1>தமிழ்ப் போட்டித் தேர்வு வினாடி–வினாத் தொகுப்பு</h1>
+        <p class="sub">தேர்ந்தெடுத்து முயற்சி செய்து உங்கள் அறிவைச் சோதிக்கலாம்</p>
+      </div>
+
+      <div class="header-right">
+        <img src="images/தொல்காப்பியர்.jpg" alt="தொல்காப்பியர்" class="hero-icon">
+      </div>
     </div>
   </header>
 
-  <main class="container">
-    <section class="quiz-area">
-      <div class="select-wrap">
-        <select id="quizSelect" aria-label="Select quiz">
-          <option value="" disabled selected>🧠 வினாடி–வினா தொகுப்பைத் தேர்ந்தெடுக்கவும்</option>
-        </select>
-      </div>
+  <main class="page">
+    <section class="container">
+      <div class="quiz-wrap">
+        <!-- left/main content -->
+        <div class="quiz-main">
+          <div class="card">
+            <div class="card-header">
+              <select id="quizSelect" aria-label="வினாடி-வினா தொகுப்பு தேர்வு">
+                <option value="" disabled selected>🧠 வினாடி–வினா தொகுப்பைத் தேர்ந்தெடுக்கவும்</option>
+              </select>
+            </div>
 
-      <div id="tv-panel" class="panel">
-        <div id="tv-progress" class="progress">வினா 0 / 0</div>
-        <div id="tv-question" class="question">இங்கே கேள்வி தோன்றும்</div>
+            <div id="tv-progress" class="progress">வினா 0 / 0</div>
 
-        <div id="tv-options" class="options"></div>
+            <div id="tv-question" class="question">வினா தேர்ந்தெடுக்கவும்.</div>
 
-        <div id="tv-footer" class="footer-small">
-          <div id="tv-feedback" class="feedback" style="display:none;"></div>
-          <div class="nav-row">
-            <button id="tv-prev" class="btn secondary" style="display:none;">◀ முந்தைய</button>
-            <button id="tv-next" class="btn primary" style="display:none;">அடுத்த வினா ▶</button>
+            <div id="tv-options" class="options" role="list"></div>
+
+            <div id="tv-feedback" class="feedback" aria-live="polite" hidden></div>
+
+            <div class="nav-row">
+              <button id="tv-prev" class="btn ghost" disabled>◀ முந்தையவினா</button>
+              <button id="tv-next" class="btn primary" disabled>அடுத்த வினா ▶</button>
+            </div>
           </div>
         </div>
+
+        <!-- right sidebar -->
+        <aside class="quiz-side" aria-hidden="false">
+          <div class="side-card">
+            <h3>விடைக்குறிப்பு</h3>
+            <div id="tv-note" class="note">விடைக்குறிப்பு இங்கே காணப்படும்.</div>
+          </div>
+
+          <div class="side-card actions">
+            <h3>விரைவு கட்டுப்பாடுகள்</h3>
+            <div class="side-buttons">
+              <button id="btn-show-results" class="btn">முடிவுகள்</button>
+              <button id="btn-restart" class="btn ghost">மீண்டும் தொடங்கு</button>
+            </div>
+          </div>
+        </aside>
       </div>
+
+      <!-- results box (hidden by default) -->
+      <div id="tv-results" class="results" hidden></div>
     </section>
-
-    <aside class="right-panel">
-      <div class="explain-box">
-        <h3>விடைக் குறிப்பு</h3>
-        <div id="explanation">விடைக்குறிப்பும் விளக்கமும் இங்காட்சியிடப்படும்.</div>
-      </div>
-
-      <div class="controls-box">
-        <button id="show-results" class="btn">முடிவுகளைப் பார்</button>
-        <button id="retry-quiz" class="btn secondary">மீண்டும் முயற்சி</button>
-      </div>
-    </aside>
   </main>
 
   <footer class="site-footer">
     <div class="footer-inner">
-      <div>📚 மொத்த வினாடி–வினா தொகுப்புகள்: <span id="total-quizzes">0</span></div>
-      <div>இறுதி புதுப்பிப்பு: <span id="last-updated">—</span></div>
+      <div>📘 மொத்த வினாடி–வினா தொகுப்புகள்: <span id="total-quizzes">0</span></div>
+      <div id="footer-status">இறுதியாக புதுப்பிக்கப்பட்டது: <span id="footer-time">--</span></div>
     </div>
   </footer>
 
-<script src="js/quiz-loader.js"></script>
+  <script src="js/quiz-loader.js"></script>
 </body>
 </html>
