@@ -6,22 +6,46 @@
 <title>தமிழ்ப் போட்டித் தேர்வு வினாடி–வினாத் தொகுப்பு</title>
 <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+Tamil&display=swap" rel="stylesheet">
 <style>
-  body { font-family: 'Noto Sans Tamil', 'Latha', sans-serif; margin: 0; background: #f9fafc; color: #222; }
-  .header { text-align: center; padding: 20px 10px; background: linear-gradient(90deg, #007bff, #00b894); color: white; border-bottom: 4px solid #0a58ca; }
-  .header h1 { margin-bottom: 8px; }
-  #tv-quiz-wrap { max-width: 900px; margin: 24px auto; background: white; padding: 20px; border-radius: 10px; box-shadow: 0 4px 14px rgba(0,0,0,0.1); }
-  #quizSelect { display: block; width: 100%; margin-bottom: 15px; padding: 10px; border-radius: 8px; border: 1px solid #ccc; font-size: 1rem; }
-  #tv-progress { text-align:center;font-weight:700;color:#555;background:#eef;padding:8px;border-radius:6px;margin-bottom:12px; }
+  body { font-family: 'Noto Sans Tamil', sans-serif; margin: 0; background: #f9fafc; color: #222; }
+  .header {
+    display: flex; align-items: center; justify-content: space-between;
+    background: linear-gradient(90deg, #007bff, #00b894);
+    color: white; padding: 10px 20px; border-bottom: 4px solid #0a58ca;
+  }
+  .header h1 { margin: 0; font-size: 1.6rem; text-align: center; flex: 1; }
+  .header p { margin: 4px 0 0; font-size: 1rem; text-align: center; width: 100%; }
+  .header img {
+    width: 90px; height: 90px; border-radius: 50%; border: 2px solid #fff;
+    object-fit: cover; background: white;
+  }
+  @media (max-width: 600px) {
+    .header { flex-direction: column; text-align: center; }
+    .header img { width: 70px; height: 70px; margin: 6px 0; }
+  }
+
+  #tv-quiz-wrap { max-width: 900px; margin: 24px auto; background: white; padding: 20px;
+    border-radius: 10px; box-shadow: 0 4px 14px rgba(0,0,0,0.1); }
+  #quizSelect { display: block; width: 100%; margin-bottom: 15px; padding: 10px;
+    border-radius: 8px; border: 1px solid #ccc; font-size: 1rem; }
+  #tv-progress { text-align:center;font-weight:700;color:#555;background:#eef;
+    padding:8px;border-radius:6px;margin-bottom:12px; }
   #tv-question { font-size:1.15rem;font-weight:700;line-height:1.5;margin-bottom:12px; }
-  #tv-feedback { display:none;margin-top:14px;padding:12px;border-radius:8px;background:#f9f9f9;border:1px solid #ddd; }
-  #tv-next { display:none;margin-top:16px;width:100%;padding:12px;border:none;border-radius:8px;background:#007bff;color:#fff;font-weight:700;cursor:pointer; }
+  #tv-feedback { display:none;margin-top:14px;padding:12px;border-radius:8px;
+    background:#f9f9f9;border:1px solid #ddd; }
+  #tv-next { display:none;margin-top:16px;width:100%;padding:12px;border:none;
+    border-radius:8px;background:#007bff;color:#fff;font-weight:700;cursor:pointer; }
   #tv-results { display:none;margin-top:18px;text-align:center; }
 </style>
 </head>
 <body>
+
   <div class="header">
-    <h1>தமிழ்ப் போட்டித் தேர்வு வினாடி–வினாத் தொகுப்பு</h1>
-    <p>தேர்ந்தெடுத்து முயற்சி செய்து உங்கள் அறிவைச் சோதிக்கலாம் 📘</p>
+    <img src="திருவள்ளுவர்.jpg" alt="திருவள்ளுவர்">
+    <div>
+      <h1>தமிழ்ப் போட்டித் தேர்வு வினாடி–வினாத் தொகுப்பு</h1>
+      <p>தேர்ந்தெடுத்து முயற்சி செய்து உங்கள் அறிவைச் சோதிக்கலாம் 📘</p>
+    </div>
+    <img src="தொல்காப்பியர்.jpg" alt="தொல்காப்பியர்">
   </div>
 
   <div id="tv-quiz-wrap">
