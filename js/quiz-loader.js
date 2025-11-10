@@ -1,123 +1,95 @@
-document.addEventListener('DOMContentLoaded', async () => {
-  const select = document.getElementById('quizSelect');
-  const qEl = document.getElementById('tv-question');
-  const optsEl = document.getElementById('tv-options');
-  const feedbackEl = document.getElementById('tv-feedback');
-  const progressEl = document.getElementById('tv-progress');
-  const nextBtn = document.getElementById('tv-next');
-  const resultsEl = document.getElementById('tv-results');
+document.addEventListener("DOMContentLoaded", function() {
+  const quizSelect = document.getElementById("quizSelect");
+  const qEl = document.getElementById("tv-question");
+  const optsEl = document.getElementById("tv-options");
+  const progressEl = document.getElementById("tv-progress");
+  const feedbackEl = document.getElementById("tv-feedback");
+  const nextBtn = document.getElementById("tv-next");
+  const resultsEl = document.getElementById("tv-results");
+  const labels = ["(அ)", "(ஆ)", "(இ)", "(ஈ)", "(உ)"];
+  let quizData = [], idx = 0, score = 0, currentQuizFile = "", currentQuizTitle = "";
 
-  let quizData = [];
-  let idx = 0, score = 0;
-
-  function showError(msg) {
-    progressEl.textContent = "⚠️ பிழை: " + msg;
-    feedbackEl.style.display = "block";
-    feedbackEl.innerHTML = `<pre style="white-space:pre-wrap;color:#a00;">${msg}</pre>`;
-  }
-
-  // 🔹 quiz-list.json ஏற்றுதல்
-  try {
-    const resp = await fetch("quiz-list.json", { cache: "no-cache" });
-    if (!resp.ok) throw new Error(`quiz-list.json ஏற்ற இயலவில்லை (${resp.status})`);
-    const quizList = await resp.json();
-
-    quizList.forEach(q => {
+  fetch("quiz-list.json").then(res => res.json()).then(list => {
+    list.forEach(q => {
       const opt = document.createElement("option");
       opt.value = q.file;
       opt.textContent = q.title;
-      select.appendChild(opt);
+      quizSelect.appendChild(opt);
     });
+  });
 
-    progressEl.textContent = "🧠 வினாடி–வினா தொகுப்பைத் தேர்ந்தெடுக்கவும்";
-  } catch (e) {
-    showError(e.message);
-    console.error(e);
-    return;
-  }
+  quizSelect.addEventListener("change", async (e) => {
+    currentQuizFile = e.target.value;
+    const res = await fetch(currentQuizFile);
+    const data = await res.json();
+    quizData = data.questions || data;
+    idx = 0; score = 0;
+    renderQuestion();
+  });
 
-  select.addEventListener("change", () => loadQuiz(select.value));
-
-  // 🔹 தேர்ந்தெடுக்கப்பட்ட வினாடி–வினா JSON ஏற்றுதல்
-  async function loadQuiz(file) {
-    try {
-      const res = await fetch(file, { cache: "no-cache" });
-      if (!res.ok) throw new Error(`வினாடி–வினா கோப்பை ஏற்ற இயலவில்லை (${res.status})`);
-      const data = await res.json();
-      quizData = data.questions || data;
-      if (!quizData.length) throw new Error("கோப்பில் வினாக்கள் இல்லை.");
-      idx = 0; score = 0;
-      renderQuestion();
-    } catch (err) {
-      showError(err.message);
-      console.error(err);
-    }
-  }
-
-  // 🔹 வினா காட்சி
   function renderQuestion() {
     const q = quizData[idx];
-    const options = q.options || (q.answerOptions ? q.answerOptions.map(o => o.text) : []);
-    const correctIndex = typeof q.answer === "number"
-      ? q.answer
-      : (q.answerOptions ? q.answerOptions.findIndex(a => a.isCorrect) : 0);
-
-    progressEl.textContent = `வினா ${idx + 1} / ${quizData.length}`;
-    qEl.textContent = q.question || q.questionText || "வினா காணப்படவில்லை.";
+    progressEl.textContent = `வினா ${idx+1} / ${quizData.length}`;
+    qEl.textContent = q.question;
     optsEl.innerHTML = "";
     feedbackEl.style.display = "none";
     nextBtn.style.display = "none";
+    resultsEl.style.display = "none";
 
-    options.forEach((opt, i) => {
+    q.options.forEach((opt, i) => {
       const btn = document.createElement("button");
       btn.className = "option-btn";
-      btn.textContent = opt;
-      btn.style.cssText = "padding:10px;margin:6px 0;width:100%;text-align:left;border-radius:8px;border:1px solid #ccc;background:#f9f9f9;";
-      btn.onclick = () => checkAnswer(i, correctIndex, q);
+      btn.style.cssText = "padding:12px;border-radius:8px;border:1px solid #ddd;background:#f9f9f9;text-align:left;cursor:pointer;font-size:1rem;";
+      btn.innerHTML = `<strong>${labels[i]}</strong> ${opt}`;
+      btn.onclick = () => selectAnswer(i, btn);
       optsEl.appendChild(btn);
     });
   }
 
-  // 🔹 பதில் சரிபார்த்தல்
-  function checkAnswer(i, correct, q) {
+  function selectAnswer(choice, btn) {
+    const q = quizData[idx];
+    const correct = q.answer;
     const buttons = optsEl.querySelectorAll("button");
-    buttons.forEach(b => (b.disabled = true));
-    const exp = q.explanation || (q.answerOptions && q.answerOptions[correct]?.rationale);
+    buttons.forEach(b => b.disabled = true);
 
-    if (i === correct) {
+    if (choice === correct) {
       score++;
-      feedbackEl.innerHTML = `<div style='color:green;font-weight:700;'>✅ சரியான விடை!</div>`;
+      btn.style.background = "#e6f7e9";
+      btn.style.borderColor = "#28a745";
     } else {
-      feedbackEl.innerHTML = `<div style='color:red;font-weight:700;'>❌ தவறான விடை.</div>`;
-      if (buttons[correct]) buttons[correct].style.background = "#e6f7e9";
+      btn.style.background = "#fdecea";
+      btn.style.borderColor = "#dc3545";
+      buttons[correct].style.background = "#e6f7e9";
+      buttons[correct].style.borderColor = "#28a745";
     }
 
-    if (exp) feedbackEl.innerHTML += `<div style='margin-top:8px;color:#333;'>${exp}</div>`;
     feedbackEl.style.display = "block";
-
+    feedbackEl.innerHTML = (choice === correct ? "✅ சரியான விடை!" : "❌ தவறான விடை.") + `<div>${q.explanation}</div>`;
     nextBtn.style.display = "block";
-    nextBtn.textContent = idx < quizData.length - 1 ? "அடுத்த வினா" : "முடிவு காண்";
   }
 
-  // 🔹 அடுத்த வினா
-  nextBtn.addEventListener("click", () => {
+  nextBtn.addEventListener("click", function() {
     idx++;
-    if (idx < quizData.length) renderQuestion();
-    else showResults();
+    if (idx < quizData.length) {
+      renderQuestion();
+    } else {
+      showResults();
+    }
   });
 
-  // 🔹 முடிவுகள்
   function showResults() {
-    qEl.textContent = "";
-    optsEl.innerHTML = "";
+    qEl.style.display = "none";
+    optsEl.style.display = "none";
     feedbackEl.style.display = "none";
-    progressEl.textContent = "";
     nextBtn.style.display = "none";
+
     resultsEl.style.display = "block";
-    resultsEl.innerHTML = `
-      <h3 style='color:#0a58ca;'>🎉 வினாடி–வினா முடிந்தது!</h3>
-      <p><b>மதிப்பெண்:</b> ${score} / ${quizData.length}</p>
-      <p><b>சதவீதம்:</b> ${(score / quizData.length * 100).toFixed(1)}%</p>
-      <button onclick="location.reload()" style="padding:8px 16px;background:#28a745;color:#fff;border:none;border-radius:6px;cursor:pointer;">மீண்டும் முயற்சி</button>`;
+    resultsEl.innerHTML = `<h3>வினாடி–வினா முடிந்தது!</h3><div>மதிப்பெண்: ${score} / ${quizData.length}</div><div>சதவீதம்: ${(score/quizData.length*100).toFixed(1)}%</div><button id='retryBtn'>மீண்டும் முயற்சிக்க</button>`;
+    saveScore(currentQuizFile, score, quizData.length, quizSelect.options[quizSelect.selectedIndex].text);
+
+    document.getElementById("retryBtn").onclick = () => {
+      idx = 0; score = 0;
+      qEl.style.display = ""; optsEl.style.display = ""; renderQuestion();
+    };
   }
 });
