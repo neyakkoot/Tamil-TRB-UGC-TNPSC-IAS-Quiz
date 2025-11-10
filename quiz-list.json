@@ -1,10 +1,5 @@
 [
-  {
-    "file": "Language_Origin_Quiz.json",
-    "title": "மொழியின் தோற்றம் (வினாக்கள் 1–20)"
-  },
-  {
-    "file": "UGC_NET_TAMIL_II_2008.json",
-    "title": "UGC NET தமிழ் - 2008 (Paper II)"
-  }
+  {"file": "Language_Origin_Quiz.json", "title": "1. 'மொழியின் தோற்றம் ஆய்"}
+,
+  {"file": "UGC_NET_TAMIL_II_2008.json", "title": "ஆற்றுப் படையுள் ஒன்று"}
 ]
