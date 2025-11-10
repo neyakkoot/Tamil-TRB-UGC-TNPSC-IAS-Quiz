@@ -4,8 +4,19 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>தமிழ்ப் போட்டித் தேர்வு வினாடி–வினாத் தொகுப்பு</title>
-<link rel="stylesheet" href="assets/style.css">
 <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+Tamil&display=swap" rel="stylesheet">
+<style>
+  body { font-family: 'Noto Sans Tamil', 'Latha', sans-serif; margin: 0; background: #f9fafc; color: #222; }
+  .header { text-align: center; padding: 20px 10px; background: linear-gradient(90deg, #007bff, #00b894); color: white; border-bottom: 4px solid #0a58ca; }
+  .header h1 { margin-bottom: 8px; }
+  #tv-quiz-wrap { max-width: 900px; margin: 24px auto; background: white; padding: 20px; border-radius: 10px; box-shadow: 0 4px 14px rgba(0,0,0,0.1); }
+  #quizSelect { display: block; width: 100%; margin-bottom: 15px; padding: 10px; border-radius: 8px; border: 1px solid #ccc; font-size: 1rem; }
+  #tv-progress { text-align:center;font-weight:700;color:#555;background:#eef;padding:8px;border-radius:6px;margin-bottom:12px; }
+  #tv-question { font-size:1.15rem;font-weight:700;line-height:1.5;margin-bottom:12px; }
+  #tv-feedback { display:none;margin-top:14px;padding:12px;border-radius:8px;background:#f9f9f9;border:1px solid #ddd; }
+  #tv-next { display:none;margin-top:16px;width:100%;padding:12px;border:none;border-radius:8px;background:#007bff;color:#fff;font-weight:700;cursor:pointer; }
+  #tv-results { display:none;margin-top:18px;text-align:center; }
+</style>
 </head>
 <body>
   <div class="header">
@@ -17,15 +28,15 @@
     <select id="quizSelect">
       <option value="" disabled selected>🧠 வினாடி–வினா தொகுப்பைத் தேர்ந்தெடுக்கவும்</option>
     </select>
-
     <div id="tv-progress"></div>
     <div id="tv-question"></div>
     <div id="tv-options"></div>
     <div id="tv-feedback"></div>
-    <button id="tv-next" style="display:none;">அடுத்த வினா</button>
-    <div id="tv-results" style="display:none;"></div>
+    <button id="tv-next">அடுத்த வினா</button>
+    <div id="tv-results"></div>
   </div>
 
   <script src="js/quiz-loader.js"></script>
+  <script src="js/footer-history.js"></script>
 </body>
 </html>
