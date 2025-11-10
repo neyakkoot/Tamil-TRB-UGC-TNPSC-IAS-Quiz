@@ -5,5 +5,5 @@
 ,
   {"file": "UGC_NET_TAMIL_II_2008.json", "title": "ஆற்றுப் படையுள் ஒன்று"}
 ,
-  {"file": "quiz-list.json.json", "title": "quiz-list.json.json"}
+  {"file": "quiz-list-utf8.json", "title": "quiz-list-utf8.json"}
 ]
