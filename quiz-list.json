@@ -1,14 +1,11 @@
 [
-  {
-    "file": "6th_Tamil1.json",
-    "title": "'ஆறாம் வகுப்புத் தமிழ் 1'"
-  },
-  {
-    "file": "Language_Origin_Quiz.json",
-    "title": "'மொழியின் தோற்றம் 1'"
-  },
-  {
-    "file": "UGC_NET_TAMIL_II_2008.json",
-    "title": "UGC NET Tamil II (2008)"
-  }
+  {"file": "6th_Tamil1.json", "title": "'புரட்சிக்கவி' என்று ப�"}
+,
+  {"file": "Language_Origin_Quiz.json", "title": "'மொழியின் தோற்றம் ஆய்வ"}
+,
+  {"file": "UGC_NET_TAMIL_II_2008.json", "title": "ஆற்றுப் படையுள் ஒன்று"}
+,
+  {"file": "quiz-list-utf8.json", "title": "quiz-list-utf8.json"}
+,
+  {"file": "sslc-quiz-questions-1.json", "title": "'புயலிலே ஒரு தோணி' கதைய�"}
 ]
