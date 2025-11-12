@@ -1,34 +1,17 @@
 [
-  {
-    "file": "10th-quiz-questions-1.json",
-    "title": "பத்தாம் வகுப்பு 1"
-  },
-  {
-    "file": "10th-quiz-questions-2.json",
-    "title": "பத்தாம் வகுப்பு 2"
-  },
-  {
-    "file": "10th-quiz-questions-3.json",
-    "title": "பத்தாம் வகுப்பு 3"
-  },
-  {
-    "file": "6th_Tamil1.json",
-    "title": "ஆறாம் வகுப்பு 1"
-  },
-  {
-    "file": "Language_Origin_Quiz.json",
-    "title": "மொழி பற்றிய குறிப்புகள் 1"
-  },
-  {
-    "file": "Language_Origin_Quiz_2.json",
-    "title": "மொழி பற்றிய குறிப்புகள் 2"
-  },
-  {
-    "file": "UGC_NET_TAMIL_II_2008.json",
-    "title": "தமிழ்த்தாள் - 2, 2008"
-  },
-  {
-    "file": "TET_Previous_Year_Question_Paper_01.json",
-    "title": "தமிழ்த் தகுதித் தேர்வு"
-  }
+  {"file": "10th-quiz-questions-1.json", "title": "பத்தாம் வகுப்பு 1"}
+,
+  {"file": "10th-quiz-questions-2.json", "title": "பத்தாம் வகுப்பு 2"}
+,
+  {"file": "10th-quiz-questions-3.json", "title": "பத்தாம் வகுப்பு 3"}
+, 
+  {"file": "6th_Tamil1.json", "title": "ஆறாம் வகுப்பு 1"}
+,
+  {"file": "Language_Origin_Quiz.json", "title": "மொழி பற்றிய குறிப்புகள் 1"}
+,
+  {"file": "Language_Origin_Quiz 2.json", "title": "மொழி பற்றிய குறிப்புகள் 2"}
+,
+  {"file": "UGC_NET_TAMIL_II_2008.json", "title": "தமிழ்த்தாள் - 2, 2008 "}
+,
+  {"file": "TET Previous Year Question Paper 01.json", "title": "தமிழ்த் தகுதித் தேர்வு "}
 ]
