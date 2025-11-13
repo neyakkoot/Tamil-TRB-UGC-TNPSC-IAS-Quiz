@@ -3,13 +3,29 @@
 ,
   {"file": "10th-quiz-questions-2.json", "title": "பத்தாம் வகுப்பு 2"}
 ,
-  {"file": "10th-quiz-questions-3.json", "title": "பத்தாம் வகுப்பு 3"}
-, 
+{"file": "10th-quiz-questions-3.json", "title": "பத்தாம் வகுப்பு 3"}
+,
+  {"file": "10th-quiz-questions-4.json", "title": "பத்தாம் வகுப்பு 4"}
+,
+{"file": "10th-quiz-questions-5.json", "title": "பத்தாம் வகுப்பு 5"}
+,
+  {"file": "10th-quiz-questions-6.json", "title": "பத்தாம் வகுப்பு 6"}
+,
+{"file": "10th-quiz-questions-7.json", "title": "பத்தாம் வகுப்பு 7"}
+,
+  {"file": "10th-quiz-questions-8.json", "title": "பத்தாம் வகுப்பு 8"}
+,
+{"file": "10th-quiz-questions-9.json", "title": "பத்தாம் வகுப்பு 9"}
+,
+  {"file": "10th-quiz-questions-10.json", "title": "பத்தாம் வகுப்பு 10"}
+,
+  {"file": "10th-quiz-questions-11.json", "title": "பத்தாம் வகுப்பு 11"}
+,
+  {"file": "10th-quiz-questions-12.json", "title": "பத்தாம் வகுப்பு 12"}
+,
   {"file": "6th_Tamil1.json", "title": "ஆறாம் வகுப்பு 1"}
 ,
-  {"file": "Language_Origin_Quiz.json", "title": "மொழி பற்றிய குறிப்புகள் 1"}
-,
-  {"file": "Language_Origin_Quiz 2.json", "title": "மொழி பற்றிய குறிப்புகள் 2"}
+  {"file": "Language_Origin_Quiz.json", "title": "மொழித் தோற்றம் 1"}
 ,
   {"file": "UGC_NET_TAMIL_II_2008.json", "title": "தமிழ்த்தாள் - 2, 2008 "}
 ,
