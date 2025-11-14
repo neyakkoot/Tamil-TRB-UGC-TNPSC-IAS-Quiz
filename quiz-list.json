@@ -1,52 +1,51 @@
 [
-  {"file": "Tamil_Language_Literture-quiz_Mozhi-1.json", "title": "மொழி"},
-  {"file": "Tamil_Language_Literture-quiz_Muchangam-2.json", "title": "முச்சங்கம்"},
-  {"file": "Tamil_Language_Literture-quiz_Sangam-3.json", "title": "சங்க இலக்கியங்கள்"},
-  {"file": "Tamil_Language_Literture-quiz_Sanga Maruviya-4.json", "title": "சங்க மருவிய இலக்கியங்கள்"},
-  {"file": "Tamil_Language_Literture-quiz_Kaappiyam-5.json", "title": "காப்பியங்கள்"},
-  {"file": "Tamil_Language_Literture-quiz_Samya Ilakkiyam-6.json", "title": "சமய இலக்கியங்கள்"},
-  {"file": "Tamil_Language_Literture-quiz_Grammars-7.json", "title": "இலக்கணங்கள்"},
-  {"file": "Tamil_Language_Literture-quiz_Sittrilakkiyam-8.json", "title": "சிற்றிலக்கியங்கள்"},
-  {"file": "Tamil_Language_Literture-quiz_Folklore-9.json", "title": "நாட்டுபுறவியல்"},
-  {"file": "Tamil_Language_Literture-quiz_Pirkalap pulavarkal-10.json", "title": "பிற்காலப் புலவர்கள்"},
-  {"file": "Tamil_Language_Literture-quiz_Modern Literature-11.json", "title": "இக்கால இலக்கியம்"},
-  {"file": "Tamil_Language_Literture-quiz_Uraiyar-12.json", "title": "உரையாசிரியர்"},
-  {"file": "Tamil_Language_Literture-quiz_Pirkqlth htamizh ilakkiayam-13.json", "title": "பிற்காலத் தமிழ் இலக்கியம்"},
-  {"file": "Tamil_Language_Literture-quiz_Sirukahai Ilakkaiyam-14.json", "title": "சிறுகதை இலக்கியம்"},
-  {"file": "Tamil_Language_Literture-quiz_Novel Literature-15.json", "title": "நாவல் இலக்கியம்"},
-  {"file": "Tamil_Language_Literture-quiz_Drama Literature-16.json", "title": "நாடக இலக்கியம்"},
-  {"file": "Tamil_Language_Literture-quiz_Thalithilakkiyam-17.json", "title": "தலித் திலக்கியம்"},
-  {"file": "Tamil_Language_Literture-quiz_Katturai Ilakkiyam-18.json", "title": "கட்டுரை இலக்கியம்"},
-  {"file": "Tamil_Language_Literture-quiz_Kaditha Ilakkiyam-19.json", "title": "கடித இலக்கியம்"},
-  {"file": "Tamil_Language_Literture-quiz_Vaazhkkai varalaru-20.json", "title": "வாழ்க்கை வரலாற்று இலக்கியங்கள்"},
-  {"file": "Tamil_Language_Literture-quiz_Payana Ilakkiyam-21.json", "title": "பயண இலக்கியம்"},
-  {"file": "Tamil_Language_Literture-quiz_Urai-22.json", "title": "உரை"},
-  {"file": "Tamil_Language_Literture-quiz_Urainadai-23.json", "title": "உரைநடை"},
-  {"file": "Tamil_Language_Literture-quiz_Thiranaivu-24.json", "title": "திறனாய்வு"},
-  {"file": "Tamil_Language_Literture-quiz_Feminism-25.json", "title": "பெண்ணியம்"},
-  {"file": "Tamil_Language_Literture-quiz_Journal-26.json", "title": "இதழ்"},
-  {"file": "Tamil_Language_Literture-quiz_Iyakkam-27.json", "title": "இயக்கம்"},
-  {"file": "Tamil_Language_Literture-quiz_Palkalai_Maanadu-28.json", "title": "பல்கலைக்கழகங்கள், மாநாடுகள், விருதுகள்"},
-  {"file": "Tamil_Language_Literture-quiz_Semmozhiththamizh-29.json", "title": "செம்மொழித் தமிழ்"},
-  {"file": "Tamil_Language_Literture-quiz_Archeaology-30.json", "title": "கல்வெட்டுத் தமிழ்"},
-  {"file": "Tamil_Language_Literture-quiz_Sience Tamil-31.json", "title": "அறிவியல் தமிழ்"},
-  {"file": "Tamil_Language_Literture-quiz_Ilakkiya Iyakkangal-32.json", "title": "இலக்கிய இயக்கங்கள்"},
-  {"file": "Tamil_Language_Literture-quiz_Thamizh varalaatru thagavanfkal-33.json", "title": "தமிழ் வரலாற்றுத் தகவல்கள்"},
-  {"file": "TET_PGTRB_2025.json", "title": "TET_PGTRB_2025"},
-  {"file": "10th-quiz-questions-1.json", "title": "பத்தாம் வகுப்பு 1"},
-  {"file": "10th-quiz-questions-2.json", "title": "பத்தாம் வகுப்பு 2"},
-  {"file": "10th-quiz-questions-3.json", "title": "பத்தாம் வகுப்பு 3"},
-  {"file": "10th-quiz-questions-4.json", "title": "பத்தாம் வகுப்பு 4"},
-  {"file": "10th-quiz-questions-5.json", "title": "பத்தாம் வகுப்பு 5"},
-  {"file": "10th-quiz-questions-6.json", "title": "பத்தாம் வகுப்பு 6"},
-  {"file": "10th-quiz-questions-7.json", "title": "பத்தாம் வகுப்பு 7"},
-  {"file": "10th-quiz-questions-8.json", "title": "பத்தாம் வகுப்பு 8"},
-  {"file": "10th-quiz-questions-9.json", "title": "பத்தாம் வகுப்பு 9"},
-  {"file": "10th-quiz-questions-10.json", "title": "பத்தாம் வகுப்பு 10"},
-  {"file": "10th-quiz-questions-11.json", "title": "பத்தாம் வகுப்பு 11"},
-  {"file": "10th-quiz-questions-12.json", "title": "பத்தாம் வகுப்பு 12"},
-  {"file": "6th_Tamil1.json", "title": "ஆறாம் வகுப்பு 1"},
-  {"file": "Language_Origin_Quiz.json", "title": "மொழித் தோற்றம் 1"},
-  {"file": "UGC_NET_TAMIL_II_2008.json", "title": "தமிழ்த்தாள் - 2, 2008"},
-  {"file": "TET Previous Year Question Paper 01.json", "title": "தமிழ்த் தகுதித் தேர்வு"}
+  {"file": "10th-quiz-questions-1.json", "title": "'எட்டு', 'வேங்கை' போன்ற ச�"}
+,
+  {"file": "10th-quiz-questions-10.json", "title": "சங்க காலத்தில், மறுபிற"}
+,
+  {"file": "10th-quiz-questions-11.json", "title": "ஜெயகாந்தன் 'சில நேரங்க"}
+,
+  {"file": "10th-quiz-questions-12.json", "title": "“ஒரு மொழியில் உணர்த்த�"}
+,
+  {"file": "10th-quiz-questions-2.json", "title": "'புயலிலே ஒரு தோணி' கதைய�"}
+,
+  {"file": "10th-quiz-questions-3.json", "title": "'அன்னை மொழியே' கவிதையி�"}
+,
+  {"file": "10th-quiz-questions-4.json", "title": "‘கேட்கிறதா என் குரல்!’"}
+,
+  {"file": "10th-quiz-questions-5.json", "title": "'விருந்தே புதுமை' என்ற�"}
+,
+  {"file": "10th-quiz-questions-6.json", "title": "'செயற்கை நுண்ணறிவு' (Artific"}
+,
+  {"file": "10th-quiz-questions-7.json", "title": "உயிரினங்களில் மனிதரை �"}
+,
+  {"file": "10th-quiz-questions-8.json", "title": "தலையில் கரகம் வைத்துத�"}
+,
+  {"file": "10th-quiz-questions-9.json", "title": "ம.பொ.சிவஞானம் பிறந்த ஆ�"}
+,
+  {"file": "6th_Tamil1.json", "title": "'புரட்சிக்கவி' என்று ப�"}
+,
+  {"file": "Language_Origin_Quiz 2.json", "title": "சிவபெருமான், தென்மொழி�"}
+,
+  {"file": "Language_Origin_Quiz.json", "title": "'மொழியின் தோற்றம் ஆய்வ"}
+,
+  {"file": "TET Previous Year Question Paper 01.json", "title": "சொற்களை ஒழுங்குபடுத்�"}
+,
+  {"file": "TET_PGTRB_2025.json", "title": "கண்ணிற்குக் காட்சி தர�"}
+,
+  {"file": "Tamil_Language_Literture-quiz_Kaappiyam-5.json", "title": "காப்பியத்தின் வேறுபெ�"}
+,
+  {"file": "Tamil_Language_Literture-quiz_Mozhi-1.json", "title": "சிவபெருமானின் உடுக்க�"}
+,
+  {"file": "Tamil_Language_Literture-quiz_Muchangam-2.json", "title": "'இரங்கலும் இரங்கல் நிம"}
+,
+  {"file": "Tamil_Language_Literture-quiz_Samya Ilakkiyam-6.json", "title": "“தமிழைப் பக்திமொழி (இர"}
+,
+  {"file": "Tamil_Language_Literture-quiz_Sanga Ilakkiyam-3.json", "title": "சங்க இலக்கியத்திற்கு �"}
+,
+  {"file": "Tamil_Language_Literture-quiz_Sanga Maruviya-4.json", "title": "சங்க மருவிய காலம் என்ப"}
+,
+  {"file": "UGC_NET_TAMIL_II_2008.json", "title": "ஆற்றுப் படையுள் ஒன்று"}
+,
+  {"file": "quiz-list-utf8.json", "title": "quiz-list-utf8.json"}
 ]
