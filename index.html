@@ -152,7 +152,6 @@
     font-size: 0.95rem;
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
   }
   #tv-side h3 {
     color: #006644;
@@ -180,12 +179,92 @@
     display: none;
     margin-top: 18px;
     text-align: center;
+    border-top: 2px solid #007bff;
+    padding-top: 20px;
   }
+
+  /* --- புதிய CSS விதிகள் --- */
+  
+  /* டைமர் ஸ்டைல் */
+  #tv-timer-box {
+    text-align: center;
+    background: #fff;
+    border: 2px solid #007bff;
+    border-radius: 8px;
+    padding: 10px;
+    margin-top: 15px;
+    order: -1; /* உருவாக்குநர் பகுதிக்கு மேலே இதைக் காட்டவும் */
+  }
+  #tv-timer-box h3 {
+    margin: 0 0 10px 0;
+    color: #007bff;
+    font-size: 1.1rem;
+  }
+  #tv-timer-display {
+    font-size: 2.2rem;
+    font-weight: 700;
+    color: #333;
+    letter-spacing: 2px;
+  }
+  /* நேரம் குறையும்போது எச்சரிக்கை ஸ்டைல் */
+  #tv-timer-display.warning {
+    color: #dc3545;
+    animation: pulse 1.2s infinite;
+  }
+  @keyframes pulse {
+    0% { transform: scale(1); opacity: 1; }
+    50% { transform: scale(1.05); opacity: 0.7; }
+    100% { transform: scale(1); opacity: 1; }
+  }
+
+  /* முடிவுகள் (Results) ஸ்டைல் */
+  #tv-result-title {
+    font-size: 1.8rem;
+    font-weight: 700;
+    color: #28a745;
+  }
+  #tv-result-score {
+    font-size: 1.4rem;
+    font-weight: 700;
+    color: #007bff;
+    margin: 10px 0;
+  }
+  #tv-result-percentage {
+    font-size: 1.2rem;
+    font-weight: 700;
+    color: #555;
+    margin: 5px 0 15px 0;
+  }
+  #tv-result-message {
+    font-size: 1.1rem;
+    font-style: italic;
+    color: #333;
+    margin-top: 15px;
+    background: #f4f4f4;
+    padding: 10px;
+    border-radius: 6px;
+  }
+  #tv-restart-btn {
+    padding: 12px 20px;
+    border-radius: 8px;
+    border: none;
+    font-weight: 700;
+    cursor: pointer;
+    color: #fff;
+    background: #28a745;
+    font-size: 1rem;
+    margin-top: 20px;
+    transition: background 0.3s;
+  }
+  #tv-restart-btn:hover {
+    background: #218838;
+  }
+  /* --- புதிய CSS விதிகள் முடிவு --- */
+
 </style>
 </head>
 <body>
 
-  <!-- Header -->
   <div class="header">
     <img src="images/திருவள்ளுவர்.jpg" alt="திருவள்ளுவர்">
     <div>
@@ -195,7 +274,6 @@
     <img src="images/தொல்காப்பியர்.jpg" alt="தொல்காப்பியர்">
   </div>
 
-  <!-- Quiz Section -->
   <div id="tv-quiz-wrap">
     <div id="tv-main">
       <select id="quizSelect">
@@ -212,10 +290,21 @@
         <button id="tv-next" style="display:none;">அடுத்த வினா 👉❓</button>
       </div>
 
-      <div id="tv-results"></div>
+      <div id="tv-results">
+        <h2 id="tv-result-title">🎉 வாழ்த்துகள்! 🎉</h2>
+        <p id="tv-result-score">உங்கள் மதிப்பெண்: 0 / 0</p>
+        <p id="tv-result-percentage">சதவீதம்: 0%</p>
+        <p id="tv-result-message">உங்கள் ஊக்கச் செய்தி இங்கே...</p>
+        <button id="tv-restart-btn">மீண்டும் முயற்சிக்கவும் 🔁</button>
+      </div>
     </div>
 
     <div id="tv-side">
+      <div id="tv-timer-box" style="display:none;">
+        <h3>⏰ நேரம் மீதமுள்ளது ⏰</h3>
+        <div id="tv-timer-display">00:00</div>
+      </div>
+
       <h2>👨‍💻 உருவாக்குநர் 👨‍💻</h2>
       <p>👨‍💻 முனைவர் சத்தியராசு தங்கச்சாமி, பயிற்றுநர், தமிழ்நாடு, இந்தியா ✍️</p>
     </div>
@@ -223,5 +312,156 @@
 
   <script src="js/quiz-loader.js"></script>
   <script src="js/footer-history.js"></script>
-</body>
+
+  <script>
+    let timerInterval;
+    let totalSeconds;
+    
+    /**
+     * வினாடி-வினா நேரத்தைக் கணக்கிட்டுத் தொடங்கும் செயல்பாடு
+     * (js/quiz-loader.js ஆல் அழைக்கப்படும்)
+     * @param {number} questionCount - மொத்த வினாக்களின் எண்ணிக்கை
+     */
+    function startQuizTimer(questionCount) {
+      stopTimer(); 
+      const timerBox = document.getElementById('tv-timer-box');
+      if (!timerBox) return;
+
+      let totalMinutes = calculateMinutes(questionCount);
+      totalSeconds = totalMinutes * 60;
+
+      timerBox.style.display = 'block';
+      updateTimerDisplay();
+
+      timerInterval = setInterval(() => {
+        totalSeconds--;
+        updateTimerDisplay();
+
+        // --- 👑 முக்கியத் திருத்தம் இங்கே 👑 ---
+        if (totalSeconds <= 0) {
+          stopTimer();
+          alert('நேரம் முடிந்தது!');
+          
+          // quiz-loader.js இல் உள்ள showResults() செயல்பாட்டை அழைக்கவும்.
+          // அது சரியான score உடன் showCustomResults() ஐ அழைக்கும்.
+          if (typeof showResults === 'function') {
+            showResults();
+          } else {
+            console.error("showResults function (from quiz-loader.js) not found!");
+            // ஒருவேளை showResults கிடைக்கவில்லை என்றால், நேரடியாகக் காட்டு
+            // (ஆனால் மதிப்பெண் 0 என்றே இருக்கும்)
+            showCustomResults(0, 0); 
+          }
+        }
+        // --- 👑 திருத்தம் முடிவு 👑 ---
+
+      }, 1000);
+    }
+
+    /**
+     * டைமர் காட்சிய புதுப்பிக்கும் செயல்பாடு
+     */
+    function updateTimerDisplay() {
+      const timerDisplay = document.getElementById('tv-timer-display');
+      if (!timerDisplay) return;
+
+      const minutes = Math.floor(totalSeconds / 60);
+      const seconds = totalSeconds % 60;
+
+      timerDisplay.textContent = `${String(minutes).padStart(2, '0')}:${String(seconds).padStart(2, '0')}`;
+
+      if (totalSeconds <= 60 && !timerDisplay.classList.contains('warning')) {
+        timerDisplay.classList.add('warning');
+      } else if (totalSeconds > 60) {
+        timerDisplay.classList.remove('warning');
+      }
+    }
+
+    /**
+     * டைமரை நிறுத்தும் செயல்பாடு
+     */
+    function stopTimer() {
+      clearInterval(timerInterval);
+      const timerDisplay = document.getElementById('tv-timer-display');
+      if (timerDisplay) {
+          timerDisplay.classList.remove('warning');
+      }
+    }
+
+    /**
+     * வினாக்களின் எண்ணிக்கைக்கு ஏற்ப நிமிடங்களைக் கணக்கிடுதல்
+     */
+    function calculateMinutes(count) {
+      if (count <= 0) return 0;
+      if (count <= 25) {
+        return count; // 25 வினாக்கள் வரை, ஒரு வினாவிற்கு 1 நிமிடம்
+      } else if (count > 25 && count <= 100) {
+        return 90; // 26 முதல் 100 வினாக்கள் வரை 90 நிமிடங்கள்
+      } else {
+        return Math.round(count * 0.9); // 100 வினாக்களுக்கு மேல்
+      }
+    }
+
+    /**
+     * ஊக்கமளிக்கும் செய்தியை வழங்கும் செயல்பாடு
+     */
+    function getMotivationalMessage(percentage) {
+      if (percentage === 100) {
+        return "💯 அருமை! முழுமையான மதிப்பெண்! உங்கள் உழைப்பு அபாரமானது!";
+      } else if (percentage >= 90) {
+        return "🎉 மிக நன்று! இலக்கை நெருங்கிவிட்டீர்கள். உங்கள் முயற்சி பாராட்டத்தக்கது!";
+      } else if (percentage >= 75) {
+        return "👍 சிறப்பாகச் செய்தீர்கள்! இன்னும் சிறிது முயற்சித்தால் முழு வெற்றியை அடையலாம்.";
+      } else if (percentage >= 50) {
+        return "🙂 பரவாயில்லை, நல்ல முயற்சி. தொடர்ந்து பயிற்சி செய்யுங்கள், நிச்சயம் வெல்லலாம்!";
+      } else if (percentage > 0) {
+        return "💪 முயற்சி திருவினையாக்கும்! தவறுகளைத் திருத்திக் கொண்டு மீண்டும் முயலுங்கள்.";
+      } else {
+        return "🌱 தொடக்கம் சற்று கடினமாக இருக்கலாம். மனம் தளர வேண்டாம், தொடர்ந்து படியுங்கள்!";
+      }
+    }
+
+    /**
+     * மேம்படுத்தப்பட்ட முடிவுகளைக் காட்டும் செயல்பாடு
+     * (js/quiz-loader.js ஆல் அழைக்கப்படும்)
+     * @param {number} score - பயனர் பெற்ற மதிப்பெண்
+     * @param {number} totalQuestions - மொத்த வினாக்களின் எண்ணிக்கை
+     */
+    function showCustomResults(score, totalQuestions) {
+      stopTimer();
+      
+      const timerBox = document.getElementById('tv-timer-box');
+      if (timerBox) timerBox.style.display = 'none';
+
+      document.getElementById('tv-progress').style.display = 'none';
+      document.getElementById('tv-question').style.display = 'none';
+      document.getElementById('tv-options').style.display = 'none';
+      document.getElementById('tv-feedback').style.display = 'none';
+      document.querySelector('.quiz-nav').style.display = 'none';
+
+      const resultsContainer = document.getElementById('tv-results');
+      const titleEl = document.getElementById('tv-result-title');
+      const scoreEl = document.getElementById('tv-result-score');
+      const percentageEl = document.getElementById('tv-result-percentage');
+      const messageEl = document.getElementById('tv-result-message');
+      
+      if (!resultsContainer) return;
+
+      const percentage = totalQuestions > 0 ? Math.round((score / totalQuestions) * 100) : 0;
+      
+      titleEl.textContent = (percentage >= 75) ? "🎉 வாழ்த்துகள்! 🎉" : "👏 நல்ல முயற்சி! 👏";
+      scoreEl.textContent = `உங்கள் மதிப்பெண்: ${score} / ${totalQuestions}`;
+      percentageEl.textContent = `சதவீதம்: ${percentage}%`;
+      messageEl.textContent = getMotivationalMessage(percentage);
+
+      resultsContainer.style.display = 'block';
+    }
+    
+    // மீண்டும் முயற்சிக்கவும் பட்டனுக்கான செயல்பாடு
+    document.getElementById('tv-restart-btn').addEventListener('click', () => {
+        window.location.reload();
+    });
+
+  </script>
+  </body>
 </html>
