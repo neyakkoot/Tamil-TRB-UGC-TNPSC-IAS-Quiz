@@ -61,6 +61,6 @@ Tamil-TRB-UGC-TNPSC-IAS-Quiz/
 
 🧠 Creator / உருவாக்கியவர்
 
-Dr. S. Sathiyaraj Thangachamy
+Dr. Sathiyaraj Thangasamy
 Assistant Professor, Department of Tamil
 Sri Krishna Adithya College of Arts and Science, Coimbatore
