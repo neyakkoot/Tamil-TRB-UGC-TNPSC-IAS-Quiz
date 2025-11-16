@@ -66,12 +66,27 @@ document.addEventListener("DOMContentLoaded", function () {
       const data = await res.json();
       quizData = data.questions || data;
       if (!quizData || !quizData.length) throw new Error("No questions found");
+
+      // --- 👑 புதிய மாற்றம் 1: டைமரைத் தொடங்கு ---
+      // index.html இல் உள்ள startQuizTimer() செயல்பாட்டை அழைக்கவும்
+      if (typeof startQuizTimer === 'function') {
+        startQuizTimer(quizData.length);
+      } else {
+        console.warn("startQuizTimer function not found. Is index.html updated?");
+      }
+      // --- 👑 மாற்றம் 1 முடிவு ---
+
       idx = 0;
       score = 0;
       qEl.style.display = "";
       optsEl.style.display = "";
       renderQuestion();
       resultsEl.style.display = "none";
+      
+      // index.html இல் உள்ள முடிவுகள் பகுதி காட்டப்பட்டிருந்தால் அதை மறைக்கவும்
+      const customResults = document.getElementById("tv-results");
+      if (customResults) customResults.style.display = "none";
+
       console.log(`📘 Quiz loaded: ${file}`);
     } catch (err) {
       console.error("Quiz load error:", err);
@@ -164,28 +179,20 @@ document.addEventListener("DOMContentLoaded", function () {
 
   // 🔹 Results screen
   function showResults() {
-    qEl.style.display = "none";
-    optsEl.style.display = "none";
-    feedbackEl.style.display = "none";
-    prevBtn.style.display = "none";
-    nextBtn.style.display = "none";
-    if (noteEl) noteEl.innerHTML = "🎯 வினாடி–வினா முடிந்தது!";
-    resultsEl.style.display = "block";
-    resultsEl.innerHTML = `
-      <h3>மதிப்பெண்: ${score} / ${quizData.length}</h3>
-      <p>சதவீதம்: <strong>${((score / quizData.length) * 100).toFixed(1)}%</strong></p>
-      <button id="retryBtn">மீண்டும் முயற்சி</button>
-    `;
-    const retryBtn = document.getElementById("retryBtn");
-    if (retryBtn) {
-      retryBtn.onclick = () => {
-        idx = 0;
-        score = 0;
-        qEl.style.display = "";
-        optsEl.style.display = "";
-        renderQuestion();
-      };
+    // --- 👑 புதிய மாற்றம் 2: மேம்படுத்தப்பட்ட முடிவுகளைக் காட்டு ---
+    // index.html இல் உள்ள showCustomResults() செயல்பாட்டை அழைக்கவும்
+    // இது டைமரை நிறுத்துதல், UI ஐ மறைத்தல் மற்றும் புதிய முடிவுகளைக் காட்டுதல் ஆகியவற்றைச் செய்யும்
+    if (typeof showCustomResults === 'function') {
+      // score மற்றும் quizData.length ஆகியவற்றை அனுப்பவும்
+      showCustomResults(score, quizData.length);
+    } else {
+      // ஒருவேளை index.html சரியாக ஏற்றப்படவில்லை என்றால்...
+      console.error("showCustomResults function not found! Cannot display results.");
+      resultsEl.style.display = "block";
+      resultsEl.innerHTML = `<h3>மதிப்பெண்: ${score} / ${quizData.length}</h3>
+                             <p>முடிவுகளைக் காட்டுவதில் பிழை.</p>`;
     }
+    // --- 👑 மாற்றம் 2 முடிவு ---
   }
 
   // 🔹 Quiz selection
