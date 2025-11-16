@@ -39,24 +39,41 @@ document.addEventListener("DOMContentLoaded", function () {
   let idx = 0;
   let score = 0;
 
-  // 🔹 Load quiz list
+  // --- 👑 இது மாற்றப்பட்ட செயல்பாடு 👑 ---
+  // 🔹 Load quiz list (Categorized)
   async function loadQuizList() {
     try {
       const res = await fetch("quiz-list.json", { cache: "no-cache" });
       if (!res.ok) throw new Error("quiz-list.json not found");
-      const list = await res.json();
-      list.forEach(item => {
-        const opt = document.createElement("option");
-        opt.value = item.file;
-        opt.textContent = item.title;
-        quizSelect.appendChild(opt);
+      
+      // 'list' இப்போது வகைப்படுத்தப்பட்ட பொருள்களின் பட்டியலைக் (array) கொண்டுள்ளது
+      const list = await res.json(); 
+
+      // ஒவ்வொரு வகைப் பொருளுக்கும் (category object) இடையில் செல்லவும்
+      list.forEach(categoryItem => {
+        // <optgroup> உறுப்பை உருவாக்கவும் (உதாரணம்: "தமிழ்க் தகுதித் தேர்வு (TET)")
+        const optGroup = document.createElement("optgroup");
+        optGroup.label = categoryItem.category; 
+
+        // இந்த வகையில் உள்ள ஒவ்வொரு வினாடி-வினாவிற்கும் இடையில் செல்லவும்
+        categoryItem.quizzes.forEach(quizItem => {
+          const opt = document.createElement("option");
+          opt.value = quizItem.file;
+          opt.textContent = quizItem.title;
+          optGroup.appendChild(opt); // விருப்பத்தை (option) குழுவில் (group) சேர்க்கவும்
+        });
+        
+        quizSelect.appendChild(optGroup); // குழுவை (group) <select> இல் சேர்க்கவும்
       });
-      console.log("✅ Quiz list loaded");
+
+      console.log("✅ Categorized quiz list loaded");
     } catch (err) {
       console.error("❌ Error loading quiz list:", err);
       progressEl.textContent = "⚠️ வினாடி–வினா பட்டியல் ஏற்ற முடியவில்லை!";
     }
   }
+  // --- 👑 மாற்றப்பட்ட செயல்பாடு முடிவு 👑 ---
+
 
   // 🔹 Load quiz questions
   async function loadQuiz(file) {
@@ -67,14 +84,12 @@ document.addEventListener("DOMContentLoaded", function () {
       quizData = data.questions || data;
       if (!quizData || !quizData.length) throw new Error("No questions found");
 
-      // --- 👑 புதிய மாற்றம் 1: டைமரைத் தொடங்கு ---
       // index.html இல் உள்ள startQuizTimer() செயல்பாட்டை அழைக்கவும்
       if (typeof startQuizTimer === 'function') {
         startQuizTimer(quizData.length);
       } else {
         console.warn("startQuizTimer function not found. Is index.html updated?");
       }
-      // --- 👑 மாற்றம் 1 முடிவு ---
 
       idx = 0;
       score = 0;
@@ -179,9 +194,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
   // 🔹 Results screen
   function showResults() {
-    // --- 👑 புதிய மாற்றம் 2: மேம்படுத்தப்பட்ட முடிவுகளைக் காட்டு ---
     // index.html இல் உள்ள showCustomResults() செயல்பாட்டை அழைக்கவும்
-    // இது டைமரை நிறுத்துதல், UI ஐ மறைத்தல் மற்றும் புதிய முடிவுகளைக் காட்டுதல் ஆகியவற்றைச் செய்யும்
     if (typeof showCustomResults === 'function') {
       // score மற்றும் quizData.length ஆகியவற்றை அனுப்பவும்
       showCustomResults(score, quizData.length);
@@ -192,7 +205,6 @@ document.addEventListener("DOMContentLoaded", function () {
       resultsEl.innerHTML = `<h3>மதிப்பெண்: ${score} / ${quizData.length}</h3>
                              <p>முடிவுகளைக் காட்டுவதில் பிழை.</p>`;
     }
-    // --- 👑 மாற்றம் 2 முடிவு ---
   }
 
   // 🔹 Quiz selection
