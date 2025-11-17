@@ -80,12 +80,9 @@ document.addEventListener("DOMContentLoaded", function () {
       quizData = data.questions || data;
       if (!quizData || !quizData.length) throw new Error("No questions found");
 
-      // --- 👑 புதிய மாற்றம் 1: பதில்களை Reset செய் 👑 ---
-      // ஒவ்வொரு வினாவிற்கும் பயனரின் பதிலைச் சேமிக்க ஒரு இடம் உருவாக்கப்படுகிறது.
       quizData.forEach(q => {
-        q.userChoice = undefined; // 'undefined' என அமைத்தால், 0-வது விடையையும் சரியாகக் கையாளும்
+        q.userChoice = undefined; 
       });
-      // --- 👑 மாற்றம் 1 முடிவு 👑 ---
 
       currentQuizTitle = quizSelect.options[quizSelect.selectedIndex].text;
 
@@ -104,12 +101,12 @@ document.addEventListener("DOMContentLoaded", function () {
       document.getElementById('tv-question').style.display = 'block';
       document.getElementById('tv-options').innerHTML = '';
 
-      renderQuestion(); // renderQuestion ஐ இங்கே அழைக்கவும்
+      renderQuestion();
       console.log(`📘 Quiz loaded: ${file}`);
 
     } catch (err) {
       console.error("Quiz load error:", err);
-      progressEl.textContent = "⚠️ இதற்குரிய வினாக்கள் இல்லை. அதனால் வினாக்களை ஏற்ற முடியவில்லை: " + err.message;
+      progressEl.textContent = "⚠️ வினாக்களை ஏற்ற முடியவில்லை: " + err.message;
     }
   }
 
@@ -121,10 +118,8 @@ document.addEventListener("DOMContentLoaded", function () {
       return;
     }
 
-    // --- 👑 புதிய மாற்றம் 2: பதிலளித்துவிட்டாரா எனச் சோதி 👑 ---
-    const userChoice = q.userChoice; // சேமிக்கப்பட்ட பதிலை எடு
+    const userChoice = q.userChoice;
     const hasAnswered = (userChoice !== undefined);
-    // --- 👑 மாற்றம் 2 முடிவு 👑 ---
 
     progressEl.textContent = `வினா ${idx + 1} / ${quizData.length}`;
     qEl.textContent = q.question || "வினா கிடைக்கவில்லை.";
@@ -138,7 +133,6 @@ document.addEventListener("DOMContentLoaded", function () {
       return;
     }
 
-    // சரியான விடையை முன்கூட்டியே கண்டறியவும்
     const correctIndex = typeof q.answer === "number"
         ? q.answer
         : (q.answerOptions?.findIndex(o => o.isCorrect) ?? 0);
@@ -151,58 +145,48 @@ document.addEventListener("DOMContentLoaded", function () {
         typeof opt === "string" ? opt : opt.text || ""
       }`;
 
-      // --- 👑 புதிய மாற்றம் 3: பொத்தான்களை முடக்கு (Lock) 👑 ---
       if (hasAnswered) {
-        // ஏற்கனவே பதிலளித்திருந்தால், பொத்தானை முடக்கு
         btn.disabled = true;
-        
-        // சரியான விடையைக் காட்டு
         if (i === correctIndex) {
           btn.classList.add("correct");
         }
-        // பயனர் அளித்த தவறான விடையைக் காட்டு
         if (i === userChoice && userChoice !== correctIndex) {
           btn.classList.add("wrong");
         }
       } else {
-        // பதிலளிக்கவில்லை என்றால் மட்டும், 'onclick' செயல்பாட்டைச் சேர்
         btn.onclick = () => selectAnswer(i, btn);
       }
-      // --- 👑 மாற்றம் 3 முடிவு 👑 ---
-
       optsEl.appendChild(btn);
     });
 
-    // --- 👑 புதிய மாற்றம் 4: பின்னூட்டத்தை (Feedback) கையாளு 👑 ---
     if (hasAnswered) {
-      // பதிலளித்திருந்தால், விளக்கத்தைக் காட்டு
       const explanation =
         q.explanation ||
         q.answerOptions?.[correctIndex]?.rationale ||
         "விளக்கம் வழங்கப்படவில்லை.";
       feedbackEl.style.display = "block";
       feedbackEl.innerHTML = `<strong>விளக்கம்:</strong> ${explanation}`;
-      if (noteEl) noteEl.innerHTML = "✅❌ நீங்கள் ஏற்கனவே பதிலளித்த வினா இதுவாகும். எனவே மீண்டும் அதனைச் சொடுக்க இயலாது. இந்த வினாடி-வினாவை நிறைவுசெய்து, பின்பு மீண்டும் முயற்சிசெய்து நினைவாற்றலைப் பெருக்கிக் கொள்ளுங்கள்.";
+      if (noteEl) noteEl.innerHTML = "✅❌ நீங்கள் ஏற்கனவே பதிலளித்த வினா.";
     } else {
-      // பதிலளிக்கவில்லை என்றால், விளக்கத்தை மறை
       feedbackEl.style.display = "none";
-      if (noteEl) noteEl.innerHTML = "🧾 வினாவைப் படித்துச் சரியான விடையைத் தேர்ந்தெடுக்கவும்.";
+      if (noteEl) noteEl.innerHTML = "🧾 வினாவை படித்து சரியான விடையைத் தேர்ந்தெடுக்கவும்.";
     }
-    // --- 👑 மாற்றம் 4 முடிவு 👑 ---
   }
 
   // 🔹 Select answer
   function selectAnswer(choice, btn) {
-    const q = quizData[idx];
+    // --- 👑 புதிய மாற்றம்: செயல்படா நிலை நேரங்காட்டியை Reset செய் 👑 ---
+    if (typeof resetInactivityTimer === 'function') {
+      resetInactivityTimer();
+    }
+    // --- 👑 ---
     
-    // --- 👑 புதிய மாற்றம் 5: ஒருமுறை மட்டுமே பதிலளிக்க அனுமதி 👑 ---
+    const q = quizData[idx];
     if (!q || q.userChoice !== undefined) {
-      return; // ஏற்கனவே பதிலளித்திருந்தால், எதையும் செய்யாதே
+      return; 
     }
     
-    // பயனர் அளித்த பதிலைச் சேமி
     q.userChoice = choice;
-    // --- 👑 மாற்றம் 5 முடிவு 👑 ---
 
     const correctIndex =
       typeof q.answer === "number"
@@ -210,10 +194,10 @@ document.addEventListener("DOMContentLoaded", function () {
         : (q.answerOptions?.findIndex(o => o.isCorrect) ?? 0);
 
     const buttons = optsEl.querySelectorAll("button");
-    buttons.forEach(b => (b.disabled = true)); // பதிலளித்ததும் அனைத்து பொத்தான்களையும் முடக்கு
+    buttons.forEach(b => (b.disabled = true)); 
 
     if (choice === correctIndex) {
-      score++; // ஒருமுறை மட்டுமே மதிப்பெண் ஏறும்
+      score++; 
       btn.classList.add("correct");
       if (noteEl) noteEl.innerHTML = "✅ சரியான விடை!";
     } else {
@@ -232,6 +216,12 @@ document.addEventListener("DOMContentLoaded", function () {
 
   // 🔹 Navigation buttons
   nextBtn.addEventListener("click", () => {
+    // --- 👑 புதிய மாற்றம்: செயல்படா நிலை நேரங்காட்டியை Reset செய் 👑 ---
+    if (typeof resetInactivityTimer === 'function') {
+      resetInactivityTimer();
+    }
+    // --- 👑 ---
+    
     if (idx < quizData.length - 1) {
       idx++;
       renderQuestion();
@@ -241,6 +231,12 @@ document.addEventListener("DOMContentLoaded", function () {
   });
 
   prevBtn.addEventListener("click", () => {
+    // --- 👑 புதிய மாற்றம்: செயல்படா நிலை நேரங்காட்டியை Reset செய் 👑 ---
+    if (typeof resetInactivityTimer === 'function') {
+      resetInactivityTimer();
+    }
+    // --- 👑 ---
+
     if (idx > 0) {
       idx--;
       renderQuestion();
