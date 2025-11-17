@@ -32,14 +32,14 @@
 
   document.getElementById('showScores').onclick = function(){
     const arr = JSON.parse(localStorage.getItem('quizScores') || '[]');
-    let html = `<h3>📊 எனது மதிப்பெண்கள்</h3>`;
+    let html = `<h3>📊 என் முயற்சிகள்</h3>`;
     if(arr.length===0){ html += "<p>இன்னும் முயற்சிகள் இல்லை.</p>"; }
     else {
       html += `<table border='1' cellspacing='0' cellpadding='5' style='margin:auto;font-size:0.9rem;border-collapse:collapse;'><tr><th>தொகுப்பு</th><th>மதிப்பெண்</th><th>சதவீதம்</th><th>நேரம்</th></tr>`;
       arr.forEach(r=>{ html += `<tr><td>${r.title}</td><td>${r.score}/${r.total}</td><td>${r.pct}%</td><td>${new Date(r.ts).toLocaleString('ta-IN')}</td></tr>`; });
       html += `</table>`;
     }
-    const w = window.open("", "_blank", "width=600,height=500");
-    w.document.write(`<html><head><title>எனது மதிப்பெண்கள்</title></head><body style='font-family:Noto Sans Tamil,sans-serif;'>${html}</body></html>`);
+    const w = window.open("", "_blank", "width=300,height=300");
+    w.document.write(`<html><head><title>என் முயற்சிகள்</title></head><body style='font-family:Noto Sans Tamil,sans-serif;'>${html}</body></html>`);
   };
 })();
