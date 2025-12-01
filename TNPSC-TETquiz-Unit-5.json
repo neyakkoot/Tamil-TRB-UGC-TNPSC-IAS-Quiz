@@ -1,0 +1,2802 @@
+[
+  {
+    "questionNumber": 1,
+    "question": "விரிவான கருத்தைச் சுருக்கிச் சொல்வதே எதனுடைய சிறப்பு?",
+    "imageUrl": null,
+    "answerOptions": [
+      {
+        "text": "கவிதை",
+        "rationale": "கவிதை உணர்வுகளை வெளிப்படுத்தும் வடிவம்.",
+        "isCorrect": false
+      },
+      {
+        "text": "பழமொழி",
+        "rationale": "விரிவான கருத்தைச் சுருக்கிச் சொல்வதே பழமொழியின் சிறப்பு எனப் பாடப்பகுதி கூறுகிறது.",
+        "isCorrect": true
+      },
+      {
+        "text": "உரைநடை",
+        "rationale": "உரைநடை விரிவாகப் பேசும் வடிவம்.",
+        "isCorrect": false
+      },
+      {
+        "text": "புதுக்கவிதை",
+        "rationale": "இதுவும் கவிதை வடிவமே.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "சுத்தம் சோறு போடும் என்பது இதன் சான்று."
+  },
+  {
+    "questionNumber": 2,
+    "question": "உடல்நலமே எதற்கு அடிப்படை?",
+    "imageUrl": null,
+    "answerOptions": [
+      {
+        "text": "உழைப்புக்கு",
+        "rationale": "உடல்நலமே உழைப்புக்கு அடிப்படை என்று பத்தியில் கொடுக்கப்பட்டுள்ளது.",
+        "isCorrect": true
+      },
+      {
+        "text": "உறக்கத்திற்கு",
+        "rationale": "இது தவறான விடை.",
+        "isCorrect": false
+      },
+      {
+        "text": "உணவுக்கு",
+        "rationale": "உழைப்பால் உணவு கிடைக்கிறது, ஆனால் அடிப்படை உடல்நலம்.",
+        "isCorrect": false
+      },
+      {
+        "text": "செல்வத்திற்கு",
+        "rationale": "இது தவறான விடை.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "நோயற்ற வாழ்வே குறைவற்ற செல்வம்."
+  },
+  {
+    "questionNumber": 3,
+    "question": "இயற்கை என்பது எதனை உள்ளடக்கியது?",
+    "imageUrl": null,
+    "answerOptions": [
+      {
+        "text": "மலைகள் மற்றும் ஆறுகள் மட்டும்",
+        "rationale": "இது முழுமையான விளக்கம் அல்ல.",
+        "isCorrect": false
+      },
+      {
+        "text": "இயல்பாகவே தோன்றி மறையும் பொருள்கள், அவற்றின் இயக்கம், இடம், காலம்",
+        "rationale": "இவை அனைத்தும் ஒன்றிணைந்ததே இயற்கை என்கிறோம்.",
+        "isCorrect": true
+      },
+      {
+        "text": "மனிதனால் உருவாக்கப்பட்ட பொருள்கள்",
+        "rationale": "இது செயற்கை.",
+        "isCorrect": false
+      },
+      {
+        "text": "விலங்குகள் மட்டும்",
+        "rationale": "இது இயற்கையின் ஒரு பகுதி மட்டுமே.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "இயல்பாகவே தோன்றி மறையும் அனைத்தும்."
+  },
+  {
+    "questionNumber": 4,
+    "question": "இயற்கைச் சமநிலை மாறுவதனால் ஏற்படும் விளைவு என்ன?",
+    "imageUrl": null,
+    "answerOptions": [
+      {
+        "text": "புவி குளிர்கிறது",
+        "rationale": "இது தவறான கூற்று.",
+        "isCorrect": false
+      },
+      {
+        "text": "புவி வெப்பமயமாகிறது",
+        "rationale": "இயற்கைச் சமநிலை மாறி புவி வெப்பமயமாகிறது என்று பத்தி கூறுகிறது.",
+        "isCorrect": true
+      },
+      {
+        "text": "மழை அதிகரிக்கிறது",
+        "rationale": "சமநிலை மாற்றத்தால் மழை குறையலாம்.",
+        "isCorrect": false
+      },
+      {
+        "text": "காடுகள் பெருகுகின்றன",
+        "rationale": "காடுகள் அழிவதே சமநிலை மாற்றத்திற்குக் காரணம்.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "குளோபல் வார்மிங் என்று ஆங்கிலத்தில் கூறுவர்."
+  },
+  {
+    "questionNumber": 5,
+    "question": "தமிழ் என்னும் சொல்லுக்கு உரிய பொருள் யாது?",
+    "imageUrl": null,
+    "answerOptions": [
+      {
+        "text": "வலிமை",
+        "rationale": "இது தவறான பொருள்.",
+        "isCorrect": false
+      },
+      {
+        "text": "இனிமை",
+        "rationale": "தமிழ் என்னும் சொல்லுக்கு இனிமை என்பது பொருள்.",
+        "isCorrect": true
+      },
+      {
+        "text": "பழைமை",
+        "rationale": "தமிழ் பழைமையான மொழி, ஆனால் சொல்லின் பொருள் இனிமை.",
+        "isCorrect": false
+      },
+      {
+        "text": "பெருமை",
+        "rationale": "இதுவும் தமிழின் பண்பு, ஆனால் சொல்லின் பொருள் அல்ல.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "சுவை மிகுந்தது."
+  },
+  {
+    "questionNumber": 6,
+    "question": "தமிழ்ப்பண்பாடு உலகுக்கு உணர்த்திய உயரிய தத்துவம் எது?",
+    "imageUrl": null,
+    "answerOptions": [
+      {
+        "text": "ஒன்றே குலம் ஒருவனே தேவன்",
+        "rationale": "இது திருமூலர் வாக்கு.",
+        "isCorrect": false
+      },
+      {
+        "text": "யாதும் ஊரே யாவரும் கேளிர்",
+        "rationale": "இதுவே தமிழ்ப்பண்பாடு உலகுக்கு உணர்த்திய உயரிய தத்துவம்.",
+        "isCorrect": true
+      },
+      {
+        "text": "தீதும் நன்றும் பிறர்தர வாரா",
+        "rationale": "இது கணியன் பூங்குன்றனார் வாக்கு.",
+        "isCorrect": false
+      },
+      {
+        "text": "வினையே ஆடவர்க்கு உயிரே",
+        "rationale": "இது குறுந்தொகை பாடல்.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "கணியன் பூங்குன்றனாரின் புகழ்பெற்ற வரி."
+  },
+  {
+    "questionNumber": 7,
+    "question": "கிடைக்கும் பொருள்களின் எதைக் கூட்டிப் புதிய பொருளாக மாற்றுவது சிறந்த வணிகம்?",
+    "imageUrl": null,
+    "answerOptions": [
+      {
+        "text": "அளவை",
+        "rationale": "அளவை கூட்டுவது வணிகம் அல்ல.",
+        "isCorrect": false
+      },
+      {
+        "text": "மதிப்பை",
+        "rationale": "கிடைக்கும் பொருள்களின் மதிப்பைக் கூட்டிப் புதிய பொருளாக மாற்றுவது சிறந்த வணிகமாகும்.",
+        "isCorrect": true
+      },
+      {
+        "text": "எண்ணிக்கையை",
+        "rationale": "எண்ணிக்கை மட்டும் முக்கியமல்ல.",
+        "isCorrect": false
+      },
+      {
+        "text": "எடையை",
+        "rationale": "எடை கூட்டுவது கலப்படம் ஆகலாம்.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "கல்லைச் சிலையாக மாற்றுவது இதற்கு உதாரணம்."
+  },
+  {
+    "questionNumber": 8,
+    "question": "அமைதி குறித்த கதையில், உண்மையான அமைதி எங்கு இருப்பதாக ஓவியர் கூறினார்?",
+    "imageUrl": null,
+    "answerOptions": [
+      {
+        "text": "பிரச்சினையே இல்லாத இடத்தில்",
+        "rationale": "இது ஓவியர் சொன்ன பதில் அல்ல.",
+        "isCorrect": false
+      },
+      {
+        "text": "பிரச்சினையும் போராட்டமும் உள்ள இடத்தில் கலங்காமல் இருப்பது",
+        "rationale": "பிரச்சினையும் போராட்டமும் இருக்கும் இடத்தில் இருந்தும், எதற்கும் கலங்காமல் உள்ளுக்குள் அமைதியாக இருப்பதே உண்மையான அமைதி.",
+        "isCorrect": true
+      },
+      {
+        "text": "இயற்கை எழில் கொஞ்சும் இடத்தில்",
+        "rationale": "இது முதல் ஓவியத்தின் கருத்து.",
+        "isCorrect": false
+      },
+      {
+        "text": "கோவிலின் கருவறையில்",
+        "rationale": "இது மாணவர் கூறிய கருத்து.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "அருவியின் கீழே இருந்த பறவை போல."
+  },
+  {
+    "questionNumber": 9,
+    "question": "இருவழிச் சாலையின் மையத்தில் தொடர்ச்சியாக வெள்ளைக்கோடு வரையப்பட்டிருந்தால் என்ன செய்யக்கூடாது?",
+    "imageUrl": null,
+    "answerOptions": [
+      {
+        "text": "வண்டியை நிறுத்தக்கூடாது",
+        "rationale": "இது பொதுவான விதி.",
+        "isCorrect": false
+      },
+      {
+        "text": "முந்துவதற்கு வலது பக்கச் சாலையைப் பயன்படுத்தக்கூடாது",
+        "rationale": "தொடர்ச்சியான கோடு இருந்தால் முந்துவதற்கு வலது பக்க சாலையைப் பயன்படுத்தக் கூடாது.",
+        "isCorrect": true
+      },
+      {
+        "text": "வேகமாகச் செல்லக்கூடாது",
+        "rationale": "வேகக்கட்டுப்பாடு வேறு.",
+        "isCorrect": false
+      },
+      {
+        "text": "ஒலி எழுப்பக்கூடாது",
+        "rationale": "இது மருத்துவமனை அருகில் வரும் விதி.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "ஓவர்டேக் செய்யலாமா?"
+  },
+  {
+    "questionNumber": 10,
+    "question": "தமிழக மாட்டினங்களின் 'தாய் இனம்' என்று கருதப்படுவது எது?",
+    "imageUrl": null,
+    "answerOptions": [
+      {
+        "text": "உம்பளச்சேரி",
+        "rationale": "இது ஒரு மாட்டினம் ஆனால் தாய் இனம் அல்ல.",
+        "isCorrect": false
+      },
+      {
+        "text": "காங்கேயம்",
+        "rationale": "காங்கேயம் மாடுகள் தமிழக மாட்டினங்களின் தாய் இனம் என்று கருதப்படுகிறது.",
+        "isCorrect": true
+      },
+      {
+        "text": "புலிக்குளம்",
+        "rationale": "இது ஜல்லிக்கட்டு மாடு.",
+        "isCorrect": false
+      },
+      {
+        "text": "பர்கூர்",
+        "rationale": "இது மலை மாடு.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "கொங்கு மண்டலத்தைச் சேர்ந்தது."
+  },
+  {
+    "questionNumber": 11,
+    "question": "புவி உருவான போது எவ்வாறு இருந்ததாகப் பத்தி கூறுகிறது?",
+    "imageUrl": null,
+    "answerOptions": [
+      {
+        "text": "நீர்க்கோளம் போல்",
+        "rationale": "வெள்ளம் பின்னர் வந்தது.",
+        "isCorrect": false
+      },
+      {
+        "text": "நெருப்புப் பந்து போல்",
+        "rationale": "புவி உருவான போது நெருப்புப் பந்து போல் விளங்கியது.",
+        "isCorrect": true
+      },
+      {
+        "text": "பனிக்கட்டி போல்",
+        "rationale": "இது தவறான விடை.",
+        "isCorrect": false
+      },
+      {
+        "text": "பாறை போல்",
+        "rationale": "இது தவறான விடை.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "ஊழிக்காலம் பற்றிய பத்தியில் உள்ளது."
+  },
+  {
+    "questionNumber": 12,
+    "question": "தமிழிலக்கிய வரலாற்றில் 'புலமைக் கதிரவன்' எனப் போற்றப்படுபவர் யார்?",
+    "imageUrl": null,
+    "answerOptions": [
+      {
+        "text": "ஆறுமுக நாவலர்",
+        "rationale": "இவர் வசனநடை கைவந்த வல்லாளர்.",
+        "isCorrect": false
+      },
+      {
+        "text": "உ.வே. சாமிநாதர்",
+        "rationale": "இவர் தமிழ்த்தாத்தா.",
+        "isCorrect": false
+      },
+      {
+        "text": "மகாவித்துவான் மீனாட்சிசுந்தரனார்",
+        "rationale": "இவரே 'புலமைக் கதிரவன்' எனப் போற்றப்படுகிறார்.",
+        "isCorrect": true
+      },
+      {
+        "text": "பாரதியார்",
+        "rationale": "இவர் மகாகவி.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "திருவாவடுதுறை மடத்தின் தலைமைப் புலவர்."
+  },
+  {
+    "questionNumber": 13,
+    "question": "மீனாட்சிசுந்தரனார் யாரிடம் பாடம் கற்றார்?",
+    "imageUrl": null,
+    "answerOptions": [
+      {
+        "text": "உ.வே. சாமிநாதர்",
+        "rationale": "உ.வே.சா இவருடைய மாணவர்.",
+        "isCorrect": false
+      },
+      {
+        "text": "சுப்பிரமணிய தேசிகர்",
+        "rationale": "திருவாவடுதுறை மடத்தின் தலைவர் சுப்பிரமணிய தேசிகரிடம் பாடம் கற்றார்.",
+        "isCorrect": true
+      },
+      {
+        "text": "ஆறுமுக நாவலர்",
+        "rationale": "இவர் சமகாலத்தவர்.",
+        "isCorrect": false
+      },
+      {
+        "text": "கம்பர்",
+        "rationale": "காலத்தால் முற்பட்டவர்.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "திருவாவடுதுறை மடத்தின் தலைவர்."
+  },
+  {
+    "questionNumber": 14,
+    "question": "'வசனநடை கைவந்த வல்லாளர்' எனப் புகழப்படுபவர் யார்?",
+    "imageUrl": null,
+    "answerOptions": [
+      {
+        "text": "வீரமாமுனிவர்",
+        "rationale": "இவர் தேம்பாவணி இயற்றியவர்.",
+        "isCorrect": false
+      },
+      {
+        "text": "மறைமலை அடிகள்",
+        "rationale": "தனித்தமிழ் இயக்க தந்தை.",
+        "isCorrect": false
+      },
+      {
+        "text": "ஆறுமுக நாவலர்",
+        "rationale": "ஆறுமுக நாவலர் 'வசனநடை கைவந்த வல்லாளர்' எனப் புகழப்படுகிறார்.",
+        "isCorrect": true
+      },
+      {
+        "text": "திரு.வி.க",
+        "rationale": "தமிழ் தென்றல்.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "யாழ்ப்பாணம் நல்லூரில் பிறந்தவர்."
+  },
+  {
+    "questionNumber": 15,
+    "question": "ஆறுமுக நாவலர் எந்த மொழிகளில் புலமை பெற்றவர்?",
+    "imageUrl": null,
+    "answerOptions": [
+      {
+        "text": "தமிழ், ஆங்கிலம், பிரெஞ்சு",
+        "rationale": "பிரெஞ்சு மொழியில் புலமை பற்றி குறிப்பு இல்லை.",
+        "isCorrect": false
+      },
+      {
+        "text": "தமிழ், வடமொழி, ஆங்கிலம்",
+        "rationale": "இவர் மும்மொழிப் புலமை (தமிழ், வடமொழி, ஆங்கிலம்) பெற்றவர்.",
+        "isCorrect": true
+      },
+      {
+        "text": "தமிழ், தெலுங்கு, கன்னடம்",
+        "rationale": "தவறான இணை.",
+        "isCorrect": false
+      },
+      {
+        "text": "தமிழ், இந்தி, ஆங்கிலம்",
+        "rationale": "தவறான இணை.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "மும்மொழிப் புலமை."
+  },
+  {
+    "questionNumber": 16,
+    "question": "'எல்லி' என்பதன் பொருள் என்ன?",
+    "imageUrl": null,
+    "answerOptions": [
+      {
+        "text": "நிலவு",
+        "rationale": "தவறான பொருள்.",
+        "isCorrect": false
+      },
+      {
+        "text": "சூரியன்",
+        "rationale": "பத்தியில் 'எல்லி' என்பதற்குச் சூரியன் என்று விடை தரப்பட்டுள்ளது.",
+        "isCorrect": true
+      },
+      {
+        "text": "நட்சத்திரம்",
+        "rationale": "தவறான பொருள்.",
+        "isCorrect": false
+      },
+      {
+        "text": "இருள்",
+        "rationale": "தவறான பொருள்.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "பகலில் ஒளி தருவது."
+  },
+  {
+    "questionNumber": 17,
+    "question": "ஏன்? என்ன? எப்போது? எப்படி? எங்கே? யார்? எனும் ஆறு கேள்விகளைச் செய்தியாளர்கள் அறியச் செய்தவர் யார்?",
+    "imageUrl": null,
+    "answerOptions": [
+      {
+        "text": "ஷேக்ஸ்பியர்",
+        "rationale": "இவர் நாடக ஆசிரியர்.",
+        "isCorrect": false
+      },
+      {
+        "text": "அறிஞர் கிப்ளிங்",
+        "rationale": "இக்கேள்விகளை 'அன்புத் தொண்டர் ஆறுபேர்கள்' எனக் கூறியவர் கிப்ளிங்.",
+        "isCorrect": true
+      },
+      {
+        "text": "பாரதியார்",
+        "rationale": "இவர் இந்திய இதழாளர்.",
+        "isCorrect": false
+      },
+      {
+        "text": "கல்கி",
+        "rationale": "இவர் தமிழ் எழுத்தாளர்.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "ஜங்கிள் புக் எழுதியவர்."
+  },
+  {
+    "questionNumber": 18,
+    "question": "செய்தியைப் பெறுதல் என்பது எதனைப் போன்றது என ஒப்பிடப்படுகிறது?",
+    "imageUrl": null,
+    "answerOptions": [
+      {
+        "text": "மீன் பிடித்தல்",
+        "rationale": "தவறான ஒப்பீடு.",
+        "isCorrect": false
+      },
+      {
+        "text": "துப்பறிதல்",
+        "rationale": "செய்தியைப் பெறுதல் என்பது துப்பறிதல் போன்றது.",
+        "isCorrect": true
+      },
+      {
+        "text": "விளையாடுதல்",
+        "rationale": "தவறான ஒப்பீடு.",
+        "isCorrect": false
+      },
+      {
+        "text": "பாடம் படித்தல்",
+        "rationale": "தவறான ஒப்பீடு.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "புலனாய்வு செய்வது போல."
+  },
+  {
+    "questionNumber": 19,
+    "question": "செய்தியாளர்களுக்குப் பொதுமக்களின் கருத்துகளை அறிய எது உதவுகிறது?",
+    "imageUrl": null,
+    "answerOptions": [
+      {
+        "text": "கூறெடுப்பு ஆய்வு (Sample Survey)",
+        "rationale": "பொதுமக்களின் கருத்துக்களை கூறெடுப்பு ஆய்வு வாயிலாக நடத்துவார்கள்.",
+        "isCorrect": true
+      },
+      {
+        "text": "அரசு அறிக்கை",
+        "rationale": "இது அரசு தகவல்களைத் தரும்.",
+        "isCorrect": false
+      },
+      {
+        "text": "தலையங்கம்",
+        "rationale": "இது ஆசிரியரின் கருத்து.",
+        "isCorrect": false
+      },
+      {
+        "text": "விளம்பரம்",
+        "rationale": "இது வணிக நோக்கமுடையது.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "புள்ளியியல் முறை."
+  },
+  {
+    "questionNumber": 20,
+    "question": "தில்லி சிறைச்சாலையின் நிலையை அறிய தானே சிறைப்பட்டு செய்தி திரட்டியவர் எந்த இதழைச் சேர்ந்தவர்?",
+    "imageUrl": null,
+    "answerOptions": [
+      {
+        "text": "தினத்தந்தி",
+        "rationale": "தவறு.",
+        "isCorrect": false
+      },
+      {
+        "text": "இந்தியன் எக்ஸ்பிரஸ்",
+        "rationale": "இந்தியன் எக்ஸ்பிரஸ் செய்தியாளர் தானே சிறைப்பட்டு செய்தி திரட்டினார்.",
+        "isCorrect": true
+      },
+      {
+        "text": "தி இந்து",
+        "rationale": "தவறு.",
+        "isCorrect": false
+      },
+      {
+        "text": "லண்டன் டைம்ஸ்",
+        "rationale": "லண்டன் டைம்ஸ் செய்தியாளர் போர்முனைக்குச் சென்றார்.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "இந்திய ஆங்கில நாளிதழ்."
+  },
+  {
+    "questionNumber": 21,
+    "question": "'மடை திறந்த வெள்ளம் போல்' - இந்த உவமை உணர்த்தும் பொருள் என்ன?",
+    "imageUrl": null,
+    "answerOptions": [
+      {
+        "text": "ஒற்றுமையின்மை",
+        "rationale": "தவறு.",
+        "isCorrect": false
+      },
+      {
+        "text": "தடையின்றி மிகுதியாக",
+        "rationale": "மடை திறந்த வெள்ளம் போல் என்றால் தடையின்றி மிகுதியாக என்று பொருள்.",
+        "isCorrect": true
+      },
+      {
+        "text": "வெளிப்படைத் தன்மை",
+        "rationale": "இது உள்ளங்கை நெல்லிக்கனி.",
+        "isCorrect": false
+      },
+      {
+        "text": "பயனற்ற செயல்",
+        "rationale": "இது விழலுக்கு இறைத்த நீர்.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "திருவிழாக் கூட்டத்திற்கு உவமையாகச் சொல்லலாம்."
+  },
+  {
+    "questionNumber": 22,
+    "question": "'உள்ளங்கை நெல்லிக்கனி போல' - உவமை உணர்த்தும் பொருள்?",
+    "imageUrl": null,
+    "answerOptions": [
+      {
+        "text": "வெளிப்படைத் தன்மை",
+        "rationale": "உள்ளங்கை நெல்லிக்கனி போல என்றால் வெளிப்படைத் தன்மை என்று பொருள்.",
+        "isCorrect": true
+      },
+      {
+        "text": "தற்செயல் நிகழ்வு",
+        "rationale": "இது காக்கை உட்கார பனம்பழம் விழுந்தது போல.",
+        "isCorrect": false
+      },
+      {
+        "text": "எதிர்பாரா நிகழ்வு",
+        "rationale": "இது கிணறு வெட்ட பூதம் கிளம்பியது போல.",
+        "isCorrect": false
+      },
+      {
+        "text": "எளிதில் மனதில் பதிதல்",
+        "rationale": "இது பசுமரத்து ஆணி போல.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "எல்லாம் தெளிவாகத் தெரிவது."
+  },
+  {
+    "questionNumber": 23,
+    "question": "'காக்கை உட்காரப் பனம்பழம் விழுந்தது போல' - இந்த உவமையின் பொருள்?",
+    "imageUrl": null,
+    "answerOptions": [
+      {
+        "text": "திட்டமிட்ட செயல்",
+        "rationale": "தவறு.",
+        "isCorrect": false
+      },
+      {
+        "text": "தற்செயல் நிகழ்வு",
+        "rationale": "இது தற்செயலாக நடக்கும் நிகழ்வைக் குறிக்கிறது.",
+        "isCorrect": true
+      },
+      {
+        "text": "பயனற்ற செயல்",
+        "rationale": "தவறு.",
+        "isCorrect": false
+      },
+      {
+        "text": "ஒற்றுமையின்மை",
+        "rationale": "தவறு.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "எதிர்பாராமல் நடப்பது."
+  },
+  {
+    "questionNumber": 24,
+    "question": "'பசுமரத்து ஆணி போல' - உவமை கூறும் பொருள்?",
+    "imageUrl": null,
+    "answerOptions": [
+      {
+        "text": "எளிதில் மனதில் பதிதல்",
+        "rationale": "இளவயதில் கற்கும் கல்வி பசுமரத்து ஆணி போல பதியும்.",
+        "isCorrect": true
+      },
+      {
+        "text": "வேதனை மிகுதல்",
+        "rationale": "இது அனலில் இட்ட மெழுகு.",
+        "isCorrect": false
+      },
+      {
+        "text": "நிரந்தரமற்றது",
+        "rationale": "இது நீர்மேல் எழுத்து.",
+        "isCorrect": false
+      },
+      {
+        "text": "பயனற்றது",
+        "rationale": "தவறு.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "ஆழமாகப் பதிவது."
+  },
+  {
+    "questionNumber": 25,
+    "question": "'விழலுக்கு இறைத்த நீர் போல' - இதன் பொருள் என்ன?",
+    "imageUrl": null,
+    "answerOptions": [
+      {
+        "text": "மிகவும் பயனுள்ளது",
+        "rationale": "தவறு.",
+        "isCorrect": false
+      },
+      {
+        "text": "பயனற்ற செயல்",
+        "rationale": "விழல் (புல்) வகைக்கு நீர் இறைப்பது பயனற்றது.",
+        "isCorrect": true
+      },
+      {
+        "text": "விரைவான செயல்",
+        "rationale": "தவறு.",
+        "isCorrect": false
+      },
+      {
+        "text": "தற்செயல் நிகழ்வு",
+        "rationale": "தவறு.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "வீண் வேலை."
+  },
+  {
+    "questionNumber": 26,
+    "question": "'அடியற்ற மரம் போல' - உவமை உணர்த்தும் உணர்வு?",
+    "imageUrl": null,
+    "answerOptions": [
+      {
+        "text": "மகிழ்ச்சி",
+        "rationale": "தவறு.",
+        "isCorrect": false
+      },
+      {
+        "text": "பெரும்துன்பம் / சாய்ந்து விடுதல்",
+        "rationale": "கணவன் இறந்த செய்தி கேட்டு கண்ணகி அடியற்ற மரம் போலச் சாய்ந்தாள்.",
+        "isCorrect": true
+      },
+      {
+        "text": "நம்பிக்கை",
+        "rationale": "தவறு.",
+        "isCorrect": false
+      },
+      {
+        "text": "கோபம்",
+        "rationale": "தவறு.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "வேர் இல்லாத மரம்."
+  },
+  {
+    "questionNumber": 27,
+    "question": "'இலைமறை காய் போல' - உவமை கூறும் பொருள்?",
+    "imageUrl": null,
+    "answerOptions": [
+      {
+        "text": "வெளிப்படையாக",
+        "rationale": "இது உள்ளங்கை நெல்லிக்கனி.",
+        "isCorrect": false
+      },
+      {
+        "text": "மறைமுகமாக",
+        "rationale": "இலைமறை காய் போல என்றால் மறைமுகமாக என்று பொருள்.",
+        "isCorrect": true
+      },
+      {
+        "text": "வேகமாக",
+        "rationale": "தவறு.",
+        "isCorrect": false
+      },
+      {
+        "text": "தெளிவாக",
+        "rationale": "தவறு.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "திருக்குறளின் பொருள் சிலசமயம் இப்படி இருக்கும்."
+  },
+  {
+    "questionNumber": 28,
+    "question": "'கண்ணினைக் காக்கும் இமை போல' - இதன் பொருள்?",
+    "imageUrl": null,
+    "answerOptions": [
+      {
+        "text": "அக்கறையாக / பாதுகாப்பு",
+        "rationale": "தாய் குழந்தையை இமை போலக் காத்தாள்.",
+        "isCorrect": true
+      },
+      {
+        "text": "தொல்லையாக",
+        "rationale": "தவறு.",
+        "isCorrect": false
+      },
+      {
+        "text": "விலகி இருத்தல்",
+        "rationale": "தவறு.",
+        "isCorrect": false
+      },
+      {
+        "text": "பயனற்றது",
+        "rationale": "தவறு.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "மிகப் பாதுகாப்பாக."
+  },
+  {
+    "questionNumber": 29,
+    "question": "'அத்தி பூத்தாற்போல்' - உவமை உணர்த்தும் பொருள்?",
+    "imageUrl": null,
+    "answerOptions": [
+      {
+        "text": "அடிக்கடி நடப்பது",
+        "rationale": "தவறு.",
+        "isCorrect": false
+      },
+      {
+        "text": "அரிதாக நடப்பது",
+        "rationale": "அத்தி பூப்பது மிகவும் அரிதான நிகழ்வு.",
+        "isCorrect": true
+      },
+      {
+        "text": "வேகமாக நடப்பது",
+        "rationale": "தவறு.",
+        "isCorrect": false
+      },
+      {
+        "text": "எப்போதும் நடப்பது",
+        "rationale": "தவறு.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Rare event."
+  },
+  {
+    "questionNumber": 30,
+    "question": "'குடத்தில் இட்ட விளக்கு போல' - உவமை கூறும் பொருள்?",
+    "imageUrl": null,
+    "answerOptions": [
+      {
+        "text": "திறமை வெளிப்படாமல் இருத்தல்",
+        "rationale": "குடத்துக்குள் இருக்கும் விளக்கின் ஒளி வெளியே தெரியாது.",
+        "isCorrect": true
+      },
+      {
+        "text": "அனைவரும் அறிதல்",
+        "rationale": "இது குன்றின் மேலிட்ட விளக்கு.",
+        "isCorrect": false
+      },
+      {
+        "text": "தெளிவான அறிவு",
+        "rationale": "தவறு.",
+        "isCorrect": false
+      },
+      {
+        "text": "வேகமாகப் பரவுதல்",
+        "rationale": "இது காட்டுத்தீ.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "வெளிச்சம் வெளியே வராது."
+  },
+  {
+    "questionNumber": 31,
+    "question": "'கீரியும் பாம்பும் போல' - உவமை உணர்த்தும் உறவு?",
+    "imageUrl": null,
+    "answerOptions": [
+      {
+        "text": "நட்பு",
+        "rationale": "தவறு.",
+        "isCorrect": false
+      },
+      {
+        "text": "பகை / சண்டை",
+        "rationale": "கீரியும் பாம்பும் எதிரிகள்.",
+        "isCorrect": true
+      },
+      {
+        "text": "ஒற்றுமை",
+        "rationale": "தவறு.",
+        "isCorrect": false
+      },
+      {
+        "text": "பாசம்",
+        "rationale": "தவறு.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "எலியும் பூனையும் போல."
+  },
+  {
+    "questionNumber": 32,
+    "question": "'நீர்மேல் எழுத்துப் போல' - இதன் தன்மை என்ன?",
+    "imageUrl": null,
+    "answerOptions": [
+      {
+        "text": "நிரந்தரமானது",
+        "rationale": "தவறு.",
+        "isCorrect": false
+      },
+      {
+        "text": "நிரந்தரமற்றது / நிலையற்றது",
+        "rationale": "தண்ணீரில் எழுதினால் உடனே அழிந்துவிடும்.",
+        "isCorrect": true
+      },
+      {
+        "text": "ஆழமானது",
+        "rationale": "தவறு.",
+        "isCorrect": false
+      },
+      {
+        "text": "தெளிவானது",
+        "rationale": "தவறு.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "குடிகாரனின் வாக்கு இதற்கு உதாரணம்."
+  },
+  {
+    "questionNumber": 33,
+    "question": "'பசுத்தோல் போர்த்திய புலி போல' - இதன் பொருள்?",
+    "imageUrl": null,
+    "answerOptions": [
+      {
+        "text": "வீரம்",
+        "rationale": "தவறு.",
+        "isCorrect": false
+      },
+      {
+        "text": "சாதுவாக நடிப்பது / வஞ்சகம்",
+        "rationale": "வெளித்தோற்றத்தில் நல்லவர் போலத் தெரிந்து உள்ளே கெட்டவராக இருப்பது.",
+        "isCorrect": true
+      },
+      {
+        "text": "அறியாமை",
+        "rationale": "தவறு.",
+        "isCorrect": false
+      },
+      {
+        "text": "வேகம்",
+        "rationale": "தவறு.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "நடிப்பு."
+  },
+  {
+    "questionNumber": 34,
+    "question": "'பழம் நழுவிப் பாலில் விழுந்தாற்போல' - உவமையின் பொருள்?",
+    "imageUrl": null,
+    "answerOptions": [
+      {
+        "text": "எதிர்பாராத துன்பம்",
+        "rationale": "தவறு.",
+        "isCorrect": false
+      },
+      {
+        "text": "செயல் சுலபமாக / எதிர்பாராமல் நன்மையாக முடிவது",
+        "rationale": "நினைத்த காரியம் எளிதாகவும் இனிமையாகவும் நடப்பது.",
+        "isCorrect": true
+      },
+      {
+        "text": "பயனற்ற செயல்",
+        "rationale": "தவறு.",
+        "isCorrect": false
+      },
+      {
+        "text": "காலதாமதம்",
+        "rationale": "தவறு.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "டபுள் லாட்டரி."
+  },
+  {
+    "questionNumber": 35,
+    "question": "'எரிகிற நெருப்பில் எண்ணெய் வார்த்தாற்போல' - இதன் பொருள்?",
+    "imageUrl": null,
+    "answerOptions": [
+      {
+        "text": "பிரச்சினையைத் தீர்த்தல்",
+        "rationale": "தவறு.",
+        "isCorrect": false
+      },
+      {
+        "text": "பிரச்சினையைப் பெரிதாக்குதல்",
+        "rationale": "நெருப்பில் எண்ணெய் ஊற்றினால் இன்னும் எரியும்.",
+        "isCorrect": true
+      },
+      {
+        "text": "அமைதிப்படுத்துதல்",
+        "rationale": "தவறு.",
+        "isCorrect": false
+      },
+      {
+        "text": "வெளிச்சம் தருதல்",
+        "rationale": "இங்கு உவமை பிரச்சினையைக் குறிக்கிறது.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "தூண்டிவிடுதல்."
+  },
+  {
+    "questionNumber": 36,
+    "question": "'நகமும் சதையும் போல' - உவமை உணர்த்தும் உறவு?",
+    "imageUrl": null,
+    "answerOptions": [
+      {
+        "text": "பகைமை",
+        "rationale": "தவறு.",
+        "isCorrect": false
+      },
+      {
+        "text": "நெருக்கம் / நட்பு",
+        "rationale": "நகமும் சதையும் பிரிிக்க முடியாத நெருக்கம்.",
+        "isCorrect": true
+      },
+      {
+        "text": "துரோகம்",
+        "rationale": "தவறு.",
+        "isCorrect": false
+      },
+      {
+        "text": "வேற்றுமை",
+        "rationale": "தவறு.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "இணைபிரியாத தோழிகள்."
+  },
+  {
+    "questionNumber": 37,
+    "question": "'நுனிப்புல் மேய்ந்தாற்போல' - இதன் பொருள்?",
+    "imageUrl": null,
+    "answerOptions": [
+      {
+        "text": "ஆழ்ந்து படித்தல்",
+        "rationale": "தவறு.",
+        "isCorrect": false
+      },
+      {
+        "text": "மேலோட்டமாக",
+        "rationale": "நுனியை மட்டும் மேய்வது முழுமையானது அல்ல.",
+        "isCorrect": true
+      },
+      {
+        "text": "திருப்தியாக",
+        "rationale": "தவறு.",
+        "isCorrect": false
+      },
+      {
+        "text": "விரைவாக",
+        "rationale": "தவறு.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "தேர்வுக்குச் சரியாகப் படிக்காதவர்."
+  },
+  {
+    "questionNumber": 38,
+    "question": "'பாம்புக்குப் பால் வார்த்தாற்போல' - உவமையின் பொருள்?",
+    "imageUrl": null,
+    "answerOptions": [
+      {
+        "text": "நன்றி காட்டுதல்",
+        "rationale": "தவறு.",
+        "isCorrect": false
+      },
+      {
+        "text": "தீயவர்களுக்கு நன்மை செய்தல் / தீமை விளைவிப்பது",
+        "rationale": "பாம்புக்குப் பால் ஊற்றினாலும் அது விஷத்தையே கக்கும்.",
+        "isCorrect": true
+      },
+      {
+        "text": "புண்ணியம் செய்தல்",
+        "rationale": "தவறு.",
+        "isCorrect": false
+      },
+      {
+        "text": "பயம் போக்குதல்",
+        "rationale": "தவறு.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "திருடனுக்கு உதவுவது போல."
+  },
+  {
+    "questionNumber": 39,
+    "question": "'அள்ளி இறைத்தல்' என்ற மரபுத்தொடரின் பொருள்?",
+    "imageUrl": null,
+    "answerOptions": [
+      {
+        "text": "சேமித்தல்",
+        "rationale": "தவறு.",
+        "isCorrect": false
+      },
+      {
+        "text": "அளவுக்கு மேல் செலவு செய்தல்",
+        "rationale": "பணத்தை அள்ளி இறைத்தல் கூடாது.",
+        "isCorrect": true
+      },
+      {
+        "text": "தானம் செய்தல்",
+        "rationale": "இது நல்ல செயல், ஆனால் மரபுத்தொடர் விரயத்தைக் குறிக்கிறது.",
+        "isCorrect": false
+      },
+      {
+        "text": "நீர் ஊற்றுதல்",
+        "rationale": "இது நேரடிப் பொருள், மரபுப் பொருள் அல்ல.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "ஊதாரித்தனம்."
+  },
+  {
+    "questionNumber": 40,
+    "question": "'ஆறப் போடுதல்' என்ற மரபுத்தொடரின் பொருள்?",
+    "imageUrl": null,
+    "answerOptions": [
+      {
+        "text": "உணவை ஆறவைத்தல்",
+        "rationale": "நேரடிப் பொருள்.",
+        "isCorrect": false
+      },
+      {
+        "text": "காலதாமதம் செய்தல் / பிற்போடல்",
+        "rationale": "ஒரு செயலை உடனே செய்யாமல் தள்ளிப்போடுவது.",
+        "isCorrect": true
+      },
+      {
+        "text": "காய வைத்தல்",
+        "rationale": "தவறு.",
+        "isCorrect": false
+      },
+      {
+        "text": "முடிவு செய்தல்",
+        "rationale": "தவறு.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "பிரச்சினையை இப்போதைக்கு விட்டுவிடுதல்."
+  },
+  {
+    "questionNumber": 41,
+    "question": "'கானல் நீர்' என்ற மரபுத்தொடர் உணர்த்தும் பொருள்?",
+    "imageUrl": null,
+    "answerOptions": [
+      {
+        "text": "கடல் நீர்",
+        "rationale": "தவறு.",
+        "isCorrect": false
+      },
+      {
+        "text": "கிடைப்பது போலத் தோன்றும் ஆனால் கிடைக்காது / இல்லாதது",
+        "rationale": "கானல் நீர் என்பது மாயத் தோற்றம்.",
+        "isCorrect": true
+      },
+      {
+        "text": "சுத்தமான நீர்",
+        "rationale": "தவறு.",
+        "isCorrect": false
+      },
+      {
+        "text": "மழை நீர்",
+        "rationale": "தவறு.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "பாலைவனத்தில் தெரிவது."
+  },
+  {
+    "questionNumber": 42,
+    "question": "'ஆகாயக் கோட்டை' - மரபுத்தொடரின் பொருள்?",
+    "imageUrl": null,
+    "answerOptions": [
+      {
+        "text": "உயரமான கட்டிடம்",
+        "rationale": "தவறு.",
+        "isCorrect": false
+      },
+      {
+        "text": "மிதமிஞ்சிய கற்பனை",
+        "rationale": "நடக்காத ஒன்றை கற்பனை செய்வது.",
+        "isCorrect": true
+      },
+      {
+        "text": "விமானம்",
+        "rationale": "தவறு.",
+        "isCorrect": false
+      },
+      {
+        "text": "சொர்க்கம்",
+        "rationale": "தவறு.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "மனக்கோட்டை கட்டுவது."
+  },
+  {
+    "questionNumber": 43,
+    "question": "'முதலைக் கண்ணீர்' - மரபுத்தொடரின் பொருள்?",
+    "imageUrl": null,
+    "answerOptions": [
+      {
+        "text": "உண்மையான அழுகை",
+        "rationale": "தவறு.",
+        "isCorrect": false
+      },
+      {
+        "text": "பொய் அழுகை",
+        "rationale": "உள்ளத்தில் இரக்கமின்றி வெளியில் அழுவது.",
+        "isCorrect": true
+      },
+      {
+        "text": "கோபம்",
+        "rationale": "தவறு.",
+        "isCorrect": false
+      },
+      {
+        "text": "பயம்",
+        "rationale": "தவறு.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "வஞ்சகன் வடிக்கும் கண்ணீர்."
+  },
+  {
+    "questionNumber": 44,
+    "question": "'அவசரக்குடுக்கை' - மரபுத்தொடரின் பொருள்?",
+    "imageUrl": null,
+    "answerOptions": [
+      {
+        "text": "விரைவாக வேலை செய்பவன்",
+        "rationale": "தவறு.",
+        "isCorrect": false
+      },
+      {
+        "text": "பதற்றக்காரன் / எண்ணிச் செயல்படாமை",
+        "rationale": "நிதானம் இல்லாமல் செயல்படுபவன்.",
+        "isCorrect": true
+      },
+      {
+        "text": "தாமதமானவன்",
+        "rationale": "தவறு.",
+        "isCorrect": false
+      },
+      {
+        "text": "புத்திசாலி",
+        "rationale": "தவறு.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "எதையும் யோசிக்காமல் செய்பவன்."
+  },
+  {
+    "questionNumber": 45,
+    "question": "'ஊரான் பிள்ளையை ஊட்டி வளர்த்தால் தன் பிள்ளை தானே வளரும்' - இதில் 'ஊரான் பிள்ளை' என்பதன் உண்மையான பொருள் என்ன?",
+    "imageUrl": null,
+    "answerOptions": [
+      {
+        "text": "பக்கத்து வீட்டுக்காரர் குழந்தை",
+        "rationale": "இது பொதுப்பொருள்.",
+        "isCorrect": false
+      },
+      {
+        "text": "மனைவி (கர்ப்பிணி)",
+        "rationale": "ஊரான் வீட்டுப் பிள்ளையாகிய உன் மனைவியை நன்கு கவனித்தால் உன் குழந்தை வளரும்.",
+        "isCorrect": true
+      },
+      {
+        "text": "தத்துப்பிள்ளை",
+        "rationale": "தவறு.",
+        "isCorrect": false
+      },
+      {
+        "text": "மாணவன்",
+        "rationale": "தவறு.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "கர்ப்பிணிப் பெண்ணைக் குறிக்கும்."
+  },
+  {
+    "questionNumber": 46,
+    "question": "'கழுதைக்குத் தெரியுமா கற்பூர வாசனை' - இதில் 'கழு' என்பது எதைக் குறிக்கிறது?",
+    "imageUrl": null,
+    "answerOptions": [
+      {
+        "text": "விலங்கு",
+        "rationale": "தவறு.",
+        "isCorrect": false
+      },
+      {
+        "text": "ஒரு வகை கோரைப்புல்",
+        "rationale": "கழு தைக்கத் தெரியுமாம் - கழு என்ற கோரைப்புல்லில் பாய் தைத்தால் கற்பூர வாசனை வரும்.",
+        "isCorrect": true
+      },
+      {
+        "text": "மரம்",
+        "rationale": "தவறு.",
+        "isCorrect": false
+      },
+      {
+        "text": "பூ",
+        "rationale": "தவறு.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "பாய் தைக்கப் பயன்படுவது."
+  },
+  {
+    "questionNumber": 47,
+    "question": "'ஆயிரம் பேரை கொன்றவன் அரை வைத்தியன்' - இதன் உண்மையான வடிவம்?",
+    "imageUrl": null,
+    "answerOptions": [
+      {
+        "text": "ஆயிரம் நோய்களைக் கொன்றவன்",
+        "rationale": "தவறு.",
+        "isCorrect": false
+      },
+      {
+        "text": "ஆயிரம் வேரைக் கொண்டவன்",
+        "rationale": "ஆயிரம் வேர்களை (மூலிகைகளை) அறிந்தவனே அரை வைத்தியன்.",
+        "isCorrect": true
+      },
+      {
+        "text": "ஆயிரம் பொய் சொன்னவன்",
+        "rationale": "தவறு.",
+        "isCorrect": false
+      },
+      {
+        "text": "ஆயிரம் போர் புரிந்தவன்",
+        "rationale": "தவறு.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "மூலிகை வேர்."
+  },
+  {
+    "questionNumber": 48,
+    "question": "'களவும் கற்று மற' - இதன் உண்மையான பொருள்?",
+    "imageUrl": null,
+    "answerOptions": [
+      {
+        "text": "திருடக் கற்றுக்கொண்டு மறந்துவிடு",
+        "rationale": "தவறு.",
+        "isCorrect": false
+      },
+      {
+        "text": "களவும் கத்தும் மற",
+        "rationale": "களவு (திருட்டு), கத்து (பொய்) ஆகிய தீயவற்றை மறந்துவிடு.",
+        "isCorrect": true
+      },
+      {
+        "text": "கலைகளைக் கற்று மற",
+        "rationale": "தவறு.",
+        "isCorrect": false
+      },
+      {
+        "text": "திருடினாலும் பிடிபடாதே",
+        "rationale": "தவறு.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "தீய பழக்கங்களை மறக்க வேண்டும்."
+  },
+  {
+    "questionNumber": 49,
+    "question": "'அரசனை நம்பி புருசனைக் கைவிட்டது போல' - இதில் 'அரசு' என்பது எதைக் குறிக்கிறது?",
+    "imageUrl": null,
+    "answerOptions": [
+      {
+        "text": "மன்னன்",
+        "rationale": "தவறு.",
+        "isCorrect": false
+      },
+      {
+        "text": "அரச மரம்",
+        "rationale": "பிள்ளைப்பேறு வேண்டி அரச மரத்தைச் சுற்றுவது.",
+        "isCorrect": true
+      },
+      {
+        "text": "அரசாங்கம்",
+        "rationale": "தவறு.",
+        "isCorrect": false
+      },
+      {
+        "text": "அரண்மனை",
+        "rationale": "தவறு.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "கோவிலில் இருக்கும் மரம்."
+  },
+  {
+    "questionNumber": 50,
+    "question": "'சட்டியில் இருந்தால் அகப்பையில் வரும்' - இதன் உண்மையான பொருள்?",
+    "imageUrl": null,
+    "answerOptions": [
+      {
+        "text": "சமையல் பாத்திரத்தில் இருந்தால் கரண்டியில் வரும்",
+        "rationale": "இது மேலோட்டமான பொருள்.",
+        "isCorrect": false
+      },
+      {
+        "text": "சஷ்டியில் விரதம் இருந்தால் கருப்பையில் குழந்தை வரும்",
+        "rationale": "கந்த சஷ்டி விரதத்தின் பலன்.",
+        "isCorrect": true
+      },
+      {
+        "text": "பணம் இருந்தால் செலவு செய்யலாம்",
+        "rationale": "தவறு.",
+        "isCorrect": false
+      },
+      {
+        "text": "முயற்சி இருந்தால் வெற்றி வரும்",
+        "rationale": "தவறு.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "கந்த சஷ்டி விரதம்."
+  },
+  {
+    "questionNumber": 51,
+    "question": "'தை பிறந்தால் வழி பிறக்கும்' - இதன் வேளாண்மை சார்ந்த பொருள்?",
+    "imageUrl": null,
+    "answerOptions": [
+      {
+        "text": "தை மாதம் கோவில் திருவிழா வரும்",
+        "rationale": "தவறு.",
+        "isCorrect": false
+      },
+      {
+        "text": "அறுவடை முடிந்து வயல் வரப்பில் நடக்க வழி கிடைக்கும் / பணவரவு இருக்கும்",
+        "rationale": "நெல் கதிர்கள் அறுவடை செய்யப்பட்ட பின் வழி கிடைக்கும்.",
+        "isCorrect": true
+      },
+      {
+        "text": "புதிய சாலை போடுவார்கள்",
+        "rationale": "தவறு.",
+        "isCorrect": false
+      },
+      {
+        "text": "திருமணம் நடக்கும்",
+        "rationale": "தவறு.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "பொங்கல் பண்டிகை காலம்."
+  },
+  {
+    "questionNumber": 52,
+    "question": "'முடவன் கொம்புத் தேனுக்கு ஆசைப்பட்டதைப் போல' - இதன் திருத்தப்பட்ட வடிவம்?",
+    "imageUrl": null,
+    "answerOptions": [
+      {
+        "text": "முயலான் கொம்புத் தேனுக்கு",
+        "rationale": "முயற்சி செய்யாதவன் (முயலான்) ஆசைப்படக்கூடாது.",
+        "isCorrect": true
+      },
+      {
+        "text": "குருடன் கொம்புத் தேனுக்கு",
+        "rationale": "தவறு.",
+        "isCorrect": false
+      },
+      {
+        "text": "குள்ளன் கொம்புத் தேனுக்கு",
+        "rationale": "தவறு.",
+        "isCorrect": false
+      },
+      {
+        "text": "சிறியவன் கொம்புத் தேனுக்கு",
+        "rationale": "தவறு.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "முயற்சி இல்லாதவன்."
+  },
+  {
+    "questionNumber": 53,
+    "question": "'குறைக்கிற நாய் கடிக்காது' - இதன் உண்மையான சொல்?",
+    "imageUrl": null,
+    "answerOptions": [
+      {
+        "text": "குரைக்கிற நாய்",
+        "rationale": "இது தற்போது புழக்கத்தில் உள்ளது.",
+        "isCorrect": false
+      },
+      {
+        "text": "குழைகிற நாய்",
+        "rationale": "பாசமாக குழைகிற நாய் கடிக்காது என்பதே சரி.",
+        "isCorrect": true
+      },
+      {
+        "text": "அமைதி நாய்",
+        "rationale": "தவறு.",
+        "isCorrect": false
+      },
+      {
+        "text": "தூங்கும் நாய்",
+        "rationale": "தவறு.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "பாசத்தைக் காட்டுவது."
+  },
+  {
+    "questionNumber": 54,
+    "question": "'எரிகிற வீட்டில் பிடுங்கினது இலாபம்' - பழமொழியின் பொருள்?",
+    "imageUrl": null,
+    "answerOptions": [
+      {
+        "text": "தீயை அணைப்பது",
+        "rationale": "தவறு.",
+        "isCorrect": false
+      },
+      {
+        "text": "அழிவில் எஞ்சியது லாபம்",
+        "rationale": "முழுமையாக அழியும் தருவாயில் கிடைப்பது வரை லாபம்.",
+        "isCorrect": true
+      },
+      {
+        "text": "வீடு கட்டுவது",
+        "rationale": "தவறு.",
+        "isCorrect": false
+      },
+      {
+        "text": "திருடுவது",
+        "rationale": "தவறு.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "நஷ்டத்திலும் சிறு பயன்."
+  },
+  {
+    "questionNumber": 55,
+    "question": "'காற்று உள்ளபோதே தூற்றிக்கொள்' - பழமொழியின் பொருள்?",
+    "imageUrl": null,
+    "answerOptions": [
+      {
+        "text": "காலம் தாழ்த்திச் செயல்படு",
+        "rationale": "தவறு.",
+        "isCorrect": false
+      },
+      {
+        "text": "வாய்ப்பைப் பயன்படுத்திக்கொள்",
+        "rationale": "கிடைக்கும் வாய்ப்பைச் சரியான நேரத்தில் பயன்படுத்த வேண்டும்.",
+        "isCorrect": true
+      },
+      {
+        "text": "காற்றாடி விடு",
+        "rationale": "தவறு.",
+        "isCorrect": false
+      },
+      {
+        "text": "ஓய்வு எடு",
+        "rationale": "தவறு.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Time management."
+  },
+  {
+    "questionNumber": 56,
+    "question": "'அகத்தின் அழகு முகத்தில் தெரியும்' - பொருள்?",
+    "imageUrl": null,
+    "answerOptions": [
+      {
+        "text": "அழகாக மேக்கப் போடுதல்",
+        "rationale": "தவறு.",
+        "isCorrect": false
+      },
+      {
+        "text": "உள்ளத்தின் உணர்வு முகத்தில் வெளிப்படும்",
+        "rationale": "மனதில் உள்ள மகிழ்ச்சியோ, சோகமோ முகத்தில் தெரியும்.",
+        "isCorrect": true
+      },
+      {
+        "text": "கண்ணாடி பார்ப்பது",
+        "rationale": "தவறு.",
+        "isCorrect": false
+      },
+      {
+        "text": "புகைப்படம் எடுப்பது",
+        "rationale": "தவறு.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "முகம் மனதின் கண்ணாடி."
+  },
+  {
+    "questionNumber": 57,
+    "question": "'ஆழ உழு' - எதை விட சிறந்தது?",
+    "imageUrl": null,
+    "answerOptions": [
+      {
+        "text": "வேகமாக உழுவதை விட",
+        "rationale": "தவறு.",
+        "isCorrect": false
+      },
+      {
+        "text": "அகல உழுவதை விட",
+        "rationale": "அகல உழுவதை விட ஆழ உழுவதே மேல்.",
+        "isCorrect": true
+      },
+      {
+        "text": "உழாமல் இருப்பதை விட",
+        "rationale": "தவறு.",
+        "isCorrect": false
+      },
+      {
+        "text": "நீர் பாய்ச்சுவதை விட",
+        "rationale": "தவறு.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "விவசாயப் பழமொழி."
+  },
+  {
+    "questionNumber": 58,
+    "question": "'சிறு துரும்பும்' எதற்கு உதவும்?",
+    "imageUrl": null,
+    "answerOptions": [
+      {
+        "text": "வீடு கட்ட",
+        "rationale": "தவறு.",
+        "isCorrect": false
+      },
+      {
+        "text": "பல் குத்த",
+        "rationale": "சிறு துரும்பும் பல் குத்த உதவும் (எதையும் இழிவாக நினைக்காதே).",
+        "isCorrect": true
+      },
+      {
+        "text": "எரிக்க",
+        "rationale": "தவறு.",
+        "isCorrect": false
+      },
+      {
+        "text": "எழுத",
+        "rationale": "தவறு.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "சிறிய பொருளும் பயன் தரும்."
+  },
+  {
+    "questionNumber": 59,
+    "question": "'வெள்ளம் வரும் முன்' என்ன செய்ய வேண்டும்?",
+    "imageUrl": null,
+    "answerOptions": [
+      {
+        "text": "ஓட வேண்டும்",
+        "rationale": "தவறு.",
+        "isCorrect": false
+      },
+      {
+        "text": "அணை போட வேண்டும்",
+        "rationale": "முன்னெச்சரிக்கையாக இருக்க வேண்டும்.",
+        "isCorrect": true
+      },
+      {
+        "text": "குளிக்க வேண்டும்",
+        "rationale": "தவறு.",
+        "isCorrect": false
+      },
+      {
+        "text": "மீன் பிடிக்க வேண்டும்",
+        "rationale": "தவறு.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "வருமுன் காப்பதே சிறந்தது."
+  },
+  {
+    "questionNumber": 60,
+    "question": "'மின்னுவது எல்லாம்' என்ன அல்ல?",
+    "imageUrl": null,
+    "answerOptions": [
+      {
+        "text": "வெள்ளி அல்ல",
+        "rationale": "தவறு.",
+        "isCorrect": false
+      },
+      {
+        "text": "பொன்னல்ல",
+        "rationale": "வெளித்தோற்றம் கண்டு ஏமாறக்கூடாது.",
+        "isCorrect": true
+      },
+      {
+        "text": "வைரம் அல்ல",
+        "rationale": "தவறு.",
+        "isCorrect": false
+      },
+      {
+        "text": "விளக்கு அல்ல",
+        "rationale": "தவறு.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "All that glitters is not gold."
+  },
+  {
+    "questionNumber": 61,
+    "question": "'கிணற்றுத் தவளை போல' - உவமை குறிப்பது?",
+    "imageUrl": null,
+    "answerOptions": [
+      {
+        "text": "அறிவு",
+        "rationale": "தவறு.",
+        "isCorrect": false
+      },
+      {
+        "text": "அறியாமை / வெளி உலகம் தெரியாமை",
+        "rationale": "உலகம் தெரியாமல் குறுகிய வட்டத்திற்குள் இருப்பது.",
+        "isCorrect": true
+      },
+      {
+        "text": "ஞானம்",
+        "rationale": "தவறு.",
+        "isCorrect": false
+      },
+      {
+        "text": "சுயநலம்",
+        "rationale": "தவறு.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "உலகம் தெரியாதவர்."
+  },
+  {
+    "questionNumber": 62,
+    "question": "'வேலியே பயிரை மேய்ந்தது போல' - இதன் பொருள்?",
+    "imageUrl": null,
+    "answerOptions": [
+      {
+        "text": "பொறுப்புணர்வு",
+        "rationale": "தவறு.",
+        "isCorrect": false
+      },
+      {
+        "text": "கடமை தவறுதல் / பாதுகாப்பவரே அழித்தல்",
+        "rationale": "காக்க வேண்டியவர்களே தீங்கு செய்வது.",
+        "isCorrect": true
+      },
+      {
+        "text": "எதிர்பாரா நிகழ்வு",
+        "rationale": "தவறு.",
+        "isCorrect": false
+      },
+      {
+        "text": "தற்செயல்",
+        "rationale": "தவறு.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "பாதுகாவலரே திருடன் ஆவது."
+  },
+  {
+    "questionNumber": 63,
+    "question": "'அனலில் இட்ட மெழுகு போல' - உவமை உணர்த்தும் நிலை?",
+    "imageUrl": null,
+    "answerOptions": [
+      {
+        "text": "மகிழ்ச்சி",
+        "rationale": "தவறு.",
+        "isCorrect": false
+      },
+      {
+        "text": "துடிதுடித்தல் / வேதனை",
+        "rationale": "வெப்பத்தில் மெழுகு உருகுவது போல வேதனைப்படுதல்.",
+        "isCorrect": true
+      },
+      {
+        "text": "கோபம்",
+        "rationale": "தவறு.",
+        "isCorrect": false
+      },
+      {
+        "text": "உறக்கம்",
+        "rationale": "தவறு.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "கடுமையான மனவருத்தம்."
+  },
+  {
+    "questionNumber": 64,
+    "question": "'குன்றின் மேலிட்ட விளக்கு போல' - பொருள்?",
+    "imageUrl": null,
+    "answerOptions": [
+      {
+        "text": "யாருக்கும் தெரியாது",
+        "rationale": "தவறு.",
+        "isCorrect": false
+      },
+      {
+        "text": "அனைவரும் அறிதல் / புகழ் பரவுதல்",
+        "rationale": "மலையின் மேல் உள்ள விளக்கு எல்லாருக்கும் தெரியும்.",
+        "isCorrect": true
+      },
+      {
+        "text": "மறைந்து இருத்தல்",
+        "rationale": "தவறு.",
+        "isCorrect": false
+      },
+      {
+        "text": "துன்பம்",
+        "rationale": "தவறு.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "திருக்குறளின் புகழ் போல."
+  },
+  {
+    "questionNumber": 65,
+    "question": "'கிணறு வெட்டப் பூதம் கிளம்பியது போல' - உவமை குறிப்பது?",
+    "imageUrl": null,
+    "answerOptions": [
+      {
+        "text": "எதிர்பாராத நிகழ்வு (அதிர்ச்சி)",
+        "rationale": "ஒன்றைச் செய்யப்போய் வேண்டாத ஒன்று வருவது.",
+        "isCorrect": true
+      },
+      {
+        "text": "நல்ல செயல்",
+        "rationale": "தவறு.",
+        "isCorrect": false
+      },
+      {
+        "text": "தற்செயல்",
+        "rationale": "இது காக்கை உட்கார பனம்பழம் விழுந்தது.",
+        "isCorrect": false
+      },
+      {
+        "text": "திட்டமிட்ட செயல்",
+        "rationale": "தவறு.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "தண்ணீர் வரும் என்று பார்த்தால் பூதம் வந்தது."
+  },
+  {
+    "questionNumber": 66,
+    "question": "'இலவு காத்த கிளி போல' - மரபுத்தொடர் பொருள்?",
+    "imageUrl": null,
+    "answerOptions": [
+      {
+        "text": "வெற்றி",
+        "rationale": "தவறு.",
+        "isCorrect": false
+      },
+      {
+        "text": "ஏமாற்றம்",
+        "rationale": "இலவம் காய் வெடிக்கும் என்று காத்திருந்து ஏமாறுவது.",
+        "isCorrect": true
+      },
+      {
+        "text": "மகிழ்ச்சி",
+        "rationale": "தவறு.",
+        "isCorrect": false
+      },
+      {
+        "text": "காத்திருத்தல்",
+        "rationale": "வெறுமனே காத்திருத்தல் மட்டும் அல்ல, ஏமாற்றமே முக்கியம்.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "பஞ்சு தான் கிடைக்கும்."
+  },
+  {
+    "questionNumber": 67,
+    "question": "'கயிறு திரித்தல்' - மரபுத்தொடர் பொருள்?",
+    "imageUrl": null,
+    "answerOptions": [
+      {
+        "text": "கயிறு செய்தல்",
+        "rationale": "நேரடிப் பொருள்.",
+        "isCorrect": false
+      },
+      {
+        "text": "இல்லாததைச் சொல்லல் / பொய்",
+        "rationale": "பொய்க்கதை கட்டுவது.",
+        "isCorrect": true
+      },
+      {
+        "text": "உண்மை பேசுதல்",
+        "rationale": "தவறு.",
+        "isCorrect": false
+      },
+      {
+        "text": "உதவி செய்தல்",
+        "rationale": "தவறு.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "புளுகுவது."
+  },
+  {
+    "questionNumber": 68,
+    "question": "'ஓலை கிழிந்தது' - மரபுத்தொடர் பொருள்?",
+    "imageUrl": null,
+    "answerOptions": [
+      {
+        "text": "கடிதம் வந்தது",
+        "rationale": "தவறு.",
+        "isCorrect": false
+      },
+      {
+        "text": "வேலை போய்விட்டது",
+        "rationale": "பழங்காலத்தில் பணி நீக்க ஓலை அனுப்புவர்.",
+        "isCorrect": true
+      },
+      {
+        "text": "பரிசு கிடைத்தது",
+        "rationale": "தவறு.",
+        "isCorrect": false
+      },
+      {
+        "text": "திருமணம் முடிந்தது",
+        "rationale": "தவறு.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Dismissal."
+  },
+  {
+    "questionNumber": 69,
+    "question": "'ஈரல் கருகுதல்' - மரபுத்தொடர் பொருள்?",
+    "imageUrl": null,
+    "answerOptions": [
+      {
+        "text": "பசி எடுத்தல்",
+        "rationale": "தவறு.",
+        "isCorrect": false
+      },
+      {
+        "text": "வேதனை மிகுதல்",
+        "rationale": "மிகவும் மன வருத்தம் அடைதல்.",
+        "isCorrect": true
+      },
+      {
+        "text": "சமைத்தல்",
+        "rationale": "தவறு.",
+        "isCorrect": false
+      },
+      {
+        "text": "மகிழ்தல்",
+        "rationale": "தவறு.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "குடல் வேவது போல."
+  },
+  {
+    "questionNumber": 70,
+    "question": "'இரண்டு தோணியில் கால் வைத்தல்' - பொருள்?",
+    "imageUrl": null,
+    "answerOptions": [
+      {
+        "text": "பாதுகாப்பான பயணம்",
+        "rationale": "தவறு.",
+        "isCorrect": false
+      },
+      {
+        "text": "ஒரே நேரத்தில் இரு செயல்களில் ஈடுபடல் / ஆபத்து",
+        "rationale": "மனதை ஒருமுகப்படுத்தாமல் இரண்டிலும் ஈடுபடுவது.",
+        "isCorrect": true
+      },
+      {
+        "text": "விரைவாகச் செல்லுதல்",
+        "rationale": "தவறு.",
+        "isCorrect": false
+      },
+      {
+        "text": "நீச்சல் பழகுதல்",
+        "rationale": "தவறு.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "ஆபத்தானது."
+  },
+  {
+    "questionNumber": 71,
+    "question": "புவி குளிரும்படியாக எது பொழிந்தது?",
+    "imageUrl": null,
+    "answerOptions": [
+      {
+        "text": "பனி",
+        "rationale": "தவறு.",
+        "isCorrect": false
+      },
+      {
+        "text": "மழை",
+        "rationale": "தொடர்ந்து மழை பொழிந்த ஊழிக் காலம் கடந்தது.",
+        "isCorrect": true
+      },
+      {
+        "text": "நெருப்பு",
+        "rationale": "தவறு.",
+        "isCorrect": false
+      },
+      {
+        "text": "காற்று",
+        "rationale": "தவறு.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "வெள்ளம் ஏற்படக் காரணம்."
+  },
+  {
+    "questionNumber": 72,
+    "question": "'பெய்த மழை' - இத்தொடரின் இலக்கணக்குறிப்பு?",
+    "imageUrl": null,
+    "answerOptions": [
+      {
+        "text": "பெயரெச்சம்",
+        "rationale": "பெய்த என்பது எச்சம்.",
+        "isCorrect": true
+      },
+      {
+        "text": "வினையெச்சம்",
+        "rationale": "தவறு.",
+        "isCorrect": false
+      },
+      {
+        "text": "வினைத்தொகை",
+        "rationale": "பெய்மழை என்பது வினைத்தொகை. பெய்த மழை என்பது பெயரெச்சம்.",
+        "isCorrect": false
+      },
+      {
+        "text": "பண்புத்தொகை",
+        "rationale": "தவறு.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "முடிவு பெறாத வினைச்சொல்."
+  },
+  {
+    "questionNumber": 73,
+    "question": "மீனாட்சி சுந்தரனார் இயற்றிய பிள்ளைத்தமிழ் நூல் எது?",
+    "imageUrl": null,
+    "answerOptions": [
+      {
+        "text": "முத்துக்குமாரசாமி பிள்ளைத்தமிழ்",
+        "rationale": "இது குமரகுருபரர்.",
+        "isCorrect": false
+      },
+      {
+        "text": "சேக்கிழார் பிள்ளைத்தமிழ்",
+        "rationale": "இவர் இயற்றிய சேக்கிழார் பிள்ளைத்தமிழ் இவருடைய பெருமையை உணர்த்தும்.",
+        "isCorrect": true
+      },
+      {
+        "text": "மதுரை மீனாட்சியம்மை பிள்ளைத்தமிழ்",
+        "rationale": "இது குமரகுருபரர்.",
+        "isCorrect": false
+      },
+      {
+        "text": "செங்கீரைப் பருவம்",
+        "rationale": "இது நூலல்ல, பருவம்.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "பெரியபுராணம் எழுதியவர் பெயரில்."
+  },
+  {
+    "questionNumber": 74,
+    "question": "'யமக அந்தாதி' நூலை இயற்றியவர் யார்?",
+    "imageUrl": null,
+    "answerOptions": [
+      {
+        "text": "பாரதியார்",
+        "rationale": "தவறு.",
+        "isCorrect": false
+      },
+      {
+        "text": "மீனாட்சி சுந்தரனார்",
+        "rationale": "யமக அந்தாதி, திரிபந்தாதி ஆகியவற்றை உருவாக்கிப் புகழ் பெற்றார்.",
+        "isCorrect": true
+      },
+      {
+        "text": "கம்பர்",
+        "rationale": "தவறு.",
+        "isCorrect": false
+      },
+      {
+        "text": "ஒட்டக்கூத்தர்",
+        "rationale": "தவறு.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "தலபுராணம் பாடுவதில் வல்லவர்."
+  },
+  {
+    "questionNumber": 75,
+    "question": "ஆறுமுக நாவலருக்கு 'நாவலர்' பட்டம் வழங்கியது யார்?",
+    "imageUrl": null,
+    "answerOptions": [
+      {
+        "text": "மதுரை ஆதீனம்",
+        "rationale": "தவறு.",
+        "isCorrect": false
+      },
+      {
+        "text": "திருவாவடுதுறை ஆதீனம்",
+        "rationale": "திருவாவடுதுறை ஆதீனம் இவருக்கு 'நாவலர்' பட்டம் வழங்கியது.",
+        "isCorrect": true
+      },
+      {
+        "text": "தருமபுர ஆதீனம்",
+        "rationale": "தவறு.",
+        "isCorrect": false
+      },
+      {
+        "text": "குன்றக்குடி ஆதீனம்",
+        "rationale": "தவறு.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "சைவ ஆதீனம்."
+  },
+  {
+    "questionNumber": 76,
+    "question": "விவிலியத்தைத் தமிழில் மொழிபெயர்க்க ஆறுமுக நாவலர் யாருக்கு உதவினார்?",
+    "imageUrl": null,
+    "answerOptions": [
+      {
+        "text": "ஜி.யு. போப்",
+        "rationale": "இவர் திருக்குறளை மொழிபெயர்த்தவர்.",
+        "isCorrect": false
+      },
+      {
+        "text": "பெர்சிவல் பாதிரியார்",
+        "rationale": "பெர்சிவல் பாதிரியார் விவிலியத்தைத் தமிழில் மொழிபெயர்க்க இவர் உதவினார்.",
+        "isCorrect": true
+      },
+      {
+        "text": "கால்டுவெல்",
+        "rationale": "இவர் திராவிட மொழிகளின் ஒப்பிலக்கணம் எழுதியவர்.",
+        "isCorrect": false
+      },
+      {
+        "text": "வீரமாமுனிவர்",
+        "rationale": "தவறு.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "ஒரு பாதிரியார்."
+  },
+  {
+    "questionNumber": 77,
+    "question": "ஒரு நாழிகை என்பது எவ்வளவு நேரம்?",
+    "imageUrl": null,
+    "answerOptions": [
+      {
+        "text": "60 நிமிடம்",
+        "rationale": "தவறு.",
+        "isCorrect": false
+      },
+      {
+        "text": "24 நிமிடம்",
+        "rationale": "ஒரு நாழிகை என்பது 24 நிமிடங்கள்.",
+        "isCorrect": true
+      },
+      {
+        "text": "48 நிமிடம்",
+        "rationale": "தவறு.",
+        "isCorrect": false
+      },
+      {
+        "text": "1 மணி நேரம்",
+        "rationale": "தவறு.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "2.5 நாழிகை ஒரு மணி நேரம்."
+  },
+  {
+    "questionNumber": 78,
+    "question": "'ஆழி' என்பதன் பொருள் யாது?",
+    "imageUrl": null,
+    "answerOptions": [
+      {
+        "text": "மலை",
+        "rationale": "தவறு.",
+        "isCorrect": false
+      },
+      {
+        "text": "கடல் / மோதிரம்",
+        "rationale": "ஆழி என்றால் கடல் மற்றும் மோதிரம் என்று பொருள்.",
+        "isCorrect": true
+      },
+      {
+        "text": "வானம்",
+        "rationale": "தவறு.",
+        "isCorrect": false
+      },
+      {
+        "text": "பூமி",
+        "rationale": "தவறு.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "ஆழிப்பேரலை."
+  },
+  {
+    "questionNumber": 79,
+    "question": "ஏன்? என்ன? எப்போது? போன்ற கேள்விகளுக்கு விடைகள் எங்கு இடம்பெறும்?",
+    "imageUrl": null,
+    "answerOptions": [
+      {
+        "text": "கடைசிப் பக்கம்",
+        "rationale": "தவறு.",
+        "isCorrect": false
+      },
+      {
+        "text": "முகப்புச் செய்தி / பக்கம்",
+        "rationale": "விடைகள் இடம்பெறும் பக்கம் செய்தியின் முகப்புப் பக்கம்.",
+        "isCorrect": true
+      },
+      {
+        "text": "விளம்பரப் பக்கம்",
+        "rationale": "தவறு.",
+        "isCorrect": false
+      },
+      {
+        "text": "விளையாட்டுப் பக்கம்",
+        "rationale": "தவறு.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "செய்தியின் ஆரம்பம்."
+  },
+  {
+    "questionNumber": 80,
+    "question": "'மழை முகம் காணாப் பயிர் போல' - உவமை பொருள்?",
+    "imageUrl": null,
+    "answerOptions": [
+      {
+        "text": "மகிழ்ச்சி",
+        "rationale": "தவறு.",
+        "isCorrect": false
+      },
+      {
+        "text": "வாட்டம் / வருந்துதல்",
+        "rationale": "நீர் இன்றி பயிர் வாடுவது போல.",
+        "isCorrect": true
+      },
+      {
+        "text": "செழிப்பு",
+        "rationale": "தவறு.",
+        "isCorrect": false
+      },
+      {
+        "text": "பயம்",
+        "rationale": "தவறு.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "ஏக்கம்."
+  },
+  {
+    "questionNumber": 81,
+    "question": "'தூண்டிலில் மாட்டிய மீன் போல' - உவமை உணர்த்துவது?",
+    "imageUrl": null,
+    "answerOptions": [
+      {
+        "text": "அமைதி",
+        "rationale": "தவறு.",
+        "isCorrect": false
+      },
+      {
+        "text": "துடிதுடிப்பு",
+        "rationale": "சிக்கிக்கொண்டு தவித்தல்.",
+        "isCorrect": true
+      },
+      {
+        "text": "மகிழ்ச்சி",
+        "rationale": "தவறு.",
+        "isCorrect": false
+      },
+      {
+        "text": "தூக்கம்",
+        "rationale": "தவறு.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "மீனா கொள்ளையர்களிடம் மாட்டிக்கொண்டது போல."
+  },
+  {
+    "questionNumber": 82,
+    "question": "'உடும்புப்பிடி போல்' - பொருள்?",
+    "imageUrl": null,
+    "answerOptions": [
+      {
+        "text": "தளர்வாக",
+        "rationale": "தவறு.",
+        "isCorrect": false
+      },
+      {
+        "text": "கெட்டியாக / உறுதியாக",
+        "rationale": "உடும்பு பிடியை விடாது.",
+        "isCorrect": true
+      },
+      {
+        "text": "வேகமாக",
+        "rationale": "தவறு.",
+        "isCorrect": false
+      },
+      {
+        "text": "மெதுவாக",
+        "rationale": "தவறு.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "கொள்கையில் உறுதியாக இருப்பது."
+  },
+  {
+    "questionNumber": 83,
+    "question": "'சிறகு ஒடிந்த பறவை போல' - நிலை?",
+    "imageUrl": null,
+    "answerOptions": [
+      {
+        "text": "பறத்தல்",
+        "rationale": "தவறு.",
+        "isCorrect": false
+      },
+      {
+        "text": "செயலற்றுப் போகுதல்",
+        "rationale": "ஒன்றும் செய்ய முடியாத நிலை.",
+        "isCorrect": true
+      },
+      {
+        "text": "வெற்றி",
+        "rationale": "தவறு.",
+        "isCorrect": false
+      },
+      {
+        "text": "முயற்சி",
+        "rationale": "தவறு.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "மனைவியை இழந்த குமரன்."
+  },
+  {
+    "questionNumber": 84,
+    "question": "'ஆனை வாயில் அகப்பட்ட கரும்பு போல' - பொருள்?",
+    "imageUrl": null,
+    "answerOptions": [
+      {
+        "text": "இனிமை",
+        "rationale": "தவறு.",
+        "isCorrect": false
+      },
+      {
+        "text": "நசுங்கிப் போதல் / அழிதல்",
+        "rationale": "யானை உண்ட கரும்பு திரும்பக் கிடைக்காது, நசுங்கிவிடும்.",
+        "isCorrect": true
+      },
+      {
+        "text": "பாதுகாப்பு",
+        "rationale": "தவறு.",
+        "isCorrect": false
+      },
+      {
+        "text": "வளர்ச்சி",
+        "rationale": "தவறு.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "சக்கையாகிவிடும்."
+  },
+  {
+    "questionNumber": 85,
+    "question": "'கப்பல் கவிழ்ந்தாற் போல' - உணர்வு?",
+    "imageUrl": null,
+    "answerOptions": [
+      {
+        "text": "மகிழ்ச்சி",
+        "rationale": "தவறு.",
+        "isCorrect": false
+      },
+      {
+        "text": "சோகம்",
+        "rationale": "பெரும் இழப்பு ஏற்பட்டது போன்ற சோகம்.",
+        "isCorrect": true
+      },
+      {
+        "text": "கோபம்",
+        "rationale": "தவறு.",
+        "isCorrect": false
+      },
+      {
+        "text": "பயம்",
+        "rationale": "தவறு.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "மதிப்பெண் குறைந்த பாரதி."
+  },
+  {
+    "questionNumber": 86,
+    "question": "'கனியிருக்கக் காயை விரும்புவது போல' - என்று கூறியவர்?",
+    "imageUrl": null,
+    "answerOptions": [
+      {
+        "text": "கம்பர்",
+        "rationale": "தவறு.",
+        "isCorrect": false
+      },
+      {
+        "text": "வள்ளுவர்",
+        "rationale": "இனிய உளவாக இன்னாத கூறல்...",
+        "isCorrect": true
+      },
+      {
+        "text": "ஒளவையார்",
+        "rationale": "தவறு.",
+        "isCorrect": false
+      },
+      {
+        "text": "பாரதியார்",
+        "rationale": "தவறு.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "இனிய சொற்களைப் பயன்படுத்த வேண்டும்."
+  },
+  {
+    "questionNumber": 87,
+    "question": "'சூரியனைக் கண்ட பனி போல' - பொருள்?",
+    "imageUrl": null,
+    "answerOptions": [
+      {
+        "text": "துன்பம் அதிகரித்தல்",
+        "rationale": "தவறு.",
+        "isCorrect": false
+      },
+      {
+        "text": "துன்பம் விலகுதல் / மறைதல்",
+        "rationale": "சூரியனைக் கண்டால் பனி மறைந்துவிடும்.",
+        "isCorrect": true
+      },
+      {
+        "text": "குளிர்ச்சி",
+        "rationale": "தவறு.",
+        "isCorrect": false
+      },
+      {
+        "text": "இருள்",
+        "rationale": "தவறு.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "பிரச்சினைகள் தீர்வது."
+  },
+  {
+    "questionNumber": 88,
+    "question": "'சொன்னதைச் சொல்லும் கிளிப்பிள்ளைப் போல' - பொருள்?",
+    "imageUrl": null,
+    "answerOptions": [
+      {
+        "text": "புதிதாகச் சொல்வது",
+        "rationale": "தவறு.",
+        "isCorrect": false
+      },
+      {
+        "text": "திருப்பித் திருப்பிச் சொல்லுதல்",
+        "rationale": "சொந்த புத்தி இல்லாமல் சொன்னதையே சொல்வது.",
+        "isCorrect": true
+      },
+      {
+        "text": "இனிமையாகப் பேசுதல்",
+        "rationale": "தவறு.",
+        "isCorrect": false
+      },
+      {
+        "text": "வேகமாகப் பேசுதல்",
+        "rationale": "தவறு.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "சிறுபிள்ளைகள் செய்வது."
+  },
+  {
+    "questionNumber": 89,
+    "question": "'தவளை தன் வாயால் கெட்டது போல' - பொருள்?",
+    "imageUrl": null,
+    "answerOptions": [
+      {
+        "text": "உணவு தேடுதல்",
+        "rationale": "தவறு.",
+        "isCorrect": false
+      },
+      {
+        "text": "பேசியே ஆபத்தில் மாட்டிக் கொள்ளுதல்",
+        "rationale": "சத்தமிட்டு எதிரிக்கு இடம் காட்டுவது.",
+        "isCorrect": true
+      },
+      {
+        "text": "மவுனம் சாதித்தல்",
+        "rationale": "தவறு.",
+        "isCorrect": false
+      },
+      {
+        "text": "தப்பித்தல்",
+        "rationale": "தவறு.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "திருடர்கள் பேசியதால் பிடிபட்டனர்."
+  },
+  {
+    "questionNumber": 90,
+    "question": "'நீறு பூத்த நெருப்புப் போல' - பொருள்?",
+    "imageUrl": null,
+    "answerOptions": [
+      {
+        "text": "அணைந்த தீ",
+        "rationale": "தவறு.",
+        "isCorrect": false
+      },
+      {
+        "text": "வெளிப்படையாகத் தெரியாத மறைந்திருக்கும் உணர்வு / பிரச்சினை",
+        "rationale": "சாம்பல் மறைத்த நெருப்பு, எப்போது வேண்டுமானாலும் வெளிப்படலாம்.",
+        "isCorrect": true
+      },
+      {
+        "text": "குளிர்ச்சி",
+        "rationale": "தவறு.",
+        "isCorrect": false
+      },
+      {
+        "text": "வெளிச்சம்",
+        "rationale": "தவறு.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "உள்ளுக்குள் கனன்று கொண்டிருப்பது."
+  },
+  {
+    "questionNumber": 91,
+    "question": "'வெறுங்கையில் முழம் போடுவது போல' - பொருள்?",
+    "imageUrl": null,
+    "answerOptions": [
+      {
+        "text": "பூ வாங்குவது",
+        "rationale": "தவறு.",
+        "isCorrect": false
+      },
+      {
+        "text": "கையில் பொருள் இல்லாமல் செயலைத் திட்டமிடுவது",
+        "rationale": "ஆதாரம் இல்லாமல் பேசுவது.",
+        "isCorrect": true
+      },
+      {
+        "text": "வெற்றி பெறுவது",
+        "rationale": "தவறு.",
+        "isCorrect": false
+      },
+      {
+        "text": "நடனமாடுவது",
+        "rationale": "தவறு.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "சாத்தியமில்லாதது."
+  },
+  {
+    "questionNumber": 92,
+    "question": "'இரும்பை இழுக்கும் காந்தம் போல' - பொருள்?",
+    "imageUrl": null,
+    "answerOptions": [
+      {
+        "text": "விலக்குதல்",
+        "rationale": "தவறு.",
+        "isCorrect": false
+      },
+      {
+        "text": "ஈர்ப்பு",
+        "rationale": "இனிப்பு எறும்புகளை ஈர்ப்பது போல.",
+        "isCorrect": true
+      },
+      {
+        "text": "கடினத்தன்மை",
+        "rationale": "தவறு.",
+        "isCorrect": false
+      },
+      {
+        "text": "எடை",
+        "rationale": "தவறு.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "Attraction."
+  },
+  {
+    "questionNumber": 93,
+    "question": "'தாயைக் கண்ட சேயைப் போல' - உணர்வு?",
+    "imageUrl": null,
+    "answerOptions": [
+      {
+        "text": "அழுகை",
+        "rationale": "தவறு.",
+        "isCorrect": false
+      },
+      {
+        "text": "மகிழ்ச்சி",
+        "rationale": "குடும்பத்தைக் கண்ட சேகர் அடைந்த நிலை.",
+        "isCorrect": true
+      },
+      {
+        "text": "பயம்",
+        "rationale": "தவறு.",
+        "isCorrect": false
+      },
+      {
+        "text": "கோபம்",
+        "rationale": "தவறு.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "குழந்தையின் மகிழ்ச்சி."
+  },
+  {
+    "questionNumber": 94,
+    "question": "'பல் பிடுங்கின பாம்பு போல' - நிலை?",
+    "imageUrl": null,
+    "answerOptions": [
+      {
+        "text": "ஆபத்தானது",
+        "rationale": "தவறு.",
+        "isCorrect": false
+      },
+      {
+        "text": "செயலற்ற தன்மை / வலிமையின்மை",
+        "rationale": "கைது செய்யப்பட்ட கொள்ளைக்காரன் நிலை.",
+        "isCorrect": true
+      },
+      {
+        "text": "வேகமானது",
+        "rationale": "தவறு.",
+        "isCorrect": false
+      },
+      {
+        "text": "விஷத்தன்மை",
+        "rationale": "தவறு.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "கடிக்க முடியாது."
+  },
+  {
+    "questionNumber": 95,
+    "question": "'பழமரம் நாடிய பறவை போல' - பொருள்?",
+    "imageUrl": null,
+    "answerOptions": [
+      {
+        "text": "பசி",
+        "rationale": "தவறு.",
+        "isCorrect": false
+      },
+      {
+        "text": "பொருள் (செல்வம்) இருக்கும் இடத்தைத் தேடிச் செல்வது",
+        "rationale": "செல்வந்தரை நாடி நண்பர்கள் வருவது.",
+        "isCorrect": true
+      },
+      {
+        "text": "கூடு கட்டுவது",
+        "rationale": "தவறு.",
+        "isCorrect": false
+      },
+      {
+        "text": "பறந்து போவது",
+        "rationale": "தவறு.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "சுயநலமான நட்பு."
+  },
+  {
+    "questionNumber": 96,
+    "question": "'புலியைக் கண்ட மான் போல' - உணர்வு?",
+    "imageUrl": null,
+    "answerOptions": [
+      {
+        "text": "வீரம்",
+        "rationale": "தவறு.",
+        "isCorrect": false
+      },
+      {
+        "text": "மிரட்சி / பயந்து ஓடுதல்",
+        "rationale": "காவலரைக் கண்ட திருடன் நிலை.",
+        "isCorrect": true
+      },
+      {
+        "text": "நட்பு",
+        "rationale": "தவறு.",
+        "isCorrect": false
+      },
+      {
+        "text": "பசி",
+        "rationale": "தவறு.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "அச்சம்."
+  },
+  {
+    "questionNumber": 97,
+    "question": "'பூவோடு சேர்ந்த நாறும் மணப்பது போல' - பொருள்?",
+    "imageUrl": null,
+    "answerOptions": [
+      {
+        "text": "வாடிப் போதல்",
+        "rationale": "தவறு.",
+        "isCorrect": false
+      },
+      {
+        "text": "நல்லவர்களுடன் சேர்ந்து நன்மை அடைவது",
+        "rationale": "சேர்க்கையால் உயர்வு.",
+        "isCorrect": true
+      },
+      {
+        "text": "விலை போதல்",
+        "rationale": "தவறு.",
+        "isCorrect": false
+      },
+      {
+        "text": "அழகு பெறுதல்",
+        "rationale": "தவறு.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "சத் சங்கம்."
+  },
+  {
+    "questionNumber": 98,
+    "question": "'முகத்தில் அடித்தாற்போல' - பொருள்?",
+    "imageUrl": null,
+    "answerOptions": [
+      {
+        "text": "பாராட்டுதல்",
+        "rationale": "தவறு.",
+        "isCorrect": false
+      },
+      {
+        "text": "அவமானப்படுத்துதல் / வெடுக்கெனப் பேசுதல்",
+        "rationale": "எதிர்லேயே கடுமையாகப் பேசுவது.",
+        "isCorrect": true
+      },
+      {
+        "text": "அழகுபடுத்துதல்",
+        "rationale": "தவறு.",
+        "isCorrect": false
+      },
+      {
+        "text": "மறைத்தல்",
+        "rationale": "தவறு.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "மரியாதை இல்லாமல் பேசுவது."
+  },
+  {
+    "questionNumber": 99,
+    "question": "'வெயிலில் இட்ட புழு போல' - உணர்வு?",
+    "imageUrl": null,
+    "answerOptions": [
+      {
+        "text": "மகிழ்ச்சி",
+        "rationale": "தவறு.",
+        "isCorrect": false
+      },
+      {
+        "text": "துடித்தல் / வேதனை",
+        "rationale": "சூடு தாங்காமல் துடிப்பது.",
+        "isCorrect": true
+      },
+      {
+        "text": "ஊர்ந்து செல்லுதல்",
+        "rationale": "தவறு.",
+        "isCorrect": false
+      },
+      {
+        "text": "உறங்குதல்",
+        "rationale": "தவறு.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "தீக்காயம் பட்டால் ஏற்படும் வலி."
+  },
+  {
+    "questionNumber": 100,
+    "question": "'கல்லில் நார் உரித்தாற்போல' - பொருள்?",
+    "imageUrl": null,
+    "answerOptions": [
+      {
+        "text": "கடின உழைப்பு",
+        "rationale": "தவறு.",
+        "isCorrect": false
+      },
+      {
+        "text": "இயலாத செயல் / பொய்யாகக் கதை சொல்வது",
+        "rationale": "கல்லில் நார் எடுக்க முடியாது, அதுபோல பொய்யான கதைகளை அவிழ்த்து விடுவது.",
+        "isCorrect": true
+      },
+      {
+        "text": "சிற்பம் செதுக்குதல்",
+        "rationale": "தவறு.",
+        "isCorrect": false
+      },
+      {
+        "text": "சுத்தம் செய்தல்",
+        "rationale": "தவறு.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "நடக்காத ஒன்று."
+  }
+]

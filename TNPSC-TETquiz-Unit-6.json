@@ -1,0 +1,2802 @@
+[
+  {
+    "questionNumber": 1,
+    "question": "'Accident' என்ற ஆங்கிலச் சொல்லுக்கு இணையான தமிழ்ச் சொல் என்ன?",
+    "imageUrl": null,
+    "answerOptions": [
+      {
+        "text": "ஆபத்து",
+        "rationale": "ஆபத்து என்பது Danger என்பதைக் குறிக்கும்.",
+        "isCorrect": false
+      },
+      {
+        "text": "நேர்ச்சி",
+        "rationale": "பாடப்பகுதியின் அட்டவணைப்படி Accident என்பதற்கு 'நேர்ச்சி' என்பதே சரியான இணைச்சொல்.",
+        "isCorrect": true
+      },
+      {
+        "text": "விபத்து",
+        "rationale": "இது பொதுவழக்கில் இருந்தாலும், பாடநூலில் கொடுக்கப்பட்டுள்ள கலைச்சொல் நேர்ச்சி ஆகும்.",
+        "isCorrect": false
+      },
+      {
+        "text": "மோதல்",
+        "rationale": "மோதல் என்பது Collision என்பதைக் குறிக்கும்.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "இது எதிர்பாராமல் நடக்கும் ஒரு நிகழ்வு."
+  },
+  {
+    "questionNumber": 2,
+    "question": "'Acknowledgement Card' என்பதன் தமிழாக்கம் என்ன?",
+    "imageUrl": null,
+    "answerOptions": [
+      {
+        "text": "அடையாள அட்டை",
+        "rationale": "அடையாள அட்டை என்பது Identity Card.",
+        "isCorrect": false
+      },
+      {
+        "text": "அழைப்பு இதழ்",
+        "rationale": "அழைப்பு இதழ் என்பது Invitation.",
+        "isCorrect": false
+      },
+      {
+        "text": "ஒப்புகை அட்டை",
+        "rationale": "அட்டவணை I-ன் படி Acknowledgement Card என்பது ஒப்புகை அட்டை.",
+        "isCorrect": true
+      },
+      {
+        "text": "பதிவு அட்டை",
+        "rationale": "பதிவு அட்டை என்பது Registration Card.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "அஞ்சல் துறையில் கடிதம் பெற்றதற்கான உறுதிமொழிச் சீட்டு."
+  },
+  {
+    "questionNumber": 3,
+    "question": "'Agency' என்பதற்கான சரியான தமிழ்க்கலைச்சொல் எது?",
+    "imageUrl": null,
+    "answerOptions": [
+      {
+        "text": "முகவாண்மை",
+        "rationale": "Agency என்பதற்கு 'முகவாண்மை' என்பது சரியான தமிழ்ச்சொல்.",
+        "isCorrect": true
+      },
+      {
+        "text": "முகவர்",
+        "rationale": "Agent என்பதே முகவர்.",
+        "isCorrect": false
+      },
+      {
+        "text": "நிறுவனம்",
+        "rationale": "நிறுவனம் என்பது Institution அல்லது Organization.",
+        "isCorrect": false
+      },
+      {
+        "text": "ஆணையம்",
+        "rationale": "ஆணையம் என்பது Commission.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "ஒரு முகவர் செயல்படும் இடம் அல்லது தன்மை."
+  },
+  {
+    "questionNumber": 4,
+    "question": "'Allergy' என்ற சொல்லின் தமிழாக்கம் என்ன?",
+    "imageUrl": null,
+    "answerOptions": [
+      {
+        "text": "நோய்",
+        "rationale": "நோய் என்பது Disease.",
+        "isCorrect": false
+      },
+      {
+        "text": "ஒவ்வாமை",
+        "rationale": "உடலுக்கு ஏற்காதத் தன்மையை 'ஒவ்வாமை' என்பர்.",
+        "isCorrect": true
+      },
+      {
+        "text": "மயக்கம்",
+        "rationale": "மயக்கம் என்பது Dizziness.",
+        "isCorrect": false
+      },
+      {
+        "text": "காய்ச்சல்",
+        "rationale": "காய்ச்சல் என்பது Fever.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "உடலுக்குப் பொருந்தாத ஒன்றை ஏற்றால் வருவது."
+  },
+  {
+    "questionNumber": 5,
+    "question": "தொல்காப்பியர் 'மொழிபெயர்த்தல்' என்ற தொடரை எந்த இயலில் குறிப்பிட்டுள்ளார்?",
+    "imageUrl": null,
+    "answerOptions": [
+      {
+        "text": "எழுத்ததிகாரம்",
+        "rationale": "எழுத்ததிகாரம் எழுத்துக்களின் இலக்கணம் பற்றியது.",
+        "isCorrect": false
+      },
+      {
+        "text": "மரபியல்",
+        "rationale": "தொல்காப்பியர் மரபியலில் (98) மொழிபெயர்த்தல் பற்றிக் குறிப்பிட்டுள்ளார்.",
+        "isCorrect": true
+      },
+      {
+        "text": "களவியல்",
+        "rationale": "களவியல் அகப்பொருள் பற்றியது.",
+        "isCorrect": false
+      },
+      {
+        "text": "மெய்ப்பாட்டியல்",
+        "rationale": "மெய்ப்பாட்டியல் உணர்ச்சிகள் பற்றியது.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "இது பொருளதிகாரத்தின் இறு பகுதியில் வரும் இயல்."
+  },
+  {
+    "questionNumber": 6,
+    "question": "‘மாபாரதம் தமிழ்ப்படுத்தும் மதுராபுரிச் சங்கம் வைத்தும்’ என்ற குறிப்பு காணப்படும் செப்பேடு எது?",
+    "imageUrl": null,
+    "answerOptions": [
+      {
+        "text": "வேள்விக்குடிச் செப்பேடு",
+        "rationale": "இது பாண்டியர் வரலாற்றைக் கூறும் வேறு செப்பேடு.",
+        "isCorrect": false
+      },
+      {
+        "text": "சின்னமனூர்ச் செப்பேடு",
+        "rationale": "சின்னமனூர்ச் செப்பேடு சங்க காலத்திலேயே மொழிபெயர்ப்பு இருந்ததைக் குறிப்பிடுகிறது.",
+        "isCorrect": true
+      },
+      {
+        "text": "தளவாய்புரம் செப்பேடு",
+        "rationale": "இதுவும் பாண்டியர் காலத்தைச் சார்ந்தது.",
+        "isCorrect": false
+      },
+      {
+        "text": "காசாகுடிச் செப்பேடு",
+        "rationale": "இது பல்லவர் காலத்தைச் சார்ந்தது.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "பாண்டியர் காலத்துச் செப்பேடு."
+  },
+  {
+    "questionNumber": 7,
+    "question": "'ஒரு மொழியில் உணர்த்தப்பட்டதை வேறொரு மொழியில் வெளியிடுவது மொழிபெயர்ப்பு' என்று கூறியவர் யார்?",
+    "imageUrl": null,
+    "answerOptions": [
+      {
+        "text": "மணவை முஸ்தபா",
+        "rationale": "இவர் மொழிபெயர்ப்பிற்கான வரைவிலக்கணத்தை இவ்வாறு தந்துள்ளார்.",
+        "isCorrect": true
+      },
+      {
+        "text": "மு.கு. ஜகந்நாதர்",
+        "rationale": "இவர் மொழிபெயர்ப்பு நாகரிக வளர்ச்சிக்குக் காரணம் என்று கூறியுள்ளார்.",
+        "isCorrect": false
+      },
+      {
+        "text": "பாரதியார்",
+        "rationale": "இவர் பல மொழிபெயர்ப்புகளைச் செய்த கவிஞர்.",
+        "isCorrect": false
+      },
+      {
+        "text": "தனிநாயக அடிகள்",
+        "rationale": "இவர் பிரான்சு நூலகத்திலுள்ள தமிழ் ஏடுகள் பற்றி எழுதியவர்.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "அறிவியல் தமிழ் வளர்ச்சிக்கு வித்திட்டவர்."
+  },
+  {
+    "questionNumber": 8,
+    "question": "'Search Engine' என்பதன் தமிழாக்கம் என்ன?",
+    "imageUrl": null,
+    "answerOptions": [
+      {
+        "text": "தேடுபொறி",
+        "rationale": "இணையத்தில் தகவல்களைத் தேட உதவுவது தேடுபொறி.",
+        "isCorrect": true
+      },
+      {
+        "text": "செயலி",
+        "rationale": "செயலி என்பது Application (App).",
+        "isCorrect": false
+      },
+      {
+        "text": "வலைதளம்",
+        "rationale": "வலைதளம் என்பது Website.",
+        "isCorrect": false
+      },
+      {
+        "text": "வன்பொருள்",
+        "rationale": "வன்பொருள் என்பது Hardware.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "கூகுள் (Google) என்பது இதில் ஒன்று."
+  },
+  {
+    "questionNumber": 9,
+    "question": "'Evidence Act' என்பதன் தமிழ்க்கலைச்சொல் யாது?",
+    "imageUrl": null,
+    "answerOptions": [
+      {
+        "text": "சான்றுச் சட்டம்",
+        "rationale": "Evidence Act என்பது சான்றுச் சட்டம் அல்லது சட்ட ஆவணங்கள் எனக் குறிக்கப்படுகிறது (பாடப்பகுதியில் 'சட்ட ஆவணங்கள்' என அட்டவணை I-ல் உள்ளது, 'சான்றுச் சட்டம்' என Substantive Law-க்கு கொடுக்கப்பட்டுள்ளது, ஆனால் Evidence Act பொதுவாக சாட்சியச் சட்டம்/சட்ட ஆவணங்கள்). அட்டவணை I-ன் படி விடை 'சட்ட ஆவணங்கள்'.",
+        "isCorrect": true
+      },
+      {
+        "text": "உரிமைச் சட்டம்",
+        "rationale": "உரிமைச் சட்டம் என்பது Civil Law அல்லது Rights Act.",
+        "isCorrect": false
+      },
+      {
+        "text": "குற்றவியல் சட்டம்",
+        "rationale": "குற்றவியல் சட்டம் என்பது Criminal Law.",
+        "isCorrect": false
+      },
+      {
+        "text": "தொழிலாளர் சட்டம்",
+        "rationale": "தொழிலாளர் சட்டம் என்பது Labour Law.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "நீதிமன்றத்தில் நிரூபிக்கப் பயன்படும் ஆவணங்கள் பற்றிய சட்டம்."
+  },
+  {
+    "questionNumber": 10,
+    "question": "'Remote Sensing' என்பதற்கு இணையான தமிழ்ச்சொல் எது?",
+    "imageUrl": null,
+    "answerOptions": [
+      {
+        "text": "தொலை உணர்தல்",
+        "rationale": "தொலைவிலிருந்தே உணர்வது Remote Sensing.",
+        "isCorrect": true
+      },
+      {
+        "text": "தொலைநோக்கி",
+        "rationale": "தொலைநோக்கி என்பது Telescope.",
+        "isCorrect": false
+      },
+      {
+        "text": "தொலைபேசி",
+        "rationale": "தொலைபேசி என்பது Telephone.",
+        "isCorrect": false
+      },
+      {
+        "text": "தொலைக்காட்சி",
+        "rationale": "தொலைக்காட்சி என்பது Television.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "செயற்கைக்கோள் உதவியுடன் பூமியை ஆராய்தல்."
+  },
+  {
+    "questionNumber": 11,
+    "question": "'வால்காவிலிருந்து கங்கை வரை' என்ற நூலை 1949-ல் தமிழில் மொழிபெயர்த்தவர் யார்?",
+    "imageUrl": null,
+    "answerOptions": [
+      {
+        "text": "கணமுத்தையா",
+        "rationale": "1949ஆம் ஆண்டு இந்நூலை கணமுத்தையா தமிழில் மொழிபெயர்த்து வெளியிட்டார்.",
+        "isCorrect": true
+      },
+      {
+        "text": "யூமா வாசுகி",
+        "rationale": "இவர் 2018-ல் மொழிபெயர்த்தவர்.",
+        "isCorrect": false
+      },
+      {
+        "text": "டாக்டர் என். ஸ்ரீதர்",
+        "rationale": "இவர் 2016-ல் மொழிபெயர்த்தவர்.",
+        "isCorrect": false
+      },
+      {
+        "text": "முத்து மீனாட்சி",
+        "rationale": "இவரும் 2016-ல் மொழிபெயர்த்தவர்.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "ராகுல் சாங்கிருத்யாயன் நூலை முதலில் மொழிபெயர்த்தவர்."
+  },
+  {
+    "questionNumber": 12,
+    "question": "திருக்குறளை ஆங்கிலத்தில் மொழிபெயர்த்தவர் யார்?",
+    "imageUrl": null,
+    "answerOptions": [
+      {
+        "text": "ஜி.யு.போப்",
+        "rationale": "ஜி.யு.போப் திருக்குறளை ஆங்கிலத்தில் மொழிபெயர்த்தார்.",
+        "isCorrect": true
+      },
+      {
+        "text": "கார்ல் கிரௌல்",
+        "rationale": "இவர் ஜெர்மானிய மொழியில் மொழிபெயர்த்தவர்.",
+        "isCorrect": false
+      },
+      {
+        "text": "எட்வர்டு பிற்செரால்டு",
+        "rationale": "இவர் உமர்கய்யாம் பாடல்களை மொழிபெயர்த்தவர்.",
+        "isCorrect": false
+      },
+      {
+        "text": "யூஸி",
+        "rationale": "இவர் சீன (மாண்டரின்) மொழியில் மொழிபெயர்த்தவர்.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "இவர் தமிழுக்குத் தொண்டு செய்த ஐரோப்பியர்."
+  },
+  {
+    "questionNumber": 13,
+    "question": "இரவீந்திரநாத தாகூர் 'கீதாஞ்சலி'யை எந்த மொழியில் எழுதிய பிறகு நோபல் பரிசு பெற்றார்?",
+    "imageUrl": null,
+    "answerOptions": [
+      {
+        "text": "வங்க மொழி",
+        "rationale": "முதலில் வங்க மொழியில் எழுதினார், ஆனால் ஆங்கிலத்தில் மொழிபெயர்த்த பிறகே நோபல் கிடைத்தது.",
+        "isCorrect": false
+      },
+      {
+        "text": "ஆங்கிலம்",
+        "rationale": "அவரே ஆங்கிலத்தில் மொழிபெயர்த்த பிறகுதான் அவருக்கு நோபல் பரிசு கிடைத்தது.",
+        "isCorrect": true
+      },
+      {
+        "text": "இந்தி",
+        "rationale": "இந்தி மொழியில் அவர் எழுதவில்லை.",
+        "isCorrect": false
+      },
+      {
+        "text": "தமிழ்",
+        "rationale": "தமிழில் அவர் எழுதவில்லை.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "இது ஒரு உலகப் பொது மொழி."
+  },
+  {
+    "questionNumber": 14,
+    "question": "'Tele' என்ற சொல்லுக்கு இணையான தமிழ்ச் சொல் என்ன?",
+    "imageUrl": null,
+    "answerOptions": [
+      {
+        "text": "தொலை",
+        "rationale": "Telephone (தொலைபேசி), Television (தொலைக்காட்சி) போன்ற சொற்களில் Tele என்பது 'தொலை' என்பதைக் குறிக்கிறது.",
+        "isCorrect": true
+      },
+      {
+        "text": "அருகில்",
+        "rationale": "இது Near என்பதைக் குறிக்கும்.",
+        "isCorrect": false
+      },
+      {
+        "text": "ஒலி",
+        "rationale": "இது Sound என்பதைக் குறிக்கும்.",
+        "isCorrect": false
+      },
+      {
+        "text": "படம்",
+        "rationale": "இது Picture/Image என்பதைக் குறிக்கும்.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "தூரத்தைக் குறிக்கும் சொல்."
+  },
+  {
+    "questionNumber": 15,
+    "question": "'Underground drainage' என்பதற்கான சரியான தமிழ்க்கலைச்சொல் எது?",
+    "imageUrl": null,
+    "answerOptions": [
+      {
+        "text": "பாதாளச் சாக்கடை",
+        "rationale": "இது ஆரம்பத்தில் பயன்படுத்தப்பட்டாலும், மிகவும் பொருத்தமானதாகக் கருதப்படவில்லை.",
+        "isCorrect": false
+      },
+      {
+        "text": "புதைசாக்கடை",
+        "rationale": "மலையாள மொழியிலிருந்து பெறப்பட்டு பொருத்தமாக இருப்பதால் 'புதைசாக்கடை' பயன்படுத்தப்படுகிறது.",
+        "isCorrect": true
+      },
+      {
+        "text": "கழிவு நீர்",
+        "rationale": "இது Waste water.",
+        "isCorrect": false
+      },
+      {
+        "text": "மழை நீர்",
+        "rationale": "இது Rain water.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "மலையாள மொழியைத் தழுவி அமைந்த சொல்."
+  },
+  {
+    "questionNumber": 16,
+    "question": "பாரதியார் 'Revolution' என்ற சொல்லை எவ்வாறு மொழிபெயர்த்தார்?",
+    "imageUrl": null,
+    "answerOptions": [
+      {
+        "text": "புரட்சி",
+        "rationale": "பாரதியின் மொழிபெயர்ப்பில் Revolution என்பது புரட்சி.",
+        "isCorrect": true
+      },
+      {
+        "text": "கிளர்ச்சி",
+        "rationale": "இது Uprising/Rebellion.",
+        "isCorrect": false
+      },
+      {
+        "text": "மாற்றம்",
+        "rationale": "இது Change.",
+        "isCorrect": false
+      },
+      {
+        "text": "போராட்டம்",
+        "rationale": "இது Struggle/Protest.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "சமுதாயத்தில் ஏற்படும் திடீர் மாற்றம்."
+  },
+  {
+    "questionNumber": 17,
+    "question": "'Ultraviolet rays' என்பதன் தமிழாக்கம் என்ன?",
+    "imageUrl": null,
+    "answerOptions": [
+      {
+        "text": "அகச்சிவப்புக் கதிர்கள்",
+        "rationale": "அகச்சிவப்புக் கதிர்கள் என்பது Infrared rays.",
+        "isCorrect": false
+      },
+      {
+        "text": "புறஊதாக் கதிர்கள்",
+        "rationale": "பழைய வினாத்தாள் பகுதியில் Infrared என்பதற்கு எதிரிடையாகக் குறிப்பிடப்படும் புறஊதாக் கதிர்கள் Ultraviolet ஆகும்.",
+        "isCorrect": true
+      },
+      {
+        "text": "எக்ஸ் கதிர்கள்",
+        "rationale": "இது X-rays.",
+        "isCorrect": false
+      },
+      {
+        "text": "ஒலிக்கதிர்கள்",
+        "rationale": "இது Sound waves.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "சூரிய ஒளியில் இருக்கும் ஒரு வகைக் கதிர்."
+  },
+  {
+    "questionNumber": 18,
+    "question": "திருக்குறளை 'மாண்டரின்' (சீன) மொழியில் மொழிபெயர்த்தவர் யார்?",
+    "imageUrl": null,
+    "answerOptions": [
+      {
+        "text": "யூஸி",
+        "rationale": "தைவானைச் சேர்ந்த கவிஞர் யூஸி திருக்குறளை சீன மொழியில் மொழிபெயர்த்தார்.",
+        "isCorrect": true
+      },
+      {
+        "text": "கான்பூசியஸ்",
+        "rationale": "இவர் சீன தத்துவஞானி.",
+        "isCorrect": false
+      },
+      {
+        "text": "லா வோ சு",
+        "rationale": "இவரும் ஒரு சீன தத்துவஞானி.",
+        "isCorrect": false
+      },
+      {
+        "text": "ஜி.யு.போப்",
+        "rationale": "இவர் ஆங்கிலத்தில் மொழிபெயர்த்தவர்.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "தைவானைச் சேர்ந்த கவிஞர்."
+  },
+  {
+    "questionNumber": 19,
+    "question": "'Camel' என்ற சொல்லுக்கு 'வடம்' (கயிறு) என்ற பொருளும் உண்டு என்பதை விளக்கும் தொடர் எது?",
+    "imageUrl": null,
+    "answerOptions": [
+      {
+        "text": "ஊசி காதில் ஒட்டகம் நுழையாது",
+        "rationale": "இது தவறான மொழிபெயர்ப்பாகக் கருதப்படுகிறது.",
+        "isCorrect": false
+      },
+      {
+        "text": "ஊசி காதில் வடம் நுழையாது",
+        "rationale": "Camel என்பதற்கு கயிறு (வடம்) என்ற பொருள் கொள்வதே இத்தொடருக்குப் பொருத்தமானது.",
+        "isCorrect": true
+      },
+      {
+        "text": "பாலைவனக் கப்பல்",
+        "rationale": "இது ஒட்டகத்தின் சிறப்புப் பெயர்.",
+        "isCorrect": false
+      },
+      {
+        "text": "ஒட்டகம் சிமிட்டும்",
+        "rationale": "இது ஒரு விளையாட்டுத் தொடர்.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "ஊசியின் துளையில் கயிறு செல்லாது."
+  },
+  {
+    "questionNumber": 20,
+    "question": "அமெரிக்கா ஹிரோஷிமாவில் குண்டு வீசக் காரணமாக அமைந்த தவறாகப் புரிந்து கொள்ளப்பட்ட ஜப்பானியச் சொல் எது?",
+    "imageUrl": null,
+    "answerOptions": [
+      {
+        "text": "மொகு சாஸ்ட்டு",
+        "rationale": "இதற்கு 'விடைதர அவகாசம் வேண்டும்' என்று பொருள், ஆனால் 'மறுக்கிறோம்' எனத் தவறாகப் புரிந்து கொள்ளப்பட்டது.",
+        "isCorrect": true
+      },
+      {
+        "text": "சயோனாரா",
+        "rationale": "இது விடைகொடுக்கும் சொல்.",
+        "isCorrect": false
+      },
+      {
+        "text": "சுனாமி",
+        "rationale": "இது ஆழிப்பேரலை.",
+        "isCorrect": false
+      },
+      {
+        "text": "ஹைக்கூ",
+        "rationale": "இது ஜப்பானியக் கவிதை வடிவம்.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "விடைதர அவகாசம் வேண்டும் என்று பொருள்படும் சொல்."
+  },
+  {
+    "questionNumber": 21,
+    "question": "'Bona fide certificate' என்பதன் தமிழாக்கம் என்ன?",
+    "imageUrl": null,
+    "answerOptions": [
+      {
+        "text": "சாதிச் சான்றிதழ்",
+        "rationale": "இது Community Certificate.",
+        "isCorrect": false
+      },
+      {
+        "text": "ஆளறி சான்றிதழ்",
+        "rationale": "Bona fide certificate/Identification Certificate என்பது ஆளறி சான்றிதழ்.",
+        "isCorrect": true
+      },
+      {
+        "text": "வருமானச் சான்றிதழ்",
+        "rationale": "இது Income Certificate.",
+        "isCorrect": false
+      },
+      {
+        "text": "பிறப்புச் சான்றிதழ்",
+        "rationale": "இது Birth Certificate.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "ஒருவரின் அடையாளத்தை உறுதி செய்யும் சான்று."
+  },
+  {
+    "questionNumber": 22,
+    "question": "'Visiting Card' என்பதன் தமிழ்க்கலைச்சொல் யாது?",
+    "imageUrl": null,
+    "answerOptions": [
+      {
+        "text": "காண்புச்சீட்டு",
+        "rationale": "Visiting card என்பது காண்புச்சீட்டு அல்லது காண்டிச்சீட்டு.",
+        "isCorrect": true
+      },
+      {
+        "text": "அழைப்பிதழ்",
+        "rationale": "Invitation.",
+        "isCorrect": false
+      },
+      {
+        "text": "அஞ்சல் அட்டை",
+        "rationale": "Post card.",
+        "isCorrect": false
+      },
+      {
+        "text": "நுழைவுச் சீட்டு",
+        "rationale": "Entry ticket.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "பிறரைச் சந்திக்கும் போது கொடுக்கும் அட்டை."
+  },
+  {
+    "questionNumber": 23,
+    "question": "'Design' என்பதன் தமிழாக்கம் என்ன?",
+    "imageUrl": null,
+    "answerOptions": [
+      {
+        "text": "வடிவமைப்பு",
+        "rationale": "Design என்பது வடிவமைப்பு.",
+        "isCorrect": true
+      },
+      {
+        "text": "ஓவியம்",
+        "rationale": "Painting/Drawing.",
+        "isCorrect": false
+      },
+      {
+        "text": "கட்டிடம்",
+        "rationale": "Building.",
+        "isCorrect": false
+      },
+      {
+        "text": "திட்டம்",
+        "rationale": "Plan/Scheme.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "ஒரு பொருளை உருவாக்கும் முன் வரையும் வரைபடம்."
+  },
+  {
+    "questionNumber": 24,
+    "question": "'Fax' என்ற சொல்லின் தமிழ்ச் சொல் என்ன?",
+    "imageUrl": null,
+    "answerOptions": [
+      {
+        "text": "தொலை நகலி",
+        "rationale": "Fax என்பது தொலை நகலி.",
+        "isCorrect": true
+      },
+      {
+        "text": "தொலைபேசி",
+        "rationale": "Telephone.",
+        "isCorrect": false
+      },
+      {
+        "text": "மின்னஞ்சல்",
+        "rationale": "Email.",
+        "isCorrect": false
+      },
+      {
+        "text": "வானொலி",
+        "rationale": "Radio.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "ஆவணங்களை தொலைதூரத்திற்கு அனுப்பும் கருவி."
+  },
+  {
+    "questionNumber": 25,
+    "question": "'Knight hood' என்பதன் தமிழாக்கம் என்ன?",
+    "imageUrl": null,
+    "answerOptions": [
+      {
+        "text": "வீரத்திருத்தகை",
+        "rationale": "Knight hood என்பது வீரத்திருத்தகை.",
+        "isCorrect": true
+      },
+      {
+        "text": "வீரமகன்",
+        "rationale": "Brave man.",
+        "isCorrect": false
+      },
+      {
+        "text": "போர்வீரன்",
+        "rationale": "Soldier.",
+        "isCorrect": false
+      },
+      {
+        "text": "தலைவன்",
+        "rationale": "Leader.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "அரசால் வழங்கப்படும் ஒரு உயரிய பட்டம்."
+  },
+  {
+    "questionNumber": 26,
+    "question": "'Mammal' என்பதன் தமிழ்ச் சொல் யாது?",
+    "imageUrl": null,
+    "answerOptions": [
+      {
+        "text": "பாலூட்டி",
+        "rationale": "Mammal என்பது பாலூட்டி.",
+        "isCorrect": true
+      },
+      {
+        "text": "ஊர்வன",
+        "rationale": "Reptiles.",
+        "isCorrect": false
+      },
+      {
+        "text": "பரப்பன",
+        "rationale": "Birds (Avian).",
+        "isCorrect": false
+      },
+      {
+        "text": "நீர்வாழ்வன",
+        "rationale": "Aquatic animals.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "குட்டி போட்டு பால் கொடுக்கும் விலங்கினம்."
+  },
+  {
+    "questionNumber": 27,
+    "question": "'Organic' என்பதன் தமிழ்க்கலைச்சொல் என்ன?",
+    "imageUrl": null,
+    "answerOptions": [
+      {
+        "text": "கரிமம்",
+        "rationale": "Organic என்பது கரிமம்.",
+        "isCorrect": true
+      },
+      {
+        "text": "கனிமம்",
+        "rationale": "Inorganic என்பது கனிமம்.",
+        "isCorrect": false
+      },
+      {
+        "text": "உரம்",
+        "rationale": "Fertilizer.",
+        "isCorrect": false
+      },
+      {
+        "text": "இயற்கை",
+        "rationale": "Natural.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "வேதியியலில் கார்பன் சம்மந்தப்பட்டவை."
+  },
+  {
+    "questionNumber": 28,
+    "question": "'Probationary Period' என்பதன் தமிழாக்கம் என்ன?",
+    "imageUrl": null,
+    "answerOptions": [
+      {
+        "text": "தகுதிகாண் பருவம்",
+        "rationale": "Probationary Period என்பது தகுதிகாண் பருவம்.",
+        "isCorrect": true
+      },
+      {
+        "text": "பயிற்சி காலம்",
+        "rationale": "Training Period.",
+        "isCorrect": false
+      },
+      {
+        "text": "ஓய்வு காலம்",
+        "rationale": "Retirement Period.",
+        "isCorrect": false
+      },
+      {
+        "text": "விடுமுறை காலம்",
+        "rationale": "Vacation.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "வேலையில் சேர்ந்த புதிதில் இருக்கும் காலம்."
+  },
+  {
+    "questionNumber": 29,
+    "question": "'Writs' என்பதன் தமிழாக்கம் என்னவாகப் பாடநூலில் கொடுக்கப்பட்டுள்ளது?",
+    "imageUrl": null,
+    "answerOptions": [
+      {
+        "text": "நீதிப்பேராணை",
+        "rationale": "பொதுவாக Writs நீதிப்பேராணை என்றாலும், பாடநூல் அட்டவணை 1-ல் 'வாரிசுரிமைச் சட்டம்' என்று (பிழையாக இருப்பினும்) கொடுக்கப்பட்டுள்ளது. ஆனால் Succession Act என்பதே வாரிசுரிமைச் சட்டம். Writs சட்ட ரீதியான ஆணைகள். அட்டவணைப்படி Writs - வாரிசுரிமைச் சட்டம் என உள்ளது.",
+        "isCorrect": true
+      },
+      {
+        "text": "சட்ட ஆவணம்",
+        "rationale": "Evidence Act.",
+        "isCorrect": false
+      },
+      {
+        "text": "தீர்ப்பு",
+        "rationale": "Judgment.",
+        "isCorrect": false
+      },
+      {
+        "text": "மனு",
+        "rationale": "Petition.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "அட்டவணை I-ல் உள்ளதை கவனிக்கவும்."
+  },
+  {
+    "questionNumber": 30,
+    "question": "'Green Proof' என்பதன் தமிழ்ச் சொல் என்ன?",
+    "imageUrl": null,
+    "answerOptions": [
+      {
+        "text": "திருத்தப்படாத அச்சுப்படி",
+        "rationale": "Green Proof என்பது திருத்தப்படாத அச்சுப்படி.",
+        "isCorrect": true
+      },
+      {
+        "text": "பசுமை மாறா",
+        "rationale": "Evergreen.",
+        "isCorrect": false
+      },
+      {
+        "text": "திருத்திய படி",
+        "rationale": "Corrected proof.",
+        "isCorrect": false
+      },
+      {
+        "text": "இறுதி வடிவம்",
+        "rationale": "Final version.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "பிழை திருத்தம் செய்வதற்கு முந்தைய படி."
+  },
+  {
+    "questionNumber": 31,
+    "question": "'Classical Language' என்பதன் தமிழாக்கம் யாது?",
+    "imageUrl": null,
+    "answerOptions": [
+      {
+        "text": "உயர்தனிச் செம்மொழி",
+        "rationale": "Classical Language என்பது உயர்தனிச் செம்மொழி.",
+        "isCorrect": true
+      },
+      {
+        "text": "தாய்மொழி",
+        "rationale": "Mother tongue.",
+        "isCorrect": false
+      },
+      {
+        "text": "பழமொழி",
+        "rationale": "Proverb அல்லது Old language.",
+        "isCorrect": false
+      },
+      {
+        "text": "உலக மொழி",
+        "rationale": "World language.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "தமிழ், வடமொழி போன்றவை இவ்வகையைச் சாரும்."
+  },
+  {
+    "questionNumber": 32,
+    "question": "'Consultation' அல்லது 'Discussion' குறிக்கும் 'Meeting' என்பதன் தமிழ்ச் சொல்?",
+    "imageUrl": null,
+    "answerOptions": [
+      {
+        "text": "கூட்டம்",
+        "rationale": "Meeting என்பது கூட்டம்.",
+        "isCorrect": true
+      },
+      {
+        "text": "மாநாடு",
+        "rationale": "Conference.",
+        "isCorrect": false
+      },
+      {
+        "text": "கருத்தரங்கம்",
+        "rationale": "Seminar.",
+        "isCorrect": false
+      },
+      {
+        "text": "பயிலரங்கம்",
+        "rationale": "Workshop.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "பலர் கூடிப் பேசுவது."
+  },
+  {
+    "questionNumber": 33,
+    "question": "'Microscope' என்பதன் தமிழ்க்கலைச்சொல் என்ன?",
+    "imageUrl": null,
+    "answerOptions": [
+      {
+        "text": "நுண்ணோக்கி",
+        "rationale": "Microscope என்பது நுண்ணோக்கி.",
+        "isCorrect": true
+      },
+      {
+        "text": "தொலைநோக்கி",
+        "rationale": "Telescope.",
+        "isCorrect": false
+      },
+      {
+        "text": "நாடி",
+        "rationale": "Pulse.",
+        "isCorrect": false
+      },
+      {
+        "text": "வெப்பமானி",
+        "rationale": "Thermometer.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "சிறிய பொருட்களைப் பெரிதாகக் காட்ட உதவும் கருவி."
+  },
+  {
+    "questionNumber": 34,
+    "question": "'Protocol' என்பதன் தமிழாக்கம் என்ன?",
+    "imageUrl": null,
+    "answerOptions": [
+      {
+        "text": "மரபுத் தகவு",
+        "rationale": "Protocol என்பது மரபுத் தகவு.",
+        "isCorrect": true
+      },
+      {
+        "text": "சட்டம்",
+        "rationale": "Law.",
+        "isCorrect": false
+      },
+      {
+        "text": "ஒப்பந்தம்",
+        "rationale": "Agreement.",
+        "isCorrect": false
+      },
+      {
+        "text": "விதிமுறை",
+        "rationale": "Rule.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "அரசு முறையான நெறிமுறைகள்."
+  },
+  {
+    "questionNumber": 35,
+    "question": "'Budget' அல்லது 'Estimate' என்பதைக் குறிக்கும் சொல் எது?",
+    "imageUrl": null,
+    "answerOptions": [
+      {
+        "text": "மதிப்பீடு",
+        "rationale": "Estimate என்பது மதிப்பீடு.",
+        "isCorrect": true
+      },
+      {
+        "text": "செலவு",
+        "rationale": "Expense.",
+        "isCorrect": false
+      },
+      {
+        "text": "வரவு",
+        "rationale": "Income.",
+        "isCorrect": false
+      },
+      {
+        "text": "கணக்கு",
+        "rationale": "Account.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "ஒரு திட்டத்திற்கு ஆகும் செலவைக் கணித்தல்."
+  },
+  {
+    "questionNumber": 36,
+    "question": "பிரான்சு தேசிய நூலகத்தில் உள்ள தமிழ் ஏடுகள் பற்றி கூறியவர் யார்?",
+    "imageUrl": null,
+    "answerOptions": [
+      {
+        "text": "தனிநாயக அடிகள்",
+        "rationale": "தனிநாயக அடிகள் பிரான்சு நூலகத்திலுள்ள தமிழ் ஏடுகள் பற்றிக் குறிப்பிட்டுள்ளார்.",
+        "isCorrect": true
+      },
+      {
+        "text": "உ.வே.சா",
+        "rationale": "இவர் தமிழ் தாத்தா.",
+        "isCorrect": false
+      },
+      {
+        "text": "ஜி.யு.போப்",
+        "rationale": "இவர் மொழிபெயர்ப்பாளர்.",
+        "isCorrect": false
+      },
+      {
+        "text": "கால்டுவெல்",
+        "rationale": "இவர் திராவிட மொழிகளின் ஒப்பிலக்கணம் எழுதியவர்.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "உலகத் தமிழாராய்ச்சி மாநாடுகள் நடக்கக் காரணமானவர்."
+  },
+  {
+    "questionNumber": 37,
+    "question": "உமர்கய்யாம் பாடல்களை தமிழில் மொழிபெயர்த்தவர் யார்?",
+    "imageUrl": null,
+    "answerOptions": [
+      {
+        "text": "கவிமணி தேசிக விநாயகனார்",
+        "rationale": "கவிமணி எட்வர்டு பிற்செரால்டு ஆங்கிலத்தில் மொழிபெயர்த்த உமர்கய்யாம் பாடல்களைத் தமிழில் தந்தார்.",
+        "isCorrect": true
+      },
+      {
+        "text": "பாரதியார்",
+        "rationale": "பாரதி பாஞ்சாலி சபதம் பாடியவர்.",
+        "isCorrect": false
+      },
+      {
+        "text": "பாரதிதாசன்",
+        "rationale": "இவர் புரட்சிக்கவி.",
+        "isCorrect": false
+      },
+      {
+        "text": "கண்ணதாசன்",
+        "rationale": "இவர் திரைக்கவி.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "நாஞ்சில் நாட்டைச் சேர்ந்த கவிஞர்."
+  },
+  {
+    "questionNumber": 38,
+    "question": "'மிருச்ச கடிகம்' என்ற வடமொழி நாடகத்தை 'மண்ணியல் சிறுதேர்' என மொழிபெயர்த்தவர் யார்?",
+    "imageUrl": null,
+    "answerOptions": [
+      {
+        "text": "பண்டிதமணி மு.கதிரேசனார்",
+        "rationale": "சூத்திரகரின் 'மிருச்ச கடிகம்' நூலை பண்டிதமணி மொழிபெயர்த்தார்.",
+        "isCorrect": true
+      },
+      {
+        "text": "மறைமலை அடிகள்",
+        "rationale": "இவர் தனித்தமிழ் இயக்கத் தந்தை.",
+        "isCorrect": false
+      },
+      {
+        "text": "திரு.வி.க",
+        "rationale": "இவர் தமிழ்த்தென்றல்.",
+        "isCorrect": false
+      },
+      {
+        "text": "வ.உ.சி",
+        "rationale": "இவர் கப்பலோட்டிய தமிழன்.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "இவர் ஒரு சிறந்த உரையாசிரியர் மற்றும் மொழிபெயர்ப்பாளர்."
+  },
+  {
+    "questionNumber": 39,
+    "question": "வடசொற்களைத் தமிழில் பயன்படுத்தும்போது வடமொழி எழுத்துக்களை நீக்கி தமிழ் எழுத்துக்களில் எழுத வேண்டும் என்று கூறியவர் யார்?",
+    "imageUrl": null,
+    "answerOptions": [
+      {
+        "text": "தொல்காப்பியர்",
+        "rationale": "தொல்காப்பியர் வடசொல் பயன்பாடு குறித்து இவ்வாறு கூறியுள்ளார்.",
+        "isCorrect": true
+      },
+      {
+        "text": "பவனந்தி முனிவர்",
+        "rationale": "இவர் நன்னூல் ஆசிரியர்.",
+        "isCorrect": false
+      },
+      {
+        "text": "அகத்தியர்",
+        "rationale": "இவர் முதல் இலக்கண நூலாசிரியர்.",
+        "isCorrect": false
+      },
+      {
+        "text": "திருவள்ளுவர்",
+        "rationale": "இவர் திருக்குறள் ஆசிரியர்.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "தமிழின் மிகப் பழமையான இலக்கண நூலை எழுதியவர்."
+  },
+  {
+    "questionNumber": 40,
+    "question": "'பிரசங்கம்' என்ற வடசொல்லுக்கு இணையான தமிழ்ச் சொல் என்ன?",
+    "imageUrl": null,
+    "answerOptions": [
+      {
+        "text": "சொற்பொழிவு",
+        "rationale": "பிரசங்கம் என்பது சொற்பொழிவு.",
+        "isCorrect": true
+      },
+      {
+        "text": "பரப்புரை",
+        "rationale": "பிரசாரம் என்பது பரப்புரை.",
+        "isCorrect": false
+      },
+      {
+        "text": "உரையாடல்",
+        "rationale": "Conversation.",
+        "isCorrect": false
+      },
+      {
+        "text": "விவாதம்",
+        "rationale": "Debate.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "மேடையில் பேசுவது."
+  },
+  {
+    "questionNumber": 41,
+    "question": "மொழிபெயர்ப்பு நூல்கள் எண்ணிக்கையில் முதலிடம் வகிக்கும் மொழி எது (தமிழியிலிருந்து)?",
+    "imageUrl": null,
+    "answerOptions": [
+      {
+        "text": "ஆங்கிலம்",
+        "rationale": "புள்ளி விவரப்படி அதிகமான தமிழ் நூல்கள் ஆங்கிலத்தில் மொழிபெயர்க்கப்பட்டுள்ளன.",
+        "isCorrect": true
+      },
+      {
+        "text": "மலையாளம்",
+        "rationale": "மலையாளம் இரண்டாமிடம் வகிக்கிறது.",
+        "isCorrect": false
+      },
+      {
+        "text": "தெலுங்கு",
+        "rationale": "தெலுங்கு மூன்றாமிடம் வகிக்கிறது.",
+        "isCorrect": false
+      },
+      {
+        "text": "இந்தி",
+        "rationale": "இந்தி அடுத்த நிலையில் உள்ளது.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "உலகத் தொடர்பு மொழி."
+  },
+  {
+    "questionNumber": 42,
+    "question": "ஷேக்ஸ்பியர் எந்த மொழியின் மொழிபெயர்ப்பு மூலம் ஜெர்மனியில் அறிமுகமானார்?",
+    "imageUrl": null,
+    "answerOptions": [
+      {
+        "text": "ஜெர்மன்",
+        "rationale": "ஜெர்மன் மொழிபெயர்ப்பின் மூலமே அவர் அங்கு கொண்டாடப்பட்டார்.",
+        "isCorrect": true
+      },
+      {
+        "text": "பிரெஞ்சு",
+        "rationale": "தவறு.",
+        "isCorrect": false
+      },
+      {
+        "text": "இலத்தீன்",
+        "rationale": "தவறு.",
+        "isCorrect": false
+      },
+      {
+        "text": "கிரேக்கம்",
+        "rationale": "தவறு.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "ஜெர்மனி நாட்டு மொழி."
+  },
+  {
+    "questionNumber": 43,
+    "question": "‘The Pen is mightier than the Sword’ என்பதன் தமிழாக்கம் என்ன?",
+    "imageUrl": null,
+    "answerOptions": [
+      {
+        "text": "கத்தியின் முனையைவிட எழுதுகோலின் முனை கூர்மையானது",
+        "rationale": "Pen (எழுதுகோல்) Sword (கத்தி/வாள்).",
+        "isCorrect": true
+      },
+      {
+        "text": "எழுதுகோல் கத்தியை விட பெரியது",
+        "rationale": "தவறான பொருள்.",
+        "isCorrect": false
+      },
+      {
+        "text": "கத்தி எழுதுகோலை விட வலிமையானது",
+        "rationale": "நேர்மாறான பொருள்.",
+        "isCorrect": false
+      },
+      {
+        "text": "எழுதுகோலும் கத்தியும் சமம்",
+        "rationale": "தவறு.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "அறிவின் வலிமையை உணர்த்தும் பழமொழி."
+  },
+  {
+    "questionNumber": 44,
+    "question": "‘Knowledge rules the world’ என்பதன் தமிழாக்கம் என்ன?",
+    "imageUrl": null,
+    "answerOptions": [
+      {
+        "text": "அறிவே ஆட்சி செய்யும்",
+        "rationale": "சரியான தமிழாக்கம்.",
+        "isCorrect": true
+      },
+      {
+        "text": "உலகம் பெரியது",
+        "rationale": "தவறு.",
+        "isCorrect": false
+      },
+      {
+        "text": "அன்பே சிவம்",
+        "rationale": "தவறு.",
+        "isCorrect": false
+      },
+      {
+        "text": "கல்வியே கண்",
+        "rationale": "தவறு.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "அறிவுதான் உலகை ஆளும்."
+  },
+  {
+    "questionNumber": 45,
+    "question": "‘Saline Soil’ என்பதன் தமிழ்க்கலைச்சொல் என்ன?",
+    "imageUrl": null,
+    "answerOptions": [
+      {
+        "text": "களர் நிலம்",
+        "rationale": "பழைய வினாத்தாள் பகுதியில் Saline Soil என்பதற்கு களர் நிலம் அல்லது உவர் நிலம் என விடை உள்ளது (Options A and C in source, A is listed first in answers usually, but both imply salty). இங்கு உவர் நிலம் ஆப்ஷனில் இருந்தால் அதுவும் சரி, களர் நிலம் இருந்தால் அதுவும் சரி. வினாத்தாள் 1-ல் (A) களர் நிலம் என உள்ளது.",
+        "isCorrect": true
+      },
+      {
+        "text": "பாலை நிலம்",
+        "rationale": "Desert.",
+        "isCorrect": false
+      },
+      {
+        "text": "வண்டல் மண்",
+        "rationale": "Alluvial soil.",
+        "isCorrect": false
+      },
+      {
+        "text": "செம்மண்",
+        "rationale": "Red soil.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "உப்புத் தன்மை வாய்ந்த மண்."
+  },
+  {
+    "questionNumber": 46,
+    "question": "'Nautical Mile' என்பதன் தமிழாக்கம் என்ன?",
+    "imageUrl": null,
+    "answerOptions": [
+      {
+        "text": "கடல்மைல்",
+        "rationale": "Nautical Mile என்பது கடல்மைல்.",
+        "isCorrect": true
+      },
+      {
+        "text": "வான் மைல்",
+        "rationale": "Air mile.",
+        "isCorrect": false
+      },
+      {
+        "text": "சாலை மைல்",
+        "rationale": "Road mile.",
+        "isCorrect": false
+      },
+      {
+        "text": "கிலோமீட்டர்",
+        "rationale": "Kilometer.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "கடலில் தூரத்தை அளக்க உதவும் அலகு."
+  },
+  {
+    "questionNumber": 47,
+    "question": "'Antibiotic' என்பதன் தமிழ்க்கலைச்சொல் என்ன?",
+    "imageUrl": null,
+    "answerOptions": [
+      {
+        "text": "நுண்ணுயிர் முறி",
+        "rationale": "Antibiotic என்பது நுண்ணுயிர் முறி.",
+        "isCorrect": true
+      },
+      {
+        "text": "தடுப்பூசி",
+        "rationale": "Vaccine.",
+        "isCorrect": false
+      },
+      {
+        "text": "வைட்டமின்",
+        "rationale": "Vitamin.",
+        "isCorrect": false
+      },
+      {
+        "text": "வலி நிவாரணி",
+        "rationale": "Painkiller.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "பாக்டீரியாவைக் கொல்லும் மருந்து."
+  },
+  {
+    "questionNumber": 48,
+    "question": "‘Reform’ என்பதன் தமிழாக்கம் யாது?",
+    "imageUrl": null,
+    "answerOptions": [
+      {
+        "text": "சீர்திருத்தம்",
+        "rationale": "Reform என்பது சீர்திருத்தம்.",
+        "isCorrect": true
+      },
+      {
+        "text": "புரட்சி",
+        "rationale": "Revolution.",
+        "isCorrect": false
+      },
+      {
+        "text": "முன்னேற்றம்",
+        "rationale": "Progress.",
+        "isCorrect": false
+      },
+      {
+        "text": "மாற்றம்",
+        "rationale": "Change.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "சமூகத்தில் நல்ல மாற்றங்களைக் கொண்டு வருவது."
+  },
+  {
+    "questionNumber": 49,
+    "question": "‘Multiple’ என்ற சொல்லின் தமிழாக்கம் என்ன?",
+    "imageUrl": null,
+    "answerOptions": [
+      {
+        "text": "பன்மடங்கான",
+        "rationale": "Multiple என்பது பன்மடங்கான.",
+        "isCorrect": true
+      },
+      {
+        "text": "ஒற்றை",
+        "rationale": "Single.",
+        "isCorrect": false
+      },
+      {
+        "text": "சிறிய",
+        "rationale": "Small.",
+        "isCorrect": false
+      },
+      {
+        "text": "கூடுதல்",
+        "rationale": "Addition.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "ஒன்றுக்கு மேற்பட்ட."
+  },
+  {
+    "questionNumber": 50,
+    "question": "‘Cinematography’ என்பதன் தமிழ்க்கலைச்சொல் என்ன?",
+    "imageUrl": null,
+    "answerOptions": [
+      {
+        "text": "ஒளிப்பதிவு",
+        "rationale": "Cinematography என்பது ஒளிப்பதிவு.",
+        "isCorrect": true
+      },
+      {
+        "text": "ஒலிப்பதிவு",
+        "rationale": "Sound recording.",
+        "isCorrect": false
+      },
+      {
+        "text": "நடிப்பு",
+        "rationale": "Acting.",
+        "isCorrect": false
+      },
+      {
+        "text": "இயக்கம்",
+        "rationale": "Direction.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "திரைப்படத்தை கேமராவில் பதிவு செய்யும் கலை."
+  },
+  {
+    "questionNumber": 51,
+    "question": "‘Supreme Court’ என்பதன் தமிழாக்கம் என்ன?",
+    "imageUrl": null,
+    "answerOptions": [
+      {
+        "text": "உச்சநீதி மன்றம்",
+        "rationale": "Supreme Court என்பது உச்சநீதி மன்றம்.",
+        "isCorrect": true
+      },
+      {
+        "text": "உயர்நீதி மன்றம்",
+        "rationale": "High Court.",
+        "isCorrect": false
+      },
+      {
+        "text": "மாவட்ட நீதிமன்றம்",
+        "rationale": "District Court.",
+        "isCorrect": false
+      },
+      {
+        "text": "நுகர்வோர் நீதிமன்றம்",
+        "rationale": "Consumer Court.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "நாட்டின் மிக உயர்ந்த நீதிமன்றம்."
+  },
+  {
+    "questionNumber": 52,
+    "question": "‘Cultural Boundaries’ என்பதன் தமிழ்க்கலைச்சொல் என்ன?",
+    "imageUrl": null,
+    "answerOptions": [
+      {
+        "text": "பண்பாட்டு எல்லை",
+        "rationale": "Cultural Boundaries என்பது பண்பாட்டு எல்லை.",
+        "isCorrect": true
+      },
+      {
+        "text": "பண்பாட்டு நிகழ்வு",
+        "rationale": "Cultural Event.",
+        "isCorrect": false
+      },
+      {
+        "text": "நாட்டு எல்லை",
+        "rationale": "National Boundary.",
+        "isCorrect": false
+      },
+      {
+        "text": "மாநில எல்லை",
+        "rationale": "State Boundary.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "கலாச்சாரத்தின் வரம்புகள்."
+  },
+  {
+    "questionNumber": 53,
+    "question": "‘Sugarcane Juice’ என்பதன் தமிழாக்கம் யாது?",
+    "imageUrl": null,
+    "answerOptions": [
+      {
+        "text": "கரும்புச்சாறு",
+        "rationale": "Sugarcane என்பது கரும்பு.",
+        "isCorrect": true
+      },
+      {
+        "text": "எலுமிச்சை சாறு",
+        "rationale": "Lemon juice.",
+        "isCorrect": false
+      },
+      {
+        "text": "பழச்சாறு",
+        "rationale": "Fruit juice.",
+        "isCorrect": false
+      },
+      {
+        "text": "தக்காளி சாறு",
+        "rationale": "Tomato juice.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "பொங்கல் பண்டிகைக்குப் பயன்படும் பயிரின் சாறு."
+  },
+  {
+    "questionNumber": 54,
+    "question": "‘Epigraphy’ என்பதன் தமிழ்க்கலைச்சொல் என்ன?",
+    "imageUrl": null,
+    "answerOptions": [
+      {
+        "text": "கல்வெட்டியல்",
+        "rationale": "Epigraphy என்பது கல்வெட்டியல்.",
+        "isCorrect": true
+      },
+      {
+        "text": "நாணயவியல்",
+        "rationale": "Numismatics.",
+        "isCorrect": false
+      },
+      {
+        "text": "தொல்லியல்",
+        "rationale": "Archaeology.",
+        "isCorrect": false
+      },
+      {
+        "text": "மொழியியல்",
+        "rationale": "Linguistics.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "பழைய கற்களில் உள்ள எழுத்துக்களைப் படிப்பது."
+  },
+  {
+    "questionNumber": 55,
+    "question": "‘Excavation’ என்பதன் தமிழாக்கம் என்ன?",
+    "imageUrl": null,
+    "answerOptions": [
+      {
+        "text": "அகழாய்வு",
+        "rationale": "Excavation என்பது அகழாய்வு.",
+        "isCorrect": true
+      },
+      {
+        "text": "ஆராய்ச்சி",
+        "rationale": "Research.",
+        "isCorrect": false
+      },
+      {
+        "text": "சுற்றுலா",
+        "rationale": "Tour.",
+        "isCorrect": false
+      },
+      {
+        "text": "கண்காட்சி",
+        "rationale": "Exhibition.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "மண்ணைத் தோண்டி பழங்காலப் பொருட்களை எடுப்பது."
+  },
+  {
+    "questionNumber": 56,
+    "question": "‘Rational’ என்பதன் தமிழ்க்கலைச்சொல் என்ன?",
+    "imageUrl": null,
+    "answerOptions": [
+      {
+        "text": "பகுத்தறிவு",
+        "rationale": "Rational என்பது பகுத்தறிவு.",
+        "isCorrect": true
+      },
+      {
+        "text": "உணர்ச்சி",
+        "rationale": "Emotion.",
+        "isCorrect": false
+      },
+      {
+        "text": "நம்பிக்கை",
+        "rationale": "Belief.",
+        "isCorrect": false
+      },
+      {
+        "text": "ஆன்மீகம்",
+        "rationale": "Spirituality.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "எதையும் ஏன், எதற்கு என்று கேட்பது."
+  },
+  {
+    "questionNumber": 57,
+    "question": "‘Missile’ என்பதன் தமிழாக்கம் என்ன?",
+    "imageUrl": null,
+    "answerOptions": [
+      {
+        "text": "ஏவுகணை",
+        "rationale": "Missile என்பது ஏவுகணை.",
+        "isCorrect": true
+      },
+      {
+        "text": "விமானம்",
+        "rationale": "Aeroplane.",
+        "isCorrect": false
+      },
+      {
+        "text": "துப்பாக்கி",
+        "rationale": "Gun.",
+        "isCorrect": false
+      },
+      {
+        "text": "பீரங்கி",
+        "rationale": "Tank.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "போரில் பயன்படும் ஒரு ஆயுதம்."
+  },
+  {
+    "questionNumber": 58,
+    "question": "‘Consonant’ என்பதன் தமிழ்க்கலைச்சொல் யாது?",
+    "imageUrl": null,
+    "answerOptions": [
+      {
+        "text": "மெய்யொலி",
+        "rationale": "Consonant என்பது மெய்யெழுத்து அல்லது மெய்யொலி.",
+        "isCorrect": true
+      },
+      {
+        "text": "உயிரொலி",
+        "rationale": "Vowel.",
+        "isCorrect": false
+      },
+      {
+        "text": "ஆய்தம்",
+        "rationale": "Aaytham.",
+        "isCorrect": false
+      },
+      {
+        "text": "சொற்றொடர்",
+        "rationale": "Phrase.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "உயிரெழுத்து அல்லாதது."
+  },
+  {
+    "questionNumber": 59,
+    "question": "‘Compact Disk’ என்பதன் தமிழாக்கம் என்ன?",
+    "imageUrl": null,
+    "answerOptions": [
+      {
+        "text": "குறுந்தகடு",
+        "rationale": "Compact Disk (CD) என்பது குறுந்தகடு.",
+        "isCorrect": true
+      },
+      {
+        "text": "வன்வட்டு",
+        "rationale": "Hard disk.",
+        "isCorrect": false
+      },
+      {
+        "text": "மென்பொருள்",
+        "rationale": "Software.",
+        "isCorrect": false
+      },
+      {
+        "text": "திரை",
+        "rationale": "Screen.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "பாடல்கள் பதிவு செய்யப் பயன்படும் வட்ட வடிவப் பொருள்."
+  },
+  {
+    "questionNumber": 60,
+    "question": "‘Media’ என்பதற்கு இணையான கலைச்சொல் எது?",
+    "imageUrl": null,
+    "answerOptions": [
+      {
+        "text": "ஊடகம்",
+        "rationale": "Media என்பது ஊடகம்.",
+        "isCorrect": true
+      },
+      {
+        "text": "செய்தித்தாள்",
+        "rationale": "Newspaper.",
+        "isCorrect": false
+      },
+      {
+        "text": "வானொலி",
+        "rationale": "Radio.",
+        "isCorrect": false
+      },
+      {
+        "text": "திரைப்படம்",
+        "rationale": "Cinema.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "தகவல் பரிமாற்றத்திற்கு உதவும் சாதனம்."
+  },
+  {
+    "questionNumber": 61,
+    "question": "'Accident' என்பதற்கு பாடநூலில் 'நேர்ச்சி' என்று குறிப்பிடப்பட்டாலும், பழைய வினாத்தாள் பகுதியில் 'Accident' என்பதற்கு என்ன விடை உள்ளது?",
+    "imageUrl": null,
+    "answerOptions": [
+      {
+        "text": "நேர்ச்சி",
+        "rationale": "பாடப்பகுதி அட்டவணை மற்றும் வினாத்தாள் பகுதி இரண்டிலும் 'நேர்ச்சி' என்ற சொல்லே பயன்படுத்தப்பட்டுள்ளது.",
+        "isCorrect": true
+      },
+      {
+        "text": "விபத்து",
+        "rationale": "இது பொதுச் சொல்.",
+        "isCorrect": false
+      },
+      {
+        "text": "இடர்",
+        "rationale": "Trouble.",
+        "isCorrect": false
+      },
+      {
+        "text": "தடை",
+        "rationale": "Obstacle.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "நிகழ்வு என்பதன் மறுபெயர் போல ஒலிக்கும்."
+  },
+  {
+    "questionNumber": 62,
+    "question": "'Debit Card' என்பதன் தமிழாக்கம் என்ன?",
+    "imageUrl": null,
+    "answerOptions": [
+      {
+        "text": "பற்று அட்டை",
+        "rationale": "Debit Card என்பது பற்று அட்டை.",
+        "isCorrect": true
+      },
+      {
+        "text": "கடன் அட்டை",
+        "rationale": "Credit Card.",
+        "isCorrect": false
+      },
+      {
+        "text": "அடையாள அட்டை",
+        "rationale": "ID Card.",
+        "isCorrect": false
+      },
+      {
+        "text": "பண அட்டை",
+        "rationale": "Cash Card.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "வங்கியில் நம் கணக்கில் உள்ள பணத்தை எடுக்க உதவும் அட்டை."
+  },
+  {
+    "questionNumber": 63,
+    "question": "'Credit Card' என்பதன் தமிழாக்கம் என்ன?",
+    "imageUrl": null,
+    "answerOptions": [
+      {
+        "text": "கடன் அட்டை",
+        "rationale": "Credit Card என்பது கடன் அட்டை.",
+        "isCorrect": true
+      },
+      {
+        "text": "பற்று அட்டை",
+        "rationale": "Debit Card.",
+        "isCorrect": false
+      },
+      {
+        "text": "அஞ்சல் அட்டை",
+        "rationale": "Post Card.",
+        "isCorrect": false
+      },
+      {
+        "text": "குடும்ப அட்டை",
+        "rationale": "Ration Card.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "வங்கியிடம் கடன் வாங்கி செலவு செய்ய உதவும் அட்டை."
+  },
+  {
+    "questionNumber": 64,
+    "question": "'Ready made dress' என்பதற்கு இணையான தமிழ்ச் சொல் என்ன?",
+    "imageUrl": null,
+    "answerOptions": [
+      {
+        "text": "ஆயத்த ஆடை",
+        "rationale": "Ready made dress என்பது ஆயத்த ஆடை.",
+        "isCorrect": true
+      },
+      {
+        "text": "தையல் ஆடை",
+        "rationale": "Stitched dress.",
+        "isCorrect": false
+      },
+      {
+        "text": "நூல் ஆடை",
+        "rationale": "Cotton dress.",
+        "isCorrect": false
+      },
+      {
+        "text": "வண்ண ஆடை",
+        "rationale": "Colourful dress.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "கடையில் தைத்து விற்கப்படும் ஆடை."
+  },
+  {
+    "questionNumber": 65,
+    "question": "'Weight' என்ற சொல்லின் இணையான தமிழ்ச்சொல் என்ன (தங்கக்கட்டி தொடர்பான எடுத்துக்காட்டில்)?",
+    "imageUrl": null,
+    "answerOptions": [
+      {
+        "text": "எடை",
+        "rationale": "Weight என்பது எடை.",
+        "isCorrect": true
+      },
+      {
+        "text": "அளவு",
+        "rationale": "Measurement.",
+        "isCorrect": false
+      },
+      {
+        "text": "கனம்",
+        "rationale": "Heaviness.",
+        "isCorrect": false
+      },
+      {
+        "text": "திடம்",
+        "rationale": "Solid.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "நிறுத்தல் அளவை."
+  },
+  {
+    "questionNumber": 66,
+    "question": "'Simplicity is nature's first step' என்று கூறியவர் யார்?",
+    "imageUrl": null,
+    "answerOptions": [
+      {
+        "text": "பிலிப் ஜேம்ஸ் பெய்லி",
+        "rationale": "பிலிப் ஜேம்ஸ் பெய்லி இவ்வாறு கூறியுள்ளார்.",
+        "isCorrect": true
+      },
+      {
+        "text": "ஐன்ஸ்டீன்",
+        "rationale": "இவர் அறிவியலாளர்.",
+        "isCorrect": false
+      },
+      {
+        "text": "கன்பூஷியஸ்",
+        "rationale": "இவர் சீன தத்துவஞானி.",
+        "isCorrect": false
+      },
+      {
+        "text": "ஷேக்ஸ்பியர்",
+        "rationale": "இவர் ஆங்கில நாடக ஆசிரியர்.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "எளிமை பற்றிய பொன்மொழி."
+  },
+  {
+    "questionNumber": 67,
+    "question": "'Look deep into nature and then you will understand everything better' என்று கூறியவர் யார்?",
+    "imageUrl": null,
+    "answerOptions": [
+      {
+        "text": "ஆல்பர்ட் ஐன்ஸ்டீன்",
+        "rationale": "இயற்கையை உற்று நோக்கச் சொன்னவர் ஐன்ஸ்டீன்.",
+        "isCorrect": true
+      },
+      {
+        "text": "நியூட்டன்",
+        "rationale": "இவர் புவியீர்ப்பு விசையைக் கண்டறிந்தவர்.",
+        "isCorrect": false
+      },
+      {
+        "text": "எடிசன்",
+        "rationale": "இவர் மின்விளக்கைக் கண்டறிந்தவர்.",
+        "isCorrect": false
+      },
+      {
+        "text": "டார்வின்",
+        "rationale": "இவர் பரிணாம வளர்ச்சியை விளக்கியவர்.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "சார்பியல் கோட்பாட்டை உருவாக்கியவர்."
+  },
+  {
+    "questionNumber": 68,
+    "question": "'Education is a basic human right' என்பதன் தமிழாக்கம் என்ன?",
+    "imageUrl": null,
+    "answerOptions": [
+      {
+        "text": "கல்வி மனிதனின் அடிப்படை உரிமை",
+        "rationale": "சரியான மொழிபெயர்ப்பு.",
+        "isCorrect": true
+      },
+      {
+        "text": "கல்வி மனிதனுக்குத் தேவை",
+        "rationale": "Education is needed for humans.",
+        "isCorrect": false
+      },
+      {
+        "text": "கல்வி ஒரு வரம்",
+        "rationale": "Education is a boon.",
+        "isCorrect": false
+      },
+      {
+        "text": "கல்வி அறிவு தரும்",
+        "rationale": "Education gives knowledge.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "அனைவருக்கும் கல்வி."
+  },
+  {
+    "questionNumber": 69,
+    "question": "எந்த மொழிபெயர்ப்பு சரியாக அமையாததால் ஹீரோஷிமாவில் குண்டு வீசப்பட்டது?",
+    "imageUrl": null,
+    "answerOptions": [
+      {
+        "text": "ஜப்பானிய மொழி - ஆங்கிலம்",
+        "rationale": "ஜப்பானின் 'மொகு சாஸ்ட்டு' என்ற சொல் அமெரிக்கர்களால் தவறாகப் புரிந்து கொள்ளப்பட்டது.",
+        "isCorrect": true
+      },
+      {
+        "text": "தமிழ் - ஆங்கிலம்",
+        "rationale": "தவறு.",
+        "isCorrect": false
+      },
+      {
+        "text": "பிரெஞ்சு - ஆங்கிலம்",
+        "rationale": "தவறு.",
+        "isCorrect": false
+      },
+      {
+        "text": "ஜெர்மன் - ஆங்கிலம்",
+        "rationale": "தவறு.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "இரண்டாம் உலகப் போரின் போது நடந்த நிகழ்வு."
+  },
+  {
+    "questionNumber": 70,
+    "question": "'Jungle' என்ற சொல்லின் தமிழ்ச் சொல் என்ன?",
+    "imageUrl": null,
+    "answerOptions": [
+      {
+        "text": "காடு",
+        "rationale": "Jungle என்பது காடு.",
+        "isCorrect": true
+      },
+      {
+        "text": "மலை",
+        "rationale": "Mountain.",
+        "isCorrect": false
+      },
+      {
+        "text": "கடல்",
+        "rationale": "Sea.",
+        "isCorrect": false
+      },
+      {
+        "text": "வயல்",
+        "rationale": "Field.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "விலங்குகள் வசிக்கும் இடம்."
+  },
+  {
+    "questionNumber": 71,
+    "question": "'Chips' என்ற சொல்லின் தமிழ்ச் சொல் என்ன (உணவுப் பொருளில்)?",
+    "imageUrl": null,
+    "answerOptions": [
+      {
+        "text": "சில்லுகள்",
+        "rationale": "Chips என்பதற்கு சில்லுகள் என்று பொருள்.",
+        "isCorrect": true
+      },
+      {
+        "text": "துண்டுகள்",
+        "rationale": "Pieces.",
+        "isCorrect": false
+      },
+      {
+        "text": "காய்கறிகள்",
+        "rationale": "Vegetables.",
+        "isCorrect": false
+      },
+      {
+        "text": "பழங்கள்",
+        "rationale": "Fruits.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "பொரித்த உருளைக் கிழங்குத் துண்டுகள்."
+  },
+  {
+    "questionNumber": 72,
+    "question": "'E-Commerce' என்பதன் தமிழாக்கம் என்ன?",
+    "imageUrl": null,
+    "answerOptions": [
+      {
+        "text": "மின்னணு வணிகம்",
+        "rationale": "E-Commerce என்பது மின்னணு வணிகம்.",
+        "isCorrect": true
+      },
+      {
+        "text": "நேரடி வணிகம்",
+        "rationale": "Direct marketing.",
+        "isCorrect": false
+      },
+      {
+        "text": "சில்லறை வணிகம்",
+        "rationale": "Retail marketing.",
+        "isCorrect": false
+      },
+      {
+        "text": "மொத்த வணிகம்",
+        "rationale": "Wholesale marketing.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "இணையம் மூலம் நடக்கும் வியாபாரம்."
+  },
+  {
+    "questionNumber": 73,
+    "question": "'Cheque' என்பதன் தமிழ்ச் சொல் என்ன?",
+    "imageUrl": null,
+    "answerOptions": [
+      {
+        "text": "காசோலை",
+        "rationale": "Cheque என்பது காசோலை.",
+        "isCorrect": true
+      },
+      {
+        "text": "பணத்தாள்",
+        "rationale": "Currency note.",
+        "isCorrect": false
+      },
+      {
+        "text": "வரைவோலை",
+        "rationale": "Demand Draft.",
+        "isCorrect": false
+      },
+      {
+        "text": "உண்டியல்",
+        "rationale": "Bill/Hundi.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "வங்கி பணப் பரிமாற்றத்தாள்."
+  },
+  {
+    "questionNumber": 74,
+    "question": "'Demand Draft' என்பதன் தமிழ்ச் சொல் என்ன?",
+    "imageUrl": null,
+    "answerOptions": [
+      {
+        "text": "வரைவோலை",
+        "rationale": "Demand Draft என்பது வரைவோலை.",
+        "isCorrect": true
+      },
+      {
+        "text": "காசோலை",
+        "rationale": "Cheque.",
+        "isCorrect": false
+      },
+      {
+        "text": "பணவிடை",
+        "rationale": "Money Order.",
+        "isCorrect": false
+      },
+      {
+        "text": "பற்றுச்சீட்டு",
+        "rationale": "Debit Note/Receipt.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "வங்கியில் பணம் கட்டி வாங்கும் ஓலை."
+  },
+  {
+    "questionNumber": 75,
+    "question": "'Robot' என்பதற்குப் பொருத்தமான தமிழ்ச் தொடர் எது?",
+    "imageUrl": null,
+    "answerOptions": [
+      {
+        "text": "தானியங்கி",
+        "rationale": "பாடப்பகுதி வினாத்தாளில் ரோபோ என்பது எந்திர மனிதன் அல்லது தானியங்கி எனக் குறிக்கப்படும். ஆனால் 'ஆட்டோமொபைல்' என்றால் தானியங்கி. ரோபோ பற்றிய கேள்வித் தொடரில் 'ரோபோ' என்றே உள்ளது. அட்டவணையில் Robot இல்லை, ஆனால் Automobile=தானியங்கி.",
+        "isCorrect": false
+      },
+      {
+        "text": "இயந்திர மனிதன்",
+        "rationale": "பொதுவாக ரோபோ.",
+        "isCorrect": false
+      },
+      {
+        "text": "ரோபோ",
+        "rationale": "பழைய வினாத்தாளில் 'ரோபோ' என்ற சொல்லே பயன்படுத்தப்பட்டுள்ளது (எ.கா: ரோபோ பல்வேறு துறைகளிலும்...)",
+        "isCorrect": true
+      },
+      {
+        "text": "பணியாள்",
+        "rationale": "Servant.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "மனிதனைப் போலவே செயல்படும் இயந்திரம்."
+  },
+  {
+    "questionNumber": 76,
+    "question": "'Chalk piece' என்பதன் தமிழ்ச் சொல் என்ன?",
+    "imageUrl": null,
+    "answerOptions": [
+      {
+        "text": "சுண்ணக்கட்டி",
+        "rationale": "Chalk piece என்பது சுண்ணக்கட்டி.",
+        "isCorrect": true
+      },
+      {
+        "text": "எழுதுகோல்",
+        "rationale": "Pen.",
+        "isCorrect": false
+      },
+      {
+        "text": "கரிக்கோல்",
+        "rationale": "Pencil.",
+        "isCorrect": false
+      },
+      {
+        "text": "அழிப்பான்",
+        "rationale": "Eraser.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "கரும்பலகையில் எழுதப் பயன்படுவது."
+  },
+  {
+    "questionNumber": 77,
+    "question": "'Compounder' என்பதன் தமிழாக்கம் என்ன?",
+    "imageUrl": null,
+    "answerOptions": [
+      {
+        "text": "மருந்தாளுநர்",
+        "rationale": "Compounder என்பது மருந்தாளுநர்.",
+        "isCorrect": true
+      },
+      {
+        "text": "மருத்துவர்",
+        "rationale": "Doctor.",
+        "isCorrect": false
+      },
+      {
+        "text": "செவிலியர்",
+        "rationale": "Nurse.",
+        "isCorrect": false
+      },
+      {
+        "text": "உதவியாளர்",
+        "rationale": "Assistant.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "மருந்து கலந்து கொடுப்பவர்."
+  },
+  {
+    "questionNumber": 78,
+    "question": "'Deposit' என்பதன் தமிழாக்கம் என்ன?",
+    "imageUrl": null,
+    "answerOptions": [
+      {
+        "text": "இட்டு வைப்பு",
+        "rationale": "Deposit என்பது இட்டு வைப்பு.",
+        "isCorrect": true
+      },
+      {
+        "text": "எடுத்து வைப்பு",
+        "rationale": "Withdrawal.",
+        "isCorrect": false
+      },
+      {
+        "text": "சேமிப்பு",
+        "rationale": "Savings.",
+        "isCorrect": false
+      },
+      {
+        "text": "செலவு",
+        "rationale": "Expenditure.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "வங்கியில் பணத்தைப் பாதுகாப்பாக வைப்பது."
+  },
+  {
+    "questionNumber": 79,
+    "question": "'Ever silver' என்பதன் தமிழ்ச் சொல் என்ன?",
+    "imageUrl": null,
+    "answerOptions": [
+      {
+        "text": "நிலைவெள்ளி",
+        "rationale": "Ever silver என்பது நிலைவெள்ளி.",
+        "isCorrect": true
+      },
+      {
+        "text": "துருப்பிடிக்காத எஃகு",
+        "rationale": "Stainless steel.",
+        "isCorrect": false
+      },
+      {
+        "text": "வெள்ளி",
+        "rationale": "Silver.",
+        "isCorrect": false
+      },
+      {
+        "text": "பித்தளை",
+        "rationale": "Brass.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "பாத்திரங்கள் செய்யப் பயன்படும் உலோகம்."
+  },
+  {
+    "questionNumber": 80,
+    "question": "'Plastic' என்பதன் தமிழாக்கம் என்ன?",
+    "imageUrl": null,
+    "answerOptions": [
+      {
+        "text": "நெகிழி",
+        "rationale": "Plastic என்பது நெகிழி.",
+        "isCorrect": true
+      },
+      {
+        "text": "கண்ணாடி",
+        "rationale": "Glass.",
+        "isCorrect": false
+      },
+      {
+        "text": "இரும்பு",
+        "rationale": "Iron.",
+        "isCorrect": false
+      },
+      {
+        "text": "காகிதம்",
+        "rationale": "Paper.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "சுற்றுச்சூழலுக்கு கேடு விளைவிக்கும் பொருள்."
+  },
+  {
+    "questionNumber": 81,
+    "question": "'Tea Stall' என்பதன் தமிழாக்கம் என்ன?",
+    "imageUrl": null,
+    "answerOptions": [
+      {
+        "text": "தேனீர் அங்காடி",
+        "rationale": "Tea Stall என்பது தேனீர் அங்காடி.",
+        "isCorrect": true
+      },
+      {
+        "text": "உணவகம்",
+        "rationale": "Hotel/Restaurant.",
+        "isCorrect": false
+      },
+      {
+        "text": "மருந்தகம்",
+        "rationale": "Pharmacy.",
+        "isCorrect": false
+      },
+      {
+        "text": "பல்பொருள் அங்காடி",
+        "rationale": "Supermarket.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "தேநீர் விற்கும் கடை."
+  },
+  {
+    "questionNumber": 82,
+    "question": "'Xerox' என்பதன் தமிழ்ச் சொல் என்ன?",
+    "imageUrl": null,
+    "answerOptions": [
+      {
+        "text": "ஒளிப்படி",
+        "rationale": "Xerox/Photocopy என்பது ஒளிப்படி.",
+        "isCorrect": true
+      },
+      {
+        "text": "நிழற்படம்",
+        "rationale": "Photograph.",
+        "isCorrect": false
+      },
+      {
+        "text": "அச்சுப்படி",
+        "rationale": "Printout.",
+        "isCorrect": false
+      },
+      {
+        "text": "நகல்",
+        "rationale": "Copy (பொதுச்சொல்).",
+        "isCorrect": false
+      }
+    ],
+    "hint": "ஆவணங்களைப் படியெடுக்க உதவும் இயந்திரம்."
+  },
+  {
+    "questionNumber": 83,
+    "question": "'Atlas' என்பதன் தமிழாக்கம் என்ன?",
+    "imageUrl": null,
+    "answerOptions": [
+      {
+        "text": "நிலப்படச்சுவடி",
+        "rationale": "Atlas என்பது நிலப்படச்சுவடி அல்லது நிலப்படத்தொகுப்பு.",
+        "isCorrect": true
+      },
+      {
+        "text": "உலக வரைபடம்",
+        "rationale": "World map.",
+        "isCorrect": false
+      },
+      {
+        "text": "புவியியல் நூல்",
+        "rationale": "Geography book.",
+        "isCorrect": false
+      },
+      {
+        "text": "வரைபட நூல்",
+        "rationale": "Drawing book.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "வரைபடங்களின் தொகுப்பு."
+  },
+  {
+    "questionNumber": 84,
+    "question": "'Aesthetic' என்பதன் தமிழ்ச் சொல் யாது?",
+    "imageUrl": null,
+    "answerOptions": [
+      {
+        "text": "இயற்கை வனப்பு",
+        "rationale": "Aesthetic என்பது இயற்கை வனப்பு (அட்டவணை 2-ன் படி).",
+        "isCorrect": true
+      },
+      {
+        "text": "அழகு",
+        "rationale": "Beauty.",
+        "isCorrect": false
+      },
+      {
+        "text": "கலை",
+        "rationale": "Art.",
+        "isCorrect": false
+      },
+      {
+        "text": "ரசிப்பு",
+        "rationale": "Taste.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "அழகியல் உணர்வு."
+  },
+  {
+    "questionNumber": 85,
+    "question": "'Bio Technology' என்பதன் தமிழாக்கம் என்ன?",
+    "imageUrl": null,
+    "answerOptions": [
+      {
+        "text": "உயிரி தொழில்நுட்பவியல்",
+        "rationale": "Bio Technology என்பது உயிரி தொழில்நுட்பவியல்.",
+        "isCorrect": true
+      },
+      {
+        "text": "தகவல் தொழில்நுட்பம்",
+        "rationale": "Information Technology.",
+        "isCorrect": false
+      },
+      {
+        "text": "நானோ தொழில்நுட்பம்",
+        "rationale": "Nano Technology.",
+        "isCorrect": false
+      },
+      {
+        "text": "விண்வெளி தொழில்நுட்பம்",
+        "rationale": "Space Technology.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "உயிரியலும் தொழில்நுட்பமும் கலந்தது."
+  },
+  {
+    "questionNumber": 86,
+    "question": "'Coffee Bar' என்பதன் தமிழாக்கம் என்ன?",
+    "imageUrl": null,
+    "answerOptions": [
+      {
+        "text": "குளம்பியகம்",
+        "rationale": "Coffee Bar என்பது குளம்பியகம்.",
+        "isCorrect": true
+      },
+      {
+        "text": "காபி கடை",
+        "rationale": "Coffee Shop.",
+        "isCorrect": false
+      },
+      {
+        "text": "உணவகம்",
+        "rationale": "Restaurant.",
+        "isCorrect": false
+      },
+      {
+        "text": "தேனீர் அங்காடி",
+        "rationale": "Tea Stall.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "குளம்பி (Coffee) கிடைக்கும் இடம்."
+  },
+  {
+    "questionNumber": 87,
+    "question": "'Grinder' என்பதன் தமிழ்ச் சொல் என்ன?",
+    "imageUrl": null,
+    "answerOptions": [
+      {
+        "text": "அரவை இயந்திரம்",
+        "rationale": "Grinder என்பது அரவை இயந்திரம்.",
+        "isCorrect": true
+      },
+      {
+        "text": "கலக்கி",
+        "rationale": "Mixer.",
+        "isCorrect": false
+      },
+      {
+        "text": "துவைக்கும் இயந்திரம்",
+        "rationale": "Washing machine.",
+        "isCorrect": false
+      },
+      {
+        "text": "குளிர்சாதனப் பெட்டி",
+        "rationale": "Fridge.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "மாவு அரைக்கப் பயன்படுவது."
+  },
+  {
+    "questionNumber": 88,
+    "question": "'Helicopter' என்பதன் தமிழாக்கம் யாது?",
+    "imageUrl": null,
+    "answerOptions": [
+      {
+        "text": "உலங்கு வானூர்தி",
+        "rationale": "Helicopter என்பது உலங்கு வானூர்தி அல்லது சுருள் வானூர்தி.",
+        "isCorrect": true
+      },
+      {
+        "text": "விமானம்",
+        "rationale": "Aeroplane.",
+        "isCorrect": false
+      },
+      {
+        "text": "ஏவுகணை",
+        "rationale": "Missile.",
+        "isCorrect": false
+      },
+      {
+        "text": "பறக்கும் தட்டு",
+        "rationale": "Flying saucer.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "செங்குத்தாகக் கிளம்பும் வானூர்தி."
+  },
+  {
+    "questionNumber": 89,
+    "question": "'Projector' என்பதன் தமிழ்ச் சொல் என்ன?",
+    "imageUrl": null,
+    "answerOptions": [
+      {
+        "text": "படவீழ்த்தி",
+        "rationale": "Projector என்பது படவீழ்த்தி.",
+        "isCorrect": true
+      },
+      {
+        "text": "திரைப்படம்",
+        "rationale": "Cinema.",
+        "isCorrect": false
+      },
+      {
+        "text": "கேமரா",
+        "rationale": "Camera.",
+        "isCorrect": false
+      },
+      {
+        "text": "தொலைக்காட்சி",
+        "rationale": "Television.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "படத்தைப் பெரிதாக திரையில் காட்ட உதவுவது."
+  },
+  {
+    "questionNumber": 90,
+    "question": "'Refrigerator' (Fridge) என்பதன் தமிழாக்கம் என்ன?",
+    "imageUrl": null,
+    "answerOptions": [
+      {
+        "text": "குளிர்சாதனப் பெட்டி",
+        "rationale": "Fridge என்பது குளிர்சாதனப் பெட்டி.",
+        "isCorrect": true
+      },
+      {
+        "text": "அடுப்பு",
+        "rationale": "Stove.",
+        "isCorrect": false
+      },
+      {
+        "text": "பாத்திரம்",
+        "rationale": "Vessel.",
+        "isCorrect": false
+      },
+      {
+        "text": "நாற்காலி",
+        "rationale": "Chair.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "உணவுப் பொருட்களைக் கெடாமல் வைக்க உதவுவது."
+  },
+  {
+    "questionNumber": 91,
+    "question": "'Telegram' (Tele Print/Telex) என்பதன் தமிழாக்கம் என்ன?",
+    "imageUrl": null,
+    "answerOptions": [
+      {
+        "text": "தொலை வரி",
+        "rationale": "Telex/Tele Print என்பது தொலை வரி அல்லது தொலை அச்சு.",
+        "isCorrect": true
+      },
+      {
+        "text": "மின்னஞ்சல்",
+        "rationale": "Email.",
+        "isCorrect": false
+      },
+      {
+        "text": "கடிதம்",
+        "rationale": "Letter.",
+        "isCorrect": false
+      },
+      {
+        "text": "குறுஞ்செய்தி",
+        "rationale": "SMS.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "விரைவாகச் செய்தி அனுப்பும் பழைய முறை."
+  },
+  {
+    "questionNumber": 92,
+    "question": "'Thermometer' என்பதன் தமிழ்ச் சொல் என்ன?",
+    "imageUrl": null,
+    "answerOptions": [
+      {
+        "text": "வெப்பமானி",
+        "rationale": "Thermometer என்பது வெப்பமானி.",
+        "isCorrect": true
+      },
+      {
+        "text": "காற்றழுத்தமானி",
+        "rationale": "Barometer.",
+        "isCorrect": false
+      },
+      {
+        "text": "மழைமானி",
+        "rationale": "Rain gauge.",
+        "isCorrect": false
+      },
+      {
+        "text": "வேகமானி",
+        "rationale": "Speedometer.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "காய்ச்சலை அளக்கப் பயன்படுவது."
+  },
+  {
+    "questionNumber": 93,
+    "question": "'Passport' என்பதன் தமிழாக்கம் என்ன?",
+    "imageUrl": null,
+    "answerOptions": [
+      {
+        "text": "கடவுச்சீட்டு",
+        "rationale": "Passport என்பது கடவுச்சீட்டு.",
+        "isCorrect": true
+      },
+      {
+        "text": "நுழைவு இசைவு",
+        "rationale": "Visa.",
+        "isCorrect": false
+      },
+      {
+        "text": "பயணச்சீட்டு",
+        "rationale": "Ticket.",
+        "isCorrect": false
+      },
+      {
+        "text": "உரிமம்",
+        "rationale": "License.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "வெளிநாடு செல்லத் தேவையான ஆவணம்."
+  },
+  {
+    "questionNumber": 94,
+    "question": "'Visa' என்பதன் தமிழாக்கம் என்ன?",
+    "imageUrl": null,
+    "answerOptions": [
+      {
+        "text": "நுழைவு இசைவு",
+        "rationale": "Visa என்பது நுழைவு இசைவு.",
+        "isCorrect": true
+      },
+      {
+        "text": "கடவுச்சீட்டு",
+        "rationale": "Passport.",
+        "isCorrect": false
+      },
+      {
+        "text": "அனுமதி கடிதம்",
+        "rationale": "Permission letter.",
+        "isCorrect": false
+      },
+      {
+        "text": "அடையாள அட்டை",
+        "rationale": "ID Card.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "வேற்று நாட்டில் நுழைய அனுமதி."
+  },
+  {
+    "questionNumber": 95,
+    "question": "‘ஒரு புளியமரத்தின் கதை’ என்ற நாவலை ஆங்கிலத்தில் மொழிபெயர்த்தவர் யார்?",
+    "imageUrl": null,
+    "answerOptions": [
+      {
+        "text": "Black went worth",
+        "rationale": "சுந்தர ராமசாமியின் நாவலை இவர் மொழிபெயர்த்தார்.",
+        "isCorrect": true
+      },
+      {
+        "text": "G.U. Pope",
+        "rationale": "திருக்குறளை மொழிபெயர்த்தவர்.",
+        "isCorrect": false
+      },
+      {
+        "text": "Kamil Zvelebil",
+        "rationale": "தமிழி அறிஞர்.",
+        "isCorrect": false
+      },
+      {
+        "text": "A.K. Ramanujan",
+        "rationale": "சங்க இலக்கியங்களை மொழிபெயர்த்தவர்.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "சுந்தர ராமசாமியின் நாவல்."
+  },
+  {
+    "questionNumber": 96,
+    "question": "'Railsleeper' என்பது எதைக் குறிக்கும்?",
+    "imageUrl": null,
+    "answerOptions": [
+      {
+        "text": "தண்டவாளக் குறுக்குக் கட்டைகள்",
+        "rationale": "Railsleeper என்பது தண்டவாளத்தில் உள்ள குறுக்குக் கட்டைகளைக் குறிக்கும், ரயிலில் தூங்குபவர்களை அல்ல.",
+        "isCorrect": true
+      },
+      {
+        "text": "ரயிலில் தூங்குபவர்கள்",
+        "rationale": "இது தவறான மொழிபெயர்ப்பு.",
+        "isCorrect": false
+      },
+      {
+        "text": "ரயில் பெட்டிகள்",
+        "rationale": "Train coaches.",
+        "isCorrect": false
+      },
+      {
+        "text": "ரயில் நிலையம்",
+        "rationale": "Railway station.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "ரயில் பாதையில் உள்ளது."
+  },
+  {
+    "questionNumber": 97,
+    "question": "எந்த மொழிபெயர்ப்பு மூலம் புதிய இலக்கண விதிகளின் தேவை உருவாகிறது?",
+    "imageUrl": null,
+    "answerOptions": [
+      {
+        "text": "மொழி மீறல்கள்",
+        "rationale": "நல்ல மொழிபெயர்ப்பாளன் செய்யும் மொழி மீறல்கள் மூலம் புதிய இலக்கண விதிகளின் தேவை உருவாகிறது.",
+        "isCorrect": true
+      },
+      {
+        "text": "சொல்வளம்",
+        "rationale": "Vocabulary.",
+        "isCorrect": false
+      },
+      {
+        "text": "பழமை",
+        "rationale": "Antiquity.",
+        "isCorrect": false
+      },
+      {
+        "text": "மரபு",
+        "rationale": "Tradition.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "மொழியின் வளர்ச்சிக்கு உதவுவது."
+  },
+  {
+    "questionNumber": 98,
+    "question": "‘வருஷம்’ என்ற வடசொல்லுக்குப் பதிலாக தொல்காப்பியர் பயன்படுத்தச் சொல்லும் சொல் எது?",
+    "imageUrl": null,
+    "answerOptions": [
+      {
+        "text": "வருடம்",
+        "rationale": "தொல்காப்பியர் 'வருஷம்' என்பதற்குப் பதில் 'வருடம்' என்பதைப் பயன்படுத்தலாம் என்கிறார் (வடசொல் திரிபு).",
+        "isCorrect": true
+      },
+      {
+        "text": "ஆண்டு",
+        "rationale": "இது தமிழ்ச்சொல், ஆனால் கேள்வி வடசொல் திரிபு பற்றியது.",
+        "isCorrect": false
+      },
+      {
+        "text": "திங்கள்",
+        "rationale": "Month.",
+        "isCorrect": false
+      },
+      {
+        "text": "நாள்",
+        "rationale": "Day.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "ஷ என்ற எழுத்தை ட வாக மாற்றுதல்."
+  },
+  {
+    "questionNumber": 99,
+    "question": "பாரதியார் 'Exhibition' என்ற சொல்லை எவ்வாறு மொழிபெயர்த்தார்?",
+    "imageUrl": null,
+    "answerOptions": [
+      {
+        "text": "பொருட்காட்சி",
+        "rationale": "Exhibition - காட்சி, பொருட்காட்சி.",
+        "isCorrect": true
+      },
+      {
+        "text": "கண்காட்சி",
+        "rationale": "பொதுவான சொல்.",
+        "isCorrect": false
+      },
+      {
+        "text": "சந்தை",
+        "rationale": "Market.",
+        "isCorrect": false
+      },
+      {
+        "text": "திருவிழா",
+        "rationale": "Festival.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "பல பொருட்களை ஓரிடத்தில் பார்வைக்கு வைப்பது."
+  },
+  {
+    "questionNumber": 100,
+    "question": "‘Strike’ என்ற சொல்லுக்கு பாரதி பயன்படுத்திய தமிழ்ச்சொற்கள் எவை?",
+    "imageUrl": null,
+    "answerOptions": [
+      {
+        "text": "தொழில் நிறுத்தம், வேலை நிறுத்தம்",
+        "rationale": "Strike - தொழில் நிறுத்தி இருத்தல், தொழில் நிறுத்தம், வேலை நிறுத்தம்.",
+        "isCorrect": true
+      },
+      {
+        "text": "அடித்தல்",
+        "rationale": "Beating.",
+        "isCorrect": false
+      },
+      {
+        "text": "போராட்டம்",
+        "rationale": "Protest.",
+        "isCorrect": false
+      },
+      {
+        "text": "ஊர்வலம்",
+        "rationale": "Procession.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "தொழிலாளர்கள் செய்வது."
+  }
+]

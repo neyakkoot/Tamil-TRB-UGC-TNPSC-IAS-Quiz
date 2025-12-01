@@ -1,0 +1,2802 @@
+[
+  {
+    "questionNumber": 1,
+    "question": "'Search engine' என்பதன் தமிழாக்கம் என்ன?",
+    "imageUrl": null,
+    "answerOptions": [
+      {
+        "text": "தேடு பொறி",
+        "rationale": "'Search engine' என்பது இணையத்தில் தகவல்களைத் தேட உதவும் தேடு பொறி ஆகும்.",
+        "isCorrect": true
+      },
+      {
+        "text": "மென்பொருள்",
+        "rationale": "'Software' என்பதன் தமிழாக்கம் மென்பொருள்.",
+        "isCorrect": false
+      },
+      {
+        "text": "வலைதளம்",
+        "rationale": "'Website' என்பதன் தமிழாக்கம் வலைதளம்.",
+        "isCorrect": false
+      },
+      {
+        "text": "இணையம்",
+        "rationale": "'Internet' என்பதன் தமிழாக்கம் இணையம்.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "கூகுள் (Google) என்பது ஒரு வகை Search Engine."
+  },
+  {
+    "questionNumber": 2,
+    "question": "'Migration' என்பதற்கான சரியான தமிழ்க் கலைச்சொல் எது?",
+    "imageUrl": null,
+    "answerOptions": [
+      {
+        "text": "வலசை",
+        "rationale": "பறவைகள் அல்லது விலங்குகள் ஓரிடத்திலிருந்து மற்றோரிடத்திற்கு இடம்பெயர்வது 'வலசை' எனப்படும்.",
+        "isCorrect": true
+      },
+      {
+        "text": "குடியேற்றம்",
+        "rationale": "'Immigration' என்பதன் தமிழாக்கம் குடியேற்றம்.",
+        "isCorrect": false
+      },
+      {
+        "text": "புகலிடம்",
+        "rationale": "'Sanctuary' என்பதன் தமிழாக்கம் புகலிடம்.",
+        "isCorrect": false
+      },
+      {
+        "text": "சுற்றுலா",
+        "rationale": "'Tourism' என்பதன் தமிழாக்கம் சுற்றுலா.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "பறவைகள் பருவநிலை மாற்றத்திற்காக இடம் மாறுவது."
+  },
+  {
+    "questionNumber": 3,
+    "question": "'Anti-Clockwise' என்பதன் தமிழ் வடிவம் என்ன?",
+    "imageUrl": null,
+    "answerOptions": [
+      {
+        "text": "இடஞ்சுழி",
+        "rationale": "கடிகார முள் சுழலும் திசைக்கு எதிர்த்திசை 'இடஞ்சுழி' எனப்படும்.",
+        "isCorrect": true
+      },
+      {
+        "text": "வலஞ்சுழி",
+        "rationale": "'Clockwise' என்பதன் தமிழாக்கம் வலஞ்சுழி.",
+        "isCorrect": false
+      },
+      {
+        "text": "நேர்கோட்டில்",
+        "rationale": "'Straight line' என்பதன் தமிழாக்கம் நேர்கோடு.",
+        "isCorrect": false
+      },
+      {
+        "text": "வட்டப்பாதை",
+        "rationale": "'Circular path' என்பதன் தமிழாக்கம் வட்டப்பாதை.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "கடிகார முள் சுழலும் திசைக்கு எதிர் திசை."
+  },
+  {
+    "questionNumber": 4,
+    "question": "'Artificial Intelligence' என்பதன் தமிழாக்கம் என்ன?",
+    "imageUrl": null,
+    "answerOptions": [
+      {
+        "text": "செயற்கை நுண்ணறிவு",
+        "rationale": "கணினிகள் மனிதனைப் போல சிந்திக்கும் திறன் பெறுவது 'செயற்கை நுண்ணறிவு' ஆகும்.",
+        "isCorrect": true
+      },
+      {
+        "text": "நுண்ணறிவு",
+        "rationale": "'Intelligence' என்பதன் தமிழாக்கம் நுண்ணறிவு.",
+        "isCorrect": false
+      },
+      {
+        "text": "மீத்திறன் கணினி",
+        "rationale": "'Super Computer' என்பதன் தமிழாக்கம் மீத்திறன் கணினி.",
+        "isCorrect": false
+      },
+      {
+        "text": "மெய்நிகர் உண்மை",
+        "rationale": "'Virtual Reality' என்பதன் தமிழாக்கம் மெய்நிகர் உண்மை.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "எந்திர மனிதனுக்கு (Robot) அளிக்கப்படும் அறிவு."
+  },
+  {
+    "questionNumber": 5,
+    "question": "'Super Computer' என்பதன் சரியான தமிழ்ச் சொல் எது?",
+    "imageUrl": null,
+    "answerOptions": [
+      {
+        "text": "மீத்திறன் கணினி",
+        "rationale": "மிக அதிவேகமாகச் செயல்படும் கணினி 'மீத்திறன் கணினி' எனப்படும்.",
+        "isCorrect": true
+      },
+      {
+        "text": "நுண் கணினி",
+        "rationale": "'Micro Computer' என்பதன் தமிழாக்கம் நுண் கணினி.",
+        "isCorrect": false
+      },
+      {
+        "text": "மடிக்கணினி",
+        "rationale": "'Laptop' என்பதன் தமிழாக்கம் மடிக்கணினி.",
+        "isCorrect": false
+      },
+      {
+        "text": "கையடக்கக் கணினி",
+        "rationale": "'Tablet' என்பதன் தமிழாக்கம் கையடக்கக் கணினி.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "மிகவும் சக்திவாய்ந்த கணினி."
+  },
+  {
+    "questionNumber": 6,
+    "question": "'Space Technology' என்பதன் தமிழாக்கம் என்ன?",
+    "imageUrl": null,
+    "answerOptions": [
+      {
+        "text": "விண்வெளித் தொழில்நுட்பம்",
+        "rationale": "விண்வெளி ஆய்வு தொடர்பான தொழில்நுட்பம் 'விண்வெளித் தொழில்நுட்பம்'.",
+        "isCorrect": true
+      },
+      {
+        "text": "தகவல் தொழில்நுட்பம்",
+        "rationale": "'Information Technology' என்பதன் தமிழாக்கம் தகவல் தொழில்நுட்பம்.",
+        "isCorrect": false
+      },
+      {
+        "text": "உயிரித் தொழில்நுட்பம்",
+        "rationale": "'Biotechnology' என்பதன் தமிழாக்கம் உயிரித் தொழில்நுட்பம்.",
+        "isCorrect": false
+      },
+      {
+        "text": "நானோ தொழில்நுட்பம்",
+        "rationale": "'Nanotechnology' என்பதன் தமிழாக்கம் நானோ தொழில்நுட்பம்.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "ராக்கெட் மற்றும் செயற்கைக்கோள் தொடர்பானது."
+  },
+  {
+    "questionNumber": 7,
+    "question": "'Nanotechnology' என்பதற்கான தமிழ்க் கலைச்சொல் எது?",
+    "imageUrl": null,
+    "answerOptions": [
+      {
+        "text": "மீநுண்தொழில்நுட்பம்",
+        "rationale": "மிகச்சிறிய துகள்களைக் கொண்டு உருவாக்கப்படும் தொழில்நுட்பம் 'மீநுண்தொழில்நுட்பம்'.",
+        "isCorrect": true
+      },
+      {
+        "text": "அணுத் தொழில்நுட்பம்",
+        "rationale": "'Nuclear Technology' என்பதன் தமிழாக்கம் அணுத் தொழில்நுட்பம்.",
+        "isCorrect": false
+      },
+      {
+        "text": "ரோபோ தொழில்நுட்பம்",
+        "rationale": "'Robotics' என்பதன் தமிழாக்கம் ரோபோ தொழில்நுட்பம்.",
+        "isCorrect": false
+      },
+      {
+        "text": "விண்வெளித் தொழில்நுட்பம்",
+        "rationale": "'Space Technology' என்பதன் தமிழாக்கம் விண்வெளித் தொழில்நுட்பம்.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "மிக நுண்ணிய (Nano) துகள்களைக் கையாள்வது."
+  },
+  {
+    "questionNumber": 8,
+    "question": "'Biotechnology' என்பதன் தமிழாக்கம் என்ன?",
+    "imageUrl": null,
+    "answerOptions": [
+      {
+        "text": "உயிரித் தொழில்நுட்பம்",
+        "rationale": "உயிரினங்களைப் பயன்படுத்திப் பொருட்களை உருவாக்கும் தொழில்நுட்பம் 'உயிரித் தொழில்நுட்பம்'.",
+        "isCorrect": true
+      },
+      {
+        "text": "மருத்துவத் தொழில்நுட்பம்",
+        "rationale": "'Medical Technology' என்பதன் தமிழாக்கம் மருத்துவத் தொழில்நுட்பம்.",
+        "isCorrect": false
+      },
+      {
+        "text": "வேளாண் தொழில்நுட்பம்",
+        "rationale": "'Agricultural Technology' என்பதன் தமிழாக்கம் வேளாண் தொழில்நுட்பம்.",
+        "isCorrect": false
+      },
+      {
+        "text": "மரபணுத் தொழில்நுட்பம்",
+        "rationale": "'Genetic Engineering' என்பதன் தமிழாக்கம் மரபணுத் தொழில்நுட்பம்.",
+        "isCorrect": false
+      },
+    ],
+    "hint": "உயிரினங்களின் (Bio) அமைப்பை அடிப்படையாகக் கொண்டது."
+  },
+  {
+    "questionNumber": 9,
+    "question": "'Climate' என்பதன் சரியான தமிழ்ச் சொல் எது?",
+    "imageUrl": null,
+    "answerOptions": [
+      {
+        "text": "தட்பவெப்பநிலை",
+        "rationale": "நீண்ட கால வானிலை சராசரி 'தட்பவெப்பநிலை' எனப்படும்.",
+        "isCorrect": true
+      },
+      {
+        "text": "வானிலை",
+        "rationale": "'Weather' என்பதன் தமிழாக்கம் வானிலை (குறுகிய காலம்).",
+        "isCorrect": false
+      },
+      {
+        "text": "வெப்பநிலை",
+        "rationale": "'Temperature' என்பதன் தமிழாக்கம் வெப்பநிலை.",
+        "isCorrect": false
+      },
+      {
+        "text": "பருவநிலை",
+        "rationale": "'Season' என்பதன் தமிழாக்கம் பருவநிலை.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "இது நீண்ட கால வானிலை மாற்றத்தைக் குறிக்கும்."
+  },
+  {
+    "questionNumber": 10,
+    "question": "'Weather' என்பதன் தமிழாக்கம் என்ன?",
+    "imageUrl": null,
+    "answerOptions": [
+      {
+        "text": "வானிலை",
+        "rationale": "ஒரு குறிப்பிட்ட நாளில் நிலவும் வளிமண்டல நிலை 'வானிலை'.",
+        "isCorrect": true
+      },
+      {
+        "text": "தட்பவெப்பநிலை",
+        "rationale": "'Climate' என்பதன் தமிழாக்கம் தட்பவெப்பநிலை.",
+        "isCorrect": false
+      },
+      {
+        "text": "மழைப்பொழிவு",
+        "rationale": "'Rainfall' என்பதன் தமிழாக்கம் மழைப்பொழிவு.",
+        "isCorrect": false
+      },
+      {
+        "text": "ஈரப்பதம்",
+        "rationale": "'Humidity' என்பதன் தமிழாக்கம் ஈரப்பதம்.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "தினசரி செய்திகளில் கூறப்படுவது."
+  },
+  {
+    "questionNumber": 11,
+    "question": "'Continent' என்பதன் தமிழ்ச் சொல் எது?",
+    "imageUrl": null,
+    "answerOptions": [
+      {
+        "text": "கண்டம்",
+        "rationale": "நிலப்பரப்பின் மிகப்பெரிய பிரிவு 'கண்டம்' எனப்படும்.",
+        "isCorrect": true
+      },
+      {
+        "text": "தீவு",
+        "rationale": "'Island' என்பதன் தமிழாக்கம் தீவு.",
+        "isCorrect": false
+      },
+      {
+        "text": "தீபகற்பம்",
+        "rationale": "'Peninsula' என்பதன் தமிழாக்கம் தீபகற்பம்.",
+        "isCorrect": false
+      },
+      {
+        "text": "பெருங்கடல்",
+        "rationale": "'Ocean' என்பதன் தமிழாக்கம் பெருங்கடல்.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "ஆசியா, ஆப்பிரிக்கா போன்றவை இதில் அடங்கும்."
+  },
+  {
+    "questionNumber": 12,
+    "question": "'Sanctuary' என்பதன் தமிழாக்கம் என்ன?",
+    "imageUrl": null,
+    "answerOptions": [
+      {
+        "text": "புகலிடம்",
+        "rationale": "விலங்குகள் அல்லது பறவைகள் பாதுகாக்கப்படும் இடம் 'புகலிடம்'.",
+        "isCorrect": true
+      },
+      {
+        "text": "பூங்கா",
+        "rationale": "'Park' என்பதன் தமிழாக்கம் பூங்கா.",
+        "isCorrect": false
+      },
+      {
+        "text": "காடு",
+        "rationale": "'Forest' என்பதன் தமிழாக்கம் காடு.",
+        "isCorrect": false
+      },
+      {
+        "text": "உயிரியல் பூங்கா",
+        "rationale": "'Zoo' என்பதன் தமிழாக்கம் உயிரியல் பூங்கா.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "விலங்குகள் பாதுகாப்பாக இருக்கும் இடம் (சரணாலயம்)."
+  },
+  {
+    "questionNumber": 13,
+    "question": "'Gravitational Field' என்பதன் தமிழ்ச் சொல்?",
+    "imageUrl": null,
+    "answerOptions": [
+      {
+        "text": "புவிஈர்ப்புப்புலம்",
+        "rationale": "புவியின் ஈர்ப்பு விசை செயல்படும் பகுதி 'புவிஈர்ப்புப்புலம்'.",
+        "isCorrect": true
+      },
+      {
+        "text": "காந்தப்புலம்",
+        "rationale": "'Magnetic Field' என்பதன் தமிழாக்கம் காந்தப்புலம்.",
+        "isCorrect": false
+      },
+      {
+        "text": "மின்புலம்",
+        "rationale": "'Electric Field' என்பதன் தமிழாக்கம் மின்புலம்.",
+        "isCorrect": false
+      },
+      {
+        "text": "விண்வெளி",
+        "rationale": "'Space' என்பதன் தமிழாக்கம் விண்வெளி.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "நியூட்டன் ஆப்பிள் விழும்போது கண்டுபிடித்த விசை."
+  },
+  {
+    "questionNumber": 14,
+    "question": "'Disaster' என்பதன் தமிழாக்கம் என்ன?",
+    "imageUrl": null,
+    "answerOptions": [
+      {
+        "text": "பேரிடர்",
+        "rationale": "சமூகத்தில் பெரும் பாதிப்பை ஏற்படுத்தும் நிகழ்வு 'பேரிடர்' எனப்படும்.",
+        "isCorrect": true
+      },
+      {
+        "text": "விபத்து",
+        "rationale": "'Accident' என்பதன் தமிழாக்கம் விபத்து.",
+        "isCorrect": false
+      },
+      {
+        "text": "ஆபத்து",
+        "rationale": "'Danger' என்பதன் தமிழாக்கம் ஆபத்து.",
+        "isCorrect": false
+      },
+      {
+        "text": "இழப்பு",
+        "rationale": "'Loss' என்பதன் தமிழாக்கம் இழப்பு.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "வெள்ளம், நிலநடுக்கம் போன்றவை இதற்கு உதாரணம்."
+  },
+  {
+    "questionNumber": 15,
+    "question": "'Cartography' என்பதன் சரியான பொருள் என்ன?",
+    "imageUrl": null,
+    "answerOptions": [
+      {
+        "text": "புவிப்படவியல்",
+        "rationale": "நிலவரைபடத்தை (Map) உருவாக்கும் அறிவியல் மற்றும் கலை 'புவிப்படவியல்'.",
+        "isCorrect": true
+      },
+      {
+        "text": "வானியல்",
+        "rationale": "'Astronomy' என்பதன் தமிழாக்கம் வானியல்.",
+        "isCorrect": false
+      },
+      {
+        "text": "புவியியல்",
+        "rationale": "'Geography' என்பதன் தமிழாக்கம் புவியியல்.",
+        "isCorrect": false
+      },
+      {
+        "text": "கடலியல்",
+        "rationale": "'Oceanography' என்பதன் தமிழாக்கம் கடலியல்.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "வரைபடம் (Map) தயாரிக்கும் கலை."
+  },
+  {
+    "questionNumber": 16,
+    "question": "'Greenhouse Effect' என்பதன் தமிழாக்கம்?",
+    "imageUrl": null,
+    "answerOptions": [
+      {
+        "text": "பசுமை இல்ல விளைவு",
+        "rationale": "வளிமண்டல வெப்பநிலை அதிகரிப்பதை 'பசுமை இல்ல விளைவு' என்கிறோம்.",
+        "isCorrect": true
+      },
+      {
+        "text": "ஓசோன் துளை",
+        "rationale": "'Ozone Hole' என்பதன் தமிழாக்கம் ஓசோன் துளை.",
+        "isCorrect": false
+      },
+      {
+        "text": "உலக வெப்பமயமாதல்",
+        "rationale": "'Global Warming' என்பது இதன் விளைவாக ஏற்படும் நிகழ்வு.",
+        "isCorrect": false
+      },
+      {
+        "text": "மாசுபாடு",
+        "rationale": "'Pollution' என்பதன் தமிழாக்கம் மாசுபாடு.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "கார்பன் டை ஆக்சைடு அதிகரிப்பதால் ஏற்படும் விளைவு."
+  },
+  {
+    "questionNumber": 17,
+    "question": "'Secular state' என்பதன் தமிழாக்கம் என்ன?",
+    "imageUrl": null,
+    "answerOptions": [
+      {
+        "text": "சமயச் சார்பற்ற அரசு",
+        "rationale": "அனைத்து மதங்களையும் சமமாகப் பாதுகாக்கும் அரசு 'சமயச் சார்பற்ற அரசு'.",
+        "isCorrect": true
+      },
+      {
+        "text": "மதச்சார்புள்ள அரசு",
+        "rationale": "ஒரு குறிப்பிட்ட மதத்தை சார்ந்த அரசு.",
+        "isCorrect": false
+      },
+      {
+        "text": "இறையாண்மை அரசு",
+        "rationale": "'Sovereign state' என்பதன் தமிழாக்கம் இறையாண்மை அரசு.",
+        "isCorrect": false
+      },
+      {
+        "text": "குடியரசு",
+        "rationale": "'Republic' என்பதன் தமிழாக்கம் குடியரசு.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "எந்த ஒரு மதத்தையும் சாராத அரசு."
+  },
+  {
+    "questionNumber": 18,
+    "question": "'Sovereignty' என்பதன் தமிழ்ச் சொல்?",
+    "imageUrl": null,
+    "answerOptions": [
+      {
+        "text": "இறையாண்மை",
+        "rationale": "அரசின் மிக உயர்ந்த அதிகாரம் 'இறையாண்மை'.",
+        "isCorrect": true
+      },
+      {
+        "text": "சுதந்திரம்",
+        "rationale": "'Freedom' என்பதன் தமிழாக்கம் சுதந்திரம்.",
+        "isCorrect": false
+      },
+      {
+        "text": "குடியுரிமை",
+        "rationale": "'Citizenship' என்பதன் தமிழாக்கம் குடியுரிமை.",
+        "isCorrect": false
+      },
+      {
+        "text": "சமத்துவம்",
+        "rationale": "'Equality' என்பதன் தமிழாக்கம் சமத்துவம்.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "ஒரு நாட்டின் உச்சபட்ச அதிகாரம்."
+  },
+  {
+    "questionNumber": 19,
+    "question": "'Writ' என்பதன் தமிழாக்கம் என்ன?",
+    "imageUrl": null,
+    "answerOptions": [
+      {
+        "text": "நீதிப்பேராணை",
+        "rationale": "நீதிமன்றம் பிறப்பிக்கும் எழுத்துப்பூர்வமான ஆணை 'நீதிப்பேராணை'.",
+        "isCorrect": true
+      },
+      {
+        "text": "தீர்ப்பு",
+        "rationale": "'Judgment' என்பதன் தமிழாக்கம் தீர்ப்பு.",
+        "isCorrect": false
+      },
+      {
+        "text": "சட்டம்",
+        "rationale": "'Law' என்பதன் தமிழாக்கம் சட்டம்.",
+        "isCorrect": false
+      },
+      {
+        "text": "மனு",
+        "rationale": "'Petition' என்பதன் தமிழாக்கம் மனு.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "அடிப்படை உரிமைகளைக் காக்க நீதிமன்றம் வழங்குவது."
+  },
+  {
+    "questionNumber": 20,
+    "question": "'Autonomy' என்பதற்கான சரியான தமிழ்ச் சொல்?",
+    "imageUrl": null,
+    "answerOptions": [
+      {
+        "text": "தன்னாட்சி",
+        "rationale": "சுயமாகச் சிந்தித்து செயல்படும் சுதந்திரம் 'தன்னாட்சி'.",
+        "isCorrect": true
+      },
+      {
+        "text": "முடியாட்சி",
+        "rationale": "'Monarchy' என்பதன் தமிழாக்கம் முடியாட்சி.",
+        "isCorrect": false
+      },
+      {
+        "text": "ஆங்கிலேய ஆட்சி",
+        "rationale": "'British Rule' என்பதன் தமிழாக்கம் ஆங்கிலேய ஆட்சி.",
+        "isCorrect": false
+      },
+      {
+        "text": "மக்களாட்சி",
+        "rationale": "'Democracy' என்பதன் தமிழாக்கம் மக்களாட்சி.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "பிறர் கட்டுப்பாடின்றி தானே செயல்படுவது."
+  },
+  {
+    "questionNumber": 21,
+    "question": "'Preamble' என்பதன் தமிழாக்கம் என்ன?",
+    "imageUrl": null,
+    "answerOptions": [
+      {
+        "text": "முகவுரை",
+        "rationale": "அரசியலமைப்புச் சட்டத்தின் அறிமுகப் பகுதி 'முகவுரை'.",
+        "isCorrect": true
+      },
+      {
+        "text": "முடிவுரை",
+        "rationale": "'Conclusion' என்பதன் தமிழாக்கம் முடிவுரை.",
+        "isCorrect": false
+      },
+      {
+        "text": "அதிகாரம்",
+        "rationale": "'Authority' என்பதன் தமிழாக்கம் அதிகாரம்.",
+        "isCorrect": false
+      },
+      {
+        "text": "சட்டப்பிரிவு",
+        "rationale": "'Article' என்பதன் தமிழாக்கம் சட்டப்பிரிவு.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "இந்திய அரசியலமைப்பின் அறிமுகம்."
+  },
+  {
+    "questionNumber": 22,
+    "question": "'Jurisdiction' என்பதன் தமிழ்ச் சொல் எது?",
+    "imageUrl": null,
+    "answerOptions": [
+      {
+        "text": "அதிகார எல்லை",
+        "rationale": "சட்டம் அல்லது அதிகாரம் செயல்படும் எல்லை 'அதிகார எல்லை'.",
+        "isCorrect": true
+      },
+      {
+        "text": "நீதிமன்றம்",
+        "rationale": "'Court' என்பதன் தமிழாக்கம் நீதிமன்றம்.",
+        "isCorrect": false
+      },
+      {
+        "text": "காவல் நிலையம்",
+        "rationale": "'Police Station' என்பதன் தமிழாக்கம் காவல் நிலையம்.",
+        "isCorrect": false
+      },
+      {
+        "text": "தீர்ப்பு",
+        "rationale": "'Verdict' என்பதன் தமிழாக்கம் தீர்ப்பு.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "ஒரு நீதிபதி அல்லது அதிகாரியின் செயல் வரம்பு."
+  },
+  {
+    "questionNumber": 23,
+    "question": "'Affidavit' என்பதன் தமிழாக்கம் என்ன?",
+    "imageUrl": null,
+    "answerOptions": [
+      {
+        "text": "ஆணையுறுதி ஆவணம்",
+        "rationale": "உண்மையை உறுதி செய்து அளிக்கப்படும் ஆவணம் 'ஆணையுறுதி ஆவணம்'.",
+        "isCorrect": true
+      },
+      {
+        "text": "பத்திரப் பதிவு",
+        "rationale": "'Registration' என்பதன் தமிழாக்கம் பதிவு.",
+        "isCorrect": false
+      },
+      {
+        "text": "ஒப்பந்தம்",
+        "rationale": "'Agreement' என்பதன் தமிழாக்கம் ஒப்பந்தம்.",
+        "isCorrect": false
+      },
+      {
+        "text": "உயில்",
+        "rationale": "'Will' என்பதன் தமிழாக்கம் உயில்.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "தேர்தலில் போட்டியிடும் போது வேட்பாளர்கள் தாக்கல் செய்வது."
+  },
+  {
+    "questionNumber": 24,
+    "question": "'Plaintiff' என்பதன் தமிழ்ச் சொல் என்ன?",
+    "imageUrl": null,
+    "answerOptions": [
+      {
+        "text": "வாதி",
+        "rationale": "நீதிமன்றத்தில் வழக்கைத் தொடுப்பவர் 'வாதி'.",
+        "isCorrect": true
+      },
+      {
+        "text": "பிரதிவாதி",
+        "rationale": "'Defendant' என்பதன் தமிழாக்கம் பிரதிவாதி.",
+        "isCorrect": false
+      },
+      {
+        "text": "நீதிபதி",
+        "rationale": "'Judge' என்பதன் தமிழாக்கம் நீதிபதி.",
+        "isCorrect": false
+      },
+      {
+        "text": "வழக்கறிஞர்",
+        "rationale": "'Lawyer' என்பதன் தமிழாக்கம் வழக்கறிஞர்.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "நீதிமன்றத்தில் வழக்கு போடுபவர்."
+  },
+  {
+    "questionNumber": 25,
+    "question": "'Constitution' என்பதன் தமிழாக்கம்?",
+    "imageUrl": null,
+    "answerOptions": [
+      {
+        "text": "அரசியலமைப்பு",
+        "rationale": "நாட்டின் அடிப்படைச் சட்டம் 'அரசியலமைப்பு'.",
+        "isCorrect": true
+      },
+      {
+        "text": "சட்டமன்றம்",
+        "rationale": "'Legislature' என்பதன் தமிழாக்கம் சட்டமன்றம்.",
+        "isCorrect": false
+      },
+      {
+        "text": "பாராளுமன்றம்",
+        "rationale": "'Parliament' என்பதன் தமிழாக்கம் பாராளுமன்றம்.",
+        "isCorrect": false
+      },
+      {
+        "text": "நீதித்துறை",
+        "rationale": "'Judiciary' என்பதன் தமிழாக்கம் நீதித்துறை.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "நாட்டின் அடிப்படைச் சட்டம்."
+  },
+  {
+    "questionNumber": 26,
+    "question": "'Aesthetics' என்பதன் தமிழ்க் கலைச்சொல் எது?",
+    "imageUrl": null,
+    "answerOptions": [
+      {
+        "text": "அழகியல்",
+        "rationale": "அழகு மற்றும் கலை ரசனை பற்றியது 'அழகியல்' அல்லது 'முருகியல்'.",
+        "isCorrect": true
+      },
+      {
+        "text": "மொழியியல்",
+        "rationale": "'Linguistics' என்பதன் தமிழாக்கம் மொழியியல்.",
+        "isCorrect": false
+      },
+      {
+        "text": "ஒலியியல்",
+        "rationale": "'Phonetics' என்பதன் தமிழாக்கம் ஒலியியல்.",
+        "isCorrect": false
+      },
+      {
+        "text": "கலைச்சொல்லாக்கம்",
+        "rationale": "'Terminology' என்பதன் தமிழாக்கம் கலைச்சொல்லாக்கம்.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "கலையின் அழகை ஆராய்வது."
+  },
+  {
+    "questionNumber": 27,
+    "question": "'Artifacts' என்பதன் தமிழாக்கம் என்ன?",
+    "imageUrl": null,
+    "answerOptions": [
+      {
+        "text": "கலைப் படைப்புகள்",
+        "rationale": "மனிதனால் உருவாக்கப்பட்ட பொருட்கள் 'கலைப் படைப்புகள்'.",
+        "isCorrect": true
+      },
+      {
+        "text": "இயற்கை வளம்",
+        "rationale": "'Natural Resource' என்பதன் தமிழாக்கம் இயற்கை வளம்.",
+        "isCorrect": false
+      },
+      {
+        "text": "தொல்லுயிர் படிமங்கள்",
+        "rationale": "'Fossils' என்பதன் தமிழாக்கம் தொல்லுயிர் படிமங்கள்.",
+        "isCorrect": false
+      },
+      {
+        "text": "கையெழுத்துப்படி",
+        "rationale": "'Manuscripts' என்பதன் தமிழாக்கம் கையெழுத்துப்படி.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "அகழ்வாராய்ச்சியில் கிடைக்கும் பொருட்கள்."
+  },
+  {
+    "questionNumber": 28,
+    "question": "'Myth' என்பதன் தமிழ்ச் சொல்?",
+    "imageUrl": null,
+    "answerOptions": [
+      {
+        "text": "தொன்மம்",
+        "rationale": "பழமையான நம்பிக்கை அல்லது கதை 'தொன்மம்'.",
+        "isCorrect": true
+      },
+      {
+        "text": "வரலாறு",
+        "rationale": "'History' என்பதன் தமிழாக்கம் வரலாறு.",
+        "isCorrect": false
+      },
+      {
+        "text": "கட்டுக்கதை",
+        "rationale": "'Fable' அல்லது 'Fiction' என்பதன் தமிழாக்கம் கட்டுக்கதை/புனைவு.",
+        "isCorrect": false
+      },
+      {
+        "text": "உண்மை",
+        "rationale": "'Fact' என்பதன் தமிழாக்கம் உண்மை.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "புராணக் கதைகள் சார்ந்தது."
+  },
+  {
+    "questionNumber": 29,
+    "question": "'Manuscript' என்பதன் தமிழாக்கம் என்ன?",
+    "imageUrl": null,
+    "answerOptions": [
+      {
+        "text": "கையெழுத்துப்படி",
+        "rationale": "கையால் எழுதப்பட்ட பழைய ஆவணம் அல்லது பிரதி 'கையெழுத்துப்படி' / 'கையெழுத்துப் பிரதி'.",
+        "isCorrect": true
+      },
+      {
+        "text": "அச்சுப்படி",
+        "rationale": "அச்சிடப்பட்ட தாள்.",
+        "isCorrect": false
+      },
+      {
+        "text": "கல்வெட்டு",
+        "rationale": "'Inscription' என்பதன் தமிழாக்கம் கல்வெட்டு.",
+        "isCorrect": false
+      },
+      {
+        "text": "செப்பேடு",
+        "rationale": "'Copper plate' என்பதன் தமிழாக்கம் செப்பேடு.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "ஓலைச்சுவடிகள் போன்றவை."
+  },
+  {
+    "questionNumber": 30,
+    "question": "'Epigraph' என்பதன் தமிழ்ச் சொல்?",
+    "imageUrl": null,
+    "answerOptions": [
+      {
+        "text": "கல்வெட்டு",
+        "rationale": "கல்லில் செதுக்கப்பட்ட எழுத்துகள் 'கல்வெட்டு'.",
+        "isCorrect": true
+      },
+      {
+        "text": "ஓவியம்",
+        "rationale": "'Painting' என்பதன் தமிழாக்கம் ஓவியம்.",
+        "isCorrect": false
+      },
+      {
+        "text": "சிற்பம்",
+        "rationale": "'Sculpture' என்பதன் தமிழாக்கம் சிற்பம்.",
+        "isCorrect": false
+      },
+      {
+        "text": "நாணயம்",
+        "rationale": "'Coin' என்பதன் தமிழாக்கம் நாணயம்.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "கோயில் சுவர்களில் காணப்படுவது."
+  },
+  {
+    "questionNumber": 31,
+    "question": "'Debit Card' என்பதன் தமிழாக்கம் என்ன?",
+    "imageUrl": null,
+    "answerOptions": [
+      {
+        "text": "பற்று அட்டை",
+        "rationale": "வங்கிக் கணக்கில் உள்ள பணத்தை எடுக்க உதவும் அட்டை 'பற்று அட்டை'.",
+        "isCorrect": true
+      },
+      {
+        "text": "கடன் அட்டை",
+        "rationale": "'Credit Card' என்பதன் தமிழாக்கம் கடன் அட்டை.",
+        "isCorrect": false
+      },
+      {
+        "text": "அடையாள அட்டை",
+        "rationale": "'Identity Card' என்பதன் தமிழாக்கம் அடையாள அட்டை.",
+        "isCorrect": false
+      },
+      {
+        "text": "பண அட்டை",
+        "rationale": "'Cash Card' என்பதன் தமிழாக்கம் பண அட்டை.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "ATM இல் பணம் எடுக்கப் பயன்படுவது."
+  },
+  {
+    "questionNumber": 32,
+    "question": "'Demand Draft' என்பதன் தமிழ்ச் சொல் என்ன?",
+    "imageUrl": null,
+    "answerOptions": [
+      {
+        "text": "கேட்பு வரைவோலை",
+        "rationale": "வங்கி மூலம் பணம் செலுத்தப் பயன்படும் முறை 'கேட்பு வரைவோலை'.",
+        "isCorrect": true
+      },
+      {
+        "text": "காசோலை",
+        "rationale": "'Cheque' என்பதன் தமிழாக்கம் காசோலை.",
+        "isCorrect": false
+      },
+      {
+        "text": "பணவிடை",
+        "rationale": "'Money Order' என்பதன் தமிழாக்கம் பணவிடை.",
+        "isCorrect": false
+      },
+      {
+        "text": "வங்கி கணக்கு",
+        "rationale": "'Bank Account' என்பதன் தமிழாக்கம் வங்கிக் கணக்கு.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "சுருக்கமாக 'DD' என்று அழைக்கப்படும்."
+  },
+  {
+    "questionNumber": 33,
+    "question": "'Consumer' என்பதன் தமிழாக்கம்?",
+    "imageUrl": null,
+    "answerOptions": [
+      {
+        "text": "நுகர்வோர்",
+        "rationale": "பொருட்களை வாங்கிப் பயன்படுத்துபவர் 'நுகர்வோர்'.",
+        "isCorrect": true
+      },
+      {
+        "text": "வியாபாரி",
+        "rationale": "'Merchant' என்பதன் தமிழாக்கம் வணிகர்/வியாபாரி.",
+        "isCorrect": false
+      },
+      {
+        "text": "உற்பத்தியாளர்",
+        "rationale": "'Manufacturer' என்பதன் தமிழாக்கம் உற்பத்தியாளர்.",
+        "isCorrect": false
+      },
+      {
+        "text": "விற்பனையாளர்",
+        "rationale": "'Seller' என்பதன் தமிழாக்கம் விற்பனையாளர்.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "பொருட்களைப் பயன்படுத்துபவர்."
+  },
+  {
+    "questionNumber": 34,
+    "question": "'Entrepreneur' என்பதன் தமிழ்ச் சொல்?",
+    "imageUrl": null,
+    "answerOptions": [
+      {
+        "text": "தொழில்முனைவோர்",
+        "rationale": "புதிதாகத் தொழில் தொடங்குபவர் 'தொழில்முனைவோர்'.",
+        "isCorrect": true
+      },
+      {
+        "text": "தொழிலாளி",
+        "rationale": "'Worker' என்பதன் தமிழாக்கம் தொழிலாளி.",
+        "isCorrect": false
+      },
+      {
+        "text": "முதலாளி",
+        "rationale": "'Employer' என்பதன் தமிழாக்கம் முதலாளி.",
+        "isCorrect": false
+      },
+      {
+        "text": "மேலாளர்",
+        "rationale": "'Manager' என்பதன் தமிழாக்கம் மேலாளர்.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "புதிய தொழில் தொடங்குபவர்."
+  },
+  {
+    "questionNumber": 35,
+    "question": "'Adulteration' என்பதன் தமிழாக்கம் என்ன?",
+    "imageUrl": null,
+    "answerOptions": [
+      {
+        "text": "கலப்படம்",
+        "rationale": "தரமான பொருளுடன் தரமற்ற பொருளைக் கலப்பது 'கலப்படம்'.",
+        "isCorrect": true
+      },
+      {
+        "text": "தூய்மை",
+        "rationale": "'Purity' என்பதன் தமிழாக்கம் தூய்மை.",
+        "isCorrect": false
+      },
+      {
+        "text": "வடிகட்டுதல்",
+        "rationale": "'Filtration' என்பதன் தமிழாக்கம் வடிகட்டுதல்.",
+        "isCorrect": false
+      },
+      {
+        "text": "சேமிப்பு",
+        "rationale": "'Storage' என்பதன் தமிழாக்கம் சேமிப்பு.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "உணவுப் பொருட்களில் தேவையற்றதைச் சேர்ப்பது."
+  },
+  {
+    "questionNumber": 36,
+    "question": "'Heritage' என்பதன் தமிழ்ச் சொல்?",
+    "imageUrl": null,
+    "answerOptions": [
+      {
+        "text": "பாரம்பரியம்",
+        "rationale": "முன்னோர்களிடமிருந்து பெறப்பட்ட கலாச்சாரம் 'பாரம்பரியம்'.",
+        "isCorrect": true
+      },
+      {
+        "text": "நாகரிகம்",
+        "rationale": "'Civilization' என்பதன் தமிழாக்கம் நாகரிகம்.",
+        "isCorrect": false
+      },
+      {
+        "text": "பண்பாடு",
+        "rationale": "'Culture' என்பதன் தமிழாக்கம் பண்பாடு.",
+        "isCorrect": false
+      },
+      {
+        "text": "வரலாறு",
+        "rationale": "'History' என்பதன் தமிழாக்கம் வரலாறு.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "நம் முன்னோர்களின் சொத்து மற்றும் பழக்கவழக்கங்கள்."
+  },
+  {
+    "questionNumber": 37,
+    "question": "'Tax Evasion' என்பதன் தமிழாக்கம் என்ன?",
+    "imageUrl": null,
+    "answerOptions": [
+      {
+        "text": "வரி ஏய்ப்பு",
+        "rationale": "சட்டவிரோதமாக வரியைச் செலுத்தாமல் இருப்பது 'வரி ஏய்ப்பு'.",
+        "isCorrect": true
+      },
+      {
+        "text": "வரிச் சலுகை",
+        "rationale": "'Tax Exemption' என்பதன் தமிழாக்கம் வரிச் சலுகை.",
+        "isCorrect": false
+      },
+      {
+        "text": "வரி விதிப்பு",
+        "rationale": "'Taxation' என்பதன் தமிழாக்கம் வரி விதிப்பு.",
+        "isCorrect": false
+      },
+      {
+        "text": "வருமான வரி",
+        "rationale": "'Income Tax' என்பதன் தமிழாக்கம் வருமான வரி.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "அரசுக்குச் சேரவேண்டிய பணத்தை மறைத்தல்."
+  },
+  {
+    "questionNumber": 38,
+    "question": "'Globalization' என்பதன் தமிழ்ச் சொல்?",
+    "imageUrl": null,
+    "answerOptions": [
+      {
+        "text": "உலகமயமாக்கல்",
+        "rationale": "உலகப் பொருளாதாரங்களை ஒருங்கிணைத்தல் 'உலகமயமாக்கல்'.",
+        "isCorrect": true
+      },
+      {
+        "text": "தாராளமயமாக்கல்",
+        "rationale": "'Liberalization' என்பதன் தமிழாக்கம் தாராளமயமாக்கல்.",
+        "isCorrect": false
+      },
+      {
+        "text": "தனியார்மயமாக்கல்",
+        "rationale": "'Privatization' என்பதன் தமிழாக்கம் தனியார்மயமாக்கல்.",
+        "isCorrect": false
+      },
+      {
+        "text": "நகரமயமாக்கல்",
+        "rationale": "'Urbanization' என்பதன் தமிழாக்கம் நகரமயமாக்கல்.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "உலகம் முழுவதும் வணிகம் பரவுதல்."
+  },
+  {
+    "questionNumber": 39,
+    "question": "'Antibiotic' என்பதன் தமிழாக்கம் என்ன?",
+    "imageUrl": null,
+    "answerOptions": [
+      {
+        "text": "நுண்ணுயிர் முறி",
+        "rationale": "பாக்டீரியா போன்ற நுண்ணுயிரிகளைக் கொல்லும் மருந்து 'நுண்ணுயிர் முறி'.",
+        "isCorrect": true
+      },
+      {
+        "text": "தடுப்பூசி",
+        "rationale": "'Vaccine' என்பதன் தமிழாக்கம் தடுப்பூசி.",
+        "isCorrect": false
+      },
+      {
+        "text": "வலி நிவாரணி",
+        "rationale": "'Painkiller' என்பதன் தமிழாக்கம் வலி நிவாரணி.",
+        "isCorrect": false
+      },
+      {
+        "text": "வைட்டமின்",
+        "rationale": "'Vitamin' என்பதன் தமிழாக்கம் வைட்டமின்.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "பெனிசிலின் ஒரு வகை...."
+  },
+  {
+    "questionNumber": 40,
+    "question": "'Gene' என்பதன் தமிழ்ச் சொல்?",
+    "imageUrl": null,
+    "answerOptions": [
+      {
+        "text": "மரபணு",
+        "rationale": "பரம்பரைத் தன்மைகளைக் கடத்தும் அலகு 'மரபணு'.",
+        "isCorrect": true
+      },
+      {
+        "text": "செல்கள்",
+        "rationale": "'Cells' என்பதன் தமிழாக்கம் செல்கள்.",
+        "isCorrect": false
+      },
+      {
+        "text": "திசுக்கள்",
+        "rationale": "'Tissues' என்பதன் தமிழாக்கம் திசுக்கள்.",
+        "isCorrect": false
+      },
+      {
+        "text": "உறுப்பு",
+        "rationale": "'Organ' என்பதன் தமிழாக்கம் உறுப்பு.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "டி.என்.ஏ (DNA) வில் காணப்படுவது."
+  },
+  {
+    "questionNumber": 41,
+    "question": "'Allergy' என்பதன் தமிழாக்கம் என்ன?",
+    "imageUrl": null,
+    "answerOptions": [
+      {
+        "text": "ஒவ்வாமை",
+        "rationale": "உடலுக்குப் பொருந்தாத பொருட்களால் ஏற்படும் எதிர்வினை 'ஒவ்வாமை'.",
+        "isCorrect": true
+      },
+      {
+        "text": "நோய்",
+        "rationale": "'Disease' என்பதன் தமிழாக்கம் நோய்.",
+        "isCorrect": false
+      },
+      {
+        "text": "தொற்று",
+        "rationale": "'Infection' என்பதன் தமிழாக்கம் தொற்று.",
+        "isCorrect": false
+      },
+      {
+        "text": "காய்ச்சல்",
+        "rationale": "'Fever' என்பதன் தமிழாக்கம் காய்ச்சல்.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "தூசு அல்லது சில உணவுகளால் தும்மல் வருவது."
+  },
+  {
+    "questionNumber": 42,
+    "question": "'Transplantation' என்பதன் தமிழ்ச் சொல்?",
+    "imageUrl": null,
+    "answerOptions": [
+      {
+        "text": "உறுப்பு மாற்று அறுவைசிகிச்சை",
+        "rationale": "ஒருவரின் உடல் உறுப்பை மற்றொருவருக்குப் பொருத்துதல் 'உறுப்பு மாற்று அறுவைசிகிச்சை'.",
+        "isCorrect": true
+      },
+      {
+        "text": "இரத்த தானம்",
+        "rationale": "'Blood Donation' என்பதன் தமிழாக்கம் இரத்த தானம்.",
+        "isCorrect": false
+      },
+      {
+        "text": "அறுவை சிகிச்சை",
+        "rationale": "'Surgery' என்பதன் தமிழாக்கம் அறுவை சிகிச்சை.",
+        "isCorrect": false
+      },
+      {
+        "text": "மருத்துவப் பரிசோதனை",
+        "rationale": "'Medical Checkup' என்பதன் தமிழாக்கம் மருத்துவப் பரிசோதனை.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "இதயம், சிறுநீரகம் போன்றவற்றை மாற்றுவது."
+  },
+  {
+    "questionNumber": 43,
+    "question": "'Ultraviolet rays' என்பதன் தமிழாக்கம் என்ன?",
+    "imageUrl": null,
+    "answerOptions": [
+      {
+        "text": "புற ஊதாக் கதிர்கள்",
+        "rationale": "சூரியனிலிருந்து வரும் கண்ணுக்குத் தெரியாத கதிர்கள் 'புற ஊதாக் கதிர்கள்'.",
+        "isCorrect": true
+      },
+      {
+        "text": "அகச்சிவப்புக் கதிர்கள்",
+        "rationale": "'Infrared rays' என்பதன் தமிழாக்கம் அகச்சிவப்புக் கதிர்கள்.",
+        "isCorrect": false
+      },
+      {
+        "text": "எக்ஸ் கதிர்கள்",
+        "rationale": "'X-rays' என்பதன் தமிழாக்கம் எக்ஸ் கதிர்கள்.",
+        "isCorrect": false
+      },
+      {
+        "text": "காமா கதிர்கள்",
+        "rationale": "'Gamma rays' என்பதன் தமிழாக்கம் காமா கதிர்கள்.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "ஓசோன் படலம் இக்கதிர்களைத் தடுக்கிறது."
+  },
+  {
+    "questionNumber": 44,
+    "question": "'Passport' என்பதன் தமிழ்ச் சொல்?",
+    "imageUrl": null,
+    "answerOptions": [
+      {
+        "text": "கடவுச்சீட்டு",
+        "rationale": "வெளிநாடு செல்லத் தேவையான அடிப்படை ஆவணம் 'கடவுச்சீட்டு'.",
+        "isCorrect": true
+      },
+      {
+        "text": "நுழைவு இசைவு",
+        "rationale": "'Visa' என்பதன் தமிழாக்கம் நுழைவு இசைவு.",
+        "isCorrect": false
+      },
+      {
+        "text": "பயணச்சீட்டு",
+        "rationale": "'Ticket' என்பதன் தமிழாக்கம் பயணச்சீட்டு.",
+        "isCorrect": false
+      },
+      {
+        "text": "அடையாள அட்டை",
+        "rationale": "'ID Card' என்பதன் தமிழாக்கம் அடையாள அட்டை.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "வெளிநாடு செல்ல இது அவசியம்."
+  },
+  {
+    "questionNumber": 45,
+    "question": "'Visa' என்பதன் தமிழாக்கம் என்ன?",
+    "imageUrl": null,
+    "answerOptions": [
+      {
+        "text": "நுழைவு இசைவு",
+        "rationale": "ஒரு நாட்டுக்குள் நுழைய அந்நாடு வழங்கும் அனுமதி 'நுழைவு இசைவு'.",
+        "isCorrect": true
+      },
+      {
+        "text": "கடவுச்சீட்டு",
+        "rationale": "'Passport' என்பதன் தமிழாக்கம் கடவுச்சீட்டு.",
+        "isCorrect": false
+      },
+      {
+        "text": "விமானச்சீட்டு",
+        "rationale": "'Air Ticket' என்பதன் தமிழாக்கம் விமானச்சீட்டு.",
+        "isCorrect": false
+      },
+      {
+        "text": "குடியுரிமை",
+        "rationale": "'Citizenship' என்பதன் தமிழாக்கம் குடியுரிமை.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "வேறு நாட்டுக்குச் செல்ல அந்நாட்டின் அனுமதி."
+  },
+  {
+    "questionNumber": 46,
+    "question": "'Vowel' என்பதன் தமிழ்ச் சொல்?",
+    "imageUrl": null,
+    "answerOptions": [
+      {
+        "text": "உயிரொலி / உயிரெழுத்து",
+        "rationale": "அ, ஆ போன்ற எழுத்துகள் 'உயிரெழுத்து' அல்லது 'உயிரொலி'.",
+        "isCorrect": true
+      },
+      {
+        "text": "மெய்யெழுத்து",
+        "rationale": "'Consonant' என்பதன் தமிழாக்கம் மெய்யெழுத்து.",
+        "isCorrect": false
+      },
+      {
+        "text": "சார்பெழுத்து",
+        "rationale": "முதல் எழுத்துக்களைச் சார்ந்து வரும் எழுத்து.",
+        "isCorrect": false
+      },
+      {
+        "text": "ஆய்த எழுத்து",
+        "rationale": "தனிநிலை எழுத்து.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "தமிழில் 12 எழுத்துகள் உள்ளன."
+  },
+  {
+    "questionNumber": 47,
+    "question": "'Consonant' என்பதன் தமிழாக்கம் என்ன?",
+    "imageUrl": null,
+    "answerOptions": [
+      {
+        "text": "மெய்யொலி / மெய்யெழுத்து",
+        "rationale": "க், ங் போன்ற புள்ளி வைத்த எழுத்துகள் 'மெய்யெழுத்து' அல்லது 'மெய்யொலி'.",
+        "isCorrect": true
+      },
+      {
+        "text": "உயிரெழுத்து",
+        "rationale": "'Vowel' என்பதன் தமிழாக்கம் உயிரெழுத்து.",
+        "isCorrect": false
+      },
+      {
+        "text": "உயிர்மெய் எழுத்து",
+        "rationale": "உயிரும் மெய்யும் இணைந்த எழுத்து.",
+        "isCorrect": false
+      },
+      {
+        "text": "நெட்டெழுத்து",
+        "rationale": "நீண்டு ஒலிக்கும் எழுத்து.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "தமிழில் 18 எழுத்துகள் உள்ளன."
+  },
+  {
+    "questionNumber": 48,
+    "question": "'Classical Literature' என்பதன் தமிழ்ச் சொல்?",
+    "imageUrl": null,
+    "answerOptions": [
+      {
+        "text": "செவ்வியல் இலக்கியம்",
+        "rationale": "பழமையானதும், இலக்கிய வளம் மிக்கதுமான இலக்கியம் 'செவ்வியல் இலக்கியம்'.",
+        "isCorrect": true
+      },
+      {
+        "text": "நவீன இலக்கியம்",
+        "rationale": "'Modern Literature' என்பதன் தமிழாக்கம் நவீன இலக்கியம்.",
+        "isCorrect": false
+      },
+      {
+        "text": "நாட்டுப்புற இலக்கியம்",
+        "rationale": "'Folk Literature' என்பதன் தமிழாக்கம் நாட்டுப்புற இலக்கியம்.",
+        "isCorrect": false
+      },
+      {
+        "text": "பக்தி இலக்கியம்",
+        "rationale": "'Devotional Literature' என்பதன் தமிழாக்கம் பக்தி இலக்கியம்.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "சங்க இலக்கியம் இதற்கு ஒரு சான்று."
+  },
+  {
+    "questionNumber": 49,
+    "question": "'Patent' என்பதன் தமிழாக்கம் என்ன?",
+    "imageUrl": null,
+    "answerOptions": [
+      {
+        "text": "காப்புரிமை",
+        "rationale": "கண்டுபிடிப்புகளுக்கு வழங்கப்படும் உரிமை 'காப்புரிமை'.",
+        "isCorrect": true
+      },
+      {
+        "text": "பதிப்புரிமை",
+        "rationale": "'Copyright' என்பதன் தமிழாக்கம் பதிப்புரிமை.",
+        "isCorrect": false
+      },
+      {
+        "text": "வணிகக்குறி",
+        "rationale": "'Trademark' என்பதன் தமிழாக்கம் வணிகக்குறி.",
+        "isCorrect": false
+      },
+      {
+        "text": "உரிமம்",
+        "rationale": "'License' என்பதன் தமிழாக்கம் உரிமம்.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "புதிய கண்டுபிடிப்பை மற்றவர் பயன்படுத்தாமல் இருக்கப் பெறுவது."
+  },
+  {
+    "questionNumber": 50,
+    "question": "'Renaissance' என்பதன் தமிழ்ச் சொல்?",
+    "imageUrl": null,
+    "answerOptions": [
+      {
+        "text": "மறுமலர்ச்சி",
+        "rationale": "கலை மற்றும் இலக்கியத்தின் புத்துயிர் காலம் 'மறுமலர்ச்சி'.",
+        "isCorrect": true
+      },
+      {
+        "text": "புரட்சி",
+        "rationale": "'Revolution' என்பதன் தமிழாக்கம் புரட்சி.",
+        "isCorrect": false
+      },
+      {
+        "text": "சுதந்திரம்",
+        "rationale": "'Independence' என்பதன் தமிழாக்கம் சுதந்திரம்.",
+        "isCorrect": false
+      },
+      {
+        "text": "நாகரிகம்",
+        "rationale": "'Civilization' என்பதன் தமிழாக்கம் நாகரிகம்.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "ஐரோப்பாவில் தொடங்கிய கலை விழிப்புணர்வு."
+  },
+  {
+    "questionNumber": 51,
+    "question": "'Cosmic rays' என்பதன் தமிழாக்கம் என்ன?",
+    "imageUrl": null,
+    "answerOptions": [
+      {
+        "text": "விண்வெளிக் கதிர்கள்",
+        "rationale": "விண்வெளியிலிருந்து வரும் ஆற்றல் மிக்க கதிர்கள் 'விண்வெளிக் கதிர்கள்'.",
+        "isCorrect": true
+      },
+      {
+        "text": "சூரியக் கதிர்கள்",
+        "rationale": "'Sun rays' என்பதன் தமிழாக்கம் சூரியக் கதிர்கள்.",
+        "isCorrect": false
+      },
+      {
+        "text": "காமா கதிர்கள்",
+        "rationale": "'Gamma rays' என்பதன் தமிழாக்கம் காமா கதிர்கள்.",
+        "isCorrect": false
+      },
+      {
+        "text": "எக்ஸ் கதிர்கள்",
+        "rationale": "'X-rays' என்பதன் தமிழாக்கம் எக்ஸ் கதிர்கள்.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "விண்வெளியில் இருந்து வருவது."
+  },
+  {
+    "questionNumber": 52,
+    "question": "'Infrared rays' என்பதன் தமிழ்ச் சொல்?",
+    "imageUrl": null,
+    "answerOptions": [
+      {
+        "text": "அகச்சிவப்புக் கதிர்கள்",
+        "rationale": "சிவப்பு நிறத்திற்கு அப்பால் உள்ள கதிர்கள் 'அகச்சிவப்புக் கதிர்கள்'.",
+        "isCorrect": true
+      },
+      {
+        "text": "புற ஊதாக் கதிர்கள்",
+        "rationale": "'Ultraviolet rays' என்பதன் தமிழாக்கம் புற ஊதாக் கதிர்கள்.",
+        "isCorrect": false
+      },
+      {
+        "text": "ஒளி அலைகள்",
+        "rationale": "'Light waves' என்பதன் தமிழாக்கம் ஒளி அலைகள்.",
+        "isCorrect": false
+      },
+      {
+        "text": "வானொலி அலைகள்",
+        "rationale": "'Radio waves' என்பதன் தமிழாக்கம் வானொலி அலைகள்.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "டிவி ரிமோட்டில் பயன்படும் கதிர்."
+  },
+  {
+    "questionNumber": 53,
+    "question": "'Emblem' என்பதன் தமிழாக்கம் என்ன?",
+    "imageUrl": null,
+    "answerOptions": [
+      {
+        "text": "சின்னம்",
+        "rationale": "அரசு அல்லது நிறுவனத்தின் அடையாளம் 'சின்னம்'.",
+        "isCorrect": true
+      },
+      {
+        "text": "கொடி",
+        "rationale": "'Flag' என்பதன் தமிழாக்கம் கொடி.",
+        "isCorrect": false
+      },
+      {
+        "text": "முத்திரை",
+        "rationale": "'Stamp' அல்லது 'Seal' என்பதன் தமிழாக்கம் முத்திரை.",
+        "isCorrect": false
+      },
+      {
+        "text": "பதக்கம்",
+        "rationale": "'Medal' என்பதன் தமிழாக்கம் பதக்கம்.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "நான்கு சிங்கங்கள் கொண்டது இந்தியாவின் தேசிய..."
+  },
+  {
+    "questionNumber": 54,
+    "question": "'Intellectual' என்பதன் தமிழ்ச் சொல்?",
+    "imageUrl": null,
+    "answerOptions": [
+      {
+        "text": "அறிவாளர்",
+        "rationale": "அறிவு சார்ந்த சிந்தனையாளர் 'அறிவாளர்'.",
+        "isCorrect": true
+      },
+      {
+        "text": "கவிஞர்",
+        "rationale": "'Poet' என்பதன் தமிழாக்கம் கவிஞர்.",
+        "isCorrect": false
+      },
+      {
+        "text": "கலைஞர்",
+        "rationale": "'Artist' என்பதன் தமிழாக்கம் கலைஞர்.",
+        "isCorrect": false
+      },
+      {
+        "text": "தலைவர்",
+        "rationale": "'Leader' என்பதன் தமிழாக்கம் தலைவர்.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "சிந்தனையாளர்."
+  },
+  {
+    "questionNumber": 55,
+    "question": "'Thesis' என்பதன் தமிழாக்கம் என்ன?",
+    "imageUrl": null,
+    "answerOptions": [
+      {
+        "text": "ஆய்வேடு",
+        "rationale": "ஆராய்ச்சிப் பட்டத்திற்காக சமர்ப்பிக்கப்படும் கட்டுரை 'ஆய்வேடு'.",
+        "isCorrect": true
+      },
+      {
+        "text": "கட்டுரை",
+        "rationale": "'Essay' என்பதன் தமிழாக்கம் கட்டுரை.",
+        "isCorrect": false
+      },
+      {
+        "text": "புத்தகம்",
+        "rationale": "'Book' என்பதன் தமிழாக்கம் புத்தகம்.",
+        "isCorrect": false
+      },
+      {
+        "text": "திட்டம்",
+        "rationale": "'Project' என்பதன் தமிழாக்கம் திட்டம்.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "முனைவர் பட்டம் (PhD) பெற சமர்ப்பிப்பது."
+  },
+  {
+    "questionNumber": 56,
+    "question": "'Symbolism' என்பதன் தமிழ்ச் சொல்?",
+    "imageUrl": null,
+    "answerOptions": [
+      {
+        "text": "குறியீட்டியல்",
+        "rationale": "குறியீடுகள் மூலம் கருத்தை விளக்குவது 'குறியீட்டியல்'.",
+        "isCorrect": true
+      },
+      {
+        "text": "உவமை",
+        "rationale": "'Simile' என்பதன் தமிழாக்கம் உவமை.",
+        "isCorrect": false
+      },
+      {
+        "text": "நாடகம்",
+        "rationale": "'Drama' என்பதன் தமிழாக்கம் நாடகம்.",
+        "isCorrect": false
+      },
+      {
+        "text": "கவிதை",
+        "rationale": "'Poetry' என்பதன் தமிழாக்கம் கவிதை.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "சின்னங்கள் மூலம் உணர்த்துவது."
+  },
+  {
+    "questionNumber": 57,
+    "question": "'Cabinet' என்பதன் தமிழாக்கம் என்ன?",
+    "imageUrl": null,
+    "answerOptions": [
+      {
+        "text": "அமைச்சரவை",
+        "rationale": "முக்கிய அமைச்சர்கள் கொண்ட குழு 'அமைச்சரவை'.",
+        "isCorrect": true
+      },
+      {
+        "text": "சட்டமன்றம்",
+        "rationale": "'Legislature' என்பதன் தமிழாக்கம் சட்டமன்றம்.",
+        "isCorrect": false
+      },
+      {
+        "text": "அலுவலகம்",
+        "rationale": "'Office' என்பதன் தமிழாக்கம் அலுவலகம்.",
+        "isCorrect": false
+      },
+      {
+        "text": "குழு",
+        "rationale": "'Committee' என்பதன் தமிழாக்கம் குழு.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "முதலமைச்சர் மற்றும் அமைச்சர்கள் அடங்கியது."
+  },
+  {
+    "questionNumber": 58,
+    "question": "'Cultural values' என்பதன் தமிழ்ச் சொல்?",
+    "imageUrl": null,
+    "answerOptions": [
+      {
+        "text": "பண்பாட்டு விழுமியங்கள்",
+        "rationale": "ஒரு கலாச்சாரத்தின் உயர்ந்த கொள்கைகள் 'பண்பாட்டு விழுமியங்கள்'.",
+        "isCorrect": true
+      },
+      {
+        "text": "கலாச்சார விழாக்கள்",
+        "rationale": "கலாச்சார நிகழ்வுகள்.",
+        "isCorrect": false
+      },
+      {
+        "text": "சமூக நெறிகள்",
+        "rationale": "சமுதாயக் கட்டுப்பாடுகள்.",
+        "isCorrect": false
+      },
+      {
+        "text": "பழக்கவழக்கங்கள்",
+        "rationale": "'Habits' அல்லது 'Customs' என்பதன் தமிழாக்கம்.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "விருந்தோம்பல் தமிழரின்..."
+  },
+  {
+    "questionNumber": 59,
+    "question": "'Irrigation' என்பதன் தமிழாக்கம் என்ன?",
+    "imageUrl": null,
+    "answerOptions": [
+      {
+        "text": "பாசனம் / நீர்ப்பாசனம்",
+        "rationale": "விவசாயத்திற்கு நீர் பாய்ச்சும் முறை 'பாசனம்' அல்லது 'நீர்ப்பாசனம்'.",
+        "isCorrect": true
+      },
+      {
+        "text": "விவசாயம்",
+        "rationale": "'Agriculture' என்பதன் தமிழாக்கம் வேளாண்மை/விவசாயம்.",
+        "isCorrect": false
+      },
+      {
+        "text": "மழை",
+        "rationale": "'Rain' என்பதன் தமிழாக்கம் மழை.",
+        "isCorrect": false
+      },
+      {
+        "text": "அணை",
+        "rationale": "'Dam' என்பதன் தமிழாக்கம் அணை.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "பயிர்களுக்குத் தண்ணீர் விடுதல்."
+  },
+  {
+    "questionNumber": 60,
+    "question": "'Territory' என்பதன் தமிழ்ச் சொல்?",
+    "imageUrl": null,
+    "answerOptions": [
+      {
+        "text": "நிலப்பகுதி",
+        "rationale": "ஒரு குறிப்பிட்ட எல்லைக்குட்பட்ட பகுதி 'நிலப்பகுதி'.",
+        "isCorrect": true
+      },
+      {
+        "text": "எல்லை",
+        "rationale": "'Border' என்பதன் தமிழாக்கம் எல்லை.",
+        "isCorrect": false
+      },
+      {
+        "text": "நாடு",
+        "rationale": "'Country' என்பதன் தமிழாக்கம் நாடு.",
+        "isCorrect": false
+      },
+      {
+        "text": "மாநிலம்",
+        "rationale": "'State' என்பதன் தமிழாக்கம் மாநிலம்.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "யூனியன் பிரதேசம் (Union ...)."
+  },
+  {
+    "questionNumber": 61,
+    "question": "'Bio Diversity' என்பதன் தமிழாக்கம் என்ன?",
+    "imageUrl": null,
+    "answerOptions": [
+      {
+        "text": "பல்லுயிர் மண்டலம்",
+        "rationale": "பல்வேறு வகையான உயிரினங்கள் வாழும் சூழல் 'பல்லுயிர் மண்டலம்'.",
+        "isCorrect": true
+      },
+      {
+        "text": "உயிரியல்",
+        "rationale": "'Biology' என்பதன் தமிழாக்கம் உயிரியல்.",
+        "isCorrect": false
+      },
+      {
+        "text": "சூற்றுச்சூழல்",
+        "rationale": "'Environment' என்பதன் தமிழாக்கம் சுற்றுச்சூழல்.",
+        "isCorrect": false
+      },
+      {
+        "text": "காடு",
+        "rationale": "'Forest' என்பதன் தமிழாக்கம் காடு.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "பல வகையான உயிரினங்கள் (Bio) நிறைந்தது."
+  },
+  {
+    "questionNumber": 62,
+    "question": "'Folklore' என்பதன் தமிழ்ச் சொல்?",
+    "imageUrl": null,
+    "answerOptions": [
+      {
+        "text": "நாட்டுப்புறவியல்",
+        "rationale": "நாட்டுப்புறக் கலைகள் மற்றும் கதைகள் பற்றியது 'நாட்டுப்புறவியல்'.",
+        "isCorrect": true
+      },
+      {
+        "text": "கிராமியம்",
+        "rationale": "கிராமம் சார்ந்தது.",
+        "isCorrect": false
+      },
+      {
+        "text": "பழங்குடி",
+        "rationale": "'Tribal' என்பதன் தமிழாக்கம் பழங்குடி.",
+        "isCorrect": false
+      },
+      {
+        "text": "இசை",
+        "rationale": "'Music' என்பதன் தமிழாக்கம் இசை.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "கிராமத்து மக்களின் கலை மற்றும் இலக்கியம்."
+  },
+  {
+    "questionNumber": 63,
+    "question": "'Ballad' என்பதன் தமிழாக்கம் என்ன?",
+    "imageUrl": null,
+    "answerOptions": [
+      {
+        "text": "கதைப்பாடல்",
+        "rationale": "கதை சொல்லும் பாடல் வடிவம் 'கதைப்பாடல்'.",
+        "isCorrect": true
+      },
+      {
+        "text": "நாட்டுப்புறப் பாடல்",
+        "rationale": "'Folk Song' என்பதன் தமிழாக்கம் நாட்டுப்புறப் பாடல்.",
+        "isCorrect": false
+      },
+      {
+        "text": "கவிதை",
+        "rationale": "'Poem' என்பதன் தமிழாக்கம் கவிதை.",
+        "isCorrect": false
+      },
+      {
+        "text": "நாடகம்",
+        "rationale": "'Drama' என்பதன் தமிழாக்கம் நாடகம்.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "கதையைக் கூறும் பாடல்."
+  },
+  {
+    "questionNumber": 64,
+    "question": "'Uniform' என்பதன் தமிழ்ச் சொல்?",
+    "imageUrl": null,
+    "answerOptions": [
+      {
+        "text": "சீருடை",
+        "rationale": "பள்ளி அல்லது வேலையில் அணியும் ஒரே மாதிரியான உடை 'சீருடை'.",
+        "isCorrect": true
+      },
+      {
+        "text": "ஆடை",
+        "rationale": "'Dress' என்பதன் தமிழாக்கம் ஆடை.",
+        "isCorrect": false
+      },
+      {
+        "text": "கவசம்",
+        "rationale": "'Armour' என்பதன் தமிழாக்கம் கவசம்.",
+        "isCorrect": false
+      },
+      {
+        "text": "துணி",
+        "rationale": "'Cloth' என்பதன் தமிழாக்கம் துணி.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "பள்ளி மாணவர்கள் அணிவது."
+  },
+  {
+    "questionNumber": 65,
+    "question": "'Value Added Product' என்பதன் தமிழாக்கம் என்ன?",
+    "imageUrl": null,
+    "answerOptions": [
+      {
+        "text": "மதிப்புக்கூட்டுப் பொருள்",
+        "rationale": "ஒரு பொருளின் தரத்தை உயர்த்தி விற்கப்படும் பொருள் 'மதிப்புக்கூட்டுப் பொருள்'.",
+        "isCorrect": true
+      },
+      {
+        "text": "விற்பனைப் பொருள்",
+        "rationale": "விற்கப்படும் பொருள்.",
+        "isCorrect": false
+      },
+      {
+        "text": "ஏற்றுமதிப் பொருள்",
+        "rationale": "வெளிநாட்டுக்கு அனுப்பும் பொருள்.",
+        "isCorrect": false
+      },
+      {
+        "text": "இறக்குமதிப் பொருள்",
+        "rationale": "வெளிநாட்டிலிருந்து வாங்கும் பொருள்.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "பழத்திலிருந்து ஜாம் (Jam) தயாரிப்பது போன்றது."
+  },
+  {
+    "questionNumber": 66,
+    "question": "'Organic Farming' என்பதன் தமிழ்ச் சொல்?",
+    "imageUrl": null,
+    "answerOptions": [
+      {
+        "text": "இயற்கை வேளாண்மை",
+        "rationale": "ரசாயன உரங்கள் இன்றி செய்யப்படும் விவசாயம் 'இயற்கை வேளாண்மை'.",
+        "isCorrect": true
+      },
+      {
+        "text": "நவீன வேளாண்மை",
+        "rationale": "இயந்திரங்களைப் பயன்படுத்தும் வேளாண்மை.",
+        "isCorrect": false
+      },
+      {
+        "text": "கலப்பு வேளாண்மை",
+        "rationale": "பயிர் மற்றும் கால்நடை வளர்ப்பு இணைந்த முறை.",
+        "isCorrect": false
+      },
+      {
+        "text": "நீர் பாசனம்",
+        "rationale": "தண்ணீர் பாய்ச்சும் முறை.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "இயற்கை உரங்களைப் பயன்படுத்துவது."
+  },
+  {
+    "questionNumber": 67,
+    "question": "'Agreement' என்பதன் தமிழாக்கம் என்ன?",
+    "imageUrl": null,
+    "answerOptions": [
+      {
+        "text": "ஒப்பந்தம்",
+        "rationale": "இரு தரப்பினரிடையே ஏற்படும் உடன்படிக்கை 'ஒப்பந்தம்'.",
+        "isCorrect": true
+      },
+      {
+        "text": "விவாதம்",
+        "rationale": "'Debate' என்பதன் தமிழாக்கம் விவாதம்.",
+        "isCorrect": false
+      },
+      {
+        "text": "முடிவு",
+        "rationale": "'Decision' என்பதன் தமிழாக்கம் முடிவு.",
+        "isCorrect": false
+      },
+      {
+        "text": "விதிமுறை",
+        "rationale": "'Rule' என்பதன் தமிழாக்கம் விதிமுறை.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "இருவரும் கையெழுத்திட்டு ஏற்றுக்கொள்வது."
+  },
+  {
+    "questionNumber": 68,
+    "question": "'Documentary' என்பதன் தமிழ்ச் சொல்?",
+    "imageUrl": null,
+    "answerOptions": [
+      {
+        "text": "ஆவணப்படம்",
+        "rationale": "உண்மையான நிகழ்வுகளைப் பதிவு செய்யும் படம் 'ஆவணப்படம்'.",
+        "isCorrect": true
+      },
+      {
+        "text": "குறும்படம்",
+        "rationale": "'Short Film' என்பதன் தமிழாக்கம் குறும்படம்.",
+        "isCorrect": false
+      },
+      {
+        "text": "திரைப்படம்",
+        "rationale": "'Cinema' அல்லது 'Movie' என்பதன் தமிழாக்கம் திரைப்படம்.",
+        "isCorrect": false
+      },
+      {
+        "text": "செய்திப்படம்",
+        "rationale": "'Newsreel' என்பதன் தமிழாக்கம் செய்திப்படம்.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "உண்மை நிகழ்வுகளைக் காட்டுவது."
+  },
+  {
+    "questionNumber": 69,
+    "question": "'Invasion' என்பதன் தமிழாக்கம் என்ன?",
+    "imageUrl": null,
+    "answerOptions": [
+      {
+        "text": "படையெடுப்பு",
+        "rationale": "ஒரு நாட்டின் மீது போர் தொடுப்பது 'படையெடுப்பு'.",
+        "isCorrect": true
+      },
+      {
+        "text": "போர்",
+        "rationale": "'War' என்பதன் தமிழாக்கம் போர்.",
+        "isCorrect": false
+      },
+      {
+        "text": "பாதுகாப்பு",
+        "rationale": "'Defence' என்பதன் தமிழாக்கம் பாதுகாப்பு.",
+        "isCorrect": false
+      },
+      {
+        "text": "புரட்சி",
+        "rationale": "'Revolution' என்பதன் தமிழாக்கம் புரட்சி.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "மன்னர்கள் மற்ற நாட்டின் மீது நடத்துவது."
+  },
+  {
+    "questionNumber": 70,
+    "question": "'Backwater' என்பதன் தமிழ்ச் சொல்?",
+    "imageUrl": null,
+    "answerOptions": [
+      {
+        "text": "உப்பங்கழி",
+        "rationale": "கடல் நீர் நிலத்திற்குள் புகுந்து தேங்கும் பகுதி 'உப்பங்கழி'.",
+        "isCorrect": true
+      },
+      {
+        "text": "ஏரி",
+        "rationale": "'Lake' என்பதன் தமிழாக்கம் ஏரி.",
+        "isCorrect": false
+      },
+      {
+        "text": "குளம்",
+        "rationale": "'Pond' என்பதன் தமிழாக்கம் குளம்.",
+        "isCorrect": false
+      },
+      {
+        "text": "ஆறு",
+        "rationale": "'River' என்பதன் தமிழாக்கம் ஆறு.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "கேரளாவில் அதிகம் காணப்படும் நீர் நிலை."
+  },
+  {
+    "questionNumber": 71,
+    "question": "'Prefix' என்பதன் தமிழாக்கம் என்ன?",
+    "imageUrl": null,
+    "answerOptions": [
+      {
+        "text": "முன்னொட்டு",
+        "rationale": "சொல்லின் முன் சேர்க்கப்படும் அசை 'முன்னொட்டு'.",
+        "isCorrect": true
+      },
+      {
+        "text": "பின்னொட்டு",
+        "rationale": "'Suffix' என்பதன் தமிழாக்கம் பின்னொட்டு.",
+        "isCorrect": false
+      },
+      {
+        "text": "இடைச்சொல்",
+        "rationale": "சொற்களுக்கு இடையில் வருவது.",
+        "isCorrect": false
+      },
+      {
+        "text": "வேர்ச்சொல்",
+        "rationale": "'Root word' என்பதன் தமிழாக்கம் வேர்ச்சொல்.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "சொல்லுக்கு 'முன்' வருவது."
+  },
+  {
+    "questionNumber": 72,
+    "question": "'Suffix' என்பதன் தமிழ்ச் சொல்?",
+    "imageUrl": null,
+    "answerOptions": [
+      {
+        "text": "பின்னொட்டு",
+        "rationale": "சொல்லின் பின்னால் சேர்க்கப்படும் அசை 'பின்னொட்டு'.",
+        "isCorrect": true
+      },
+      {
+        "text": "முன்னொட்டு",
+        "rationale": "'Prefix' என்பதன் தமிழாக்கம் முன்னொட்டு.",
+        "isCorrect": false
+      },
+      {
+        "text": "வேர்ச்சொல்",
+        "rationale": "'Root word' என்பதன் தமிழாக்கம் வேர்ச்சொல்.",
+        "isCorrect": false
+      },
+      {
+        "text": "சொற்றொடர்",
+        "rationale": "'Phrase' அல்லது 'Sentence' என்பதன் தமிழாக்கம்.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "சொல்லுக்கு 'பின்' வருவது."
+  },
+  {
+    "questionNumber": 73,
+    "question": "'Lexicon' என்பதன் தமிழாக்கம் என்ன?",
+    "imageUrl": null,
+    "answerOptions": [
+      {
+        "text": "பேரகராதி",
+        "rationale": "விரிவான சொற்களஞ்சியம் 'பேரகராதி'.",
+        "isCorrect": true
+      },
+      {
+        "text": "அகராதி",
+        "rationale": "'Dictionary' என்பதன் தமிழாக்கம் அகராதி.",
+        "isCorrect": false
+      },
+      {
+        "text": "கலைக்களஞ்சியம்",
+        "rationale": "'Encyclopedia' என்பதன் தமிழாக்கம் கலைக்களஞ்சியம்.",
+        "isCorrect": false
+      },
+      {
+        "text": "பாடநூல்",
+        "rationale": "'Textbook' என்பதன் தமிழாக்கம் பாடநூல்.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "சொற்களைத் தொகுத்த பெரிய நூல்."
+  },
+  {
+    "questionNumber": 74,
+    "question": "'Phoneme' என்பதன் தமிழாக்கம் என்ன?",
+    "imageUrl": null,
+    "answerOptions": [
+      {
+        "text": "ஒலியன்",
+        "rationale": "மொழியின் மிகச்சிறிய ஒலி அலகு 'ஒலியன்'.",
+        "isCorrect": true
+      },
+      {
+        "text": "உருபன்",
+        "rationale": "'Morpheme' என்பதன் தமிழாக்கம் உருபன்.",
+        "isCorrect": false
+      },
+      {
+        "text": "சொல்",
+        "rationale": "'Word' என்பதன் தமிழாக்கம் சொல்.",
+        "isCorrect": false
+      },
+      {
+        "text": "எழுத்து",
+        "rationale": "'Letter' என்பதன் தமிழாக்கம் எழுத்து.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "ஒலியை (Phone) குறிக்கும் அலகு."
+  },
+  {
+    "questionNumber": 75,
+    "question": "'Morpheme' என்பதன் தமிழ்ச் சொல்?",
+    "imageUrl": null,
+    "answerOptions": [
+      {
+        "text": "உருபன்",
+        "rationale": "பொருள் தரும் மிகச்சிறிய மொழி அலகு 'உருபன்'.",
+        "isCorrect": true
+      },
+      {
+        "text": "ஒலியன்",
+        "rationale": "'Phoneme' என்பதன் தமிழாக்கம் ஒலியன்.",
+        "isCorrect": false
+      },
+      {
+        "text": "தொடர்",
+        "rationale": "சொற்களின் தொடர்ச்சி.",
+        "isCorrect": false
+      },
+      {
+        "text": "அசை",
+        "rationale": "'Syllable' என்பதன் தமிழாக்கம் அசை.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "உருவத்தை அல்லது பொருளைத் தரும் அலகு."
+  },
+  {
+    "questionNumber": 76,
+    "question": "'Tanning' என்பதன் தமிழாக்கம் என்ன?",
+    "imageUrl": null,
+    "answerOptions": [
+      {
+        "text": "தோல் பதனிடுதல்",
+        "rationale": "விலங்குத் தோலைப் பயன்படுத்தும் வகையில் மாற்றுவது 'தோல் பதனிடுதல்'.",
+        "isCorrect": true
+      },
+      {
+        "text": "நெசவு",
+        "rationale": "'Weaving' என்பதன் தமிழாக்கம் நெசவு.",
+        "isCorrect": false
+      },
+      {
+        "text": "சாயம் ஏற்றுதல்",
+        "rationale": "'Dyeing' என்பதன் தமிழாக்கம் சாயம் ஏற்றுதல்.",
+        "isCorrect": false
+      },
+      {
+        "text": "தையல்",
+        "rationale": "'Stitching' என்பதன் தமிழாக்கம் தையல்.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "தோல் தொழிற்சாலைகளில் நடைபெறும் செயல்முறை."
+  },
+  {
+    "questionNumber": 77,
+    "question": "'Dyeing' என்பதன் தமிழ்ச் சொல்?",
+    "imageUrl": null,
+    "answerOptions": [
+      {
+        "text": "சாயம் ஏற்றுதல்",
+        "rationale": "துணிகளுக்கு நிறம் ஊட்டுதல் 'சாயம் ஏற்றுதல்'.",
+        "isCorrect": true
+      },
+      {
+        "text": "நூற்றல்",
+        "rationale": "'Spinning' என்பதன் தமிழாக்கம் நூற்றல்.",
+        "isCorrect": false
+      },
+      {
+        "text": "பின்னுதல்",
+        "rationale": "'Knitting' என்பதன் தமிழாக்கம் பின்னுதல்.",
+        "isCorrect": false
+      },
+      {
+        "text": "வண்ணம் தீட்டுதல்",
+        "rationale": "'Painting' என்பதன் தமிழாக்கம் வண்ணம் தீட்டுதல்.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "ஆடைகளுக்கு நிறம் கொடுத்தல்."
+  },
+  {
+    "questionNumber": 78,
+    "question": "'Readymade Dress' என்பதன் தமிழாக்கம் என்ன?",
+    "imageUrl": null,
+    "answerOptions": [
+      {
+        "text": "ஆயத்த ஆடை",
+        "rationale": "ஏற்கனவே தைத்து விற்கப்படும் ஆடை 'ஆயத்த ஆடை'.",
+        "isCorrect": true
+      },
+      {
+        "text": "கைத்தறி ஆடை",
+        "rationale": "'Handloom dress' என்பதன் தமிழாக்கம் கைத்தறி ஆடை.",
+        "isCorrect": false
+      },
+      {
+        "text": "பட்டு ஆடை",
+        "rationale": "'Silk dress' என்பதன் தமிழாக்கம் பட்டு ஆடை.",
+        "isCorrect": false
+      },
+      {
+        "text": "பருத்தி ஆடை",
+        "rationale": "'Cotton dress' என்பதன் தமிழாக்கம் பருத்தி ஆடை.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "கடைகளில் விற்கப்படும் தைத்த துணிகள்."
+  },
+  {
+    "questionNumber": 79,
+    "question": "'Equestrian' என்பதன் தமிழ்ச் சொல்?",
+    "imageUrl": null,
+    "answerOptions": [
+      {
+        "text": "குதிரையேற்றம்",
+        "rationale": "குதிரை சவாரி செய்யும் கலை 'குதிரையேற்றம்'.",
+        "isCorrect": true
+      },
+      {
+        "text": "வண்டி ஓட்டுதல்",
+        "rationale": "'Driving' என்பதன் தமிழாக்கம் வண்டி ஓட்டுதல்.",
+        "isCorrect": false
+      },
+      {
+        "text": "மல்யுத்தம்",
+        "rationale": "'Wrestling' என்பதன் தமிழாக்கம் மல்யுத்தம்.",
+        "isCorrect": false
+      },
+      {
+        "text": "வில்வித்தை",
+        "rationale": "'Archery' என்பதன் தமிழாக்கம் வில்வித்தை.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "குதிரை சவாரி."
+  },
+  {
+    "questionNumber": 80,
+    "question": "'Integrity' என்பதன் தமிழாக்கம் என்ன?",
+    "imageUrl": null,
+    "answerOptions": [
+      {
+        "text": "நேர்மை",
+        "rationale": "உண்மையாகவும் ஒழுக்கமாகவும் நடத்தல் 'நேர்மை'.",
+        "isCorrect": true
+      },
+      {
+        "text": "வாய்மை",
+        "rationale": "'Sincerity' என்பதன் தமிழாக்கம் வாய்மை.",
+        "isCorrect": false
+      },
+      {
+        "text": "ஒற்றுமை",
+        "rationale": "'Unity' என்பதன் தமிழாக்கம் ஒற்றுமை.",
+        "isCorrect": false
+      },
+      {
+        "text": "துணிவு",
+        "rationale": "'Courage' என்பதன் தமிழாக்கம் துணிவு.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "நாணயமான குணம்."
+  },
+  {
+    "questionNumber": 81,
+    "question": "'Sincerity' என்பதன் தமிழ்ச் சொல்?",
+    "imageUrl": null,
+    "answerOptions": [
+      {
+        "text": "வாய்மை",
+        "rationale": "உண்மையைப் பேசுதல் 'வாய்மை'.",
+        "isCorrect": true
+      },
+      {
+        "text": "நேர்மை",
+        "rationale": "'Integrity' என்பதன் தமிழாக்கம் நேர்மை.",
+        "isCorrect": false
+      },
+      {
+        "text": "கடமை",
+        "rationale": "'Duty' என்பதன் தமிழாக்கம் கடமை.",
+        "isCorrect": false
+      },
+      {
+        "text": "அன்பு",
+        "rationale": "'Love' என்பதன் தமிழாக்கம் அன்பு.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "பொய்யாமை."
+  },
+  {
+    "questionNumber": 82,
+    "question": "'Charity' என்பதன் தமிழாக்கம் என்ன?",
+    "imageUrl": null,
+    "answerOptions": [
+      {
+        "text": "ஈகை / தொண்டு",
+        "rationale": "பிறருக்குக் கொடுத்து உதவுதல் 'ஈகை' அல்லது 'தொண்டு'.",
+        "isCorrect": true
+      },
+      {
+        "text": "கருணை",
+        "rationale": "'Mercy' என்பதன் தமிழாக்கம் கருணை.",
+        "isCorrect": false
+      },
+      {
+        "text": "அறக்கட்டளை",
+        "rationale": "'Trust' என்பதன் தமிழாக்கம் அறக்கட்டளை.",
+        "isCorrect": false
+      },
+      {
+        "text": "சேவை",
+        "rationale": "'Service' என்பதன் தமிழாக்கம் சேவை.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "தானம் செய்தல்."
+  },
+  {
+    "questionNumber": 83,
+    "question": "'Dignity' என்பதன் தமிழ்ச் சொல்?",
+    "imageUrl": null,
+    "answerOptions": [
+      {
+        "text": "கண்ணியம்",
+        "rationale": "மரியாதைக்குரிய பண்பு 'கண்ணியம்'.",
+        "isCorrect": true
+      },
+      {
+        "text": "பெருமை",
+        "rationale": "'Pride' என்பதன் தமிழாக்கம் பெருமை.",
+        "isCorrect": false
+      },
+      {
+        "text": "புகழ்",
+        "rationale": "'Fame' என்பதன் தமிழாக்கம் புகழ்.",
+        "isCorrect": false
+      },
+      {
+        "text": "செல்வம்",
+        "rationale": "'Wealth' என்பதன் தமிழாக்கம் செல்வம்.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "மதிப்புடன் நடத்தல்."
+  },
+  {
+    "questionNumber": 84,
+    "question": "'Doctrine' என்பதன் தமிழாக்கம் என்ன?",
+    "imageUrl": null,
+    "answerOptions": [
+      {
+        "text": "கொள்கை",
+        "rationale": "ஒரு கோட்பாடு அல்லது கொள்கை 'கொள்கை'.",
+        "isCorrect": true
+      },
+      {
+        "text": "சட்டம்",
+        "rationale": "'Law' என்பதன் தமிழாக்கம் சட்டம்.",
+        "isCorrect": false
+      },
+      {
+        "text": "உபதேசம்",
+        "rationale": "'Preaching' என்பதன் தமிழாக்கம் உபதேசம்.",
+        "isCorrect": false
+      },
+      {
+        "text": "விதி",
+        "rationale": "'Rule' என்பதன் தமிழாக்கம் விதி.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "மதம் அல்லது அரசியலின் அடிப்படை..."
+  },
+  {
+    "questionNumber": 85,
+    "question": "'Astronomy' என்பதன் தமிழ்ச் சொல்?",
+    "imageUrl": null,
+    "answerOptions": [
+      {
+        "text": "வானியல்",
+        "rationale": "விண்வெளி மற்றும் கோள்களைப் பற்றிய படிப்பு 'வானியல்'.",
+        "isCorrect": true
+      },
+      {
+        "text": "சோதிடம்",
+        "rationale": "'Astrology' என்பதன் தமிழாக்கம் சோதிடம்.",
+        "isCorrect": false
+      },
+      {
+        "text": "புவியியல்",
+        "rationale": "'Geography' என்பதன் தமிழாக்கம் புவியியல்.",
+        "isCorrect": false
+      },
+      {
+        "text": "இயற்பியல்",
+        "rationale": "'Physics' என்பதன் தமிழாக்கம் இயற்பியல்.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "நட்சத்திரங்கள் மற்றும் கோள்களை ஆராய்வது."
+  },
+  {
+    "questionNumber": 86,
+    "question": "'Sculptures' என்பதன் தமிழ்ச் சொல்?",
+    "imageUrl": null,
+    "answerOptions": [
+      {
+        "text": "சிற்பங்கள்",
+        "rationale": "கல்லில் அல்லது உலோகத்தில் செதுக்கப்பட்ட உருவங்கள் 'சிற்பங்கள்'.",
+        "isCorrect": true
+      },
+      {
+        "text": "ஓவியங்கள்",
+        "rationale": "'Paintings' என்பதன் தமிழாக்கம் ஓவியங்கள்.",
+        "isCorrect": false
+      },
+      {
+        "text": "கட்டிடக்கலை",
+        "rationale": "'Architecture' என்பதன் தமிழாக்கம் கட்டடக்கலை.",
+        "isCorrect": false
+      },
+      {
+        "text": "கைவினைப்பொருள்",
+        "rationale": "'Handicrafts' அல்லது 'Crafts' என்பதன் தமிழாக்கம் கைவினைப்பொருட்கள்.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "மாமல்லபுரத்தில் அதிகம் காணலாம்."
+  },
+  {
+    "questionNumber": 87,
+    "question": "'Cave paintings' என்பதன் தமிழாக்கம் என்ன?",
+    "imageUrl": null,
+    "answerOptions": [
+      {
+        "text": "குகை ஓவியங்கள்",
+        "rationale": "குகைச் சுவர்களில் வரையப்பட்ட பழமையான ஓவியங்கள் 'குகை ஓவியங்கள்'.",
+        "isCorrect": true
+      },
+      {
+        "text": "நவீன ஓவியம்",
+        "rationale": "'Modern Art' என்பதன் தமிழாக்கம் நவீன ஓவியம்.",
+        "isCorrect": false
+      },
+      {
+        "text": "சுவரோவியம்",
+        "rationale": "சுவரில் வரையப்படுவது.",
+        "isCorrect": false
+      },
+      {
+        "text": "நீர்வண்ண ஓவியம்",
+        "rationale": "தண்ணீர் கலர் ஓவியம்.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "ஆதி மனிதர்கள் வரைந்தது."
+  },
+  {
+    "questionNumber": 88,
+    "question": "'Modern Art' என்பதன் தமிழ்ச் சொல்?",
+    "imageUrl": null,
+    "answerOptions": [
+      {
+        "text": "நவீன ஓவியம்",
+        "rationale": "தற்காலக் கலை வடிவங்கள் 'நவீன ஓவியம்'.",
+        "isCorrect": true
+      },
+      {
+        "text": "மரபு ஓவியம்",
+        "rationale": "பாரம்பரிய ஓவியம்.",
+        "isCorrect": false
+      },
+      {
+        "text": "நாட்டுப்புறக் கலை",
+        "rationale": "'Folk Art' என்பதன் தமிழாக்கம் நாட்டுப்புறக் கலை.",
+        "isCorrect": false
+      },
+      {
+        "text": "நுண்கலை",
+        "rationale": "'Fine Arts' என்பதன் தமிழாக்கம் நுண்கலை.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "புதுமையான கலை வடிவம்."
+  },
+  {
+    "questionNumber": 89,
+    "question": "'Civilization' என்பதன் தமிழ்ச் சொல்?",
+    "imageUrl": null,
+    "answerOptions": [
+      {
+        "text": "நாகரிகம்",
+        "rationale": "மக்களின் மேம்பட்ட வாழ்க்கை முறை 'நாகரிகம்'.",
+        "isCorrect": true
+      },
+      {
+        "text": "பண்பாடு",
+        "rationale": "'Culture' என்பதன் தமிழாக்கம் பண்பாடு.",
+        "isCorrect": false
+      },
+      {
+        "text": "சமூகம்",
+        "rationale": "'Society' என்பதன் தமிழாக்கம் சமூகம்.",
+        "isCorrect": false
+      },
+      {
+        "text": "வரலாறு",
+        "rationale": "'History' என்பதன் தமிழாக்கம் வரலாறு.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "சிந்து சமவெளி..."
+  },
+  {
+    "questionNumber": 90,
+    "question": "'Harvest' என்பதன் தமிழாக்கம் என்ன?",
+    "imageUrl": null,
+    "answerOptions": [
+      {
+        "text": "அறுவடை",
+        "rationale": "முதிர்ந்த பயிரை சேகரித்தல் 'அறுவடை'.",
+        "isCorrect": true
+      },
+      {
+        "text": "விதைத்தல்",
+        "rationale": "'Sowing' என்பதன் தமிழாக்கம் விதைத்தல்.",
+        "isCorrect": false
+      },
+      {
+        "text": "உழுதல்",
+        "rationale": "'Ploughing' என்பதன் தமிழாக்கம் உழுதல்.",
+        "isCorrect": false
+      },
+      {
+        "text": "நீர்ப்பாய்ச்சுதல்",
+        "rationale": "'Watering' என்பதன் தமிழாக்கம் நீர்ப்பாய்ச்சுதல்.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "பொங்கல் பண்டிகை இதனுடன் தொடர்புடையது."
+  },
+  {
+    "questionNumber": 91,
+    "question": "'Foreigner' என்பதன் தமிழாக்கம் என்ன?",
+    "imageUrl": null,
+    "answerOptions": [
+      {
+        "text": "அயல்நாட்டினர்",
+        "rationale": "வேற்று நாட்டைச் சேர்ந்தவர் 'அயல்நாட்டினர்'.",
+        "isCorrect": true
+      },
+      {
+        "text": "சுற்றுலாப் பயணி",
+        "rationale": "'Tourist' என்பதன் தமிழாக்கம் சுற்றுலாப் பயணி.",
+        "isCorrect": false
+      },
+      {
+        "text": "அண்டைவீட்டார்",
+        "rationale": "'Neighbour' என்பதன் தமிழாக்கம் அண்டைவீட்டார்.",
+        "isCorrect": false
+      },
+      {
+        "text": "உறவினர்",
+        "rationale": "'Relative' என்பதன் தமிழாக்கம் உறவினர்.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "வெளிநாட்டவர்."
+  },
+  {
+    "questionNumber": 92,
+    "question": "'Neighbour' என்பதன் தமிழ்ச் சொல்?",
+    "imageUrl": null,
+    "answerOptions": [
+      {
+        "text": "அயலவர்",
+        "rationale": "அருகில் வசிப்பவர் 'அயலவர்'.",
+        "isCorrect": true
+      },
+      {
+        "text": "நண்பர்",
+        "rationale": "'Friend' என்பதன் தமிழாக்கம் நண்பர்.",
+        "isCorrect": false
+      },
+      {
+        "text": "எதிரி",
+        "rationale": "'Enemy' என்பதன் தமிழாக்கம் எதிரி.",
+        "isCorrect": false
+      },
+      {
+        "text": "உறவினர்",
+        "rationale": "'Relative' என்பதன் தமிழாக்கம் உறவினர்.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "வீட்டுக்கு அருகில் இருப்பவர்."
+  },
+  {
+    "questionNumber": 93,
+    "question": "'Launch Vehicle' என்பதன் தமிழ்ச் சொல்?",
+    "imageUrl": null,
+    "answerOptions": [
+      {
+        "text": "ஏவு ஊர்தி",
+        "rationale": "செயற்கைக்கோளை விண்வெளிக்குச் சுமந்து செல்லும் வாகனம் 'ஏவு ஊர்தி'.",
+        "isCorrect": true
+      },
+      {
+        "text": "ஏவுகணை",
+        "rationale": "'Missile' என்பதன் தமிழாக்கம் ஏவுகணை.",
+        "isCorrect": false
+      },
+      {
+        "text": "விமானம்",
+        "rationale": "'Aeroplane' என்பதன் தமிழாக்கம் விமானம்.",
+        "isCorrect": false
+      },
+      {
+        "text": "ராக்கெட்",
+        "rationale": "'Rocket' என்பது ஆங்கிலச் சொல்.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "பி.எஸ்.எல்.வி (PSLV) ஒரு வகை."
+  },
+  {
+    "questionNumber": 94,
+    "question": "'Missile' என்பதன் தமிழாக்கம் என்ன?",
+    "imageUrl": null,
+    "answerOptions": [
+      {
+        "text": "ஏவுகணை",
+        "rationale": "இலக்கை நோக்கிச் பாய்ந்து தாக்கும் ஆயுதம் 'ஏவுகணை'.",
+        "isCorrect": true
+      },
+      {
+        "text": "ஏவு ஊர்தி",
+        "rationale": "'Launch Vehicle' என்பதன் தமிழாக்கம் ஏவு ஊர்தி.",
+        "isCorrect": false
+      },
+      {
+        "text": "துப்பாக்கி குண்டு",
+        "rationale": "'Bullet' என்பதன் தமிழாக்கம் துப்பாக்கி குண்டு.",
+        "isCorrect": false
+      },
+      {
+        "text": "பீரங்கி",
+        "rationale": "'Cannon' என்பதன் தமிழாக்கம் பீரங்கி.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "போரில் பயன்படுத்தப்படும்."
+  },
+  {
+    "questionNumber": 95,
+    "question": "'Electronic devices' என்பதன் தமிழ்ச் சொல்?",
+    "imageUrl": null,
+    "answerOptions": [
+      {
+        "text": "மின்னணுக் கருவிகள்",
+        "rationale": "மின்சாரத்தால் இயங்கும் சிறிய கருவிகள் 'மின்னணுக் கருவிகள்'.",
+        "isCorrect": true
+      },
+      {
+        "text": "மின்சாதனங்கள்",
+        "rationale": "'Electrical appliances' என்பதன் தமிழாக்கம்.",
+        "isCorrect": false
+      },
+      {
+        "text": "இயந்திரங்கள்",
+        "rationale": "'Machines' என்பதன் தமிழாக்கம் இயந்திரங்கள்.",
+        "isCorrect": false
+      },
+      {
+        "text": "கருவிகள்",
+        "rationale": "'Tools' என்பதன் தமிழாக்கம் கருவிகள்.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "செல்போன், லேப்டாப் போன்றவை."
+  },
+  {
+    "questionNumber": 96,
+    "question": "'Nautical Mile' என்பதன் தமிழாக்கம் என்ன?",
+    "imageUrl": null,
+    "answerOptions": [
+      {
+        "text": "கடல் மைல்",
+        "rationale": "கடலில் தூரத்தை அளக்கப் பயன்படும் அலகு 'கடல் மைல்'.",
+        "isCorrect": true
+      },
+      {
+        "text": "கிலோமீட்டர்",
+        "rationale": "நிலத்தில் தூரத்தை அளக்கப் பயன்படுவது.",
+        "isCorrect": false
+      },
+      {
+        "text": "மைல்",
+        "rationale": "'Mile' என்பது நில அளவை.",
+        "isCorrect": false
+      },
+      {
+        "text": "மீட்டர்",
+        "rationale": "'Meter' என்பது நீளத்தை அளக்கப் பயன்படுவது.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "கப்பல் பயண தூரத்தை அளக்க உதவும்."
+  },
+  {
+    "questionNumber": 97,
+    "question": "'Video Conference' என்பதன் தமிழ்ச் சொல்?",
+    "imageUrl": null,
+    "answerOptions": [
+      {
+        "text": "காணொலிக் கூட்டம்",
+        "rationale": "திரையில் முகம் பார்த்துப் பேசும் கூட்டம் 'காணொலிக் கூட்டம்'.",
+        "isCorrect": true
+      },
+      {
+        "text": "தொலைபேசி உரையாடல்",
+        "rationale": "'Telephone conversation' என்பதன் தமிழாக்கம்.",
+        "isCorrect": false
+      },
+      {
+        "text": "நேரடி விவாதம்",
+        "rationale": "'Direct debate' என்பதன் தமிழாக்கம்.",
+        "isCorrect": false
+      },
+      {
+        "text": "குரல் பதிவு",
+        "rationale": "'Voice recording' என்பதன் தமிழாக்கம்.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "ஜூம் (Zoom), கூகுள் மீட் (Google Meet) போன்றவை."
+  },
+  {
+    "questionNumber": 98,
+    "question": "'PNR' (Passenger Name Record) என்பதன் தமிழாக்கம் என்ன?",
+    "imageUrl": null,
+    "answerOptions": [
+      {
+        "text": "பயணியர் பெயர்ப் பதிவு",
+        "rationale": "பயணச்சீட்டில் உள்ள பயணியின் விவரம் 'பயணியர் பெயர்ப் பதிவு'.",
+        "isCorrect": true
+      },
+      {
+        "text": "பயணச்சீட்டு எண்",
+        "rationale": "'Ticket Number' என்பதன் தமிழாக்கம்.",
+        "isCorrect": false
+      },
+      {
+        "text": "ரயில் எண்",
+        "rationale": "'Train Number' என்பதன் தமிழாக்கம்.",
+        "isCorrect": false
+      },
+      {
+        "text": "இருக்கை எண்",
+        "rationale": "'Seat Number' என்பதன் தமிழாக்கம்.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "ரயில் டிக்கெட்டில் இருக்கும் எண்."
+  },
+  {
+    "questionNumber": 99,
+    "question": "'Social Reformer' என்பதன் தமிழ்ச் சொல்?",
+    "imageUrl": null,
+    "answerOptions": [
+      {
+        "text": "சமூக சீர்திருத்தவாதி",
+        "rationale": "சமூகத்தில் உள்ள குறைகளை நீக்க பாடுபடுபவர் 'சமூக சீர்திருத்தவாதி'.",
+        "isCorrect": true
+      },
+      {
+        "text": "அரசியல்வாதி",
+        "rationale": "'Politician' என்பதன் தமிழாக்கம் அரசியல்வாதி.",
+        "isCorrect": false
+      },
+      {
+        "text": "தன்னார்வலர்",
+        "rationale": "'Volunteer' என்பதன் தமிழாக்கம் தன்னார்வலர்.",
+        "isCorrect": false
+      },
+      {
+        "text": "புரட்சியாளர்",
+        "rationale": "'Revolutionary' என்பதன் தமிழாக்கம் புரட்சியாளர்.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "பெரியார், ராஜா ராம் மோகன் ராய் போன்றவர்கள்."
+  },
+  {
+    "questionNumber": 100,
+    "question": "'Saline Soil' என்பதன் தமிழாக்கம் என்ன?",
+    "imageUrl": null,
+    "answerOptions": [
+      {
+        "text": "களர்நிலம்",
+        "rationale": "உப்புத்தன்மை கொண்ட மண் 'களர்நிலம்'.",
+        "isCorrect": true
+      },
+      {
+        "text": "செம்மண்",
+        "rationale": "'Red Soil' என்பதன் தமிழாக்கம் செம்மண்.",
+        "isCorrect": false
+      },
+      {
+        "text": "களிமண்",
+        "rationale": "'Clay' என்பதன் தமிழாக்கம் களிமண்.",
+        "isCorrect": false
+      },
+      {
+        "text": "மணல்",
+        "rationale": "'Sand' என்பதன் தமிழாக்கம் மணல்.",
+        "isCorrect": false
+      }
+    ],
+    "hint": "விவசாயத்திற்கு ஏற்றதல்லாத உப்பு மண்."
+  }
+]
