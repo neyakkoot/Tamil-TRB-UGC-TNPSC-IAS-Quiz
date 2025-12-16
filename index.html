@@ -3,715 +3,691 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>தமிழ்த் தகுதி்த் தேர்வு வினாடி–வினா</title>
+<title>தமிழ்த் தகுதித் தேர்வு வினாடி–வினா</title>
 <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+Tamil&display=swap" rel="stylesheet">
 
 <style>
-  body {
-    font-family: 'Noto Sans Tamil', sans-serif;
-    margin: 0;
-    background: #f5f7fb;
-    color: #222;
-  }
-  .hidden { display: none !important; }
-  #login-container {
-    max-width: 500px;
-    margin: 100px auto;
-    padding: 30px;
-    background: #fff;
-    border-radius: 10px;
-    box-shadow: 0 4px 14px rgba(0, 0, 0, 0.08);
-    text-align: center;
-  }
-  #login-container h2 { color: #007bff; }
-  #username-input {
-    width: 90%;
-    padding: 12px;
-    border-radius: 8px;
-    border: 1px solid #ccc;
-    font-size: 1rem;
-    margin-top: 10px;
-  }
-  #login-btn {
-    padding: 12px 25px;
-    border-radius: 8px;
-    border: none;
-    font-weight: 700;
-    cursor: pointer;
-    color: #fff;
-    background: #28a745;
-    font-size: 1rem;
-    margin-top: 20px;
-    transition: background 0.3s;
-  }
-  #login-btn:hover { background: #218838; }
-  #dashboard-container {
-    max-width: 1000px;
-    margin: 20px auto;
-    background: #fff;
-    padding: 20px;
-    border-radius: 10px;
-    box-shadow: 0 4px 14px rgba(0, 0, 0, 0.08);
-  }
-  #dashboard-header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    border-bottom: 2px solid #007bff;
-    padding-bottom: 10px;
-    margin-bottom: 20px;
-  }
-  #dashboard-header h2 { color: #007bff; margin: 0; }
-  #logout-btn {
-    padding: 8px 15px;
-    border: none;
-    border-radius: 6px;
-    background: #dc3545;
-    color: white;
-    font-weight: 700;
-    cursor: pointer;
-  }
-  #dashboard-stats {
-    display: flex;
-    gap: 20px;
-    margin-bottom: 20px;
-    text-align: center;
-  }
-  .stat-card {
-    flex: 1;
-    background: #f4f4f4;
-    padding: 15px;
-    border-radius: 8px;
-  }
-  .stat-card h4 { margin: 0 0 5px 0; color: #555; }
-  .stat-card p { margin: 0; font-size: 1.5rem; font-weight: 700; color: #007bff; }
-  #dashboard-history table, #leaderboard-table {
-    width: 100%;
-    border-collapse: collapse;
-    margin-top: 15px;
-  }
-  #dashboard-history th, #dashboard-history td, #leaderboard-table th, #leaderboard-table td {
-    border: 1px solid #ddd;
-    padding: 10px;
-    text-align: left;
-  }
-  #dashboard-history th, #leaderboard-table th { background-color: #f2f2f2; color: #333; }
-  .header {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    background: linear-gradient(90deg, #007bff, #00b894);
-    color: white;
-    padding: 12px 20px;
-    border-bottom: 4px solid #0a58ca;
-  }
-  .header h1 { margin: 0; font-size: 1.6rem; text-align: center; }
-  .header p { margin: 4px 0 0; font-size: 1rem; text-align: center; }
-  .header img {
-    width: 90px;
-    height: 90px;
-    border-radius: 50%;
-    border: 2px solid #fff;
-    background: white;
-    object-fit: cover;
-  }
-  @media (max-width: 768px) {
-    .header { flex-direction: column; text-align: center; }
-    .header img { width: 70px; height: 70px; margin: 6px 0; }
-  }
-  #tv-quiz-wrap {
-    max-width: 1000px;
-    margin: 30px auto;
-    background: #fff;
-    padding: 20px;
-    border-radius: 10px;
-    box-shadow: 0 4px 14px rgba(0, 0, 0, 0.08);
-    display: grid;
-    grid-template-columns: 1fr 320px;
-    gap: 20px;
-  }
-  @media (max-width: 900px) { #tv-quiz-wrap { grid-template-columns: 1fr; } }
-  /* --- இங்கே மாற்றங்கள் தொடங்குகின்றன --- */
-  #tv-main { 
-    display: flex; 
-    flex-direction: column; 
-    position: relative; /* quiz-nav absolute ஆக இருக்க இது தேவை */
-    padding: 0 50px; /* பொத்தான்களுக்கு இடம் ஒதுக்குகிறது */
-  }
-  #quizSelect {
-    display: block;
-    width: 100%;
-    margin-bottom: 15px;
-    padding: 10px;
-    border-radius: 8px;
-    border: 1px solid #ccc;
-    font-size: 1rem;
-    background: #fefefe;
-    /* #tv-main-இன் padding-ஐச் சரிசெய்ய width-ஐ சரிசெய்கிறது */
-    box-sizing: border-box; 
-  }
-  #tv-progress {
-    text-align: center;
-    font-weight: 700;
-    color: #555;
-    background: #eef4ff;
-    padding: 8px;
-    border-radius: 6px;
-    margin-bottom: 12px;
-  }
-  #tv-question {
-    font-size: 1.15rem;
-    font-weight: 700;
-    line-height: 1.5;
-    margin-bottom: 12px;
-  }
-  #tv-options { display: flex; flex-direction: column; gap: 10px; }
-  .option-btn {
-    padding: 12px;
-    border-radius: 8px;
-    border: 1px solid #ddd;
-    background: #f9f9f9;
-    text-align: left;
-    cursor: pointer;
-    font-size: 1rem;
-    transition: all 0.2s ease-in-out;
-  }
-  .option-btn:hover { background: #e7f0ff; }
-  .option-btn.correct { background: #e6f7e9; border-color: #28a745; }
-  .option-btn.wrong { background: #fdecea; border-color: #dc3545; }
-  #tv-feedback {
-    display: none;
-    margin-top: 14px;
-    padding: 12px;
-    border-radius: 8px;
-    background: #f9f9f9;
-    border: 1px solid #ddd;
-  }
-  #tv-side {
-    background: #f5fcf8;
-    border: 1px solid #cce5d3;
-    border-radius: 10px;
-    padding: 15px;
-    font-size: 0.95rem;
-    display: flex;
-    flex-direction: column;
-  }
-  #tv-side h3 { color: #006644; margin-top: 0; }
-  /* வினாடி-வினா பொத்தான்களுக்கான புதிய நிலை */
-  .quiz-nav {
-    display: flex;
-    justify-content: space-between;
-    margin-top: 0; /* பழைய மார்ஜினை நீக்குகிறோம் */
-    position: absolute; /* நிலை அமைப்பிலிருந்து நீக்குகிறது */
-    top: 50%; /* செங்குத்தாக மையப்படுத்த முயற்சி */
-    transform: translateY(-50%); /* செங்குத்தாகச் சரியாக மையப்படுத்துதல் */
-    width: 100%; /* தாய் உறுப்பின் அகலத்தைப் பெறுகிறது */
-    left: 0; /* இடது ஓரத்தில் தொடங்குகிறது */
-    padding: 0 10px; /* ஓரங்களில் சிறிது இடம் அளிக்கிறது */
-    box-sizing: border-box;
-    z-index: 10; /* மற்ற உறுப்புகளுக்கு மேலே இருக்கும் */
-  }
-  #tv-prev, #tv-next {
-    padding: 10px 16px;
-    border-radius: 8px;
-    border: none;
-    font-weight: 700;
-    cursor: pointer;
-    color: #fff;
-    opacity: 0.9; /* கேள்விக்கு மேலே இருப்பதால் சற்று ஒளிபுகு தன்மை */
-    transition: opacity 0.3s;
-    /* பொத்தான்களை இடது/வலது ஓரத்தில் வைக்க */
-    margin: 0; 
-  }
-  #tv-prev { background: #ff9800; }
-  #tv-next { background: #007bff; }
-  #tv-prev:hover, #tv-next:hover {
-    opacity: 1;
-  }
-  /* --- இங்கே மாற்றங்கள் முடிகின்றன --- */
-  #tv-results {
-    display: none;
-    margin-top: 18px;
-    text-align: center;
-    border-top: 2px solid #007bff;
-    padding-top: 20px;
-  }
-  #tv-timer-box, #tv-participants-box {
-    text-align: center;
-    background: #fff;
-    border: 2px solid #007bff;
-    border-radius: 8px;
-    padding: 10px;
-    margin-top: 15px;
-  }
-  #tv-timer-box h3, #tv-participants-box h3 {
-    margin: 0 0 10px 0;
-    color: #007bff;
-    font-size: 1.1rem;
-  }
-  #tv-timer-display {
-    font-size: 2.2rem;
-    font-weight: 700;
-    color: #333;
-    letter-spacing: 2px;
-  }
-  #tv-timer-display.warning {
-    color: #dc3545;
-    animation: pulse 1.2s infinite;
-  }
-  @keyframes pulse {
-    0% { transform: scale(1); opacity: 1; }
-    50% { transform: scale(1.05); opacity: 0.7; }
-    100% { transform: scale(1); opacity: 1; }
-  }
-  #tv-result-title { font-size: 1.8rem; font-weight: 700; color: #28a745; }
-  #tv-result-score { font-size: 1.4rem; font-weight: 700; color: #007bff; margin: 10px 0; }
-  #tv-result-percentage { font-size: 1.2rem; font-weight: 700; color: #555; margin: 5px 0 15px 0; }
-  #tv-result-message {
-    font-size: 1.1rem;
-    font-style: italic;
-    color: #333;
-    margin-top: 15px;
-    background: #f4f4f4;
-    padding: 10px;
-    border-radius: 6px;
-  }
-  #tv-restart-btn {
-    padding: 12px 20px;
-    border-radius: 8px;
-    border: none;
-    font-weight: 700;
-    cursor: pointer;
-    color: #fff;
-    background: #28a745;
-    font-size: 1rem;
-    margin-top: 20px;
-    transition: background 0.3s;
-  }
-  #tv-restart-btn:hover { background: #218838; }
+  body {
+    font-family: 'Noto Sans Tamil', sans-serif;
+    margin: 0;
+    background: #f5f7fb;
+    color: #222;
+  }
+  .hidden { display: none !important; }
+  #login-container {
+    max-width: 500px;
+    margin: 100px auto;
+    padding: 30px;
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 14px rgba(0, 0, 0, 0.08);
+    text-align: center;
+  }
+  #login-container h2 { color: #007bff; }
+  #username-input {
+    width: 90%;
+    padding: 12px;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+    font-size: 1rem;
+    margin-top: 10px;
+  }
+  #login-btn {
+    padding: 12px 25px;
+    border-radius: 8px;
+    border: none;
+    font-weight: 700;
+    cursor: pointer;
+    color: #fff;
+    background: #28a745;
+    font-size: 1rem;
+    margin-top: 20px;
+    transition: background 0.3s;
+  }
+  #login-btn:hover { background: #218838; }
+  #dashboard-container {
+    max-width: 1000px;
+    margin: 20px auto;
+    background: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 14px rgba(0, 0, 0, 0.08);
+  }
+  #dashboard-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 2px solid #007bff;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+  }
+  #dashboard-header h2 { color: #007bff; margin: 0; }
+  #logout-btn {
+    padding: 8px 15px;
+    border: none;
+    border-radius: 6px;
+    background: #dc3545;
+    color: white;
+    font-weight: 700;
+    cursor: pointer;
+  }
+  #dashboard-stats {
+    display: flex;
+    gap: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  .stat-card {
+    flex: 1;
+    background: #f4f4f4;
+    padding: 15px;
+    border-radius: 8px;
+  }
+  .stat-card h4 { margin: 0 0 5px 0; color: #555; }
+  .stat-card p { margin: 0; font-size: 1.5rem; font-weight: 700; color: #007bff; }
+  #dashboard-history table, #leaderboard-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 15px;
+  }
+  #dashboard-history th, #dashboard-history td, #leaderboard-table th, #leaderboard-table td {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: left;
+  }
+  #dashboard-history th, #leaderboard-table th { background-color: #f2f2f2; color: #333; }
+  .header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: linear-gradient(90deg, #007bff, #00b894);
+    color: white;
+    padding: 12px 20px;
+    border-bottom: 4px solid #0a58ca;
+  }
+  .header h1 { margin: 0; font-size: 1.6rem; text-align: center; }
+  .header p { margin: 4px 0 0; font-size: 1rem; text-align: center; }
+  .header img {
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+    border: 2px solid #fff;
+    background: white;
+    object-fit: cover;
+  }
+  @media (max-width: 768px) {
+    .header { flex-direction: column; text-align: center; }
+    .header img { width: 70px; height: 70px; margin: 6px 0; }
+  }
+  #tv-quiz-wrap {
+    max-width: 1000px;
+    margin: 30px auto;
+    background: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 14px rgba(0, 0, 0, 0.08);
+    display: grid;
+    grid-template-columns: 1fr 320px;
+    gap: 20px;
+  }
+  @media (max-width: 900px) { #tv-quiz-wrap { grid-template-columns: 1fr; } }
+  #tv-main { display: flex; flex-direction: column; }
+  #quizSelect {
+    display: block;
+    width: 100%;
+    margin-bottom: 15px;
+    padding: 10px;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+    font-size: 1rem;
+    background: #fefefe;
+  }
+  #tv-progress {
+    text-align: center;
+    font-weight: 700;
+    color: #555;
+    background: #eef4ff;
+    padding: 8px;
+    border-radius: 6px;
+    margin-bottom: 12px;
+  }
+  #tv-question {
+    font-size: 1.15rem;
+    font-weight: 700;
+    line-height: 1.5;
+    margin-bottom: 12px;
+  }
+  #tv-options { display: flex; flex-direction: column; gap: 10px; }
+  .option-btn {
+    padding: 12px;
+    border-radius: 8px;
+    border: 1px solid #ddd;
+    background: #f9f9f9;
+    text-align: left;
+    cursor: pointer;
+    font-size: 1rem;
+    transition: all 0.2s ease-in-out;
+  }
+  .option-btn:hover { background: #e7f0ff; }
+  .option-btn.correct { background: #e6f7e9; border-color: #28a745; }
+  .option-btn.wrong { background: #fdecea; border-color: #dc3545; }
+  #tv-feedback {
+    display: none;
+    margin-top: 14px;
+    padding: 12px;
+    border-radius: 8px;
+    background: #f9f9f9;
+    border: 1px solid #ddd;
+  }
+  #tv-side {
+    background: #f5fcf8;
+    border: 1px solid #cce5d3;
+    border-radius: 10px;
+    padding: 15px;
+    font-size: 0.95rem;
+    display: flex;
+    flex-direction: column;
+  }
+  #tv-side h3 { color: #006644; margin-top: 0; }
+  .quiz-nav {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 15px;
+  }
+  #tv-prev, #tv-next {
+    padding: 10px 16px;
+    border-radius: 8px;
+    border: none;
+    font-weight: 700;
+    cursor: pointer;
+    color: #fff;
+  }
+  #tv-prev { background: #ff9800; }
+  #tv-next { background: #007bff; }
+  #tv-results {
+    display: none;
+    margin-top: 18px;
+    text-align: center;
+    border-top: 2px solid #007bff;
+    padding-top: 20px;
+  }
+  #tv-timer-box, #tv-participants-box {
+    text-align: center;
+    background: #fff;
+    border: 2px solid #007bff;
+    border-radius: 8px;
+    padding: 10px;
+    margin-top: 15px;
+    /* order: -1; - removed for better flow */
+  }
+  #tv-timer-box h3, #tv-participants-box h3 {
+    margin: 0 0 10px 0;
+    color: #007bff;
+    font-size: 1.1rem;
+  }
+  #tv-timer-display {
+    font-size: 2.2rem;
+    font-weight: 700;
+    color: #333;
+    letter-spacing: 2px;
+  }
+  #tv-timer-display.warning {
+    color: #dc3545;
+    animation: pulse 1.2s infinite;
+  }
+  @keyframes pulse {
+    0% { transform: scale(1); opacity: 1; }
+    50% { transform: scale(1.05); opacity: 0.7; }
+    100% { transform: scale(1); opacity: 1; }
+  }
+  #tv-result-title { font-size: 1.8rem; font-weight: 700; color: #28a745; }
+  #tv-result-score { font-size: 1.4rem; font-weight: 700; color: #007bff; margin: 10px 0; }
+  #tv-result-percentage { font-size: 1.2rem; font-weight: 700; color: #555; margin: 5px 0 15px 0; }
+  #tv-result-message {
+    font-size: 1.1rem;
+    font-style: italic;
+    color: #333;
+    margin-top: 15px;
+    background: #f4f4f4;
+    padding: 10px;
+    border-radius: 6px;
+  }
+  #tv-restart-btn {
+    padding: 12px 20px;
+    border-radius: 8px;
+    border: none;
+    font-weight: 700;
+    cursor: pointer;
+    color: #fff;
+    background: #28a745;
+    font-size: 1rem;
+    margin-top: 20px;
+    transition: background 0.3s;
+  }
+  #tv-restart-btn:hover { background: #218838; }
 </style>
 </head>
 <body>
 
-  <div id="login-container">
-    <h2>👋 வணக்கம்!📚</h2>
-    <p>வினாடி-வினா தொடங்கும் முன், உங்கள் பெயரைப் பதிவு செய்யவும்.</p>
-    <input type="text" id="username-input" placeholder="உங்கள் பெயரை உள்ளிடவும்">
-    <button id="login-btn">உள்நுழை</button>
-  </div>
+  <div id="login-container">
+    <h2>👋 வணக்கம்!📚</h2>
+    <p>வினாடி-வினா தொடங்கும் முன், உங்கள் பெயரைப் பதிவு செய்யவும்.</p>
+    <input type="text" id="username-input" placeholder="உங்கள் பெயரை உள்ளிடவும்">
+    <button id="login-btn">உள்நுழை</button>
+  </div>
 
-  <main id="app-container" class="hidden">
+  <main id="app-container" class="hidden">
 
-    <div class="header">
-      <img src="images/திருவள்ளுவர்.jpg" alt="திருவள்ளுவர்">
-      <div>
-        <h1>தமிழ்த் தகுதி்த் தேர்வு வினாடி–வினா</h1>
-        <p>📚 தேர்ந்தெடுத்து முயற்சி செய்து உங்கள் அறிவைச் சோதிக்கலாம் 📚</p>
-      </div>
-      <img src="images/தொல்காப்பியர்.jpg" alt="தொல்காப்பியர்">
-    </div>
+    <div class="header">
+      <img src="images/திருவள்ளுவர்.jpg" alt="திருவள்ளுவர்">
+      <div>
+        <h1>தமிழ்த் தகுதித் தேர்வு வினாடி–வினா</h1>
+        <p>📚 தேர்ந்தெடுத்து முயற்சி செய்து உங்கள் அறிவைச் சோதிக்கலாம் 📚</p>
+      </div>
+      <img src="images/தொல்காப்பியர்.jpg" alt="தொல்காப்பியர்">
+    </div>
 
-    <div id="dashboard-container">
-      <div id="dashboard-header">
-        <h2 id="welcome-message">📈 என் முயற்சிகளும் கற்றல் பதிவுகளும்</h2>
-        <button id="logout-btn" title="Clear all data and logout">வெளியேறு</button>
-      </div>
-      <div id="dashboard-stats">
-        <div class="stat-card">
-          <h4>மொத்த பயிற்சிகள் (உங்களுடையது)</h4>
-          <p id="stat-total-attempts">0</p>
-        </div>
-        <div class="stat-card">
-          <h4>சராசரி மதிப்பெண் (உங்களுடையது)</h4>
-          <p id="stat-avg-score">0%</p>
-        </div>
-      </div>
-      <div id="dashboard-history">
-        <h3 style="text-align: center;">உங்களின் பயிற்சி வரலாறு</h3>
-        <table id="history-table">
-          <thead>
-            <tr>
-              <th>தேதி</th>
-              <th>வினாடி-வினா</th>
-              <th>மதிப்பெண்</th>
-            </tr>
-          </thead>
-          <tbody id="history-table-body">
-          </tbody>
-        </table>
-        <p id="no-history-msg" style="text-align: center; display: none;">நீங்கள் இன்னும் எந்தப் பயிற்சியும் எடுக்கவில்லை.</p>
-      </div>
-      
-      <div id="dashboard-leaderboard" style="margin-top: 30px;">
-        <h3 style="text-align: center; color: #007bff;">👥 பங்கேற்பாளர்களின் முயற்சிகள்</h3>
-        <table id="leaderboard-table">
-          <thead>
-            <tr>
-              <th>பெயர்</th>
-              <th>மொத்த முயற்சிகள்</th>
-            </tr>
-          </thead>
-          <tbody id="leaderboard-table-body">
-            <tr><td colspan="2" style="text-align: center;">தரவு ஏற்றப்படுகிறது...</td></tr>
-          </tbody>
-        </table>
-      </div>
-      </div>
+    <div id="dashboard-container">
+      <div id="dashboard-header">
+        <h2 id="welcome-message">📈 என் முயற்சிகளும் கற்றல் பதிவுகளும்</h2>
+        <button id="logout-btn" title="Clear all data and logout">வெளியேறு</button>
+      </div>
+      <div id="dashboard-stats">
+        <div class="stat-card">
+          <h4>மொத்த பயிற்சிகள் (உங்களுடையது)</h4>
+          <p id="stat-total-attempts">0</p>
+        </div>
+        <div class="stat-card">
+          <h4>சராசரி மதிப்பெண் (உங்களுடையது)</h4>
+          <p id="stat-avg-score">0%</p>
+        </div>
+      </div>
+      <div id="dashboard-history">
+        <h3 style="text-align: center;">உங்களின் பயிற்சி வரலாறு</h3>
+        <table id="history-table">
+          <thead>
+            <tr>
+              <th>தேதி</th>
+              <th>வினாடி-வினா</th>
+              <th>மதிப்பெண்</th>
+            </tr>
+          </thead>
+          <tbody id="history-table-body">
+          </tbody>
+        </table>
+        <p id="no-history-msg" style="text-align: center; display: none;">நீங்கள் இன்னும் எந்தப் பயிற்சியும் எடுக்கவில்லை.</p>
+      </div>
+      
+      <div id="dashboard-leaderboard" style="margin-top: 30px;">
+        <h3 style="text-align: center; color: #007bff;">👥 பங்கேற்பாளர்களின் முயற்சிகள்</h3>
+        <table id="leaderboard-table">
+          <thead>
+            <tr>
+              <th>பெயர்</th>
+              <th>மொத்த முயற்சிகள்</th>
+            </tr>
+          </thead>
+          <tbody id="leaderboard-table-body">
+            <tr><td colspan="2" style="text-align: center;">தரவு ஏற்றப்படுகிறது...</td></tr>
+          </tbody>
+        </table>
+      </div>
+      </div>
 
-    <div id="tv-quiz-wrap">
-      <div id="tv-main">
-        <select id="quizSelect">
-          <option value="" disabled selected>🧠 வினாடி–வினா தொகுப்பைத் தெரிவுசெய்க</option>
-        </select>
-        <div id="tv-progress"></div>
-        <div id="tv-question"></div>
-        <div id="tv-options"></div>
-        <div id="tv-feedback"></div>
-        <div class="quiz-nav">
-          <button id="tv-prev" style="display:none;">👈❓ முந்தைய வினா</button>
-          <button id="tv-next" style="display:none;">அடுத்த வினா 👉❓</button>
-        </div>
-        <div id="tv-results">
-          <h2 id="tv-result-title">🎉 வாழ்த்துக்கள்! 🎉</h2>
-          <p id="tv-result-score">உங்கள் மதிப்பெண்: 0 / 0</p>
-          <p id="tv-result-percentage">விழுக்காடு: 0%</p>
-          <p id="tv-result-message">உங்கள் ஊக்கச் செய்தி இங்கே...</p>
-          <button id="tv-restart-btn">புதிய வினாடி-வினாவைத் தேர்ந்தெடுக்கவும் 🔁</button>
-        </div>
-      </div>
-      <div id="tv-side">
-        <div id="tv-participants-box">
-          <h3>👤 மொத்தப் பங்கேற்பாளர்கள்</h3>
-          <div id="tv-total-participants" style="font-size: 2.2rem; font-weight: 700; color: #28a745;">0</div>
-        </div>
-        <div id="tv-timer-box" style="display:none;">
-          <h3>⏰ நேரம் மீதமுள்ளது ⏰</h3>
-          <div id="tv-timer-display">00:00</div>
-        </div>
-        <h2>👨‍💻 உருவாக்குநர் 👨‍💻</h2>
-        <p>👨‍💻 முனைவர் சத்தியராசு தங்கச்சாமி, பயிற்றுநர், தமிழ்நாடு, இந்தியா ✍️</p>
-      </div>
-    </div>
+    <div id="tv-quiz-wrap">
+      <div id="tv-main">
+        <select id="quizSelect">
+          <option value="" disabled selected>🧠 வினாடி–வினா தொகுப்பைத் தெரிவுசெய்க</option>
+        </select>
+        <div id="tv-progress"></div>
+        <div id="tv-question"></div>
+        <div id="tv-options"></div>
+        <div id="tv-feedback"></div>
+        <div class="quiz-nav">
+          <button id="tv-prev" style="display:none;">👈❓ முந்தைய வினா</button>
+          <button id="tv-next" style="display:none;">அடுத்த வினா 👉❓</button>
+        </div>
+        <div id="tv-results">
+          <h2 id="tv-result-title">🎉 வாழ்த்துக்கள்! 🎉</h2>
+          <p id="tv-result-score">உங்கள் மதிப்பெண்: 0 / 0</p>
+          <p id="tv-result-percentage">விழுக்காடு: 0%</p>
+          <p id="tv-result-message">உங்கள் ஊக்கச் செய்தி இங்கே...</p>
+          <button id="tv-restart-btn">புதிய வினாடி-வினாவைத் தேர்ந்தெடுக்கவும் 🔁</button>
+        </div>
+      </div>
+      <div id="tv-side">
+        <div id="tv-participants-box">
+          <h3>👤 மொத்தப் பங்கேற்பாளர்கள்</h3>
+          <div id="tv-total-participants" style="font-size: 2.2rem; font-weight: 700; color: #28a745;">0</div>
+        </div>
+        <div id="tv-timer-box" style="display:none;">
+          <h3>⏰ நேரம் மீதமுள்ளது ⏰</h3>
+          <div id="tv-timer-display">00:00</div>
+        </div>
+        <h2>👨‍💻 உருவாக்குநர் 👨‍💻</h2>
+        <p>👨‍💻 முனைவர் சத்தியராசு தங்கச்சாமி, பயிற்றுநர், தமிழ்நாடு, இந்தியா ✍️</p>
+      </div>
+    </div>
 
-  </main> 
-
-
-  <script src="js/quiz-loader.js"></script>
-  <script src="js/footer-history.js"></script>
-
-  <script>
-    // --- 👑 மாறிகள் 👑 ---
-    let inactivityTimer; 
-    const INACTIVITY_MINUTES = 4; 
-
-    let timerInterval; 
-    let totalSeconds;
-    
-    const loginContainer = document.getElementById('login-container');
-    const appContainer = document.getElementById('app-container');
-    const loginBtn = document.getElementById('login-btn');
-    const usernameInput = document.getElementById('username-input');
-    const logoutBtn = document.getElementById('logout-btn');
-    const welcomeMessageEl = document.getElementById('welcome-message');
-    const historyTableBodyEl = document.getElementById('history-table-body');
-    const noHistoryMsgEl = document.getElementById('no-history-msg');
-    const statTotalAttemptsEl = document.getElementById('stat-total-attempts');
-    const statAvgScoreEl = document.getElementById('stat-avg-score');
-    const leaderboardTableBodyEl = document.getElementById('leaderboard-table-body');
-    const totalParticipantsEl = document.getElementById('tv-total-participants');
-    
-    // --- 👑 செயல்படா நிலை நேரங்காட்டியை Reset செய் 👑 ---
-    function resetInactivityTimer() {
-      clearTimeout(inactivityTimer);
-      inactivityTimer = setTimeout(() => {
-        alert(`நீங்கள் ${INACTIVITY_MINUTES} நிமிடங்களாகச் செயல்படவில்லை. எனவே, இந்த வினாடி-வினா தானாகவே முடிக்கப்படுகிறது.`);
-        if (typeof showResults === 'function') {
-          showResults();
-        } else {
-          console.error("showResults (from quiz-loader.js) not found for inactivity timeout!");
-        }
-      }, INACTIVITY_MINUTES * 60 * 1000); 
-    }
-
-    // --- 👑 செயல்படா நிலை நேரங்காட்டியை நிறுத்து 👑 ---
-    function stopInactivityTimer() {
-      clearTimeout(inactivityTimer);
-    }
-    // --- 👑 ---
-
-    /**
-     * வினாக்களின் எண்ணிக்கைக்கு ஏற்ப நிமிடங்களைக் கணக்கிடுதல் (பழைய விதிகளின்படி)
-     */
-    function calculateMinutes(count) {
-      if (count <= 0) return 0;
-      if (count <= 25) return count; 
-      else if (count > 50 && count <= 100) return 90; 
-      else return Math.round(count * 0.9);
-    }
-
-    /**
-     * வினாடி-வினா நேரத்தைக் கணக்கிட்டுத் தொடங்கும் செயல்பாடு
-     */
-    function startQuizTimer(questionCount) {
-      stopTimer(); 
-      resetInactivityTimer(); 
-      
-      const timerBox = document.getElementById('tv-timer-box');
-      if (!timerBox) return;
-
-      let totalMinutes = calculateMinutes(questionCount);
-      totalSeconds = totalMinutes * 60;
-
-      timerBox.style.display = 'block';
-      updateTimerDisplay();
-
-      timerInterval = setInterval(() => {
-        totalSeconds--;
-        updateTimerDisplay();
-
-        if (totalSeconds <= 0) {
-          stopTimer(); 
-          stopInactivityTimer(); 
-          alert('நேரம் முடிந்தது!');
-          
-          if (typeof showResults === 'function') {
-            showResults();
-          } else {
-            console.error("showResults function (from quiz-loader.js) not found!");
-            showCustomResults(0, 0, "Unspecified Quiz"); 
-          }
-        }
-      }, 1000);
-    }
-
-    /**
-     * நேரங்காட்டி காட்சியைப் புதுப்பிக்கும் செயல்பாடு
-     */
-    function updateTimerDisplay() {
-      const timerDisplay = document.getElementById('tv-timer-display');
-      if (!timerDisplay) return;
-      const minutes = Math.floor(totalSeconds / 60);
-      const seconds = totalSeconds % 60;
-      timerDisplay.textContent = `${String(minutes).padStart(2, '0')}:${String(seconds).padStart(2, '0')}`;
-      if (totalSeconds <= 60 && !timerDisplay.classList.contains('warning')) {
-        timerDisplay.classList.add('warning');
-      } else if (totalSeconds > 60) {
-        timerDisplay.classList.remove('warning');
-      }
-    }
-
-    /**
-     * மொத்த நேரங்காட்டியை நிறுத்தும் செயல்பாடு
-     */
-    function stopTimer() {
-      clearInterval(timerInterval);
-      const timerDisplay = document.getElementById('tv-timer-display');
-      if (timerDisplay) {
-          timerDisplay.classList.remove('warning');
-      }
-    }
-
-    /**
-     * ஊக்கமளிக்கும் செய்தியை வழங்கும் செயல்பாடு ( unchanged )
-     */
-    function getMotivationalMessage(percentage) {
-      if (percentage === 100) return "💯 அருமை! முழுமையான மதிப்பெண்! உங்கள் உழைப்பு அபாரமானது!";
-      else if (percentage >= 90) return "🎉 மிக நன்று! இலக்கை நெருங்கிவிட்டீர்கள். உங்கள் முயற்சி பாராட்டத்தக்கது!";
-      else if (percentage >= 75) return "👍 சிறப்பாகச் செய்தீர்கள்! இன்னும் சிறிது முயற்சித்தால் முழு வெற்றியை அடையலாம்.";
-      else if (percentage >= 50) return "🙂 பரவாயில்லை, நல்ல முயற்சி. தொடர்ந்து பயிற்சி செய்யுங்கள், நிச்சயம் வெல்லலாம்!";
-      else if (percentage > 0) return "💪 முயற்சி திருவினையாக்கும்! தவறுகளைத் திருத்திக் கொண்டு மீண்டும் முயலுங்கள்.";
-      else return "🌱 தொடக்கம் சற்றுக் கடினமாக இருக்கலாம். மனம் தளர வேண்டாம், தொடர்ந்து படியுங்கள்!";
-    }
-
-    /**
-     * மேம்படுத்தப்பட்ட முடிவுகளைக் காட்டும் செயல்பாடு ( unchanged )
-     */
-    function showCustomResults(score, totalQuestions, quizTitle) {
-      stopTimer(); 
-      stopInactivityTimer(); 
-      
-      const timerBox = document.getElementById('tv-timer-box');
-      if (timerBox) timerBox.style.display = 'none';
-
-      document.getElementById('tv-progress').style.display = 'none';
-      document.getElementById('tv-question').style.display = 'none';
-      document.getElementById('tv-options').style.display = 'none';
-      document.getElementById('tv-feedback').style.display = 'none';
-      document.querySelector('.quiz-nav').style.display = 'none';
-
-      const resultsContainer = document.getElementById('tv-results');
-      const titleEl = document.getElementById('tv-result-title');
-      const scoreEl = document.getElementById('tv-result-score');
-      const percentageEl = document.getElementById('tv-result-percentage');
-      const messageEl = document.getElementById('tv-result-message');
-      
-      if (!resultsContainer) return;
-
-      const percentage = totalQuestions > 0 ? Math.round((score / totalQuestions) * 100) : 0;
-      
-      titleEl.textContent = (percentage >= 75) ? "🎉 வாழ்த்துக்கள்! 🎉" : "👏 நல்ல முயற்சி! 👏";
-      scoreEl.textContent = `உங்கள் மதிப்பெண்: ${score} / ${totalQuestions}`;
-      percentageEl.textContent = `விழுக்காடு: ${percentage}%`;
-      messageEl.textContent = getMotivationalMessage(percentage);
-
-      resultsContainer.style.display = 'block';
-
-      saveQuizResult(quizTitle, score, totalQuestions, percentage);
-    }
-    
-    // --- (பின்வரும் செயல்பாடுகள் login, dashboard, save... இவற்றுக்கானவை) ---
-
-    function checkLogin() {
-      const user = localStorage.getItem('quizUser');
-      if (user) {
-        showApp();
-      } else {
-        showLogin();
-      }
-    }
-
-    function showLogin() {
-      loginContainer.classList.remove('hidden');
-      appContainer.classList.add('hidden');
-    }
-
-    function showApp() {
-      loginContainer.classList.add('hidden');
-      appContainer.classList.remove('hidden');
-      const userData = JSON.parse(localStorage.getItem('quizUser'));
-      welcomeMessageEl.textContent = `📈 என் முயற்சிகளும் கற்றல் பதிவுகளும் (வணக்கம், ${userData.name}!)`;
-      loadDashboardData(userData.name);
-    }
-
-    /**
-     * வினாடி-வினா முடிவுகளைச் சேமித்து, அனைத்துப் பயனர்களின் வரலாற்றையும் புதுப்பிக்கிறது.
-     */
-    function saveQuizResult(title, score, total, percentage) {
-      const userName = JSON.parse(localStorage.getItem('quizUser')).name;
-      
-      // 1. தற்போதைய பயனரின் வரலாற்றைப் புதுப்பிக்க
-      let myHistory = JSON.parse(localStorage.getItem('quizHistory_' + userName)) || [];
-      const newResult = {
-        title: title,
-        score: score,
-        total: total,
-        percentage: percentage,
-        date: new Date().toLocaleString('ta-IN')
-      };
-      myHistory.unshift(newResult);
-      localStorage.setItem('quizHistory_' + userName, JSON.stringify(myHistory));
-
-      // 2. அனைத்துப் பயனர்களின் முயற்சிகளின் எண்ணிக்கையைப் புதுப்பிக்க
-      let allAttempts = JSON.parse(localStorage.getItem('allUserAttempts')) || {};
-      allAttempts[userName] = (allAttempts[userName] || 0) + 1;
-      localStorage.setItem('allUserAttempts', JSON.stringify(allAttempts));
-      
-      loadDashboardData(userName);
-    }
-
-    /**
-     * டாஷ்போர்டு மற்றும் பங்கேற்பாளர்கள் புள்ளிவிவரங்களைப் புதுப்பிக்கிறது.
-     */
-    function loadDashboardData(userName) {
-      // 1. உங்களின் சொந்த வரலாற்றை ஏற்றல்
-      let myHistory = JSON.parse(localStorage.getItem('quizHistory_' + userName)) || [];
-      historyTableBodyEl.innerHTML = ""; 
-      
-      if (myHistory.length === 0) {
-        noHistoryMsgEl.style.display = "block";
-        historyTableBodyEl.style.display = "none";
-        statTotalAttemptsEl.textContent = "0";
-        statAvgScoreEl.textContent = "0%";
-      } else {
-        noHistoryMsgEl.style.display = "none";
-        historyTableBodyEl.style.display = "";
-        let totalPercentage = 0;
-        myHistory.forEach(result => {
-          const row = document.createElement('tr');
-          row.innerHTML = `
-            <td>${result.date}</td>
-            <td>${result.title}</td>
-            <td><strong>${result.score} / ${result.total}</strong> (${result.percentage}%)</td>
-          `;
-          historyTableBodyEl.appendChild(row);
-          totalPercentage += result.percentage;
-        });
-        const avgScore = Math.round(totalPercentage / myHistory.length);
-        statTotalAttemptsEl.textContent = myHistory.length;
-        statAvgScoreEl.textContent = `${avgScore}%`;
-      }
-      
-      // 2. பங்கேற்பாளர்கள் பட்டியலை ஏற்றல் (Leaderboard)
-      let allAttempts = JSON.parse(localStorage.getItem('allUserAttempts')) || {};
-      let leaderboardData = [];
-      
-      for (const [name, count] of Object.entries(allAttempts)) {
-        leaderboardData.push({ name: name, attempts: count });
-      }
-      
-      // அதிக முயற்சிகளின் அடிப்படையில் வரிசைப்படுத்துதல்
-      leaderboardData.sort((a, b) => b.attempts - a.attempts);
-
-      leaderboardTableBodyEl.innerHTML = "";
-      leaderboardData.forEach(user => {
-        const row = document.createElement('tr');
-        row.innerHTML = `
-          <td>${user.name} ${user.name === userName ? ' (நீங்க)' : ''}</td>
-          <td>${user.attempts}</td>
-        `;
-        leaderboardTableBodyEl.appendChild(row);
-      });
-      
-      // 3. மொத்தப் பங்கேற்பாளர் எண்ணிக்கையைப் புதுப்பித்தல்
-      totalParticipantsEl.textContent = leaderboardData.length;
-    }
+  </main> 
 
 
-    document.getElementById('tv-restart-btn').addEventListener('click', () => {
-        stopTimer(); 
-        stopInactivityTimer(); 
+  <script src="js/quiz-loader.js"></script>
+  <script src="js/footer-history.js"></script>
 
-        document.getElementById('tv-results').style.display = 'none';
-        document.getElementById('tv-progress').style.display = 'none';
-        document.getElementById('tv-question').style.display = 'none';
-        document.getElementById('tv-options').innerHTML = '';
-        document.getElementById('tv-feedback').style.display = 'none';
-        
-        const timerBox = document.getElementById('tv-timer-box');
-        if (timerBox) timerBox.style.display = 'none';
+  <script>
+    // --- 👑 மாறிகள் 👑 ---
+    let inactivityTimer; 
+    const INACTIVITY_MINUTES = 4; 
 
-        document.getElementById('quizSelect').selectedIndex = 0;
-    });
+    let timerInterval; 
+    let totalSeconds;
+    
+    const loginContainer = document.getElementById('login-container');
+    const appContainer = document.getElementById('app-container');
+    const loginBtn = document.getElementById('login-btn');
+    const usernameInput = document.getElementById('username-input');
+    const logoutBtn = document.getElementById('logout-btn');
+    const welcomeMessageEl = document.getElementById('welcome-message');
+    const historyTableBodyEl = document.getElementById('history-table-body');
+    const noHistoryMsgEl = document.getElementById('no-history-msg');
+    const statTotalAttemptsEl = document.getElementById('stat-total-attempts');
+    const statAvgScoreEl = document.getElementById('stat-avg-score');
+    const leaderboardTableBodyEl = document.getElementById('leaderboard-table-body');
+    const totalParticipantsEl = document.getElementById('tv-total-participants');
+    
+    // --- 👑 செயல்படா நிலை நேரங்காட்டியை Reset செய் 👑 ---
+    function resetInactivityTimer() {
+      clearTimeout(inactivityTimer);
+      inactivityTimer = setTimeout(() => {
+        alert(`நீங்கள் ${INACTIVITY_MINUTES} நிமிடங்களாகச் செயல்படவில்லை. எனவே, இந்த வினாடி-வினா தானாகவே முடிக்கப்படுகிறது.`);
+        if (typeof showResults === 'function') {
+          showResults();
+        } else {
+          console.error("showResults (from quiz-loader.js) not found for inactivity timeout!");
+        }
+      }, INACTIVITY_MINUTES * 60 * 1000); 
+    }
 
-    loginBtn.addEventListener('click', () => {
-      const username = usernameInput.value.trim();
-      if (username === "") {
-        alert("Please enter your name (உங்கள் பெயரை உள்ளிடவும்)");
-        return;
-      }
-      const userData = { name: username };
-      localStorage.setItem('quizUser', JSON.stringify(userData));
-      
-      // ஒவ்வொரு பயனருக்கும் தனி வரலாறு, பொதுவான முயற்சிக் கணக்கு
-      if (!localStorage.getItem('allUserAttempts')) {
-        localStorage.setItem('allUserAttempts', JSON.stringify({}));
-      }
-      
-      showApp();
-    });
+    // --- 👑 செயல்படா நிலை நேரங்காட்டியை நிறுத்து 👑 ---
+    function stopInactivityTimer() {
+      clearTimeout(inactivityTimer);
+    }
+    // --- 👑 ---
 
-    logoutBtn.addEventListener('click', () => {
-      if (confirm("வெளியேற விரும்புகிறீர்களா? உங்களின் மதிப்பெண் வரலாறு மட்டும் நீக்கப்படாது, ஆனால் நீங்கள் மீண்டும் உள்நுழைய வேண்டும்.")) {
-        stopTimer(); 
-        stopInactivityTimer(); 
-        localStorage.removeItem('quizUser');
-        // குறிப்பு: 'allUserAttempts' அல்லது உங்களின் 'quizHistory_<name>' நீக்கப்படவில்லை.
-        window.location.reload();
-      }
-    });
+    /**
+     * வினாக்களின் எண்ணிக்கைக்கு ஏற்ப நிமிடங்களைக் கணக்கிடுதல் (பழைய விதிகளின்படி)
+     */
+    function calculateMinutes(count) {
+      if (count <= 0) return 0;
+      if (count <= 25) return count; 
+      else if (count > 50 && count <= 100) return 90; 
+      else return Math.round(count * 0.9);
+    }
 
-    document.addEventListener('DOMContentLoaded', checkLogin);
+    /**
+     * வினாடி-வினா நேரத்தைக் கணக்கிட்டுத் தொடங்கும் செயல்பாடு
+     */
+    function startQuizTimer(questionCount) {
+      stopTimer(); 
+      resetInactivityTimer(); 
+      
+      const timerBox = document.getElementById('tv-timer-box');
+      if (!timerBox) return;
 
-  </script>
+      let totalMinutes = calculateMinutes(questionCount);
+      totalSeconds = totalMinutes * 60;
+
+      timerBox.style.display = 'block';
+      updateTimerDisplay();
+
+      timerInterval = setInterval(() => {
+        totalSeconds--;
+        updateTimerDisplay();
+
+        if (totalSeconds <= 0) {
+          stopTimer(); 
+          stopInactivityTimer(); 
+          alert('நேரம் முடிந்தது!');
+          
+          if (typeof showResults === 'function') {
+            showResults();
+          } else {
+            console.error("showResults function (from quiz-loader.js) not found!");
+            showCustomResults(0, 0, "Unspecified Quiz"); 
+          }
+        }
+      }, 1000);
+    }
+
+    /**
+     * நேரங்காட்டி காட்சியைப் புதுப்பிக்கும் செயல்பாடு
+     */
+    function updateTimerDisplay() {
+      const timerDisplay = document.getElementById('tv-timer-display');
+      if (!timerDisplay) return;
+      const minutes = Math.floor(totalSeconds / 60);
+      const seconds = totalSeconds % 60;
+      timerDisplay.textContent = `${String(minutes).padStart(2, '0')}:${String(seconds).padStart(2, '0')}`;
+      if (totalSeconds <= 60 && !timerDisplay.classList.contains('warning')) {
+        timerDisplay.classList.add('warning');
+      } else if (totalSeconds > 60) {
+        timerDisplay.classList.remove('warning');
+      }
+    }
+
+    /**
+     * மொத்த நேரங்காட்டியை நிறுத்தும் செயல்பாடு
+     */
+    function stopTimer() {
+      clearInterval(timerInterval);
+      const timerDisplay = document.getElementById('tv-timer-display');
+      if (timerDisplay) {
+          timerDisplay.classList.remove('warning');
+      }
+    }
+
+    /**
+     * ஊக்கமளிக்கும் செய்தியை வழங்கும் செயல்பாடு ( unchanged )
+     */
+    function getMotivationalMessage(percentage) {
+      if (percentage === 100) return "💯 அருமை! முழுமையான மதிப்பெண்! உங்கள் உழைப்பு அபாரமானது!";
+      else if (percentage >= 90) return "🎉 மிக நன்று! இலக்கை நெருங்கிவிட்டீர்கள். உங்கள் முயற்சி பாராட்டத்தக்கது!";
+      else if (percentage >= 75) return "👍 சிறப்பாகச் செய்தீர்கள்! இன்னும் சிறிது முயற்சித்தால் முழு வெற்றியை அடையலாம்.";
+      else if (percentage >= 50) return "🙂 பரவாயில்லை, நல்ல முயற்சி. தொடர்ந்து பயிற்சி செய்யுங்கள், நிச்சயம் வெல்லலாம்!";
+      else if (percentage > 0) return "💪 முயற்சி திருவினையாக்கும்! தவறுகளைத் திருத்திக் கொண்டு மீண்டும் முயலுங்கள்.";
+      else return "🌱 தொடக்கம் சற்றுக் கடினமாக இருக்கலாம். மனம் தளர வேண்டாம், தொடர்ந்து படியுங்கள்!";
+    }
+
+    /**
+     * மேம்படுத்தப்பட்ட முடிவுகளைக் காட்டும் செயல்பாடு ( unchanged )
+     */
+    function showCustomResults(score, totalQuestions, quizTitle) {
+      stopTimer(); 
+      stopInactivityTimer(); 
+      
+      const timerBox = document.getElementById('tv-timer-box');
+      if (timerBox) timerBox.style.display = 'none';
+
+      document.getElementById('tv-progress').style.display = 'none';
+      document.getElementById('tv-question').style.display = 'none';
+      document.getElementById('tv-options').style.display = 'none';
+      document.getElementById('tv-feedback').style.display = 'none';
+      document.querySelector('.quiz-nav').style.display = 'none';
+
+      const resultsContainer = document.getElementById('tv-results');
+      const titleEl = document.getElementById('tv-result-title');
+      const scoreEl = document.getElementById('tv-result-score');
+      const percentageEl = document.getElementById('tv-result-percentage');
+      const messageEl = document.getElementById('tv-result-message');
+      
+      if (!resultsContainer) return;
+
+      const percentage = totalQuestions > 0 ? Math.round((score / totalQuestions) * 100) : 0;
+      
+      titleEl.textContent = (percentage >= 75) ? "🎉 வாழ்த்துக்கள்! 🎉" : "👏 நல்ல முயற்சி! 👏";
+      scoreEl.textContent = `உங்கள் மதிப்பெண்: ${score} / ${totalQuestions}`;
+      percentageEl.textContent = `விழுக்காடு: ${percentage}%`;
+      messageEl.textContent = getMotivationalMessage(percentage);
+
+      resultsContainer.style.display = 'block';
+
+      saveQuizResult(quizTitle, score, totalQuestions, percentage);
+    }
+    
+    // --- (பின்வரும் செயல்பாடுகள் login, dashboard, save... இவற்றுக்கானவை) ---
+
+    function checkLogin() {
+      const user = localStorage.getItem('quizUser');
+      if (user) {
+        showApp();
+      } else {
+        showLogin();
+      }
+    }
+
+    function showLogin() {
+      loginContainer.classList.remove('hidden');
+      appContainer.classList.add('hidden');
+    }
+
+    function showApp() {
+      loginContainer.classList.add('hidden');
+      appContainer.classList.remove('hidden');
+      const userData = JSON.parse(localStorage.getItem('quizUser'));
+      welcomeMessageEl.textContent = `📈 என் முயற்சிகளும் கற்றல் பதிவுகளும் (வணக்கம், ${userData.name}!)`;
+      loadDashboardData(userData.name);
+    }
+
+    /**
+     * வினாடி-வினா முடிவுகளைச் சேமித்து, அனைத்துப் பயனர்களின் வரலாற்றையும் புதுப்பிக்கிறது.
+     */
+    function saveQuizResult(title, score, total, percentage) {
+      const userName = JSON.parse(localStorage.getItem('quizUser')).name;
+      
+      // 1. தற்போதைய பயனரின் வரலாற்றைப் புதுப்பிக்க
+      let myHistory = JSON.parse(localStorage.getItem('quizHistory_' + userName)) || [];
+      const newResult = {
+        title: title,
+        score: score,
+        total: total,
+        percentage: percentage,
+        date: new Date().toLocaleString('ta-IN')
+      };
+      myHistory.unshift(newResult);
+      localStorage.setItem('quizHistory_' + userName, JSON.stringify(myHistory));
+
+      // 2. அனைத்துப் பயனர்களின் முயற்சிகளின் எண்ணிக்கையைப் புதுப்பிக்க
+      let allAttempts = JSON.parse(localStorage.getItem('allUserAttempts')) || {};
+      allAttempts[userName] = (allAttempts[userName] || 0) + 1;
+      localStorage.setItem('allUserAttempts', JSON.stringify(allAttempts));
+      
+      loadDashboardData(userName);
+    }
+
+    /**
+     * டாஷ்போர்டு மற்றும் பங்கேற்பாளர்கள் புள்ளிவிவரங்களைப் புதுப்பிக்கிறது.
+     */
+    function loadDashboardData(userName) {
+      // 1. உங்களின் சொந்த வரலாற்றை ஏற்றல்
+      let myHistory = JSON.parse(localStorage.getItem('quizHistory_' + userName)) || [];
+      historyTableBodyEl.innerHTML = ""; 
+      
+      if (myHistory.length === 0) {
+        noHistoryMsgEl.style.display = "block";
+        historyTableBodyEl.style.display = "none";
+        statTotalAttemptsEl.textContent = "0";
+        statAvgScoreEl.textContent = "0%";
+      } else {
+        noHistoryMsgEl.style.display = "none";
+        historyTableBodyEl.style.display = "";
+        let totalPercentage = 0;
+        myHistory.forEach(result => {
+          const row = document.createElement('tr');
+          row.innerHTML = `
+            <td>${result.date}</td>
+            <td>${result.title}</td>
+            <td><strong>${result.score} / ${result.total}</strong> (${result.percentage}%)</td>
+          `;
+          historyTableBodyEl.appendChild(row);
+          totalPercentage += result.percentage;
+        });
+        const avgScore = Math.round(totalPercentage / myHistory.length);
+        statTotalAttemptsEl.textContent = myHistory.length;
+        statAvgScoreEl.textContent = `${avgScore}%`;
+      }
+      
+      // 2. பங்கேற்பாளர்கள் பட்டியலை ஏற்றல் (Leaderboard)
+      let allAttempts = JSON.parse(localStorage.getItem('allUserAttempts')) || {};
+      let leaderboardData = [];
+      
+      for (const [name, count] of Object.entries(allAttempts)) {
+        leaderboardData.push({ name: name, attempts: count });
+      }
+      
+      // அதிக முயற்சிகளின் அடிப்படையில் வரிசைப்படுத்துதல்
+      leaderboardData.sort((a, b) => b.attempts - a.attempts);
+
+      leaderboardTableBodyEl.innerHTML = "";
+      leaderboardData.forEach(user => {
+        const row = document.createElement('tr');
+        row.innerHTML = `
+          <td>${user.name} ${user.name === userName ? ' (நீங்க)' : ''}</td>
+          <td>${user.attempts}</td>
+        `;
+        leaderboardTableBodyEl.appendChild(row);
+      });
+      
+      // 3. மொத்தப் பங்கேற்பாளர் எண்ணிக்கையைப் புதுப்பித்தல்
+      totalParticipantsEl.textContent = leaderboardData.length;
+    }
+
+
+    document.getElementById('tv-restart-btn').addEventListener('click', () => {
+        stopTimer(); 
+        stopInactivityTimer(); 
+
+        document.getElementById('tv-results').style.display = 'none';
+        document.getElementById('tv-progress').style.display = 'none';
+        document.getElementById('tv-question').style.display = 'none';
+        document.getElementById('tv-options').innerHTML = '';
+        document.getElementById('tv-feedback').style.display = 'none';
+        
+        const timerBox = document.getElementById('tv-timer-box');
+        if (timerBox) timerBox.style.display = 'none';
+
+        document.getElementById('quizSelect').selectedIndex = 0;
+    });
+
+    loginBtn.addEventListener('click', () => {
+      const username = usernameInput.value.trim();
+      if (username === "") {
+        alert("Please enter your name (உங்கள் பெயரை உள்ளிடவும்)");
+        return;
+      }
+      const userData = { name: username };
+      localStorage.setItem('quizUser', JSON.stringify(userData));
+      
+      // ஒவ்வொரு பயனருக்கும் தனி வரலாறு, பொதுவான முயற்சிக் கணக்கு
+      if (!localStorage.getItem('allUserAttempts')) {
+        localStorage.setItem('allUserAttempts', JSON.stringify({}));
+      }
+      
+      showApp();
+    });
+
+    logoutBtn.addEventListener('click', () => {
+      if (confirm("வெளியேற விரும்புகிறீர்களா? உங்களின் மதிப்பெண் வரலாறு மட்டும் நீக்கப்படாது, ஆனால் நீங்கள் மீண்டும் உள்நுழைய வேண்டும்.")) {
+        stopTimer(); 
+        stopInactivityTimer(); 
+        localStorage.removeItem('quizUser');
+        // குறிப்பு: 'allUserAttempts' அல்லது உங்களின் 'quizHistory_<name>' நீக்கப்படவில்லை.
+        window.location.reload();
+      }
+    });
+
+    document.addEventListener('DOMContentLoaded', checkLogin);
+
+  </script>
 </body>
 </html>
