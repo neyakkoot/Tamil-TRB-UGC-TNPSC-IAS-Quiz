@@ -16,8 +16,8 @@
   .hidden { display: none !important; }
   #login-container {
     max-width: 500px;
-    margin: 80px auto; /* குறைக்கப்பட்டது */
-    padding: 25px; /* குறைக்கப்பட்டது */
+    margin: 100px auto;
+    padding: 30px;
     background: #fff;
     border-radius: 10px;
     box-shadow: 0 4px 14px rgba(0, 0, 0, 0.08);
@@ -26,14 +26,14 @@
   #login-container h2 { color: #007bff; }
   #username-input {
     width: 90%;
-    padding: 10px; /* குறைக்கப்பட்டது */
+    padding: 12px;
     border-radius: 8px;
     border: 1px solid #ccc;
     font-size: 1rem;
     margin-top: 10px;
   }
   #login-btn {
-    padding: 10px 20px; /* குறைக்கப்பட்டது */
+    padding: 12px 25px;
     border-radius: 8px;
     border: none;
     font-weight: 700;
@@ -41,15 +41,15 @@
     color: #fff;
     background: #28a745;
     font-size: 1rem;
-    margin-top: 15px; /* குறைக்கப்பட்டது */
+    margin-top: 20px;
     transition: background 0.3s;
   }
   #login-btn:hover { background: #218838; }
   #dashboard-container {
     max-width: 1000px;
-    margin: 15px auto; /* குறைக்கப்பட்டது */
+    margin: 20px auto;
     background: #fff;
-    padding: 15px; /* குறைக்கப்பட்டது */
+    padding: 20px;
     border-radius: 10px;
     box-shadow: 0 4px 14px rgba(0, 0, 0, 0.08);
   }
@@ -58,34 +58,33 @@
     justify-content: space-between;
     align-items: center;
     border-bottom: 2px solid #007bff;
-    padding-bottom: 8px; /* குறைக்கப்பட்டது */
-    margin-bottom: 15px; /* குறைக்கப்பட்டது */
+    padding-bottom: 10px;
+    margin-bottom: 20px;
   }
-  #dashboard-header h2 { color: #007bff; margin: 0; font-size: 1.3rem; /* குறைக்கப்பட்டது */ }
+  #dashboard-header h2 { color: #007bff; margin: 0; }
   #logout-btn {
-    padding: 6px 12px; /* குறைக்கப்பட்டது */
+    padding: 8px 15px;
     border: none;
     border-radius: 6px;
     background: #dc3545;
     color: white;
     font-weight: 700;
     cursor: pointer;
-    font-size: 0.9rem; /* குறைக்கப்பட்டது */
   }
   #dashboard-stats {
     display: flex;
-    gap: 15px; /* குறைக்கப்பட்டது */
-    margin-bottom: 15px; /* குறைக்கப்பட்டது */
+    gap: 20px;
+    margin-bottom: 20px;
     text-align: center;
   }
   .stat-card {
     flex: 1;
     background: #f4f4f4;
-    padding: 10px; /* குறைக்கப்பட்டது */
+    padding: 15px;
     border-radius: 8px;
   }
-  .stat-card h4 { margin: 0 0 5px 0; color: #555; font-size: 0.9rem; /* குறைக்கப்பட்டது */ }
-  .stat-card p { margin: 0; font-size: 1.3rem; /* குறைக்கப்பட்டது */ font-weight: 700; color: #007bff; }
+  .stat-card h4 { margin: 0 0 5px 0; color: #555; }
+  .stat-card p { margin: 0; font-size: 1.5rem; font-weight: 700; color: #007bff; }
   #dashboard-history table, #leaderboard-table {
     width: 100%;
     border-collapse: collapse;
@@ -93,9 +92,8 @@
   }
   #dashboard-history th, #dashboard-history td, #leaderboard-table th, #leaderboard-table td {
     border: 1px solid #ddd;
-    padding: 8px; /* குறைக்கப்பட்டது */
+    padding: 10px;
     text-align: left;
-    font-size: 0.9rem; /* குறைக்கப்பட்டது */
   }
   #dashboard-history th, #leaderboard-table th { background-color: #f2f2f2; color: #333; }
   .header {
@@ -104,45 +102,44 @@
     justify-content: space-between;
     background: linear-gradient(90deg, #007bff, #00b894);
     color: white;
-    padding: 8px 15px; /* குறைக்கப்பட்டது */
+    padding: 12px 20px;
     border-bottom: 4px solid #0a58ca;
   }
-  .header h1 { margin: 0; font-size: 1.4rem; /* குறைக்கப்பட்டது */ text-align: center; }
-  .header p { margin: 2px 0 0; font-size: 0.9rem; /* குறைக்கப்பட்டது */ text-align: center; }
+  .header h1 { margin: 0; font-size: 1.6rem; text-align: center; }
+  .header p { margin: 4px 0 0; font-size: 1rem; text-align: center; }
   .header img {
-    width: 60px; /* குறைக்கப்பட்டது */
-    height: 60px; /* குறைக்கப்பட்டது */
+    width: 90px;
+    height: 90px;
     border-radius: 50%;
-    border: 1px solid #fff; /* குறைக்கப்பட்டது */
+    border: 2px solid #fff;
     background: white;
     object-fit: cover;
   }
   @media (max-width: 768px) {
     .header { flex-direction: column; text-align: center; }
-    .header img { width: 50px; height: 50px; margin: 4px 0; }
+    .header img { width: 70px; height: 70px; margin: 6px 0; }
   }
   #tv-quiz-wrap {
     max-width: 1000px;
-    margin: 15px auto; /* குறைக்கப்பட்டது */
+    margin: 30px auto;
     background: #fff;
-    padding: 15px; /* குறைக்கப்பட்டது */
+    padding: 20px;
     border-radius: 10px;
     box-shadow: 0 4px 14px rgba(0, 0, 0, 0.08);
     display: grid;
-    /* 👑 முக்கிய மாற்றம்: பக்கவாட்டுப் பகுதியைக் குறைத்து வினாப் பகுதிக்கு அதிக இடம் 👑 */
-    grid-template-columns: 1fr 260px; 
-    gap: 15px; /* குறைக்கப்பட்டது */
+    grid-template-columns: 1fr 320px;
+    gap: 20px;
   }
   @media (max-width: 900px) { #tv-quiz-wrap { grid-template-columns: 1fr; } }
   #tv-main { display: flex; flex-direction: column; }
   #quizSelect {
     display: block;
     width: 100%;
-    margin-bottom: 12px; /* குறைக்கப்பட்டது */
-    padding: 9px; /* குறைக்கப்பட்டது */
+    margin-bottom: 15px;
+    padding: 10px;
     border-radius: 8px;
     border: 1px solid #ccc;
-    font-size: 0.95rem; /* குறைக்கப்பட்டது */
+    font-size: 1rem;
     background: #fefefe;
   }
   #tv-progress {
@@ -150,25 +147,25 @@
     font-weight: 700;
     color: #555;
     background: #eef4ff;
-    padding: 6px; /* குறைக்கப்பட்டது */
+    padding: 8px;
     border-radius: 6px;
-    margin-bottom: 10px; /* குறைக்கப்பட்டது */
+    margin-bottom: 12px;
   }
   #tv-question {
-    font-size: 1.1rem; /* குறைக்கப்பட்டது */
+    font-size: 1.15rem;
     font-weight: 700;
-    line-height: 1.4; /* குறைக்கப்பட்டது */
-    margin-bottom: 10px; /* குறைக்கப்பட்டது */
+    line-height: 1.5;
+    margin-bottom: 12px;
   }
-  #tv-options { display: flex; flex-direction: column; gap: 8px; /* குறைக்கப்பட்டது */ }
+  #tv-options { display: flex; flex-direction: column; gap: 10px; }
   .option-btn {
-    padding: 10px; /* குறைக்கப்பட்டது */
-    border-radius: 6px; /* குறைக்கப்பட்டது */
+    padding: 12px;
+    border-radius: 8px;
     border: 1px solid #ddd;
     background: #f9f9f9;
     text-align: left;
     cursor: pointer;
-    font-size: 0.95rem; /* குறைக்கப்பட்டது */
+    font-size: 1rem;
     transition: all 0.2s ease-in-out;
   }
   .option-btn:hover { background: #e7f0ff; }
@@ -176,67 +173,63 @@
   .option-btn.wrong { background: #fdecea; border-color: #dc3545; }
   #tv-feedback {
     display: none;
-    margin-top: 10px; /* குறைக்கப்பட்டது */
-    padding: 10px; /* குறைக்கப்பட்டது */
-    border-radius: 6px; /* குறைக்கப்பட்டது */
+    margin-top: 14px;
+    padding: 12px;
+    border-radius: 8px;
     background: #f9f9f9;
     border: 1px solid #ddd;
-    font-size: 0.9rem; /* குறைக்கப்பட்டது */
   }
   #tv-side {
     background: #f5fcf8;
     border: 1px solid #cce5d3;
     border-radius: 10px;
-    padding: 10px; /* குறைக்கப்பட்டது */
-    font-size: 0.85rem; /* குறைக்கப்பட்டது */
+    padding: 15px;
+    font-size: 0.95rem;
     display: flex;
     flex-direction: column;
   }
-  #tv-side h3 { color: #006644; margin-top: 0; font-size: 1rem; /* குறைக்கப்பட்டது */ }
+  #tv-side h3 { color: #006644; margin-top: 0; }
   .quiz-nav {
     display: flex;
     justify-content: space-between;
-    margin-top: 10px; /* குறைக்கப்பட்டது */
+    margin-top: 15px;
   }
   #tv-prev, #tv-next {
-    padding: 8px 12px; /* குறைக்கப்பட்டது */
-    border-radius: 6px; /* குறைக்கப்பட்டது */
+    padding: 10px 16px;
+    border-radius: 8px;
     border: none;
     font-weight: 700;
     cursor: pointer;
     color: #fff;
-    font-size: 0.9rem; /* குறைக்கப்பட்டது */
   }
   #tv-prev { background: #ff9800; }
   #tv-next { background: #007bff; }
   #tv-results {
     display: none;
-    margin-top: 15px; /* குறைக்கப்பட்டது */
+    margin-top: 18px;
     text-align: center;
     border-top: 2px solid #007bff;
-    padding-top: 15px; /* குறைக்கப்பட்டது */
+    padding-top: 20px;
   }
   #tv-timer-box, #tv-participants-box {
     text-align: center;
     background: #fff;
-    border: 1px solid #007bff; /* குறைக்கப்பட்டது */
+    border: 2px solid #007bff;
     border-radius: 8px;
-    padding: 8px; /* குறைக்கப்பட்டது */
-    margin-top: 10px; /* குறைக்கப்பட்டது */
+    padding: 10px;
+    margin-top: 15px;
+    /* order: -1; - removed for better flow */
   }
   #tv-timer-box h3, #tv-participants-box h3 {
-    margin: 0 0 5px 0; /* குறைக்கப்பட்டது */
+    margin: 0 0 10px 0;
     color: #007bff;
-    font-size: 1rem; /* குறைக்கப்பட்டது */
+    font-size: 1.1rem;
   }
-  #tv-timer-display, #tv-total-participants {
-    font-size: 1.8rem; /* குறைக்கப்பட்டது */
+  #tv-timer-display {
+    font-size: 2.2rem;
     font-weight: 700;
     color: #333;
-    letter-spacing: 1px; /* குறைக்கப்பட்டது */
-  }
-  #tv-total-participants {
-    color: #28a745;
+    letter-spacing: 2px;
   }
   #tv-timer-display.warning {
     color: #dc3545;
@@ -244,31 +237,31 @@
   }
   @keyframes pulse {
     0% { transform: scale(1); opacity: 1; }
-    50% { transform: scale(1.03); opacity: 0.7; }
+    50% { transform: scale(1.05); opacity: 0.7; }
     100% { transform: scale(1); opacity: 1; }
   }
-  #tv-result-title { font-size: 1.6rem; /* குறைக்கப்பட்டது */ font-weight: 700; color: #28a745; }
-  #tv-result-score { font-size: 1.2rem; /* குறைக்கப்பட்டது */ font-weight: 700; color: #007bff; margin: 8px 0; /* குறைக்கப்பட்டது */ }
-  #tv-result-percentage { font-size: 1rem; /* குறைக்கப்பட்டது */ font-weight: 700; color: #555; margin: 5px 0 10px 0; /* குறைக்கப்பட்டது */ }
+  #tv-result-title { font-size: 1.8rem; font-weight: 700; color: #28a745; }
+  #tv-result-score { font-size: 1.4rem; font-weight: 700; color: #007bff; margin: 10px 0; }
+  #tv-result-percentage { font-size: 1.2rem; font-weight: 700; color: #555; margin: 5px 0 15px 0; }
   #tv-result-message {
-    font-size: 1rem; /* குறைக்கப்பட்டது */
+    font-size: 1.1rem;
     font-style: italic;
     color: #333;
-    margin-top: 10px; /* குறைக்கப்பட்டது */
+    margin-top: 15px;
     background: #f4f4f4;
-    padding: 8px; /* குறைக்கப்பட்டது */
+    padding: 10px;
     border-radius: 6px;
   }
   #tv-restart-btn {
-    padding: 10px 18px; /* குறைக்கப்பட்டது */
+    padding: 12px 20px;
     border-radius: 8px;
     border: none;
     font-weight: 700;
     cursor: pointer;
     color: #fff;
     background: #28a745;
-    font-size: 0.95rem; /* குறைக்கப்பட்டது */
-    margin-top: 15px; /* குறைக்கப்பட்டது */
+    font-size: 1rem;
+    margin-top: 20px;
     transition: background 0.3s;
   }
   #tv-restart-btn:hover { background: #218838; }
@@ -325,8 +318,8 @@
         <p id="no-history-msg" style="text-align: center; display: none;">நீங்கள் இன்னும் எந்தப் பயிற்சியும் எடுக்கவில்லை.</p>
       </div>
       
-      <div id="dashboard-leaderboard" style="margin-top: 25px;">
-        <h3 style="text-align: center; color: #007bff; font-size: 1.1rem;">👥 பங்கேற்பாளர்களின் முயற்சிகள்</h3>
+      <div id="dashboard-leaderboard" style="margin-top: 30px;">
+        <h3 style="text-align: center; color: #007bff;">👥 பங்கேற்பாளர்களின் முயற்சிகள்</h3>
         <table id="leaderboard-table">
           <thead>
             <tr>
@@ -365,7 +358,7 @@
       <div id="tv-side">
         <div id="tv-participants-box">
           <h3>👤 மொத்தப் பங்கேற்பாளர்கள்</h3>
-          <div id="tv-total-participants" style="font-size: 1.8rem; font-weight: 700; color: #28a745;">0</div>
+          <div id="tv-total-participants" style="font-size: 2.2rem; font-weight: 700; color: #28a745;">0</div>
         </div>
         <div id="tv-timer-box" style="display:none;">
           <h3>⏰ நேரம் மீதமுள்ளது ⏰</h3>
